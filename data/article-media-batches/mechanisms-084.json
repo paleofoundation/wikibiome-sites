@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "batchId": "mechanisms-084",
+  "category": "mechanisms",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "631f31402cd3c2b34762898e5539982b9c11f61d",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/mechanisms-084.md",
+  "reviewRecord": "docs/operations/media-reviews/mechanisms-084.md",
+  "controlReviewRequired": false,
+  "initialAuditCommit": "b4045d9",
+  "reviewStandard": "The six queued routes failed the pre-generation disease-class, neuroimmune-process, signaling-network, clinical-specificity, toxicological-evidence, or cross-species extrapolation gate. They received no marked prompt, no built-in generation call, and no raster. Controlled records, current reviews, and the current ATSDR toxicological synthesis were checked against the generated article corpus; conflicts and required resolution are preserved in the audit and review packets. Zero hashes are eligible for promotion.",
+  "controlAcceptedReviewManifestSha256": "f60e37d5486c69914816733c3a9240f4123e3e0718908ed95e8c0b965cb4867e",
+  "controlAcceptedPromptEvidenceSha256": "22f98db5912b95959e69b3ef1ad093a571f5f2a5db1dde48369f69d5229a5634",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "42e2778d7de6795e649c32b2b9b004611709a02f",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "neurodegeneration",
+      "neuroinflammation",
+      "nf-kappa-b",
+      "nickel-allergy",
+      "nickel-reproductive-toxicity",
+      "nickel-neurotoxicity"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 6,
+  "generationCallCount": 0,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "promotionRule": "No Batch 084 route is eligible for generation or promotion until its documented identity, scope, evidence-tier, representation, nomenclature, exposure, species, and causal conflicts are corrected and independently re-audited.",
+  "routeDecisions": [
+    {"pageId":"neurodegeneration","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D019636;broad-disease-class","reason":"Distinct diseases, brain regions, metal observations, barriers, cell-death processes, aggregation, and gut-brain hypotheses are collapsed into one causal pathway.","requiredResolution":"Select a named disease and define specimen/region, metal species, method, comparator, pathology, effect direction, and evidence tier."},
+    {"pageId":"neuroinflammation","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"process-umbrella;no-single-controlled-entity","reason":"Glial, vascular, peripheral-immune, infectious, toxicant, and disease processes are merged using obsolete M1/M2 microglial framing.","requiredResolution":"Define species, region, insult, time, cell markers/state data, compartment, measured mediator, comparator, and function using current nomenclature."},
+    {"pageId":"nf-kappa-b","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D016328","reason":"The canonical branch is treated as the whole NF-kappa B network while noncanonical signaling, dimer diversity, feedback, cell context, timing, and assay are omitted.","requiredResolution":"Specify canonical and noncanonical receptors, proteins, dimers, cell type, stimulus, time, localization, assay, and source-bound evidence."},
+    {"pageId":"nickel-allergy","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D017449;nickel-specific-causation-requires-exposure-evidence","reason":"Non-specific eczema is merged with localized, systemic, dietary, mucosal, diagnostic, regulatory, and treatment claims.","requiredResolution":"Select one presentation and route with confirmed sensitization context, acute/chronic morphology, differential diagnosis, and evidence-qualified systemic claims."},
+    {"pageId":"nickel-reproductive-toxicity","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"toxicological-endpoint-umbrella;no-single-controlled-condition","reason":"Human associations, placental transfer, mixed exposures, animal findings, biomonitoring, and proposed mechanisms are presented as one causal human lesion.","requiredResolution":"Define nickel species, route, dose, timing, biomatrix, design, species, endpoint, mixture/confounder handling, comparator, uncertainty, and causal status."},
+    {"pageId":"nickel-neurotoxicity","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"toxicological-endpoint-umbrella;no-established-human-clinical-phenotype","reason":"One intraperitoneal rat study and broad mechanistic claims are generalized toward environmental human neurotoxicity.","requiredResolution":"Rebuild as a study-specific record or synthesis preserving chemical form, route, dose, tissue level, species/sex, assay, comparator, and human-extrapolation boundary."}
+  ],
+  "assets": []
+}

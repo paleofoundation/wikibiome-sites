@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "batchId": "mechanisms-058",
+  "category": "mechanisms",
+  "status": "reviewed",
+  "reviewedOn": "2026-09-06",
+  "auditCommit": "fe45de96bd0d67c5b46a1efc3b023ed087391d9a",
+  "promptFreezeCommit": "fe45de96bd0d67c5b46a1efc3b023ed087391d9a",
+  "createdOn": "2026-09-06",
+  "authorizedParent": "6c54a1a62ce929dd1412e927f05237c1bff98092",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/mechanisms-058.md",
+  "reviewRecord": "docs/operations/media-reviews/mechanisms-058.md",
+  "routeDecisionCount": 6,
+  "candidateCount": 6,
+  "scientificHoldCount": 0,
+  "generationCallCount": 6,
+  "reviewableGenerationCount": 6,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "controlReviewRequired": false,
+  "controlAcceptedReviewManifestSha256": "0ccfbb41804fba688a04f18b6d066db826b0dfd79383a1527653fc8d3d2fdaa4",
+  "controlAcceptedPromptEvidenceSha256": "0980ec224b5c9ab7cbc34f2a83576e54318f56695df90472502d26d49d196462",
+  "controlFinalReview": {
+    "status": "accepted-exact-hash",
+    "acceptedOn": "2026-09-06",
+    "acceptedReviewCommit": "a0e25fbdbb8ad7d2deda64785eff58e85dc1f8e1",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": ["alpha-synuclein", "amyloid-beta", "amyloid-beta-aggregation", "antimicrobial-resistance", "arachidonic-acid", "aromatase"]
+  },
+  "promotionRule": "Only the six exact accepted source hashes were promoted to metadata-bearing lossless masters, article WebP derivatives, and centered contain-mode 1200x630 social WebP derivatives.",
+  "controlSocialCropReview": "accepted-six-centered-contain-derivatives",
+  "assets": [
+    {
+      "pageId": "alpha-synuclein",
+      "displayName": "Alpha-Synuclein",
+      "assetType": "mechanism",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "controlledIdentifier": "UniProt:P37840",
+      "promptSha256": "1a3ea1a4cc5141f16c4bcf81afe1300ac97f3cb37fdfa7f66fd9f61c6b52defd",
+      "generationStatus": "complete-single-call",
+      "draft": "work/media-drafts/mechanisms-batch-058/alpha-synuclein-draft.png",
+      "generationRecord": "exec-6da1a283-a39c-4fbd-a93c-44d6d87df854.png",
+      "sha256": "8f5871b34784f5b946ca69c91dc7fc0f46466a2892525e4622f63cf8b9394a6d",
+      "fileSizeBytes": 1842213,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "proposedSocialResizeFit": "contain",
+      "visualReview": "Complete synaptic-terminal cutaway with seven vesicle-like forms, one long generic chain, and three separate short chains.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome Control Tower native-resolution visual audit",
+        "reviewedOn": "2026-09-06",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Complete synaptic-terminal cutaway with seven vesicle-like forms, one long generic chain, and three separate short chains.",
+        "observedVisibleBodyCount": 5,
+        "observedSpatialGroupingCount": 3,
+        "outerBackgroundBandWidthPx": 32,
+        "outerBackgroundDarkPixelCountBelowLuma128": 0,
+        "foregroundBoundsAtLumaBelow220": {
+          "minX": 60,
+          "minY": 222,
+          "maxX": 1485,
+          "maxY": 792
+        },
+        "sourceEdgeContact": false,
+        "containRequired": true,
+        "metadataConsistency": "pass"
+      }
+    },
+    {
+      "pageId": "amyloid-beta",
+      "displayName": "Amyloid-Beta",
+      "assetType": "mechanism",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "controlledIdentifier": "MeSH:D016229",
+      "promptSha256": "2264ee125710c7bfc20159982a35dbbac3182fa82da2a6841044c1a997faaf3b",
+      "generationStatus": "complete-single-call",
+      "draft": "work/media-drafts/mechanisms-batch-058/amyloid-beta-draft.png",
+      "generationRecord": "exec-87ba4239-90c1-458b-978d-b75f8a976647.png",
+      "sha256": "dd858c210838c7698ce33930c69863ee388cc4d457176df2d68f15b25ba3ad79",
+      "fileSizeBytes": 1344429,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "proposedSocialResizeFit": "contain",
+      "visualReview": "Complete membrane-spanning generic protein, separate ribbon-like peptide, and complete generic neuron.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome Control Tower native-resolution visual audit",
+        "reviewedOn": "2026-09-06",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Complete membrane-spanning generic protein, separate ribbon-like peptide, and complete generic neuron.",
+        "observedVisibleBodyCount": 3,
+        "observedSpatialGroupingCount": 3,
+        "outerBackgroundBandWidthPx": 32,
+        "outerBackgroundDarkPixelCountBelowLuma128": 0,
+        "foregroundBoundsAtLumaBelow220": {
+          "minX": 43,
+          "minY": 136,
+          "maxX": 1466,
+          "maxY": 865
+        },
+        "sourceEdgeContact": false,
+        "containRequired": true,
+        "metadataConsistency": "pass"
+      }
+    },
+    {
+      "pageId": "amyloid-beta-aggregation",
+      "displayName": "Amyloid-Beta Aggregation",
+      "assetType": "mechanism",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "controlledIdentifier": "WikiBiome:amyloid-beta-aggregation",
+      "promptSha256": "65204db555458f1f8280cd8e6ce07f99eaa07355cf514fc1b263aaf467921c8d",
+      "generationStatus": "complete-single-call",
+      "draft": "work/media-drafts/mechanisms-batch-058/amyloid-beta-aggregation-draft.png",
+      "generationRecord": "exec-1bbdfb5a-d3f7-4be4-a79a-30f5d400cea1.png",
+      "sha256": "8d668f910adbc643f3de852b299e73c081715350ff00401b93f75759d8a2e65d",
+      "fileSizeBytes": 1434447,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "proposedSocialResizeFit": "contain",
+      "visualReview": "One isolated ribbon, exactly four separated ribbons, and one ordered five-ribbon bundle.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome Control Tower native-resolution visual audit",
+        "reviewedOn": "2026-09-06",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "One isolated ribbon, exactly four separated ribbons, and one ordered five-ribbon bundle.",
+        "observedVisibleBodyCount": 10,
+        "observedSpatialGroupingCount": 3,
+        "outerBackgroundBandWidthPx": 32,
+        "outerBackgroundDarkPixelCountBelowLuma128": 0,
+        "foregroundBoundsAtLumaBelow220": {
+          "minX": 188,
+          "minY": 260,
+          "maxX": 1385,
+          "maxY": 796
+        },
+        "sourceEdgeContact": false,
+        "containRequired": true,
+        "metadataConsistency": "pass"
+      }
+    },
+    {
+      "pageId": "antimicrobial-resistance",
+      "displayName": "Antimicrobial Resistance",
+      "assetType": "mechanism",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "controlledIdentifier": "MeSH:D004352",
+      "promptSha256": "c2beae5b2ef7619621aed9cbad8e19d81e5d7ab0e82525ef1212b3557e829fef",
+      "generationStatus": "complete-single-call",
+      "draft": "work/media-drafts/mechanisms-batch-058/antimicrobial-resistance-draft.png",
+      "generationRecord": "exec-6406cda2-f037-474f-80f3-60b68fef3200.png",
+      "sha256": "0e77a72f9c45f7bd32162fd2ee44994f70cc91bfc22b118de6c732e6cc319ca3",
+      "fileSizeBytes": 2139873,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "proposedSocialResizeFit": "contain",
+      "visualReview": "Mixed rods and cocci, dish with six unmarked discs and no interpreted zones, and generic cell cutaway with a closed DNA ring and membrane pump-like form.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome Control Tower native-resolution visual audit",
+        "reviewedOn": "2026-09-06",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Mixed rods and cocci, dish with six unmarked discs and no interpreted zones, and generic cell cutaway with a closed DNA ring and membrane pump-like form.",
+        "observedVisibleBodyCount": 3,
+        "observedSpatialGroupingCount": 3,
+        "outerBackgroundBandWidthPx": 32,
+        "outerBackgroundDarkPixelCountBelowLuma128": 0,
+        "foregroundBoundsAtLumaBelow220": {
+          "minX": 21,
+          "minY": 219,
+          "maxX": 1487,
+          "maxY": 877
+        },
+        "sourceEdgeContact": false,
+        "containRequired": true,
+        "metadataConsistency": "pass"
+      }
+    },
+    {
+      "pageId": "arachidonic-acid",
+      "displayName": "Arachidonic Acid",
+      "assetType": "mechanism",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "controlledIdentifier": "PubChem:444899",
+      "promptSha256": "6df09e25bd8c32ae481781e4112c9e4eeda922297a9e0bdcab3e3ce0da114351",
+      "generationStatus": "complete-single-call",
+      "draft": "work/media-drafts/mechanisms-batch-058/arachidonic-acid-draft.png",
+      "generationRecord": "exec-3f3996b5-eb93-4284-9595-c810d944ddd3.png",
+      "sha256": "4c4041a4f32c7357c3ce5f7bef7c68201b5b603cab2dd5bc5327573e55c57bad",
+      "fileSizeBytes": 1711967,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "proposedSocialResizeFit": "contain",
+      "visualReview": "Dominant chain with twenty dark carbon centers and two red terminal oxygen centers, intact bilayer, and complete generic cell.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome Control Tower native-resolution visual audit",
+        "reviewedOn": "2026-09-06",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Dominant chain with twenty dark carbon centers and two red terminal oxygen centers, intact bilayer, and complete generic cell.",
+        "observedVisibleBodyCount": 3,
+        "observedSpatialGroupingCount": 3,
+        "outerBackgroundBandWidthPx": 32,
+        "outerBackgroundDarkPixelCountBelowLuma128": 0,
+        "foregroundBoundsAtLumaBelow220": {
+          "minX": 104,
+          "minY": 139,
+          "maxX": 1453,
+          "maxY": 959
+        },
+        "sourceEdgeContact": false,
+        "containRequired": true,
+        "metadataConsistency": "pass"
+      }
+    },
+    {
+      "pageId": "aromatase",
+      "displayName": "Aromatase",
+      "assetType": "mechanism",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "controlledIdentifier": "UniProt:P11511",
+      "promptSha256": "7ab072b669bf16855ffd75ba6116bc30c17bb044fd20eaf825aa034b186bd67a",
+      "generationStatus": "complete-single-call",
+      "draft": "work/media-drafts/mechanisms-batch-058/aromatase-draft.png",
+      "generationRecord": "exec-46a56c39-020d-4462-a957-1425fb425378.png",
+      "sha256": "35de5da31326fad4ccff2c63703b273a8db007883f8bd16a589e356e1e0cfe18",
+      "fileSizeBytes": 1446789,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "proposedSocialResizeFit": "contain",
+      "visualReview": "Generic membrane-embedded ribbon protein with internal heme-like disc and two separate unlabeled four-ring steroid scaffolds.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome Control Tower native-resolution visual audit",
+        "reviewedOn": "2026-09-06",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Generic membrane-embedded ribbon protein with internal heme-like disc and two separate unlabeled four-ring steroid scaffolds.",
+        "observedVisibleBodyCount": 3,
+        "observedSpatialGroupingCount": 3,
+        "outerBackgroundBandWidthPx": 32,
+        "outerBackgroundDarkPixelCountBelowLuma128": 0,
+        "foregroundBoundsAtLumaBelow220": {
+          "minX": 24,
+          "minY": 146,
+          "maxX": 1483,
+          "maxY": 827
+        },
+        "sourceEdgeContact": false,
+        "containRequired": true,
+        "metadataConsistency": "pass"
+      }
+    }
+  ]
+}

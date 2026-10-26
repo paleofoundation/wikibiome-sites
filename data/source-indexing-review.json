@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 2,
+  "reviewedAt": "2026-09-25",
+  "policy": "Source pages are bibliographic citation records (title, authors, journal, year, DOI). Since 2026-09-25 every /source/* page defaults to noindex, follow and is excluded from sitemap.xml, so Google's crawl budget goes to the 717 articles. Pages stay publicly reachable, keep their self-canonical and 'Claim or review this work' workflow, and pass link equity via follow. Only sources listed in indexableSources (keystone sources with a substantive source-specific 'why keystone' explanation) stay indexable. Add a source to indexableSources only after substantive source explanation or accepted public context is published. citationOnlySources is retained as the 2026-09-21 reviewed record and always wins over indexableSources.",
+  "citationOnlySources": [
+    {
+      "id": "16s-rrna-t1d-t2d-gut-microbiota-adults-fragment-analysis",
+      "reason": "Citation and Type 1 Diabetes backlink only; placeholder bibliographic fields and no study explanation."
+    },
+    {
+      "id": "16s-rrna-t2d-subgingival-plaque-microbiota",
+      "reason": "Citation with placeholder bibliographic fields; no study interpretation or substantive public contribution."
+    },
+    {
+      "id": "brownlee-2017-ms-diagnosis-differential-review",
+      "reason": "Bibliographic record only; no explanation of diagnostic findings, limitations, or use in WikiBiome."
+    },
+    {
+      "id": "dong-2021-tsh-salivary-microbiome-shifts",
+      "reason": "Bibliographic record only; no design, findings, limitations, or source-specific explanation."
+    },
+    {
+      "id": "he-2023-altered-gut-microbiota-scfa-constipated-asd-chinese",
+      "reason": "Citation and article-title backlinks only; no study explanation or substantive public collaboration."
+    },
+    {
+      "id": "kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility",
+      "reason": "Citation and article-title backlinks only; no account of evidence, findings, or uncertainty."
+    },
+    {
+      "id": "maddu-2025-microbiome-drug-interactions-pharmacokinetic-review",
+      "reason": "Citation and three article-title backlinks only; no explanation of the reviewed evidence."
+    },
+    {
+      "id": "papadopoulou-2019-serum-metabolomic-profile-ppd",
+      "reason": "Citation and article-title backlink only; no study design, findings, or limitations discussion."
+    },
+    {
+      "id": "tsushima-2024-ketogenic-diet-pcos-fertility",
+      "reason": "Citation and article-title backlinks only; no study design, outcomes, or evidentiary limits explanation."
+    },
+    {
+      "id": "yu-2021-ppd-status-biomarkers-identification",
+      "reason": "Citation and article-title backlink only; no source-specific explanation or substantive public discussion."
+    },
+    {
+      "id": "zytnick-2024-methylolanthanin-lanthanide-metallophore-methylobacterium",
+      "reason": "Bibliographic record only; no explanation of the discovery, methods, or relevance to WikiBiome."
+    }
+  ],
+  "indexableSources": [
+    {
+      "id": "ahmed-2025-metals-alzheimers-mechanistic-review",
+      "reason": "Keystone source with a substantive source-specific explanation (492 chars)."
+    },
+    {
+      "id": "ali-2024-heavy-metals-breast-cancer-review",
+      "reason": "Keystone source with a substantive source-specific explanation (460 chars)."
+    },
+    {
+      "id": "anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors",
+      "reason": "Keystone source with a substantive source-specific explanation (496 chars)."
+    },
+    {
+      "id": "aquino-2012-cadmium-nickel-metalloestrogens",
+      "reason": "Keystone source with a substantive source-specific explanation (512 chars)."
+    },
+    {
+      "id": "bakulski-2020-heavy-metals-alzheimers-dementias",
+      "reason": "Keystone source with a substantive source-specific explanation (513 chars)."
+    },
+    {
+      "id": "balali-mood-2021-toxic-mechanisms-five-heavy-metals",
+      "reason": "Keystone source with a substantive source-specific explanation (414 chars)."
+    },
+    {
+      "id": "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota",
+      "reason": "Keystone source with a substantive source-specific explanation (349 chars)."
+    },
+    {
+      "id": "brylinski-2025-trace-elements-thyroid-diseases",
+      "reason": "Keystone source with a substantive source-specific explanation (349 chars)."
+    },
+    {
+      "id": "cassat-2012-metal-acquisition-staphylococcus-aureus",
+      "reason": "Keystone source with a substantive source-specific explanation (437 chars)."
+    },
+    {
+      "id": "chin-chan-2015-environmental-pollutants-ad-pd",
+      "reason": "Keystone source with a substantive source-specific explanation (547 chars)."
+    },
+    {
+      "id": "costafrolaz-2026-yjbi-envelope-zinc-stress-antibiotic-caulobacter",
+      "reason": "Keystone source with a substantive source-specific explanation (559 chars)."
+    },
+    {
+      "id": "duan-2020-gut-microbiota-heavy-metal-probiotic-strategy",
+      "reason": "Keystone source with a substantive source-specific explanation (379 chars)."
+    },
+    {
+      "id": "ghosh-2023-heavy-metals-gut-barrier-integrity",
+      "reason": "Keystone source with a substantive source-specific explanation (521 chars)."
+    },
+    {
+      "id": "giambo-2021-toxic-metal-exposure-gut-microbiota-review",
+      "reason": "Keystone source with a substantive source-specific explanation (332 chars)."
+    },
+    {
+      "id": "guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration",
+      "reason": "Keystone source with a substantive source-specific explanation (524 chars)."
+    },
+    {
+      "id": "jaishankar-2014-heavy-metal-toxicity-mechanisms",
+      "reason": "Keystone source with a substantive source-specific explanation (406 chars)."
+    },
+    {
+      "id": "khan-2014-metals-type2-diabetes",
+      "reason": "Keystone source with a substantive source-specific explanation (522 chars)."
+    },
+    {
+      "id": "kirmizi-2020-heavy-metals-pcos",
+      "reason": "Keystone source with a substantive source-specific explanation (494 chars)."
+    },
+    {
+      "id": "kravchenko-2023-thyroid-hormones-minerals-AITD",
+      "reason": "Keystone source with a substantive source-specific explanation (549 chars)."
+    },
+    {
+      "id": "liu-2022-heavy-metals-breast-cancer-meta-analysis",
+      "reason": "Keystone source with a substantive source-specific explanation (372 chars)."
+    },
+    {
+      "id": "liu-2025-cardiometabolic-nickel",
+      "reason": "Keystone source with a substantive source-specific explanation (489 chars)."
+    },
+    {
+      "id": "maier-2019-nickel-microbial-pathogenesis",
+      "reason": "Keystone source with a substantive source-specific explanation (577 chars)."
+    },
+    {
+      "id": "microbiota-gut-brain-axis-neurodevelopmental-review",
+      "reason": "Keystone source with a substantive source-specific explanation (318 chars)."
+    },
+    {
+      "id": "mishra-2022-molecular-mechanisms-heavy-metals-ckd",
+      "reason": "Keystone source with a substantive source-specific explanation (514 chars)."
+    },
+    {
+      "id": "ogrady-2025-metal-dyshomeostasis-asd",
+      "reason": "Keystone source with a substantive source-specific explanation (513 chars)."
+    },
+    {
+      "id": "patil-2021-infection-metallomics-critical-care",
+      "reason": "Keystone source with a substantive source-specific explanation (394 chars)."
+    },
+    {
+      "id": "pendergrass-2026-heavy-metals-obesity-epidemic",
+      "reason": "Keystone source with a substantive source-specific explanation (645 chars)."
+    },
+    {
+      "id": "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
+      "reason": "Keystone source with a substantive source-specific explanation (578 chars)."
+    },
+    {
+      "id": "pendergrass-2026-pheomelanin-neuromelanin-parkinsons-redheads",
+      "reason": "Keystone source with a substantive source-specific explanation (615 chars)."
+    },
+    {
+      "id": "rasin-2025-cadmium-exposure-health-review",
+      "reason": "Keystone source with a substantive source-specific explanation (552 chars)."
+    },
+    {
+      "id": "saleh-2020-serum-trace-elements-prostate-cancer",
+      "reason": "Keystone source with a substantive source-specific explanation (433 chars)."
+    },
+    {
+      "id": "scholefield-2024-brain-metallomics-dementia",
+      "reason": "Keystone source with a substantive source-specific explanation (387 chars)."
+    },
+    {
+      "id": "street-2024-environmental-factors-thyroid-function",
+      "reason": "Keystone source with a substantive source-specific explanation (327 chars)."
+    },
+    {
+      "id": "tizabi-2023-lead-gut-microbiota-asd",
+      "reason": "Keystone source with a substantive source-specific explanation (388 chars)."
+    },
+    {
+      "id": "yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome",
+      "reason": "Keystone source with a substantive source-specific explanation (351 chars)."
+    },
+    {
+      "id": "zhai-2016-probiotics-cadmium",
+      "reason": "Keystone source with a substantive source-specific explanation (351 chars)."
+    },
+    {
+      "id": "zhu-2024-toxic-essential-metals-gut-microbiota",
+      "reason": "Keystone source with a substantive source-specific explanation (335 chars)."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "batchId": "mechanisms-079",
+  "category": "mechanisms",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "1f1e6053bfa8e4633238b6e9ddbb9ee41b29e71c",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/mechanisms-079.md",
+  "reviewRecord": "docs/operations/media-reviews/mechanisms-079.md",
+  "controlReviewRequired": false,
+  "initialAuditCommit": "6f30913",
+  "reviewStandard": "The six queued routes failed the pre-generation identity, scope, human/model, causal, representation, evidence, or clinical-advice gate. They received no marked prompt, no built-in generation call, and no raster. Current controlled chemical, bacterial-product, enzyme-family, dietary-pattern, epidemiological, and causal-inference records were checked against the generated article corpus; conflicts and required resolution are preserved in the audit and review packets. Zero hashes are eligible for promotion.",
+  "controlAcceptedReviewManifestSha256": "59cac14ae4bdf7af9458044bf9c4566ddde58b2fc64412d85800bb33a643663d",
+  "controlAcceptedPromptEvidenceSha256": "d044d7ae0ebbcf82035799b2e1002f4e37fd86e4b6106396d56a2e49f2fefaf6",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "7e921dbec9d2add8bb157d624ec0872230d3b841",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "lipid-peroxidation",
+      "lipopolysaccharide",
+      "maternal-immune-activation",
+      "matrix-metalloproteases",
+      "mediterranean-diet",
+      "mendelian-randomization"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 6,
+  "generationCallCount": 0,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "promotionRule": "No Batch 079 route is eligible for generation or promotion until its documented identity, scope, representation, evidence, and clinical-translation conflicts are corrected and independently re-audited.",
+  "routeDecisions": [
+    {"pageId":"lipid-peroxidation","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D015227","reason":"A defined chemical process is reduced to selected metals and speculative microbiome protection without lipid, compartment, initiation, assay, or evidence boundaries.","requiredResolution":"Separate oxidation modes, lipid and compartment, chain stages, biomarkers, measurement limits, and human versus model evidence."},
+    {"pageId":"lipopolysaccharide","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D008070","reason":"A structurally diverse bacterial class is treated as one pathogenic signal and connected to universal dysbiosis, translocation, disease, and metal-amplification chains.","requiredResolution":"Specify organism/strain, chemotype, molecular species, host, compartment, dose, purity, receptor system, and evidence tier."},
+    {"pageId":"maternal-immune-activation","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"research-model-hypothesis;no-single-controlled-entity","reason":"Heterogeneous human exposures and experimental animal models become one deterministic fetal cytokine, microglial, microbiome, metal, and neurodevelopmental cascade.","requiredResolution":"Separate human epidemiology from each animal model, exposure, timing, compartment, species, sex, outcome, and intervention."},
+    {"pageId":"matrix-metalloproteases","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D020782","reason":"The human MMP family is conflated with unrelated microbial zinc proteases and dietary zinc, metal substitution, metastasis, and endometriosis claims.","requiredResolution":"Separate protease families and bind each claim to a specific enzyme, structure, activation state, tissue, substrate, exposure, and study design."},
+    {"pageId":"mediterranean-diet","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D060242","reason":"A variable dietary pattern becomes a duplicated prescriptive PCOS/nickel intervention page with unsupported universal screening, contraindication, and substitution advice.","requiredResolution":"Reconcile duplicates; define index/population; separate evidence tiers; remove unsupported prescriptions; distinguish allergy diagnosis from prevalence."},
+    {"pageId":"mendelian-randomization","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D000092404","reason":"A causal-inference method is presented through unreplicated microbiome findings as a causal backbone that directly determines intervention targets.","requiredResolution":"Center estimands, assumptions, instruments, harmonization, multiplicity, replication, sensitivity, ancestry/taxonomic limits, and cautious interpretation."}
+  ],
+  "assets": []
+}

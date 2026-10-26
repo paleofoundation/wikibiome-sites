@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "batchId": "interventions-104",
+  "category": "interventions",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "05c9ac6a66192ab5b088b58e100890921a0a6b24",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/interventions-104.md",
+  "reviewRecord": "docs/operations/media-reviews/interventions-104.md",
+  "publicationMetadataPlan": {
+    "reviewOnly": false,
+    "creator": "OpenAI built-in image generation",
+    "credit": "WikiBiome / Microbiome Medicine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "digitalSourceType": "trainedAlgorithmicMedia",
+    "mediaDescription": "Scientific algorithmic morphology reconstruction, not a photograph, micrograph, culture result, product image, assay result, treatment recommendation, or diagnostic image",
+    "sourceUse": "Controlled scientific records supplied current identity and conservative representation boundaries only; no source image or design was copied."
+  },
+  "controlReviewRequired": false,
+  "initialAuditCommit": "6f68cdc59c6f860477ba040fd7379de6bada0760",
+  "promptFreezeCommit": "d502d58c061b22525cf4bc62a3cf2fab72d392d0",
+  "controlAcceptedReviewManifestSha256": "60cffb6497950541fe0ddfe8cef1382a91c72a671ef55f0a7572225625166577",
+  "controlAcceptedPromptEvidenceSha256": "603a69109b30e3477b914c73e582c14313e48e39e3298bae95b2efe98a39360e",
+  "controlFinalReview": {
+    "status": "accepted-exact-hash",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "a1d6354bc64d00e2b94e91cb873c1956801c0d8c",
+    "reviewer": "WikiBiome Control Tower native-resolution scientific and visual audit",
+    "approvedPageIds": [
+      "ecoli-nissle-1917"
+    ],
+    "acceptedSourceSha256": [
+      "16b1da28158015b9726d5ed4803596960aa466c273db54fdf86fb16692fa0c65"
+    ],
+    "nonPublishablePageIds": [
+      "dietary-fiber-ckd",
+      "exercise-schizophrenia",
+      "faecalibacterium-restoration",
+      "fmt-autism",
+      "fmt-intervention"
+    ]
+  },
+  "reviewStandard": "Only exact E. coli Nissle 1917 is cleared for one immutable strain-anchored morphology call. The other five routes fail material, protocol, product, formulation, source, population, measurement, or causal-interpretation gates and receive no prompt marker or generation call.",
+  "routeDecisionCount": 6,
+  "candidateCount": 1,
+  "scientificHoldCount": 5,
+  "generationCallCount": 1,
+  "reviewableGenerationCount": 1,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "promotionRule": "Only source SHA-256 16b1da28158015b9726d5ed4803596960aa466c273db54fdf86fb16692fa0c65 may be promoted to a metadata-bearing lossless master, article WebP, and centered contain-mode 1200 by 630 social WebP. The other five routes remain non-public scientific holds.",
+  "controlSocialCropReview": "accepted-one-centered-contain-derivative; native 1200 by 630 inspection preserves all six complete rods, all four groupings, and their visible flagella and pili without clipping or label leakage",
+  "promotionDerivatives": {
+    "ecoli-nissle-1917": {
+      "masterSha256": "d6addf66af811331bbf2a0c4fd63e435b13f87bed4f7bbaa9289ddf881dab875",
+      "articleSha256": "cffc284c6c1430917a39aed1edf16287b29dc8422e2834c6f9645194045779ea",
+      "socialSha256": "60388dcfd6196de653df4e10419311699c7dba54fe176ec600abaea1b869740a"
+    }
+  },
+  "routeDecisions": [
+    {
+      "pageId": "dietary-fiber-ckd",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D004043;MeSH:D051436;heterogeneous-fiber-class-and-CKD-regimen;below-source-threshold",
+      "reason": "Two sources remain below threshold and the route combines several fiber chemistries, food matrices, doses, CKD stages, metabolites, taxa, and outcomes rather than one controlled material and regimen.",
+      "requiredResolution": "Choose exact fiber identity and source, composition, processing state, dose and schedule, CKD stage and population, comparator, specimen, assay, time point, endpoint, and sufficient direct evidence."
+    },
+    {
+      "pageId": "exercise-schizophrenia",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D015444;MeSH:D012559;broad-behavioral-intervention;below-source-threshold",
+      "reason": "One source and a broad exercise descriptor do not fix modality, intensity, duration, supervision, population, concomitant care, measurement, or outcome; person-centered imagery could also imply or stigmatize schizophrenia.",
+      "requiredResolution": "Choose exact exercise modality, intensity, frequency, duration, supervision, population, treatment context, comparator, specimen, assay, time point, endpoint, and sufficient direct evidence."
+    },
+    {
+      "pageId": "faecalibacterium-restoration",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "NCBITaxon:853;restoration-intervention-not-organism-identity;zero-resolvable-sources",
+      "reason": "The route is an intervention rather than an organism article and has no sources, strain, product, formulation, dose, delivery, viability, storage, population, comparator, engraftment assay, or endpoint.",
+      "requiredResolution": "Choose exact strain or consortium, culture collection, product and formulation, viability specification, carrier, storage, dose, delivery and schedule, population, comparator, assay, time point, endpoint, and direct evidence."
+    },
+    {
+      "pageId": "fmt-autism",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D000069467;MeSH:D000067877;investigational-protocol;zero-resolvable-sources",
+      "reason": "The route has no sources and does not fix donor material, screening, processing, product, route, dose, schedule, recipient criteria, comparator, specimen, assay, time point, or endpoint for this investigational indication.",
+      "requiredResolution": "Choose an evidence-backed donor or manufactured preparation, screening and processing standard, route, dose and schedule, population, comparator, specimen, assay, time point, endpoint, and direct source set."
+    },
+    {
+      "pageId": "fmt-intervention",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D000069467;heterogeneous-donor-product-route-and-indication;zero-resolvable-sources",
+      "reason": "The route has no sources and collapses donor-derived and manufactured products, multiple routes, schedules, indications, screening practices, engraftment states, metabolites, and outcomes.",
+      "requiredResolution": "Choose one preparation, screening and manufacturing state, delivery protocol, indication and population, comparator, specimen, assay, time point, endpoint, and direct source set."
+    }
+  ],
+  "assets": [
+    {
+      "pageId": "ecoli-nissle-1917",
+      "displayName": "Escherichia coli Nissle 1917",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "generationStatus": "complete-single-call",
+      "draft": "work/media-drafts/interventions-batch-104/ecoli-nissle-1917-draft.png",
+      "generationRecord": "exec-0685f209-4a9d-4347-bde0-672bafbcfd3d.png",
+      "rootReviewDisposition": "eligible",
+      "controlledIdentifier": "NCBITaxon:316435;GenBank:CP007799.1;DSM:6601;serotype:O6:K5:H1",
+      "promptSha256": "3d454ce12518333685fdd6c64c327c9b6a77c83e091c427740a3c32c3d942341",
+      "sha256": "16b1da28158015b9726d5ed4803596960aa466c273db54fdf86fb16692fa0c65",
+      "masterSha256": "d6addf66af811331bbf2a0c4fd63e435b13f87bed4f7bbaa9289ddf881dab875",
+      "articleSha256": "cffc284c6c1430917a39aed1edf16287b29dc8422e2834c6f9645194045779ea",
+      "socialSha256": "60388dcfd6196de653df4e10419311699c7dba54fe176ec600abaea1b869740a",
+      "fileSizeBytes": 1773469,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=316435&mode=Info",
+        "https://www.ncbi.nlm.nih.gov/nuccore/CP007799.1",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11349737/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3572096/"
+      ],
+      "proposedSocialResizeFit": "contain",
+      "visualReview": "Six complete regular rounded rods are visible in exactly four separated spatial groupings: two isolated singles and two end-touching pairs. The bodies have restrained size variation, individual silver-blue boundaries, sparse long gently curved flagella, and much shorter fine pili. No appendage is body-like, and there is no dense hair mat, shared web, capsule halo, scene, label, or clipping.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome Control Tower native-resolution scientific and visual audit",
+        "reviewedOn": "2026-09-07",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Six complete silver-blue regular bacterial rods with sparse long flagella and shorter fine pili on an opaque pale cool field.",
+        "observedVisibleBodyCount": 6,
+        "observedSpatialGroupingCount": 4,
+        "observedSingleBodyCount": 2,
+        "observedTouchingPairCount": 2,
+        "observedAppendageReview": "Long gently curved flagella and much shorter fine pili are visibly distinguishable and remain subordinate to the six bodies. Counts are not presented as invariant biological abundance.",
+        "alphaZeroPixelCount": 0,
+        "alphaIntermediatePixelCount": 0,
+        "alphaFullyOpaquePixelCount": 1572864,
+        "outerBandWidthPx": 32,
+        "outerBackgroundDarkPixelCountBelowLuma128": 0,
+        "subjectBoundsAtLuma235": {
+          "minX": 28,
+          "minY": 49,
+          "maxX": 1495,
+          "maxY": 955
+        },
+        "sourceEdgeContact": false,
+        "centered1200x630CropSafe": false,
+        "requiredSocialResizeFit": "contain",
+        "prohibitedContentReview": "PASS: no text, label, letter, number, strain name, serotype, symbol, arrow, scale bar, legend, chart, agar, colony plate, capsule, bottle, tablet, powder, gut, host tissue, organ, disease imagery, immune cell, biofilm, pathogen battle, molecule, metal, decorative particle, glow, haze, vignette, border, source-edge clipping, signature, or watermark is visible.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Six regular E. coli Nissle 1917 rod reconstructions in four groups with sparse flagella and pili.",
+      "proposedCaption": "Strain-anchored morphology orientation for Escherichia coli Nissle 1917, shown as regular rods with simplified sparse flagella and pili. Morphology does not distinguish this strain from other E. coli and does not establish product identity, viability, purity, genome, dose, colonization, safety, probiotic action, or clinical effect; this is an educational reconstruction, not a micrograph.",
+      "proposedDescription": "WikiBiome strain-anchored morphology teaching reconstruction of six regular E. coli Nissle 1917 rods in four groupings on a pale cool field.",
+      "proposedProvenance": "Generated once from the immutable Batch 104 prompt after NCBI strain identity, complete-genome, and direct microscopy review; review-only trained-algorithmic reconstruction."
+    }
+  ]
+}

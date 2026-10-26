@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "host-defenses-099",
+  "category": "host-defenses",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "d8c4e8f5b5416d3b6771d96382e2b13d1f9dc4e7",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/host-defenses-099.md",
+  "reviewRecord": "docs/operations/media-reviews/host-defenses-099.md",
+  "controlReviewRequired": false,
+  "initialAuditCommit": "249ed3bffcea5bfa8e56061b991eb1131630daf9",
+  "reviewStandard": "The six queued routes failed the pre-generation identity and scope gate. They received no marked prompt, no built-in generation call, and no raster. Current NLM, UniProt, RCSB, and article records were checked against each route; the exact scientific state required before generation is preserved in the audit and review packets. Zero hashes are eligible for promotion.",
+  "controlAcceptedReviewManifestSha256": "a5e323da2c0f8e3db04e177924161feec5d3e85cc2aeaadc37a49684e810ce83",
+  "controlAcceptedPromptEvidenceSha256": "e197abb69888e0dc41dc22dc7298a03b4c2cc190d4aa7f41fa254eddcee99f59",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "8c6c2617f288579abd36680af2d56a64be24af70",
+    "reviewer": "WikiBiome Control Tower scientific and editorial audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "innate-immunity",
+      "inter-kingdom-metal-shielding",
+      "lactoferrin",
+      "lipocalin-2",
+      "metal-homeostasis",
+      "metal-dependent-virulence"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 6,
+  "generationCallCount": 0,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "promotionRule": "No route in Batch 099 is eligible for generation or promotion. All six remain asset-free scientific-media holds until an exact molecular, organismal, cellular, specimen, or process state is selected and independently re-audited.",
+  "routeDecisions": [
+    {
+      "pageId": "innate-immunity",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D007113;system-level-multicomponent-defense",
+      "reason": "The controlled term and article span barriers, soluble mediators, pattern-recognition systems, several immune-cell classes, phagosome metal intoxication, nutritional immunity, multiple tissues, and disease contexts rather than one bounded physical subject or process state.",
+      "requiredResolution": "Choose one exact organism, tissue and compartment, cell type, receptor or effector, activation state, stimulus, time point, specimen or assay, measured endpoint, and evidence tier."
+    },
+    {
+      "pageId": "inter-kingdom-metal-shielding",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "WikiBiome:inter-kingdom-metal-shielding;no-exact-controlled-identifier",
+      "reason": "This locally synthesized umbrella concept combines bacterial and fungal biofilms, extracellular matrices, siderophore sharing, urease-driven mineralization, metal biosorption, nanoparticles, co-selection, gut ecology, and a proposed NEC chain without one standardized identity or observable configuration.",
+      "requiredResolution": "Define one named cross-kingdom community with strains, anatomical or material surface, matrix, exact metal species and concentration, spatial scale, developmental stage, assay, endpoint, and directly supporting evidence."
+    },
+    {
+      "pageId": "lactoferrin",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D007781;UniProt:P02788;NCBITaxon:9606;multi-state-glycoprotein",
+      "reason": "Human lactotransferrin is identifiable, but the article combines apo and iron-saturated forms, variable glycosylation, intact protein and lactoferricin, several secretions and cell compartments, dietary and neutrophil sources, antimicrobial processes, and biomarker interpretation. Available structures represent particular ligand, metal, mutation, construct, or experimental states rather than a universal lactoferrin portrait.",
+      "requiredResolution": "Select exact species and sequence, isoform or mature chain, glycoform, apo or specified metal occupancy, oligomer and structure accession, retained experimental partners, compartment or specimen, assay, and claim boundary."
+    },
+    {
+      "pageId": "lipocalin-2",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:C489506;UniProt:P80188;NCBITaxon:9606;multi-ligand-multi-oligomer-state",
+      "reason": "Human LCN2 is identifiable, but the article combines unliganded protein, iron-enterobactin and other siderophore complexes, monomeric and oligomeric contexts, several producing cells and tissues, antimicrobial activity, microbiome selection, and fecal or urinary biomarker interpretation. It also generalizes ligand recognition across chemically distinct bacterial and fungal siderophores.",
+      "requiredResolution": "Choose exact species and isoform, mature chain and glycosylation, oligomer, apo or named siderophore/iron complex, structure accession, cell or compartment, specimen or assay, units, time point, and bounded endpoint."
+    },
+    {
+      "pageId": "metal-homeostasis",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D006706-related-homeostasis;MeSH:D008670-metals;multi-element-multi-organism-network",
+      "reason": "The route combines iron, zinc, copper, manganese, nickel and toxic-metal handling across human systemic physiology, intracellular compartments, bacterial regulation, import, export, storage, sensing, disease, and microbiome disruption. No single diagram could represent those non-equivalent chemical forms, scales, organisms, or regulatory states without inventing a canonical network.",
+      "requiredResolution": "Split or select one exact element and chemical form, organism, tissue or cell, compartment, transporter or regulator, concentration state, perturbation, specimen, assay, time point, endpoint, and evidence tier."
+    },
+    {
+      "pageId": "metal-dependent-virulence",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "WikiBiome:metal-dependent-virulence;related-MeSH:D014774;multi-organism-multi-metal-process-class",
+      "reason": "The article aggregates nickel enzymes, iron acquisition, heme uptake, siderophores, zinc metalloproteases, copper and manganese defenses, numerous pathogens, host compartments, environmental exposures, and clinical extrapolations. Virulence is a phenotype, not one structure, and the metal dependencies are organism-, enzyme-, oxidation-state-, niche-, and model-specific.",
+      "requiredResolution": "Choose one pathogen and strain, exact virulence factor or pathway, metal species and occupancy, host niche, infection stage, experimental model, specimen and assay, measured endpoint, and evidence grade."
+    }
+  ],
+  "assets": []
+}

@@ -1,0 +1,16 @@
+{
+  "name": "wikibiome-paper-ingestion",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "wrangler deploy --config wrangler.jsonc --dry-run --outdir dist",
+    "deploy": "wrangler deploy --config wrangler.jsonc",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@cloudflare/containers": "0.3.7"
+  },
+  "devDependencies": {
+    "wrangler": "4.92.0"
+  }
+}

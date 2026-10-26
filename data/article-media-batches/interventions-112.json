@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "batchId": "interventions-112",
+  "category": "interventions",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "f5ef9bcadc22505b661bbf0f0b6531ff93a32c88",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/interventions-112.md",
+  "reviewRecord": "docs/operations/media-reviews/interventions-112.md",
+  "publicationMetadataPlan": {
+    "reviewOnly": true,
+    "creator": "OpenAI built-in image generation",
+    "credit": "WikiBiome / Microbiome Medicine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "digitalSourceType": "trainedAlgorithmicMedia",
+    "mediaDescription": "Scientific algorithmic chemical-identity reconstruction, not a source structure image, measured conformer, drug product, treatment recommendation, assay result, or diagnostic image",
+    "sourceUse": "Controlled scientific records supplied exact identity and conservative representation boundaries only; no source image or design was copied."
+  },
+  "controlReviewRequired": false,
+  "initialAuditCommit": "cb559ce",
+  "promptFreezeCommit": "acd6a9b",
+  "controlAcceptedReviewManifestSha256": "c0ef668d6f69a5d4e5159bd078b985ab01df55cc27ebca2ef43900fbbf4f5dab",
+  "controlAcceptedPromptEvidenceSha256": "5a89e120cc8ea7e5c16d7e2625b9274725badb1be41c0576f8f359667dcf4212",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-five-scientific-holds-one-rejected-output",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "472ec2a1187692aced45baf922e73a30a3750af1",
+    "reviewer": "WikiBiome Control Tower native-resolution scientific, visual, source-resolution, and editorial audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "statin-simvastatin-colorectal-cancer",
+      "statin-therapy",
+      "statin",
+      "synbiotics-pdac",
+      "vitamin-d-probiotic-schizophrenia",
+      "vitamin-d-probiotic-synergy"
+    ]
+  },
+  "reviewStandard": "Only exact neutral simvastatin is cleared for one immutable chemical-identity call. The two broad Statins routes conflict with a third concept route; the synbiotic page has no local evidence or strain-level product identity; and both vitamin-D/probiotic routes lack strain accessions and contain malformed source identifiers. Those five routes receive no prompt marker or generation call.",
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 5,
+  "generationCallCount": 1,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 1,
+  "quarantinedGenerationCount": 1,
+  "revisionCount": 0,
+  "promotionRule": "No Batch 112 source hash is eligible for promotion. Five routes remain asset-free scientific holds, and the single generated simvastatin source remains immutable non-public quarantine evidence. No master, derivative, registry record, endpoint, Schema object, social preview, or image-sitemap record may be created from this batch.",
+  "controlSocialCropReview": "not-applicable-zero-eligible-assets",
+  "promotionDerivatives": {},
+  "routeDecisions": [
+    {
+      "pageId": "statin-therapy",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D019161;broad-statin-class;overlapping-statin-and-statins-routes",
+      "reason": "The page spans rosuvastatin and unspecified statin therapy, exposes only three sources despite claiming eighteen, and overlaps two other Statins routes without selecting a drug, salt state, formulation, dose, protocol, population, assay, or endpoint.",
+      "requiredResolution": "Merge or clearly differentiate the three Statins routes and define media ownership or reuse; then select an exact compound or a governed class representation with formulation, route, dose, population, comparator, specimen, assay, time point, endpoint, and claim boundary."
+    },
+    {
+      "pageId": "statin",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D019161;multi-drug-multi-condition-class;overlapping-statin-therapy-and-statins-routes",
+      "reason": "The route combines simvastatin, rosuvastatin, and unspecified statins across several conditions and mechanisms and overlaps both `statin-therapy` and the `statins` concept route. No one molecule or clinical scene can represent the class without silent narrowing.",
+      "requiredResolution": "Reconcile canonical ownership among `statin`, `statin-therapy`, and `statins`; define whether class media may be reused or must be a controlled multi-compound plate; then map every retained claim to drug identity, formulation, dose, population, and evidence."
+    },
+    {
+      "pageId": "synbiotics-pdac",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D058616;PDAC-synbiotic-product-and-strains-unresolved;zero-local-sources",
+      "reason": "The page has zero linked sources and does not select exact strain accessions, per-strain viable-count allocation, a stable product and lot, prebiotic identity and quantity, perioperative schedule, population, comparator, assay, endpoint, or safety state. A relevant external RCT is not linked and itself does not expose strain accessions.",
+      "requiredResolution": "Link direct evidence and select exact current strain accessions and counts, product and lot, complete probiotic and prebiotic composition, storage, route, schedule, PDAC surgical population, comparator, adherence, specimen, assay, time point, endpoints, adverse-event boundary, and a non-promotional visual plan."
+    },
+    {
+      "pageId": "vitamin-d-probiotic-schizophrenia",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "DOI:10.1186/s12888-019-2059-x;cholecalciferol-plus-four-species-level-probiotic-labels;malformed-local-source-ids",
+      "reason": "The RCT reports vitamin D3, four species-level labels, per-species counts, manufacturers, dose, and duration but no strain accessions. Both local source IDs are malformed by `.md` suffixes. A microbial or product plate would falsely imply visually verifiable strains or product appearance.",
+      "requiredResolution": "Correct the source identifiers and recover exact strain accessions, product and lot records, formulation and excipients, storage, verified viable counts, vitamin-D3 product identity, schedule, population, comparator, adherence, specimens, assays, time points, endpoints, and safety exclusions."
+    },
+    {
+      "pageId": "vitamin-d-probiotic-synergy",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "DOI:10.1186/s12888-019-2059-x;cross-condition-generalization;malformed-local-source-id",
+      "reason": "The page relies on one malformed link to a schizophrenia RCT while extending the intervention to other conditions and adding protocols not tested in that source. Exact strains and cross-condition products, doses, populations, assays, endpoints, and evidence tiers are unresolved.",
+      "requiredResolution": "Correct the source link; separate the schizophrenia-specific protocol from cross-condition hypotheses; add direct evidence for every retained condition; and select exact strains, products, formulations, doses, populations, comparators, specimens, assays, time points, endpoints, and safety boundaries."
+    }
+  ],
+  "assets": [
+    {
+      "pageId": "statin-simvastatin-colorectal-cancer",
+      "displayName": "Neutral simvastatin",
+      "proposedAssetType": "intervention",
+      "revision": 1,
+      "decision": "rejected-after-output-audit",
+      "generationStatus": "quarantined-single-call",
+      "generationCallCount": 1,
+      "draft": "work/media-drafts/interventions-batch-112/statin-simvastatin-colorectal-cancer-draft.png",
+      "generationRecord": "exec-37fb330a-c597-47b8-bf87-b8307769ef48.png",
+      "rootReviewDisposition": "ineligible",
+      "controlledIdentifier": "PubChem:54454;ChEBI:9150;MeSH:D019821;InChIKey:RYMZZMVNJRMUDD-HGQWONQESA-N",
+      "promptSha256": "4426cee692e43968f138b807e91fe9b451d17a60f451f45014a84b860905f25d",
+      "sha256": "07a1f0986ec275e1b0a8e992227510f97bb0eb63e2874a2d428df4d5b1acaf05",
+      "fileSizeBytes": 1357051,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "scientificReferences": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/54454",
+        "https://www.ebi.ac.uk/chebi/CHEBI:9150",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019821"
+      ],
+      "proposedSocialResizeFit": "contain",
+      "visualReview": "Exactly one connected molecular-model-like subject is visible, but it contains twenty-eight graphite centers and five rose centers, thirty-three heavy-atom centers overall rather than the required twenty-five carbon, five oxygen, and thirty total. The left ester-side branch includes an extra graphite branching pattern and the full graph does not reconcile with the frozen neutral-simvastatin connectivity. The raster also has a transparent canvas with broad graphite and rose glow or haze instead of the required opaque pale field.",
+      "quarantineReason": "The native output fails both scientific graph and visual-field requirements. It adds three carbon-like centers overall, so it is not neutral simvastatin. It also contains 1,372,776 fully transparent pixels, 200,088 intermediate-alpha pixels, zero fully opaque pixels, and 452 nonzero-alpha pixels in the outer 32-pixel band. These failures cannot be repaired without replacing the generated evidence.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome Control Tower native-resolution scientific, visual, and alpha-field audit",
+        "reviewedOn": "2026-09-07",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "One connected ball-and-stick-like model with a branched ester-side chain, fused central ring system, upper-right oxygen-containing ring, and one terminal rose center.",
+        "observedVisibleModelCount": 1,
+        "observedSpatialGroupingCount": 1,
+        "observedGraphiteCenterCount": 28,
+        "observedRoseCenterCount": 5,
+        "observedTotalCenterCount": 33,
+        "observedGraphReview": "FAIL: neutral simvastatin requires 25 carbon and 5 oxygen heavy atoms, but the output visibly contains 28 graphite and 5 rose centers. The left ester-side branch has an extra branched carbon pattern, and the complete graph does not reconcile with the frozen isomeric SMILES.",
+        "alphaZeroPixelCount": 1372776,
+        "alphaIntermediatePixelCount": 200088,
+        "alphaFullyOpaquePixelCount": 0,
+        "outerBandWidthPx": 32,
+        "outerBandNonzeroAlphaPixelCount": 452,
+        "nonzeroAlphaBounds": {
+          "minX": 57,
+          "minY": 17,
+          "maxX": 1447,
+          "maxY": 979
+        },
+        "sourceEdgeContact": true,
+        "centered1200x630CropSafe": false,
+        "requiredSocialResizeFit": "not-eligible",
+        "prohibitedContentReview": "FAIL: the canvas is transparent rather than fully opaque pale blue-white, every nontransparent pixel is partially transparent, broad graphite and rose glow or haze surrounds the model, and the subject enters the outer safety band. PASS for text, labels, letters, numbers, atom symbols, charge glyphs, arrows, legend, chart, detached fragment, duplicate model, hydrogen sphere, tablet, capsule, bottle, product packaging, colon, tumor, bacterium, cell, receptor, reaction partner, pathway, signature, and watermark.",
+        "metadataConsistency": "not-eligible"
+      },
+      "proposedAlt": "Single heavy-atom connectivity model of neutral simvastatin with twenty-five carbon and five oxygen centers.",
+      "proposedCaption": "Heavy-atom connectivity orientation for neutral simvastatin. Hydrogens, a measured conformation, crystal packing, the active hydroxy-acid metabolite, formulation, dose, metabolism, mechanism, microbiome effects, colorectal-cancer outcomes, efficacy, safety, and treatment claims are intentionally omitted; this is an educational reconstruction.",
+      "proposedDescription": "WikiBiome chemical-identity teaching reconstruction of one neutral simvastatin heavy-atom model on a pale cool field.",
+      "proposedProvenance": "Generated once from the immutable Batch 112 prompt after PubChem, ChEBI, and MeSH identity and connectivity review; review-only trained-algorithmic reconstruction."
+    }
+  ]
+}

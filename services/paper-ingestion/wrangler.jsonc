@@ -1,0 +1,12 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "wikibiome-paper-ingestion",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-09-14",
+  "compatibility_flags": ["nodejs_compat"],
+  "vars": { "SITE_ORIGIN": "https://www.wikibiome.com" },
+  "workflows": [{ "name": "wikibiome-paper-intake", "binding": "INTAKE", "class_name": "PaperWorkflow" }],
+  "containers": [{ "class_name": "PaperParser", "image": "./parser/Dockerfile", "max_instances": 2, "instance_type": "standard-1" }],
+  "durable_objects": { "bindings": [{ "name": "PARSER", "class_name": "PaperParser" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["PaperParser"] }]
+}

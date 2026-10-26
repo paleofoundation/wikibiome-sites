@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "batchId": "microorganisms-007",
+  "category": "microorganisms",
+  "createdOn": "2026-09-01",
+  "status": "reviewed",
+  "reviewedOn": "2026-09-01",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/microorganisms-007.md",
+  "reviewStandard": "Scientific identity, current controlled identifiers, primary scientific references, non-diagnostic framing, literal generation-call provenance, and original-resolution visual-count reconciliation are recorded. WikiBiome control-tower review accepted four first-generation drafts and the targeted Bifidobacterium bifidum revision 2; revision 1 remains rejected evidence and only revision 2 is promoted. The historical Bifidobacterium infantis route remains withheld without generation or queue substitution until its canonical identity is resolved. Publication requires a matching approved review-log entry and every release gate.",
+  "routeDecisionCount": 6,
+  "candidateCount": 5,
+  "scientificHoldCount": 1,
+  "revisionCount": 1,
+  "assets": [
+    {
+      "pageId": "bifidobacteriaceae",
+      "assetType": "microbial-community",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-007/bifidobacteriaceae-draft.png",
+      "sha256": "5b19da6fb762480abc7e492784bfcf3ea0484c75cbec05751d1e22f2d3d9a956",
+      "controlledIdentifier": "NCBITaxon:31953",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=31953&mode=Info",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5540593/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5359755/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2756926/",
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2701&mode=Info"
+      ],
+      "scientificFinding": "NCBI recognizes Bifidobacteriaceae as current family NCBITaxon:31953. Comparative genomics and current descendant records support a deliberately selective family-level plate spanning bifid or tapered rods, short rods, small pleomorphic coccobacillary forms, and rudimentary branching. The plate does not claim that these forms exhaust or diagnose the family, and relative scale is illustrative.",
+      "visualReview": "Five separated morphology groupings contain eight cellular bodies: one clean Y-shaped bifid body, two long tapered rods, two short blunt rods, two small ovoid coccobacillary bodies, and one short irregular body with a shallow integral branch. No appendages, spores, capsule halos, host materials, text, labels, scale bar, watermark, crowding, or edge clipping are visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Eight cellular bodies in five visual groupings: one bifid Y body, two tapered rods, two short blunt rods, two small ovoid coccobacillary bodies, and one shallow-branched irregular body.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Five selected Bifidobacteriaceae morphology groupings show one bifid Y body, paired tapered and short rods, two small ovoid bodies, and one shallow-branched body.",
+      "proposedCaption": "Selected cellular-form breadth within Bifidobacteriaceae, shown as eight cellular bodies in five groupings. This family-level reconstruction is non-exhaustive, non-diagnostic, and not a micrograph.",
+      "proposedDescription": "WikiBiome scientific reconstruction showing selected Bifidobacteriaceae bifid, tapered-rod, short-rod, small ovoid, and rudimentary-branched forms at illustrative relative scale."
+    },
+    {
+      "pageId": "bifidobacteriales",
+      "assetType": "microbial-community",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-007/bifidobacteriales-draft.png",
+      "sha256": "e5d0ed1605e66b6e9bd42e242510b948e0037274025548a35ec67056854c75f1",
+      "controlledIdentifier": "NCBITaxon:85004",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=85004&mode=Info",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4921777/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5540593/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5359755/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2756926/"
+      ],
+      "scientificFinding": "NCBI recognizes Bifidobacteriales as current order NCBITaxon:85004. Phylogenomic and descendant morphology literature supports a selective higher-taxon plate spanning elongated irregular rods, bifid forms, short rods, and small coccobacillary forms. No selected form is presented as exhaustive or diagnostic for the order, and relative scale is illustrative.",
+      "visualReview": "Four separated morphology groupings contain eight cellular bodies: two elongated rods forming a shallow open V, one clean Y-shaped body, three short irregular rods, and two small coccobacillary bodies. No appendages, branching filaments, spores, capsule halos, host materials, text, labels, scale bar, watermark, crowding, or edge clipping are visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Eight cellular bodies in four visual groupings: two elongated rods in an open V, one bifid Y body, three short irregular rods, and two small coccobacillary bodies.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Four selected Bifidobacteriales morphology groupings show two elongated rods, one bifid Y body, three short rods, and two small coccobacillary bodies.",
+      "proposedCaption": "Selected cellular-form breadth within Bifidobacteriales, shown as eight cellular bodies in four groupings. This order-level reconstruction is non-exhaustive, non-diagnostic, and not a micrograph.",
+      "proposedDescription": "WikiBiome scientific reconstruction showing selected Bifidobacteriales elongated-rod, bifid, short-rod, and small coccobacillary forms at illustrative relative scale."
+    },
+    {
+      "pageId": "bifidobacterium-adolescentis",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-007/bifidobacterium-adolescentis-draft.png",
+      "sha256": "e311495d7850375b645b697ec2b38d6cb7d8e2107c3f1aa0e0acfccab965912c",
+      "controlledIdentifier": "NCBITaxon:1680",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1680&mode=Info",
+        "https://bacdive.dsmz.de/strain/1682",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5359755/"
+      ],
+      "scientificFinding": "NCBI recognizes Bifidobacterium adolescentis as current species NCBITaxon:1680. The type-strain record supports Gram-positive anaerobic rods, while original electron-microscopy work documents intrinsic bifid and Y-shaped morphology without requiring a stress treatment. The reconstruction does not assert appendages, spores, or diagnostic exclusivity.",
+      "visualReview": "Six separated groupings contain seven cellular bodies: four clean Y-shaped bodies, one elongated body with a smooth integral terminal fork, and two unbranched rods in a shallow open V. All branches are substantial cell-body continuations rather than hairs. No appendages, spores, capsule halos, host materials, text, labels, scale bar, watermark, crowding, or edge clipping are visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Seven cellular bodies in six visual groupings: four Y-shaped bodies, one elongated terminally forked body, and two rods in an open V arrangement.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Seven Bifidobacterium adolescentis bodies show four Y-shaped cells, one elongated terminally forked cell, and two rods in an open V.",
+      "proposedCaption": "Representative Bifidobacterium adolescentis bifid and rod forms, shown as seven cellular bodies in six groupings. This reconstruction is not diagnostic and is not a micrograph.",
+      "proposedDescription": "WikiBiome microscopy-informed reconstruction of seven Bifidobacterium adolescentis cellular bodies with bifid Y, terminally forked, and paired rod forms and no asserted appendages."
+    },
+    {
+      "pageId": "bifidobacterium-bifidum",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-007/bifidobacterium-bifidum-draft-v2.png",
+      "sha256": "7b298c0d7848230e34acaee83123152b81d80d3e8360cbe5effdab871386a5ce",
+      "revisionLinkage": {
+        "replacesDraft": "work/media-drafts/microorganisms-batch-007/bifidobacterium-bifidum-draft.png",
+        "replacementReason": "Control review found revision 1 too generically bacillary to communicate the documented normal curved-rod-or-bifid range."
+      },
+      "controlledIdentifier": "NCBITaxon:1681",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1681&mode=Info",
+        "https://bacdive.dsmz.de/strain/1693",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC251364/"
+      ],
+      "scientificFinding": "NCBI recognizes Bifidobacterium bifidum as current species NCBITaxon:1681. The DSMZ type-strain record supports rod morphology, and the primary Poupard/Husain/Norris study describes the normal form as a curved rod or bifid form while distinguishing nutrition-associated highly branched forms. The restrained replacement therefore combines curved and tapered rods with one subtle true bifid body without implying universal branching or diagnostic exclusivity.",
+      "visualReview": "Six separated groupings contain seven cellular bodies: five singles comprising three gently curved or irregular tapered rods, one mildly clubbed curved rod, and one true bifid body with a short smooth integral Y end, plus a touching two-cell pair of curved tapered rods. The Y branches are substantial continuations of the cell body rather than hairs. No appendages, spores, capsule halos, host materials, text, labels, scale bar, watermark, crowding, or edge clipping are visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Seven cellular bodies in six visual groupings: five singles including curved, tapered, mildly clubbed, and one true bifid Y-ended form, plus one touching pair of two curved tapered rods.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Seven Bifidobacterium bifidum bodies show five single curved, tapered, clubbed, and bifid forms plus one touching pair of curved rods.",
+      "proposedCaption": "Representative Bifidobacterium bifidum curved-rod and bifid morphology, shown as seven cellular bodies in six groupings. This reconstruction is not diagnostic and is not a micrograph.",
+      "proposedDescription": "WikiBiome microscopy-informed reconstruction of seven Bifidobacterium bifidum bodies spanning restrained curved, tapered, mildly clubbed, and true bifid forms with no asserted appendages."
+    },
+    {
+      "pageId": "bifidobacterium-breve",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-007/bifidobacterium-breve-draft.png",
+      "sha256": "e6d83cea0d1fd43ded68ab1fd6c5b4265f9276771b9804c7bc201c299eb9f5c8",
+      "controlledIdentifier": "NCBITaxon:1685",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1685&mode=Info",
+        "https://bacdive.dsmz.de/strain/1695",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5359755/"
+      ],
+      "scientificFinding": "NCBI recognizes Bifidobacterium breve as current species NCBITaxon:1685. The type-strain record supports Gram-positive anaerobic rods. Original electron-microscopy work found predominantly rod-shaped control cells and bifid morphology under selected amino-acid conditions, so this canonical plate deliberately depicts the restrained unstressed rod treatment rather than implying that branching is universal.",
+      "visualReview": "Six separated groupings contain seven short blunt rods: five singles and one touching two-cell pair. The cells show restrained variation from compact to moderately elongated, with rounded ends and no Y forms. No appendages, spores, capsule halos, host materials, text, labels, scale bar, watermark, crowding, or edge clipping are visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Seven short blunt rods in six visual groupings: five singles and one touching two-cell pair, with restrained length variation and no Y forms.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Seven short blunt Bifidobacterium breve rods with rounded ends, shown as five singles and one touching pair.",
+      "proposedCaption": "Representative unstressed Bifidobacterium breve rod morphology, shown as seven cells in six groupings. This reconstruction is not diagnostic and is not a micrograph.",
+      "proposedDescription": "WikiBiome microscopy-informed reconstruction of seven Bifidobacterium breve rods with restrained length variation, rounded blunt ends, and no asserted appendages or universal branching."
+    },
+    {
+      "pageId": "bifidobacterium-infantis",
+      "decision": "scientific-identity-hold",
+      "generationStatus": "withheld",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "WikiBiome media program and control tower",
+      "reason": "NCBI Taxonomy assigns NCBITaxon:1682 to the current subspecies Bifidobacterium longum subsp. infantis and records Bifidobacterium infantis as its basionym. Taxonomic studies published in 2002 and 2008 unified the former species with B. longum and established the current subspecies combination, while LPSN and the DSMZ type-strain record use that current name. The WikiBiome route overview describes the current subspecies, but its canonical route and title still assert the historical species combination.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1682&mode=Info",
+        "https://pubmed.ncbi.nlm.nih.gov/12508852/",
+        "https://pubmed.ncbi.nlm.nih.gov/18398167/",
+        "https://lpsn.dsmz.de/subspecies/bifidobacterium-longum-infantis",
+        "https://bacdive.dsmz.de/strain/1743"
+      ],
+      "requiredResolution": "Rename or redirect the canonical route to a current-name bifidobacterium-longum-subsp-infantis record keyed to NCBITaxon:1682, or explicitly reframe the existing route as a historical or common-name alias whose canonical subject and structured metadata are Bifidobacterium longum subsp. infantis.",
+      "routingImpact": "The obsolete route has no generated draft, registry record, master, derivative, review approval, or image-sitemap entry. After control integrates the canonical identity change and regenerates the deterministic register, bifidobacterium-longum-subsp-infantis enters the microorganism queue as uncovered at the corresponding eligible position; batch 007 itself contains no substitution.",
+      "resolutionStatus": "resolved-after-batch-review",
+      "resolvedOn": "2026-09-01",
+      "resolution": "Control retired the obsolete species-form route and established a permanent 308 alias to the current canonical Bifidobacterium longum subsp. infantis record.",
+      "canonicalPageId": "bifidobacterium-longum-subsp-infantis",
+      "canonicalIdentifier": "NCBITaxon:1682",
+      "queueReplacement": {
+        "pageId": "bifidobacterium-longum-subsp-infantis",
+        "title": "Bifidobacterium longum subsp. infantis",
+        "route": "/article/bifidobacterium-longum-subsp-infantis",
+        "controlledIdentifier": "NCBITaxon:1682",
+        "coverageStatus": "uncovered"
+      },
+      "excludedIdentityReferences": [
+        {
+          "identifier": "NCBITaxon:35624",
+          "reason": "This is a strain-level record and must not be used as the controlled identity for the canonical subspecies subject."
+        }
+      ]
+    }
+  ]
+}

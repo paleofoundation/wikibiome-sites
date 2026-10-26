@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "batchId": "microorganisms-010",
+  "category": "microorganisms",
+  "createdOn": "2026-09-01",
+  "status": "reviewed",
+  "reviewedOn": "2026-09-01",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/microorganisms-010.md",
+  "reviewStandard": "Current identity and controlled identifiers were checked before generation against NCBI Taxonomy and current nomenclatural sources, with conservative morphology bounded by primary studies or referenced type-strain records. Candida auris and Candida glabrata were withheld because their routes used obsolete combinations; control subsequently retired those routes as audited aliases of uncovered candidozyma-auris and nakaseomyces-glabratus, and no raster was generated or rekeyed for either identity transition. Exactly one built-in generation call was made for each of the four supported subjects using the immutable passive prompt record. The WikiBiome media task and root inspected every copied PNG at original 1536 by 1024 resolution and reconciled visible bodies and groupings without trusting prompt counts. Root accepted the four exact drafts, and only those files were promoted after approved review-log records and all release gates were established.",
+  "routeDecisionCount": 6,
+  "candidateCount": 4,
+  "scientificHoldCount": 2,
+  "generationCallCount": 4,
+  "revisionCount": 0,
+  "assets": [
+    {
+      "pageId": "candida-auris",
+      "decision": "scientific-identity-hold",
+      "generationStatus": "withheld",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "currentIdentity": "Candidozyma auris",
+      "controlledIdentifier": "NCBITaxon:498019",
+      "mycoBankIdentifier": "MB 848169",
+      "reason": "NCBI Taxonomy records Candidozyma auris as the current species name and Candida auris as its basionym; the 2024 phylogenomic revision establishes the current combination. A new asset cannot be keyed to the obsolete canonical combination.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=498019&mode=Info",
+        "https://doi.org/10.3767/persoonia.2024.52.02"
+      ],
+      "requiredResolution": "Establish a current-name canonical route such as candidozyma-auris, keyed to NCBITaxon:498019, and decide the permanent alias treatment for candida-auris before media work resumes.",
+      "routingImpact": "The obsolete slug is excluded from the registry and image sitemap. Batch 010 generated no raster for either the obsolete alias or its current-name replacement; candidozyma-auris remains uncovered in the deterministic queue.",
+      "resolutionStatus": "resolved-after-batch-review",
+      "resolvedOn": "2026-09-01",
+      "resolution": "Control retired the obsolete-combination route and established a permanent audited alias to the current Candidozyma auris route.",
+      "canonicalPageId": "candidozyma-auris",
+      "canonicalIdentifier": "NCBITaxon:498019",
+      "queueReplacement": {
+        "pageId": "candidozyma-auris",
+        "title": "Candidozyma auris",
+        "route": "/article/candidozyma-auris",
+        "controlledIdentifier": "NCBITaxon:498019",
+        "coverageStatus": "uncovered"
+      }
+    },
+    {
+      "pageId": "candida-glabrata",
+      "decision": "scientific-identity-hold",
+      "generationStatus": "withheld",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "currentIdentity": "Nakaseomyces glabratus",
+      "controlledIdentifier": "NCBITaxon:5478",
+      "mycoBankIdentifier": "MB 843854",
+      "reason": "NCBI Taxonomy records Nakaseomyces glabratus as the current species name and Candida glabrata as a homotypic synonym; the 2022 nomenclatural paper documents the current combination. A new asset cannot be keyed to the obsolete canonical combination.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5478&mode=Info",
+        "https://doi.org/10.3314/mmj.22.004"
+      ],
+      "requiredResolution": "Establish a current-name canonical route such as nakaseomyces-glabratus, keyed to NCBITaxon:5478, and decide the permanent alias treatment for candida-glabrata before media work resumes.",
+      "routingImpact": "The obsolete slug is excluded from the registry and image sitemap. Batch 010 generated no raster for either the obsolete alias or its current-name replacement; nakaseomyces-glabratus remains uncovered in the deterministic queue.",
+      "resolutionStatus": "resolved-after-batch-review",
+      "resolvedOn": "2026-09-01",
+      "resolution": "Control retired the former-combination route and established a permanent audited alias to the current Nakaseomyces glabratus route.",
+      "canonicalPageId": "nakaseomyces-glabratus",
+      "canonicalIdentifier": "NCBITaxon:5478",
+      "queueReplacement": {
+        "pageId": "nakaseomyces-glabratus",
+        "title": "Nakaseomyces glabratus",
+        "route": "/article/nakaseomyces-glabratus",
+        "controlledIdentifier": "NCBITaxon:5478",
+        "coverageStatus": "uncovered"
+      }
+    },
+    {
+      "pageId": "candida-tropicalis",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-010/candida-tropicalis-draft.png",
+      "generationRecord": "exec-52aa3806-9d26-4c31-8332-368dc7bf0762.png",
+      "sha256": "fb350532d857943a8684e9b041d70a578fd176ee76db422666a3e68d9461bb79",
+      "controlledIdentifier": "NCBITaxon:5482",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5482&mode=Info",
+        "https://pubmed.ncbi.nlm.nih.gov/24442892/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC246248/"
+      ],
+      "scientificFinding": "NCBI Taxonomy records Candida tropicalis as the current species NCBITaxon:5482. Primary microscopy supports spherical-to-ovoid budding bodies and pseudohyphal or hyphal forms. This selected plate uses only oval blastoconidia, one bud pair, and one short pseudohyphal chain; it makes no diagnostic or colony-color claim.",
+      "visualReview": "Exactly eight cellular bodies appear in five separated groupings: three isolated oval singles across the upper field, one lower-left touching mother-and-bud pair, and one lower-right linear three-body pseudohyphal chain with two pinched junctions. No branching network, colony plate, host material, labels, scale bar, scenery, edge clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome root original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Eight cellular bodies in five groupings: three isolated oval singles, one touching two-body mother-and-bud pair, and one linear three-body pseudohyphal chain with two constricted junctions.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Eight Candida tropicalis bodies appear in five groupings: three oval singles, one mother-and-bud pair, and one short three-body pseudohyphal chain.",
+      "proposedCaption": "Selected Candida tropicalis yeast and short pseudohyphal forms, shown as eight bodies in five groupings. This species-level reconstruction is non-diagnostic and is not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of eight Candida tropicalis bodies arranged as three oval singles, one budding pair, and one three-body pseudohyphal chain on a pale cool field."
+    },
+    {
+      "pageId": "caulobacter",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-010/caulobacter-draft.png",
+      "generationRecord": "exec-9f93f538-da5c-4a9a-ad89-59b8a6e35c2c.png",
+      "sha256": "bdc8132ae9f528966a9fe1fc632389d6dc668547679d72d32d3e17cee70239ce",
+      "controlledIdentifier": "NCBITaxon:75",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=75&mode=Info",
+        "https://lpsn.dsmz.de/genus/caulobacter",
+        "https://bacdive.dsmz.de/strain/2334",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC543564/"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Caulobacter as current genus NCBITaxon:75. A referenced type-strain record supports rod morphology, and primary microscopy supports a narrow polar stalk as a cell-envelope extension in representative members. The plate is a static selection, not a lifecycle scene or genus-diagnostic claim.",
+      "visualReview": "Exactly seven gently curved rod-shaped bodies appear as seven separated groupings. Two rods—upper right and lower left—each have one short narrow straight polar stalk with a blunt end; five rods have no external structure. No flagella, pili, hairs, rosette, lifecycle sequence, shared envelope, labels, scale bar, host material, scenery, edge clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome root original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Seven gently curved rod bodies in seven isolated groupings: five without an external structure and two with one short narrow blunt-ended polar stalk each.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Seven separated curved Caulobacter rods appear on a pale cool field; two have one short narrow polar stalk and five have no external structure.",
+      "proposedCaption": "Selected stalked and non-stalked Caulobacter forms, shown as seven isolated rods. This static genus-level reconstruction is non-diagnostic, is not a lifecycle diagram, and is not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of seven gently curved Caulobacter rods, including two with one restrained polar stalk each and five without external structures."
+    },
+    {
+      "pageId": "chlamydia",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-010/chlamydia-draft.png",
+      "generationRecord": "exec-7a248bf8-15cd-4748-ab7c-ce2a6de60ada.png",
+      "sha256": "64a40fa227baff07d5c2014d0c8931f1505c95b6c3bb15f70dc8ede02ab13bfc",
+      "controlledIdentifier": "NCBITaxon:810",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=810&mode=Info",
+        "https://lpsn.dsmz.de/genus/chlamydia",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC248362/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC212462/"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Chlamydia as current genus NCBITaxon:810. Primary electron-microscopy studies support small compact elementary bodies and modestly larger round reticulate bodies while documenting taxon-level variation. This static abstraction uses only two qualitative size classes and is neither exhaustive nor visually diagnostic.",
+      "visualReview": "Exactly ten round-to-slightly-oval bodies appear as ten separated groupings: six smaller, darker bodies and four modestly larger, paler bodies. Every body has one ordinary clean boundary. No host cell, inclusion body, shared membrane, lifecycle sequence, surface projections, labels, scale bar, scenery, edge clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome root original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Ten isolated round-to-slightly-oval bodies in ten groupings: six smaller darker bodies and four modestly larger paler bodies, each with one ordinary boundary.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Ten isolated representative Chlamydia bodies appear in two qualitative size classes: six smaller bodies and four modestly larger bodies.",
+      "proposedCaption": "Selected Chlamydia body-form size classes, shown as ten isolated bodies. This genus-level reconstruction has no metrological scale, is non-exhaustive and non-diagnostic, and is not a micrograph or lifecycle diagram.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of ten isolated Chlamydia bodies in two qualitative size classes, without a host cell, inclusion, or lifecycle sequence."
+    },
+    {
+      "pageId": "chlamydia-trachomatis",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-010/chlamydia-trachomatis-draft.png",
+      "generationRecord": "exec-d63479c2-6e22-4462-a001-8cdac706d7e9.png",
+      "sha256": "fec1efa6257e2033a54236dded4e15a3f4aa98e33ee467e742e161885e15cd33",
+      "controlledIdentifier": "NCBITaxon:813",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=813&mode=Info",
+        "https://lpsn.dsmz.de/species/chlamydia-trachomatis",
+        "https://bacdive.dsmz.de/strain/2393",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5752669/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4336559/"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Chlamydia trachomatis as current species NCBITaxon:813. Quantitative three-dimensional electron microscopy and cryo-electron tomography support small elementary bodies and larger reticulate bodies but do not make an isolated plate visually diagnostic. This plate deliberately uses the same conservative vocabulary as the genus plate.",
+      "visualReview": "Exactly eight round-to-slightly-oval bodies appear as eight separated groupings: five smaller, darker bodies and three modestly larger, paler bodies. Every body has one ordinary clean boundary. No host cell, inclusion body, shared membrane, lifecycle sequence, surface projections, labels, scale bar, scenery, edge clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome root original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Eight isolated round-to-slightly-oval bodies in eight groupings: five smaller darker bodies and three modestly larger paler bodies, each with one ordinary boundary.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Eight isolated representative Chlamydia trachomatis bodies appear in two qualitative size classes: five smaller bodies and three modestly larger bodies.",
+      "proposedCaption": "Representative Chlamydia trachomatis body-form size classes, shown as eight isolated bodies. The species is not visually diagnostic from this reconstruction, which has no metrological scale and is not a micrograph or lifecycle diagram.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of eight isolated Chlamydia trachomatis bodies in two qualitative size classes, without a host cell, inclusion, or lifecycle sequence."
+    }
+  ]
+}

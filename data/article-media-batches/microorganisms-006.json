@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "batchId": "microorganisms-006",
+  "category": "microorganisms",
+  "createdOn": "2026-09-01",
+  "status": "reviewed",
+  "reviewedOn": "2026-09-01",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/microorganisms-006.md",
+  "reviewStandard": "Scientific identity, primary-source morphology, controlled identifiers, non-diagnostic framing, provenance, accessibility, and production visual review are recorded. Prompt-requested counts are never trusted as output evidence. WikiBiome control-tower original-resolution review accepted the five supported outputs after reconciling every visible count and grouping; publication still requires a matching approved review-log entry and all release gates.",
+  "routeDecisionCount": 6,
+  "candidateCount": 5,
+  "scientificHoldCount": 1,
+  "revisionCount": 0,
+  "assets": [
+    {
+      "pageId": "bacteroides-uniformis",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-006/bacteroides-uniformis-draft.png",
+      "sha256": "7f57546495fc1971faf62be46e6b2050cf3289b87b2b812347837915d4d22ed8",
+      "controlledIdentifier": "NCBITaxon:820",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=820&mode=Info",
+        "https://bacdive.dsmz.de/strain/1604",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC533498/"
+      ],
+      "scientificFinding": "NCBI recognizes Bacteroides uniformis as the current species NCBITaxon:820. The DSMZ type-strain record describes an anaerobic, Gram-negative rod isolated from human faeces, and the original species work supports a restrained rod treatment without appendage, spore, capsule, or diagnostic-structure claims.",
+      "visualReview": "Seven rods—not the six requested by the immutable prompt—are visible as five separated singles and one attached two-cell pair. The rods have rounded ends and modest length variation. No appendages, spores, capsule halos, host materials, labels, biofilm, or pathology are shown.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Seven rod-shaped cellular bodies in six visual groupings: five singles and one attached two-cell pair.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Seven Bacteroides uniformis rods with rounded ends, shown as five singles and one attached two-cell pair on a pale cool field.",
+      "proposedCaption": "Representative Bacteroides uniformis rod morphology, shown as seven cells in six groupings. This microscopy-informed reconstruction is not diagnostic and is not a micrograph.",
+      "proposedDescription": "WikiBiome microscopy-informed reconstruction of seven Bacteroides uniformis rods with restrained natural length variation and no asserted appendages or capsule."
+    },
+    {
+      "pageId": "bacteroides-vulgatus",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-006/bacteroides-vulgatus-draft.png",
+      "sha256": "84c518dba300b279da380a375b2b7a19adda58ad21c61fde79143cf7123b1475",
+      "controlledIdentifier": "NCBITaxon:821",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=821&mode=Info",
+        "https://bacdive.dsmz.de/strain/1601",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6767994/"
+      ],
+      "scientificFinding": "NCBI and the DSMZ type-strain record apply the current name Phocaeicola vulgatus to NCBITaxon:821 and retain Bacteroides vulgatus as its basionym or synonym. The type-strain record supports a Gram-negative anaerobic rod treatment. The reconstruction is keyed to the current identity and does not assert a visible flagellum or other motility structure.",
+      "visualReview": "Seven rods—not the six requested by the immutable prompt—are visible as five separated singles and one attached two-cell pair. The cells range from compact to moderately elongated rounded rods. No appendages, spores, capsule halos, host materials, labels, biofilm, or pathology are shown.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Seven rod-shaped cellular bodies in six visual groupings: five singles and one attached two-cell pair.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Seven Phocaeicola vulgatus rods, historically named Bacteroides vulgatus, shown as five singles and one attached pair.",
+      "proposedCaption": "Current Phocaeicola vulgatus identity (NCBITaxon:821), historically Bacteroides vulgatus, shown as seven representative rods. This reconstruction is not diagnostic or a micrograph.",
+      "proposedDescription": "WikiBiome microscopy-informed reconstruction of seven Phocaeicola vulgatus rods for the historical Bacteroides vulgatus article route."
+    },
+    {
+      "pageId": "bacteroidetes",
+      "assetType": "microbial-community",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-006/bacteroidetes-draft.png",
+      "sha256": "198e9c1c3cf82f149176b181b98ddd69875530a0dddd072656d3420b20965042",
+      "controlledIdentifier": "NCBITaxon:976",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=976&mode=Info",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5167729/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6767994/",
+        "https://doi.org/10.1099/ijsem.0.005056"
+      ],
+      "scientificFinding": "NCBI applies the current phylum name Bacteroidota to NCBITaxon:976 and records Bacteroidetes as an equivalent historical name. Genome-based treatments document broad phenotypic and ecological diversity, including selected ovoid, straight, curved, and flexile rod forms; no depicted grouping is presented as exhaustive or diagnostic for the phylum.",
+      "visualReview": "Five separated morphology groupings contain nine cellular bodies: two attached ovoid coccobacilli, three short rounded rods, two long slender rods in an angled end-to-end arrangement, one curved rod, and one long smooth flexile rod. No appendages, hairs, spores, host materials, labels, habitat scene, or pathology are shown.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Nine cellular bodies in five visual groupings: an ovoid two-cell pair, three short rods, two long slender rods, one curved rod, and one long flexile rod.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Five Bacteroidota morphology groupings show two ovoid cells, three short rods, two long rods, one curved rod, and one long flexile rod.",
+      "proposedCaption": "Selected cellular-form breadth within Bacteroidota, historically Bacteroidetes, shown as nine cells in five groupings. The plate is phylum-level, non-exhaustive, non-diagnostic, and not a micrograph.",
+      "proposedDescription": "WikiBiome microscopy-informed phylum-level reconstruction showing selected Bacteroidota ovoid, short-rod, long-rod, curved, and flexile cellular forms."
+    },
+    {
+      "pageId": "barnesella",
+      "decision": "scientific-identity-hold",
+      "generationStatus": "withheld",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "WikiBiome control tower",
+      "reason": "The primary Ata 2019 paper prints Barnesella as a genus-level sequencing label, but current NCBI Taxonomy and LPSN provide no bacterial taxon or controlled identifier for that spelling. Barnesiella is a separate valid genus, NCBITaxon:397864, and its morphology cannot be reassigned to Barnesella by inference.",
+      "checkedUrls": [
+        "https://doi.org/10.1038/s41598-019-39700-6",
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=Barnesella",
+        "https://lpsn.dsmz.de/search?word=Barnesella",
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=397864&mode=Info"
+      ],
+      "requiredResolution": "Complete the active bounded editorial identity correction: correct or redirect the route to a controlled current taxon, or explicitly reframe or retire it as a study-level source label. Recompute the deterministic queue after the canonical decision before media work resumes.",
+      "routingImpact": "The route remains uncovered and has no generated draft, registry record, master, derivatives, review approval, or image-sitemap entry. No replacement route is substituted into batch 006 without control authorization.",
+      "resolutionStatus": "resolved-after-batch-review",
+      "resolvedOn": "2026-09-01",
+      "resolution": "The unsupported bacterial name was retired as a source-label alias and permanently redirects to the current Barnesiella record. The canonical page preserves the paper's printed label as an evidence caveat without claiming a definitive sequence reassignment.",
+      "canonicalPageId": "barnesiella",
+      "canonicalIdentifier": "NCBITaxon:397864"
+    },
+    {
+      "pageId": "barnesiella",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-006/barnesiella-draft.png",
+      "sha256": "76e336aa9968653a11b534a09528c0f71a0de23ed376ff20bb1553aae561dbb4",
+      "controlledIdentifier": "NCBITaxon:397864",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=397864&mode=Info",
+        "https://bacdive.dsmz.de/strain/12518",
+        "https://pubmed.ncbi.nlm.nih.gov/19060046/",
+        "https://doi.org/10.1099/ijs.0.2008/000810-0"
+      ],
+      "scientificFinding": "NCBI recognizes Barnesiella as current genus NCBITaxon:397864. The type-species record and the description of the human-fecal species B. intestinihominis support Gram-negative, nonmotile, non-spore-forming rods with substantial genus-level length variation; no universal capsule or appendage is asserted.",
+      "visualReview": "Eight rods—not the seven requested by the immutable prompt—are visible as six separated singles and one attached two-cell pair. They span short plump to distinctly longer slender rods with rounded ends. No appendages, spores, capsule halos, host materials, labels, biofilm, or disease narrative are shown.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Eight rod-shaped cellular bodies in seven visual groupings: six singles and one attached two-cell pair, with marked length variation.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Eight Barnesiella rods ranging from short and plump to long and slender, shown as six singles and one attached pair.",
+      "proposedCaption": "Selected genus-level Barnesiella rod morphology, shown as eight cells in seven groupings with illustrative relative scale. This reconstruction is not diagnostic and is not a micrograph.",
+      "proposedDescription": "WikiBiome microscopy-informed reconstruction of eight Barnesiella rods with restrained genus-level length variation and no asserted appendages or capsule."
+    },
+    {
+      "pageId": "betaproteobacteria",
+      "assetType": "microbial-community",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-006/betaproteobacteria-draft.png",
+      "sha256": "3e32863c09b28847ef42cc94048ac1a3032f897daad6bd797f9b53c0e9b96cd5",
+      "controlledIdentifier": "NCBITaxon:28216",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28216&mode=Info",
+        "https://bacdive.dsmz.de/strain/17830",
+        "https://pubmed.ncbi.nlm.nih.gov/3994481/",
+        "https://bacdive.dsmz.de/strain/10473"
+      ],
+      "scientificFinding": "NCBI recognizes Betaproteobacteria as current class NCBITaxon:28216. Current class-member records support ovoid Parasutterella, rod-shaped Oxalobacter, and coccus-shaped Neisseria treatments. The selected morphology plate does not imply that four groupings exhaust or diagnose this broad class.",
+      "visualReview": "Four separated morphology groupings contain eight cellular bodies: two compact ovoid cells, two short rounded rods, two longer straight rods, and two touching round cocci. No appendages, spores, stalks, host materials, labels, habitat scene, taxonomic diagram, or pathology are shown.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Eight cellular bodies in four visual groupings: an ovoid pair, a short-rod pair, a long-rod pair, and a touching coccal pair.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Four Betaproteobacteria morphology groupings show two ovoid cells, two short rods, two long rods, and two touching cocci.",
+      "proposedCaption": "Selected cellular-form breadth within Betaproteobacteria, shown as eight cells in four groupings. The class-level plate is non-exhaustive, non-diagnostic, and not a micrograph.",
+      "proposedDescription": "WikiBiome microscopy-informed class-level reconstruction showing selected Betaproteobacteria ovoid, short-rod, long-rod, and coccal forms."
+    }
+  ]
+}

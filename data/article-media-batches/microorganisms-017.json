@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "batchId": "microorganisms-017",
+  "category": "microorganisms",
+  "status": "reviewed",
+  "createdOn": "2026-09-01",
+  "reviewedOn": "2026-09-01",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/microorganisms-017.md",
+  "reviewStandard": "Current identity, rank, and controlled identifiers were checked against NCBI Taxonomy and LPSN before generation, with conservative appearance bounded by primary, type-strain, or authoritative morphology sources. Eubacterium eligens and Eubacterium rectale received no prompts or generation calls because current authorities recognize Lachnospira eligens NCBITaxon:39485 and Agathobacter rectalis NCBITaxon:39491; control resolved both obsolete routes as audited asset-free aliases before promotion. Exactly one built-in generation call was made for each of the four cleared current routes using an immutable passive prompt, and no retry or revision call was made. Every copied PNG was inspected at its original 1536 by 1024 resolution. Visible bodies, groupings, pairs, chains, and prompt deviations were recorded literally without treating the prompt as output evidence. Root original-resolution review accepted all four exact PNGs subject to this scientific, metadata, and hash ledger, and resolved the Faecalibacterium count to eleven bodies by treating the central connected hourglass-like pair as two cells. Only those four accepted current-route originals were promoted on control base 8110300ce8b5313c8fb87d0603d2bfc2453fcad8; the obsolete routes have no raster, registry key, master, derivative, structured media, or sitemap image.",
+  "routeDecisionCount": 6,
+  "candidateCount": 4,
+  "scientificHoldCount": 0,
+  "generationCallCount": 4,
+  "revisionCount": 0,
+  "assets": [
+    {
+      "pageId": "eubacterium-eligens",
+      "decision": "scientific-identity-hold-resolved",
+      "generationStatus": "withheld-no-call",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "WikiBiome media program identity audit",
+      "reason": "NCBI Taxonomy and LPSN retain Lachnospira eligens as the current species NCBITaxon:39485 and identify Eubacterium eligens as its basionym or homotypic synonym. A new asset must not be keyed to the obsolete combination.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=39485&mode=Info",
+        "https://lpsn.dsmz.de/species/lachnospira-eligens",
+        "https://doi.org/10.3389/fmicb.2019.02083",
+        "https://doi.org/10.1099/ijsem.0.004107"
+      ],
+      "requiredResolution": "Canonicalize the route to Lachnospira eligens keyed to NCBITaxon:39485 and retain eubacterium-eligens only as an asset-free historical alias.",
+      "routingImpact": "The obsolete route is excluded from the canonical queue, registry, public media files, and image sitemap. Batch 017 contains no substitute raster; the current Lachnospira eligens route remains uncovered at its deterministic position.",
+      "resolutionStatus": "resolved-before-promotion",
+      "resolvedOn": "2026-09-01",
+      "resolution": "Control retired the obsolete-combination route and established an audited permanent redirect to the current Lachnospira eligens record while preserving source-era labels and their evidence limits.",
+      "canonicalPageId": "lachnospira-eligens",
+      "canonicalIdentifier": "NCBITaxon:39485"
+    },
+    {
+      "pageId": "eubacterium-rectale",
+      "decision": "scientific-identity-hold-resolved",
+      "generationStatus": "withheld-no-call",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "WikiBiome media program identity audit",
+      "reason": "NCBI Taxonomy retains Agathobacter rectalis as the current species NCBITaxon:39491 and lists Eubacterium rectale as a homotypic synonym; LPSN identifies Agathobacter rectalis as the correct name. A new asset must not be keyed to the superseded combination.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=39491&mode=Info",
+        "https://lpsn.dsmz.de/species/bacteroides-rectalis",
+        "https://pubmed.ncbi.nlm.nih.gov/26619944/",
+        "https://doi.org/10.1099/ijsem.0.000788"
+      ],
+      "requiredResolution": "Canonicalize the route to Agathobacter rectalis keyed to NCBITaxon:39491 and retain eubacterium-rectale only as an asset-free historical alias.",
+      "routingImpact": "The obsolete route is excluded from the canonical queue, registry, public media files, and image sitemap. Batch 017 contains no substitute raster; the current Agathobacter rectalis route remains uncovered at its deterministic position.",
+      "resolutionStatus": "resolved-before-promotion",
+      "resolvedOn": "2026-09-01",
+      "resolution": "Control retired the obsolete-combination route and established an audited permanent redirect to the current Agathobacter rectalis record while preserving source-era wording and the published nomenclatural objection.",
+      "canonicalPageId": "agathobacter-rectalis",
+      "canonicalIdentifier": "NCBITaxon:39491"
+    },
+    {
+      "pageId": "faecalibacterium",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-017/faecalibacterium-draft.png",
+      "generationRecord": "exec-7c95da8c-a94e-4481-8a50-317da33ac545.png",
+      "sha256": "b4ff14128327d59e4043d675165f3b36b9129bff8cf04dad568c835d052885c1",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:216851",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=216851&mode=Info",
+        "https://lpsn.dsmz.de/genus/faecalibacterium",
+        "https://pubmed.ncbi.nlm.nih.gov/12508881/",
+        "https://doi.org/10.1099/00207713-52-6-2141",
+        "https://onlinelibrary.wiley.com/doi/10.1002/9781118960608.gbm00674"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN retain Faecalibacterium as current genus NCBITaxon:216851, with F. prausnitzii as the nomenclatural type. Authoritative genus and type-species descriptions support variable-length straight rods, mainly single, with occasional hourglass-like constriction. The plate is type-species-anchored, representative, non-exhaustive, and non-diagnostic.",
+      "visualReview": "Root original-resolution review resolves eleven straight rounded rod bodies in seven separated groupings: three isolated singles and four connected two-body pairs, including the central hourglass-like connected pair. This is two additional bodies and one additional grouping compared with the prompt request. No dramatic swelling, full coccus, curved spiral, branch, filament, appendage, spore, capsule, halo, shared envelope, biofilm, label, text, scale bar, host material, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome root original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Nine straight rod bodies in six groupings: three isolated singles and three touching two-body pairs, with one mildly hourglass-constricted isolated rod.",
+        "observedSubjectDescription": "Eleven straight rounded rod bodies in seven groupings: three isolated singles and four connected two-body pairs, including one central hourglass-like connected pair.",
+        "observedVisibleBodyCount": 11,
+        "observedSpatialGroupingCount": 7,
+        "observedSingleCount": 3,
+        "observedTouchingPairCount": 4,
+        "observedHourglassLikeConnectedPairCount": 1,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Eleven selected Faecalibacterium rods appear in seven groupings: three singles and four connected pairs, including one hourglass-like central pair.",
+      "proposedCaption": "Selected type-species-anchored Faecalibacterium straight-rod forms, shown as eleven bodies in three single and four paired groupings. This genus-level scientific reconstruction is representative, non-diagnostic, and not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of eleven selected variable-length Faecalibacterium rod bodies arranged as three singles and four connected pairs, including one hourglass-like central pair, on a pale cool field.",
+      "proposedProvenance": "Generated once with the OpenAI built-in image generator from the immutable batch-017 prompt after identity and morphology audit; human-audited at the original 1536 by 1024 resolution and accepted by WikiBiome control. Scientific reconstruction, not a micrograph."
+    },
+    {
+      "pageId": "faecalibacterium-prausnitzii",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-017/faecalibacterium-prausnitzii-draft.png",
+      "generationRecord": "exec-c017485c-123f-4c6f-8cb9-67fb20401925.png",
+      "sha256": "75644357f48fa7887fe692d7bd8f207ab2c400adf349205c19c450f024b918d6",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:853",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=853&mode=Info",
+        "https://lpsn.dsmz.de/species/faecalibacterium-prausnitzii",
+        "https://pubmed.ncbi.nlm.nih.gov/12508881/",
+        "https://doi.org/10.1099/00207713-52-6-2141",
+        "https://bacdive.dsmz.de/strain/168617",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8876097/"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN retain Faecalibacterium prausnitzii as current species NCBITaxon:853 and the nomenclatural type of Faecalibacterium. Primary and later taxonomic or microscopy descriptions support straight variable-length rods and elongated bacilli with rounded ends. The plate is representative and non-diagnostic and does not claim a species-exclusive morphology relative to the genus.",
+      "visualReview": "Nine straight rounded rod bodies appear in seven separated groupings: five isolated singles and two touching two-body pairs. This is one additional single body and one additional grouping compared with the prompt request. Several rods are elongated, with restrained length variation. No full coccus, curved spiral, branch, filament, appendage, spore, capsule, halo, shared envelope, biofilm, label, text, scale bar, host material, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome root original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Eight straight rod bodies in six groupings: four isolated singles and two touching two-body pairs.",
+        "observedSubjectDescription": "Nine straight rounded rod bodies in seven groupings: five isolated singles and two touching two-body pairs, with several elongated rods.",
+        "observedVisibleBodyCount": 9,
+        "observedSpatialGroupingCount": 7,
+        "observedSingleCount": 5,
+        "observedTouchingPairCount": 2,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Nine selected Faecalibacterium prausnitzii rods appear in seven groupings: five singles and two touching pairs, with several elongated forms.",
+      "proposedCaption": "Representative Faecalibacterium prausnitzii straight rods, shown as nine bodies in five single and two paired groupings. This scientific reconstruction is non-diagnostic, does not claim a species-exclusive silhouette, and is not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of nine selected variable-length Faecalibacterium prausnitzii rods arranged as five singles and two touching pairs on a pale cool field.",
+      "proposedProvenance": "Generated once with the OpenAI built-in image generator from the immutable batch-017 prompt after identity and morphology audit; human-audited at the original 1536 by 1024 resolution and accepted by WikiBiome control. Scientific reconstruction, not a micrograph."
+    },
+    {
+      "pageId": "fannyhessea-vaginae",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-017/fannyhessea-vaginae-draft.png",
+      "generationRecord": "exec-560a8101-443e-4188-8656-843ef40f2a82.png",
+      "sha256": "3746111829afa1d6e3f9d574cb391e8b96ab89e86ec11ceccc32dc1d1bb8a603",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:82135",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=82135&mode=Info",
+        "https://lpsn.dsmz.de/species/fannyhessea-vaginae",
+        "https://pubmed.ncbi.nlm.nih.gov/10555338/",
+        "https://doi.org/10.1099/00207713-49-4-1573",
+        "https://doi.org/10.3389/fmicb.2018.02007",
+        "https://bacdive.dsmz.de/strain/3043",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC156532/"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN retain Fannyhessea vaginae as the current species NCBITaxon:82135. Atopobium vaginae is its basionym and retired WikiBiome alias, never a media key. The original species work, type-strain record, and primary microscopy evidence support small elliptical cocci to short coccobacilli occurring singly, in pairs, or short chains. This plate is representative and non-diagnostic.",
+      "visualReview": "Eleven small elliptical-to-short-coccobacillary bodies appear in seven separated groupings: four isolated singles, two touching two-body pairs, and one aligned touching three-body short chain. This is one additional single body and one additional grouping compared with the prompt request. Every body remains countable with its own ordinary boundary. No dense clump, full-length rod, branch, filament, appendage, spore, capsule, halo, shared envelope, biofilm, label, text, scale bar, host material, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome root original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Ten small elliptical-to-short-coccobacillary bodies in six groupings: three isolated singles, two touching pairs, and one aligned three-body short chain.",
+        "observedSubjectDescription": "Eleven small elliptical-to-short-coccobacillary bodies in seven groupings: four isolated singles, two touching two-body pairs, and one aligned touching three-body short chain.",
+        "observedVisibleBodyCount": 11,
+        "observedSpatialGroupingCount": 7,
+        "observedSingleCount": 4,
+        "observedTouchingPairCount": 2,
+        "observedThreeBodyChainCount": 1,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Eleven selected Fannyhessea vaginae elliptical-to-short-coccobacillary bodies appear as four singles, two touching pairs, and one three-body chain.",
+      "proposedCaption": "Representative Fannyhessea vaginae elliptical cocci to short coccobacilli, shown as eleven bodies in seven groupings. This scientific reconstruction is non-diagnostic, is not a micrograph, and is keyed only to the current combination—not the retired Atopobium vaginae alias.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of eleven selected Fannyhessea vaginae bodies arranged as four singles, two touching pairs, and one three-body short chain on a pale cool field.",
+      "proposedProvenance": "Generated once with the OpenAI built-in image generator from the immutable batch-017 prompt after current-name and morphology audit; human-audited at the original 1536 by 1024 resolution and accepted by WikiBiome control. Scientific reconstruction, not a micrograph."
+    },
+    {
+      "pageId": "finegoldia",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-017/finegoldia-draft.png",
+      "generationRecord": "exec-5b16c32c-5751-4123-a0bc-c5cde0ef046a.png",
+      "sha256": "7a0431c895654980a80e0dcd12df235d3ebdc2277c5db0f3490e65f9fccbcd31",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:150022",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=150022&mode=Info",
+        "https://lpsn.dsmz.de/genus/finegoldia",
+        "https://doi.org/10.1016/S1075-9964(99)80122-2",
+        "https://bacdive.dsmz.de/strain/17986",
+        "https://academic.oup.com/femsre/article/37/4/520/2399123"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN retain Finegoldia as current genus NCBITaxon:150022, with F. magna as its nomenclatural type. LPSN now lists a second valid species, so the plate is type-species-anchored rather than a universal genus morphology. Type-strain and authoritative review evidence support comparatively large coccoid bodies with pair and short-chain arrangements. Pili and dense masses are omitted rather than generalized.",
+      "visualReview": "Twelve full rounded coccoid bodies appear in eight separated groupings: five isolated singles, two touching two-body pairs, and one aligned touching three-body short chain. This is two additional bodies, two additional single groupings, and two additional groupings overall compared with the prompt request. Every body remains countable with its own ordinary boundary. No grape-like cluster, irregular dense mass, tetrad, full rod, branch, filament, appendage, spore, capsule, halo, shared envelope, biofilm, label, text, scale bar, host material, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome root original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Ten round-to-very-slightly-ovoid coccoid bodies in six groupings: three isolated singles, two touching pairs, and one three-body short chain.",
+        "observedSubjectDescription": "Twelve full rounded coccoid bodies in eight groupings: five isolated singles, two touching two-body pairs, and one aligned touching three-body short chain.",
+        "observedVisibleBodyCount": 12,
+        "observedSpatialGroupingCount": 8,
+        "observedSingleCount": 5,
+        "observedTouchingPairCount": 2,
+        "observedThreeBodyChainCount": 1,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Twelve selected Finegoldia coccoid bodies appear in eight groupings: five singles, two touching pairs, and one three-body short chain.",
+      "proposedCaption": "Selected type-species-anchored Finegoldia coccoid forms, shown as twelve bodies in five single, two paired, and one short-chain grouping. This genus-level scientific reconstruction is representative, non-diagnostic, and not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of twelve selected Finegoldia coccoid bodies arranged as five singles, two touching pairs, and one three-body short chain on a pale cool field.",
+      "proposedProvenance": "Generated once with the OpenAI built-in image generator from the immutable batch-017 prompt after identity and morphology audit; human-audited at the original 1536 by 1024 resolution and accepted by WikiBiome control. Scientific reconstruction, not a micrograph."
+    }
+  ]
+}

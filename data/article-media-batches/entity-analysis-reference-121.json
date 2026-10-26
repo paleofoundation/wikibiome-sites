@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "batchId": "entity-analysis-reference-121",
+  "category": "entity-analysis-reference",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "fb24329d7bdbe744c3b6d06602eceb36550fd651",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/entity-analysis-reference-121.md",
+  "reviewRecord": "docs/operations/media-reviews/entity-analysis-reference-121.md",
+  "publicationMetadataPlan": {
+    "reviewOnly": true,
+    "creator": "OpenAI built-in image generation",
+    "credit": "WikiBiome / Microbiome Medicine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "digitalSourceType": "trainedAlgorithmicMedia",
+    "mediaDescription": "Scientific algorithmic chemical-identity teaching reconstruction, not a source structure image, measured conformer, assay result, biomarker result, treatment recommendation, or diagnostic image",
+    "sourceUse": "Current PubChem, LPSN, NCBI Taxonomy, and local source-resolution records define identity and conservative representation boundaries only; no source image or design is copied."
+  },
+  "controlReviewRequired": false,
+  "initialAuditCommit": "da1a1d65cf414b4b89e88f009981903f759213d8",
+  "promptFreezeCommit": "14efabe3953df4ec81d4ee326cdd1fb0765cc7e4",
+  "controlAcceptedReviewManifestSha256": "51ee3b809e09fa3712f895b0e3a695ffc709916a750430158449e5ca59baaa4c",
+  "controlAcceptedPromptEvidenceSha256": "22ddcc73c82017cd9d9d882171b8bcdf48793ed6fc0409b47ae17ecc22f1b41b",
+  "controlFinalReview": {
+    "status": "accepted-one-exact-hash-five-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "53ccc95bfa2a37986f4138267ec6ae26e217874b",
+    "reviewer": "WikiBiome Control Tower native-resolution exact-hash review",
+    "approvedPageIds": ["dopamine"],
+    "acceptedSourceSha256": ["f1bea70f61720bd6c2529b9fef35f3e2c48f5119fad6efc85fef81ab95f994c3"],
+    "nonPublishablePageIds": ["dietary-metal-exposure-by-life-stage", "dietary-metal-paradoxes", "glossary", "hungatella", "intestinibacter"]
+  },
+  "controlSocialCropReview": "accepted-centered-cover-derivative; native 1200 by 630 inspection preserves all eleven heavy-atom centers, the complete ring, both oxygen substituents, the complete two-carbon side chain, and terminal nitrogen without clipping or label leakage",
+  "promotionDerivatives": {
+    "dopamine": {
+      "masterSha256": "45b90d0fe11815274ef181099a90cab2dfa23229f4b5b80e5977b52e56135346",
+      "articleSha256": "fc0ad02ef829c27db9274604feee60a9e3b8fb4546653bd08292d6c335004f64",
+      "socialSha256": "a41df0839a05233a6e126bf656e86a968bf5990dee170256a90121675f3a1544"
+    }
+  },
+  "reviewStandard": "Only exact neutral Dopamine is cleared for one immutable heavy-atom connectivity call. The two synthesis routes, the glossary, and the two misclassified source-free microorganism routes fail stable-subject, scope, category, or morphology-authority gates and receive no prompt marker or generation call.",
+  "routeDecisionCount": 6,
+  "candidateCount": 1,
+  "scientificHoldCount": 5,
+  "generationCallCount": 1,
+  "reviewableGenerationCount": 1,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "promotionRule": "Only a literal single-model neutral Dopamine output matching the frozen eleven-heavy-atom count, connectivity boundary, pale field, and crop-safe requirements may proceed to exact-hash review. The other five routes remain non-public scientific holds.",
+  "routeDecisions": [
+    {
+      "pageId": "dietary-metal-exposure-by-life-stage",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "WikiBiome:dietary-metal-exposure-by-life-stage;multi-life-stage-multi-element-exposure-synthesis",
+      "reason": "The route spans fetal development through older age, many metals and chemical forms, foods, absorption, detoxification, target organs, regulation, and microbiome interactions. It does not define one specimen, exposure, measured dataset, organ, or validated life-stage comparison suitable for primary scientific media.",
+      "requiredResolution": "Select exact life stages, population, dietary sources, elements and chemical forms, dose or concentration units, specimen and analytical method, measured outcomes, comparator, evidence tier, and a validated chart or physical subject."
+    },
+    {
+      "pageId": "dietary-metal-paradoxes",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "WikiBiome:dietary-metal-paradoxes;multi-paradox-umbrella-analysis",
+      "reason": "The page is an umbrella synthesis linking distinct paradoxes involving different foods, elements, diseases, populations, mechanisms, and interventions. A single collage or generic food-and-metal scene would collapse non-equivalent claims and compete with the dedicated paradox pages.",
+      "requiredResolution": "Keep primary scientific media on each dedicated paradox page; if an overview graphic is later needed, define a cited editorial taxonomy with fixed nodes, relationships, evidence tiers, accessible text, and a versioned data source."
+    },
+    {
+      "pageId": "glossary",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "WikiBiome:glossary;multi-term-reference-index",
+      "reason": "The glossary is a reference index containing many unrelated organisms, chemicals, diseases, pathways, methods, and editorial terms. It has no single scientific subject and no source record from which to derive a primary image.",
+      "requiredResolution": "Use accessible typographic navigation and term-level links; do not assign scientific primary media unless the route is replaced by a bounded, cited reference object with a defined subject."
+    },
+    {
+      "pageId": "hungatella",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "NCBI-Taxonomy:1649459;type-species-NCBI-Taxonomy:154046;LPSN:518513;local-category-other;local-source-count-0",
+      "reason": "Hungatella is a valid current genus with H. hathewayi as type species, but the local page is categorized as other, contains zero source records, and retains a family assignment that conflicts with the current Lachnospiraceae placement. The entity-analysis-reference release class permits evidence-index media rather than microorganism morphology, and no reviewed type-material morphology evidence is linked locally.",
+      "requiredResolution": "Reclassify the route through the controlled upstream content pipeline, update current family placement, attach type-species and type-strain morphology sources, reconcile unsupported claims, then repeat the microorganism morphology audit."
+    },
+    {
+      "pageId": "intestinibacter",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "NCBI-Taxonomy:261299;type-strain-DSM:16795;LPSN:518554;local-category-other;local-source-count-0",
+      "reason": "Intestinibacter is a valid current genus with I. bartlettii as type species, but the local page is categorized as other and contains zero source records. The entity-analysis-reference release class permits evidence-index media rather than microorganism morphology, and the local morphology, metal, and disease claims are not tied to reviewed type-material evidence.",
+      "requiredResolution": "Reclassify the route through the controlled upstream content pipeline, attach type-species and type-strain morphology sources, reconcile unsupported claims, then repeat the microorganism morphology audit."
+    }
+  ],
+  "assets": [
+    {
+      "pageId": "dopamine",
+      "displayName": "Dopamine",
+      "assetType": "evidence-index",
+      "revision": 1,
+      "decision": "accepted-for-separate-exact-hash-review",
+      "generationStatus": "complete-single-call",
+      "draft": "work/media-drafts/entity-analysis-reference-batch-121/dopamine-draft.png",
+      "generationRecord": "exec-acc4a119-4229-4254-a1fb-5db549c38c9d.png",
+      "rootReviewDisposition": "accepted",
+      "controlledIdentifier": "PubChem:681;InChIKey:VYFYYTLLBUKUHU-UHFFFAOYSA-N",
+      "promptSha256": "147ce80df3d4d075c41bf4ba32c28800ceb0835f115dc588a6e648891dd4241f",
+      "sha256": "f1bea70f61720bd6c2529b9fef35f3e2c48f5119fad6efc85fef81ab95f994c3",
+      "masterSha256": "45b90d0fe11815274ef181099a90cab2dfa23229f4b5b80e5977b52e56135346",
+      "articleSha256": "fc0ad02ef829c27db9274604feee60a9e3b8fb4546653bd08292d6c335004f64",
+      "socialSha256": "a41df0839a05233a6e126bf656e86a968bf5990dee170256a90121675f3a1544",
+      "fileSizeBytes": 1226232,
+      "dimensions": {"width": 1536, "height": 1024},
+      "scientificReferences": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/681"
+      ],
+      "proposedSocialResizeFit": "cover",
+      "visualReview": "One complete connected model with exactly eleven visible heavy-atom centers: eight graphite carbon centers, two rose oxygen centers, and one blue nitrogen center; one six-carbon ring, two adjacent oxygen substituents, and one two-carbon side chain terminating at nitrogen.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome Control Tower native-resolution scientific and visual audit",
+        "reviewedOn": "2026-09-07",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "One isolated connected ball-and-stick model with exactly eleven visible heavy-atom centers.",
+        "observedVisibleBodyCount": 11,
+        "observedSpatialGroupingCount": 1,
+        "observedCarbonCenterCount": 8,
+        "observedOxygenCenterCount": 2,
+        "observedNitrogenCenterCount": 1,
+        "observedConnectivity": "six graphite centers form one closed six-membered ring; two rose centers attach separately to adjacent left ring carbons; the right ring carbon joins two successive graphite side-chain centers and the terminal side-chain carbon joins one blue nitrogen center",
+        "outerBackgroundBandWidthPx": 32,
+        "outerBackgroundDarkPixelCountBelowLuma128": 0,
+        "outerBackgroundMinRgb": [238, 244, 251],
+        "foregroundBoundsAtLumaBelow220": {"minX": 149, "minY": 263, "maxX": 1376, "maxY": 730},
+        "sourceEdgeContact": false,
+        "containRequired": false,
+        "cropNote": "The complete model remains inside the mathematical centered 1200 by 630 cover source window, y=109–914, so centered cover preserves every sphere and connector.",
+        "prohibitedContentReview": "No hydrogen, text, label, letter, number, atom symbol, charge symbol, arrow, legend, chart, organ, cell, microorganism, food, pill, vial, glassware, detached fragment, duplicate model, aromatic circle glyph, metal ion, decorative particle, border, vignette, clipping, signature, or watermark is visible.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Single heavy-atom connectivity model of dopamine with eight carbon, two oxygen, and one nitrogen center.",
+      "proposedCaption": "Heavy-atom connectivity orientation for neutral dopamine. Hydrogens, protonation state under physiological conditions, measured conformation, formulation, concentration, receptor binding, signaling, treatment, and disease claims are intentionally omitted; this is an educational reconstruction.",
+      "proposedDescription": "WikiBiome chemical-identity teaching reconstruction of one neutral dopamine heavy-atom model on a pale cool field.",
+      "proposedProvenance": "Generated once from the immutable Batch 121 prompt after PubChem identity and connectivity review; review-only trained-algorithmic reconstruction."
+    }
+  ]
+}

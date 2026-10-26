@@ -1,0 +1,66 @@
+# WikiBiome scientific media authority audit — mechanisms Batch 074
+
+Date: 2026-09-07  
+Authorized parent: `b631ddd737830fe0eab9eef54d55eca75fc2252d`
+
+## Batch decision
+
+The deterministic queue is `horizontal-gene-transfer`, `hmos`, `hydrogen-sulfide`, `hydrogenase`, `hyperaccumulator`, and `hyperandrogenism`. All six routes fail closed as temporary, asset-free scientific-media holds. Their current articles contain material identity, scope, citation, or causal conflicts that would make even a neutral illustration carry unreliable public metadata. This batch therefore contains no marked generation prompt, no image-generation call, no raster candidate, and no substitute route.
+
+| Route | Decision | Principal boundary |
+|---|---|---|
+| `horizontal-gene-transfer` | Scientific-media hold | Separate horizontal transfer processes from mobile elements and evidence-grade metal/antibiotic co-selection before depicting a transfer event. |
+| `hmos` | Scientific-media hold | Correct obsolete formula claims, absolute digestibility and exclusivity language, and clinical causal claims before depicting an HMO family. |
+| `hydrogen-sulfide` | Scientific-media hold | Bound chemical speciation, microbial sources, concentration/context dependence, and disease extrapolation before depicting sulfide biology. |
+| `hydrogenase` | Scientific-media hold | Reconcile the generic enzyme-family title with its pathogen-focused [NiFe] scope and remove unsupported substrate, virulence, nickel, and treatment extrapolations. |
+| `hyperaccumulator` | Scientific-media hold | Replace the nonstandard definition and remove ordinary food crops incorrectly presented as botanical hyperaccumulators. |
+| `hyperandrogenism` | Scientific-media hold | Remove the false zinc-dependent-aromatase mechanism and evidence-grade microbiome, metal, and treatment claims before depicting an endocrine context. |
+
+## Route audits
+
+### `horizontal-gene-transfer`
+
+- Identity: NLM MeSH `D022761` identifies Gene Transfer, Horizontal. The article title additionally claims Mobile Genetic Elements, which are vehicles or genetic entities and are not synonymous with the transfer process. Integrons capture and express cassettes but are not independently mobile; mobility depends on associated transposons or plasmids.
+- Conflict: the article promotes HGT to the primary mechanism for all antimicrobial- and metal-resistance spread; states that selection of one linked determinant automatically selects both; labels Tn21 the canonical vehicle and `intI1` the single most important marker present at elevated levels in all metal-contaminated environments; and turns one diet comparison into an intervention claim. Current reviews instead describe environment-, element-, taxon-, concentration-, linkage-, and MGE-dependent evidence, with many molecular co-selection mechanisms incompletely defined or quantified.
+- Required resolution: split or explicitly bound the HGT and MGE scopes; distinguish conjugation, transformation, and transduction; distinguish integron cassette capture from independent mobility; replace universal and automatic language with study-bounded evidence; source the biofilm section; and state that the 2025 high-fat/low-fibre comparison was small and observational/comparative rather than proof that dietary intervention controls HGT.
+- Authorities: https://meshb.nlm.nih.gov/record/ui?ui=D022761 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC11253441/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC4438328/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC103744/ ; https://www.nature.com/articles/s41522-025-00799-3
+
+### `hmos`
+
+- Identity: no exact 2026 MeSH descriptor was identified for the heterogeneous Human Milk Oligosaccharides family. Related NLM MeSH `D009844` Oligosaccharides is general or unspecified, `D008895` Milk, Human is the matrix, and supplementary concept `C031420` identifies only 2'-fucosyllactose. None is an exact identifier for the family.
+- Conflict: the overview says the infant cannot digest HMOs and that their sole purpose is feeding the microbiome, while reviews describe limited exceptions and direct epithelial, immune, anti-adhesive, and other activities. The page says formula lacks HMOs entirely while current formula products and trials use one- and multi-HMO blends. It presents prevention of Bifidobacterium establishment, unopposed Proteobacteria colonization, elimination of decoy and immune effects, 60–90% dominance, and a 6–10-fold NEC risk reduction as general consequences without adequate product-, gestational-age-, structure-, or clinical-evidence boundaries. The current 2026 Chapman study establishes HMO metabolism and cell/organoid findings for specified preterm-infant isolates; it does not establish a probiotic treatment or population-level NEC prevention.
+- Required resolution: define the family and structural heterogeneity; use “largely indigestible” with the known exception boundary; replace teleology; update formula history and current supplementation; separate mechanistic, observational, in-vitro, organoid, and randomized evidence; remove absolute microbiome and NEC claims; and bound the Chapman findings to strains, HMOs, assays, and models studied.
+- Authorities: https://meshb.nlm.nih.gov/record/ui?ui=D009844 ; https://meshb.nlm.nih.gov/record/ui?ui=D008895 ; https://meshb.nlm.nih.gov/record/ui?name=2%27-Fucosyllactose ; https://pmc.ncbi.nlm.nih.gov/articles/PMC9304252/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC10026937/ ; https://www.bfr.bund.de/cm/349/scientific-evidence-for-health-benefits-of-infant-formula-and-follow-on-formula-with-human-identical-milk-oligosaccharides-and-or-galactooligosaccharides-is-insufficient.pdf ; https://doi.org/10.1038/s41564-026-02297-4
+
+### `hydrogen-sulfide`
+
+- Identity: NLM MeSH `D006862` and ChEBI `CHEBI:16136` identify neutral hydrogen sulfide; ChEBI `CHEBI:29919` identifies its hydrosulfide conjugate base. An aqueous or intestinal “H2S” discussion must state the pH-dependent H2S/HS− speciation boundary rather than treating all sulfide as one neutral gas.
+- Conflict: the page makes sulfate-reducing bacteria, particularly *Desulfovibrio*, the primary microbial source despite evidence that cysteine catabolism is widespread and can dominate. It attributes colonocyte toxicity and cancer claims to a ketogenic-diet protocol; attributes a combined high-fat/metal amplification claim beyond the cited study; generalizes low-versus-high concentration effects without chemical, tissue, dose, delivery, or redox context; and treats metal-sulfide precipitation as gut detoxification. The Lei study used specified human stromal-cell assays, 100–500 µM NaHS, pathway inhibitors, and a rodent model; it does not establish unrestricted lesion growth or a clinical treatment.
+- Required resolution: separate neutral H2S, HS−, total sulfide, donors, and endogenous production; describe sulfate reduction, cysteine/methionine degradation, taurine and other routes; replace the protocol citation with primary evidence; remove unsupported diet/metal amplification; evidence-grade tissue- and dose-specific host effects; and bound Lei 2018 to its in-vitro and rodent endpoints.
+- Authorities: https://meshb.nlm.nih.gov/record/ui?ui=D006862 ; https://www.ebi.ac.uk/chebi/CHEBI%3A14414 ; https://pubmed.ncbi.nlm.nih.gov/28766244/ ; https://pubmed.ncbi.nlm.nih.gov/30461448/ ; https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2021.705583/full ; https://journals.physiology.org/doi/full/10.1152/ajpgi.00261.2020 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC6325523/
+
+### `hydrogenase`
+
+- Identity: NLM MeSH `D006864` is Ferredoxin Hydrogenase / EC 1.12.7.2 and does not exactly identify the page's full [NiFe], [FeFe], and [Fe] family plus pathogen-virulence scope. Modern sequence classification contains numerous [NiFe] and [FeFe] functional groups; a single generic enzyme portrait would be misleading.
+- Conflict: the article's generic title is followed by a [NiFe]-pathogen thesis and numerous unsupported or overextended assertions: universal saturation in host niches; nickel as the rate-limiting factor; a dietary-nickel-to-CagA-to-cancer chain; nickel-free-diet benefit through hydrogenase depletion; “100% avirulent” wording; extrapolation from *S. Typhimurium* to *S. Typhi*; UPEC and NEC claims; a bacterial nickel-allocation “triage decision”; and a dual-target therapeutic implication. The cited *H. pylori* study reported impaired CagA translocation and lower inflammation for a deletion mutant, not the entire clinical chain asserted by the page.
+- Source integrity: the page stores four source keys with a `.md` suffix, unlike canonical source identifiers, and its Key Sources section lists only one internal synthesis. This must be reconciled before media provenance can be frozen.
+- Required resolution: decide between a general hydrogenase-family page and a bounded [NiFe] pathogen page; normalize source keys; map claims to primary studies by organism, mutant, host model, enzyme group, substrate conditions, and endpoint; remove unsupported human/dietary causation and treatment language; and replace the saturation table with verified measurements or remove it.
+- Authorities: https://meshb.nlm.nih.gov/record/ui?ui=D006864 ; https://pubmed.ncbi.nlm.nih.gov/11524134/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC4817680/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC5037454/ ; https://doi.org/10.3390/inorganics7070080 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC4992972/
+
+### `hyperaccumulator`
+
+- Identity: no exact NLM MeSH descriptor was identified for “hyperaccumulator plant.” This is a botanical trait category with element-specific concentration thresholds, natural-habitat and whole-life-cycle criteria, and hypertolerance context; related phytoremediation terminology is not an exact identity.
+- Conflict: the page defines the trait only as 10–100× a comparator and then labels cocoa, nuts, legumes, grains, spinach, rice, wheat, leafy greens, and root vegetables as hyperaccumulators or hyperaccumulating food plants. Current botanical reviews use element-specific shoot dry-mass thresholds and explicitly warn against assigning the term to ordinary crops based on high concentration, bioaccumulation factors, or hydroponic experiments; reviews report no domesticated crop meeting the stringent full-lifecycle definition. The page also presents an unsupported linear causal chain from a food plant through gut metals and pathogens to disease.
+- Required resolution: replace the definition with element-specific accepted thresholds and ecological criteria; distinguish true hyperaccumulator species from food crops that may accumulate contaminants; remove or reclassify the listed foods; separate phytoextraction from dietary exposure; and remove the causal microbiome-disease chain unless supported at each step.
+- Authorities: https://pmc.ncbi.nlm.nih.gov/articles/PMC11221517/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC4510833/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC6359332/ ; https://pubmed.ncbi.nlm.nih.gov/17766822/
+
+### `hyperandrogenism`
+
+- Identity: NLM MeSH `D017588` identifies Hyperandrogenism. The present article, however, largely substitutes a proposed PCOS microbiome/metals mechanism for the broader clinical and biochemical condition.
+- Conflict: the page falsely states that aromatase CYP19A1 is zinc-dependent and builds a “single most important” zinc–cadmium–aromatase mechanism on that error. Reviewed human aromatase is a cytochrome P450 heme enzyme; UniProt identifies heme and iron at the active site, not zinc. The trace-element source is also stored with the unrelated DOI `10.1111/ijlh.13883`; the actual 2025 Metabolites paper is DOI `10.3390/metabo15020079` and reports limited case-control associations, chiefly molybdenum and copper, not the page's mechanistic table. Microbiome studies are heterogeneous, often small, mostly observational/16S-based, and do not establish that the microbiome sits at the center of hyperandrogenism or that improving diversity/butyrate breaks the cycle. The page further raises cadmium chelation without clinical evidence.
+- Required resolution: remove the zinc-cofactor and cadmium-depletion chain; correct the Srnovršnik DOI and author spelling/key; rebuild the trace-element section from the actual outcomes; distinguish hyperandrogenism from PCOS; evidence-grade microbiome associations and confounding; remove unsupported therapeutic and endometriosis claims; and use clinical guidance for prevalence, manifestations, differential diagnosis, and management scope.
+- Authorities: https://meshb.nlm.nih.gov/record/ui?ui=D017588 ; https://www.uniprot.org/uniprotkb/P11511/entry ; https://doi.org/10.3390/metabo15020079 ; https://pubmed.ncbi.nlm.nih.gov/37208218/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC10413517/
+
+## Hold boundary
+
+No text in this packet is a generation prompt. No `PROMPT ... START/END` marker is present. The six routes receive zero built-in image-generation calls and remain without public media ownership, master, derivative, endpoint, Schema.org `ImageObject`, social image, or image-sitemap entry. A route may re-enter the queue only after the named editorial corrections are committed and an independent authority audit clears a narrow, non-diagnostic representation.

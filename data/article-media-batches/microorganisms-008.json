@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "batchId": "microorganisms-008",
+  "category": "microorganisms",
+  "createdOn": "2026-09-01",
+  "status": "reviewed",
+  "reviewedOn": "2026-09-01",
+  "generator": "OpenAI built-in image generation operated by the WikiBiome control task",
+  "promptRecord": "docs/operations/media-prompts/microorganisms-008-control-handoff.md",
+  "reviewStandard": "The WikiBiome control task supplied literal prompt provenance, generated-original identifiers, SHA-256-verifiable draft files, and human original-resolution audits for all accepted and rejected outputs. Prompt counts are not evidence. Only the six control-accepted outputs are eligible for deterministic processing; Borrelia revision 1 and Brucella revisions 1 and 2 remain rejected review evidence. Publication requires exact-file, embedded-metadata, approved-review-log, accessibility, identifier, registry, search, and corpus gates.",
+  "routeDecisionCount": 6,
+  "candidateCount": 6,
+  "scientificHoldCount": 0,
+  "generationCallCount": 9,
+  "revisionCount": 3,
+  "assets": [
+    {
+      "pageId": "bifidobacterium-longum",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-008/bifidobacterium-longum-draft.png",
+      "generationRecord": "exec-63d11b32-44d2-4e2b-9dc8-eda47e87e3e8.png",
+      "sha256": "0b4b3e2feff08ea7220a5179e5306c02ed86b7bd400975faa84088067300f255",
+      "controlledIdentifier": "NCBITaxon:216816",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=216816&mode=Info",
+        "https://bacdive.dsmz.de/strain/1709"
+      ],
+      "scientificFinding": "NCBI Taxonomy records Bifidobacterium longum as current species NCBITaxon:216816. The control handoff authorizes a representative, non-diagnostic rod-level reconstruction and does not claim that this plate visually distinguishes a subspecies or diagnoses the taxon.",
+      "visualReview": "Exactly seven cellular bodies appear in six separated groupings: five singles and one touching two-cell pair. One single has a shallow bifid end; the remaining bodies are gently curved or clubbed rods. No labels, appendages, spores, host material, clipping, or watermark are visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control task human original-resolution audit",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Seven bodies in six groupings: five single curved or clubbed rods and one touching two-cell pair; one single has a shallow bifid end.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Seven Bifidobacterium longum bodies appear in six groupings: five single curved or clubbed rods and one touching pair, with one shallow bifid end.",
+      "proposedCaption": "Representative non-diagnostic Bifidobacterium longum rod-level morphology, shown as seven bodies in six groupings. This reconstruction is not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of seven Bifidobacterium longum bodies with restrained curved, clubbed, paired, and shallow-bifid rod forms."
+    },
+    {
+      "pageId": "bifidobacterium-longum-subsp-infantis",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-008/bifidobacterium-longum-subsp-infantis-draft.png",
+      "generationRecord": "exec-0748efcb-8e6d-49c2-9b3e-0a47db04e51b.png",
+      "sha256": "5b7c630d4ab3acafbe652255001ca788ec694557ec139417e10ad251bf8c3004",
+      "controlledIdentifier": "NCBITaxon:1682",
+      "excludedIdentityReferences": [
+        {
+          "identifier": "NCBITaxon:35624",
+          "reason": "Strain-level record; it is not the controlled identity for the canonical subspecies subject."
+        }
+      ],
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1682&mode=Info",
+        "https://bacdive.dsmz.de/strain/1743"
+      ],
+      "scientificFinding": "NCBI Taxonomy records Bifidobacterium longum subsp. infantis as current subspecies NCBITaxon:1682. The control handoff authorizes a representative rod-level plate and explicitly states that the subspecies cannot be distinguished from other B. longum solely by this reconstruction. Strain record NCBITaxon:35624 is excluded as an identity reference.",
+      "visualReview": "Exactly eight cellular bodies appear in six separated groupings: four singles and two touching two-cell pairs. Straight and gently curved rods show mild clubbing without bifid emphasis. No labels, appendages, spores, host material, clipping, or watermark are visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control task human original-resolution audit",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Eight bodies in six groupings: four single straight or gently curved rods and two touching two-cell pairs, with mild clubbing and no bifid emphasis.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Eight Bifidobacterium longum subsp. infantis rods appear in six groupings: four singles and two touching pairs, with straight, curved, and mildly clubbed forms.",
+      "proposedCaption": "Representative Bifidobacterium longum subsp. infantis rod-level morphology, shown as eight bodies in six groupings. The subspecies is not visually diagnostic from this reconstruction, which is not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of eight Bifidobacterium longum subsp. infantis rod bodies in four single and two paired arrangements, without a taxon-diagnostic morphology claim."
+    },
+    {
+      "pageId": "bilophila",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-008/bilophila-draft.png",
+      "generationRecord": "exec-ddf5a379-c353-461b-9756-a76c4641f436.png",
+      "sha256": "b416c4938d6ac784337f216962d137b67eeffca9f5706a7e8ce7e04853e5e8b8",
+      "controlledIdentifier": "NCBITaxon:35832",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=35832&mode=Info",
+        "https://pubmed.ncbi.nlm.nih.gov/2636263/"
+      ],
+      "scientificFinding": "NCBI Taxonomy records Bilophila as current genus NCBITaxon:35832. The control handoff authorizes a conservative, representative, non-diagnostic plate of short pleomorphic rod and coccobacillary forms.",
+      "visualReview": "Exactly eight cellular bodies appear in seven separated groupings: six singles and one touching two-cell pair. The bodies are short pleomorphic rods or coccobacillary rods with modest length and curvature variation. No labels, appendages, spores, host material, clipping, or watermark are visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control task human original-resolution audit",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Eight short pleomorphic rod or coccobacillary bodies in seven groupings: six singles and one touching two-cell pair.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Eight short pleomorphic Bilophila rods appear in seven groupings: six single coccobacillary or slightly curved rods and one touching pair.",
+      "proposedCaption": "Representative Bilophila short-rod morphology, shown as eight bodies in seven groupings. This genus-level reconstruction is non-diagnostic and is not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of eight Bilophila bodies spanning short rod and coccobacillary forms with modest length and curvature variation."
+    },
+    {
+      "pageId": "blautia",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-008/blautia-draft.png",
+      "generationRecord": "exec-b1a90dcf-b7bc-495f-b629-afb64e4f9ddd.png",
+      "sha256": "23584aafef2b792da232d2e14c26109df46b0e045fc02fcb7569f1ab70f0dc51",
+      "controlledIdentifier": "NCBITaxon:572511",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=572511&mode=Info",
+        "https://pubmed.ncbi.nlm.nih.gov/18676476/",
+        "https://pubmed.ncbi.nlm.nih.gov/27923606/"
+      ],
+      "scientificFinding": "NCBI Taxonomy records Blautia as current genus NCBITaxon:572511. The control handoff authorizes a conservative genus-level reconstruction using selected oval and short-coccoid bodies in paired and short-chain groupings without claiming diagnostic or exhaustive genus morphology.",
+      "visualReview": "Exactly ten cellular bodies appear in four separated groupings: two touching two-cell pairs and two three-cell chains. The bodies are oval or short-coccoid forms rather than perfect spheres. No labels, appendages, spores, host material, clipping, or watermark are visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control task human original-resolution audit",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Ten oval or short-coccoid bodies in four groupings: two touching pairs and two three-cell chains; no body is a perfect sphere.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Ten oval or short-coccoid Blautia bodies appear in four groupings: two touching pairs and two gently curved three-cell chains.",
+      "proposedCaption": "Selected Blautia ovoid and short-coccoid forms, shown as ten bodies in four paired or short-chain groupings. This genus-level reconstruction is non-diagnostic and is not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of ten Blautia bodies in two pairs and two three-cell chains, using conservative oval and short-coccoid forms."
+    },
+    {
+      "pageId": "borrelia",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-008/borrelia-draft-v2.png",
+      "generationRecord": "exec-2834242e-d78d-4a2f-a4e4-08d201943396.png",
+      "sha256": "b65743678f28af20204ff046db9ad4e3fed6fc3ce9392d556092906d4d3cf69b",
+      "controlledIdentifier": "NCBITaxon:138",
+      "revisionLinkage": {
+        "replacesDraft": "work/media-drafts/microorganisms-batch-008/borrelia-draft.png",
+        "replacementReason": "Control rejected revision 1 because five nearly parallel bodies repeated uniform sine-wave geometry; revision 2 uses independent positions, axes, lengths, and broad irregular waves."
+      },
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=138&mode=Info",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2620816/"
+      ],
+      "scientificFinding": "NCBI Taxonomy records Borrelia as current genus NCBITaxon:138. The control handoff authorizes revision 2 only: a conservative genus-level static reconstruction of separate flexible spirochete bodies with broad, loose irregular waves rather than a repeated decorative pattern or tight corkscrew geometry.",
+      "visualReview": "Exactly five fully separated cellular bodies appear at different positions, lengths, axes, and amplitudes. Each follows a loose irregular path with three to six broad undulations and no tight corkscrew geometry. No labels, external flagella, host material, clipping, or watermark are visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control task human original-resolution audit",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Five fully separated slender spirochete bodies with distinct lengths, axes, amplitudes, and three to six broad irregular undulations; no tight corkscrews.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Five separate Borrelia spirochete bodies follow distinct loose, irregular wave paths with varied lengths, axes, amplitudes, and three to six broad undulations.",
+      "proposedCaption": "Representative Borrelia spirochete geometry, shown as five separate bodies with broad, irregular waves. This genus-level reconstruction is non-diagnostic and is not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of five independently arranged Borrelia spirochete bodies with restrained broad-wave geometry and no external appendages."
+    },
+    {
+      "pageId": "brucella",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-008/brucella-draft-v3.png",
+      "generationRecord": "exec-e37a7ff4-99b9-4f70-859f-a70582a50711.png",
+      "sha256": "6f5d26f784cc9b7ec6067ce868d8d88cab1f2d08b1b581f196a0386d2117f883",
+      "controlledIdentifier": "NCBITaxon:234",
+      "revisionLinkage": {
+        "replacesDrafts": [
+          "work/media-drafts/microorganisms-batch-008/brucella-draft.png",
+          "work/media-drafts/microorganisms-batch-008/brucella-draft-v2.png"
+        ],
+        "replacementReason": "Control rejected revisions 1 and 2 for prompt/output count mismatches. Revision 3 is the first output whose human audit and count-bearing metadata reconcile exactly."
+      },
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=234&mode=Info",
+        "https://www.ncbi.nlm.nih.gov/books/NBK8572/"
+      ],
+      "scientificFinding": "NCBI Taxonomy records Brucella as current genus NCBITaxon:234. The control handoff authorizes revision 3 only: a conservative, representative, non-diagnostic plate of small plump coccobacillary bodies that are visibly longer than wide rather than full cocci or long rods.",
+      "visualReview": "Exactly eight cellular bodies appear in six separated groupings: four singles and two touching two-cell pairs. All are plump oval-to-very-short rods that are visibly longer than wide. No labels, flagella, spores, host material, clipping, or watermark are visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control task human original-resolution audit",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Eight plump oval-to-very-short coccobacillary bodies in six groupings: four singles and two touching two-cell pairs; every body is longer than wide.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Eight plump Brucella coccobacillary bodies appear in six groupings: four singles and two touching pairs, each oval to very short and longer than wide.",
+      "proposedCaption": "Representative Brucella coccobacillary morphology, shown as eight bodies in six single or paired groupings. This genus-level reconstruction is non-diagnostic and is not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of eight Brucella bodies in four single and two paired arrangements, using restrained oval-to-very-short rod geometry."
+    }
+  ],
+  "rejectedVariants": [
+    {
+      "pageId": "borrelia",
+      "draft": "work/media-drafts/microorganisms-batch-008/borrelia-draft.png",
+      "generationRecord": "exec-465acfaf-6510-4c1d-a68b-661f925bd6e0.png",
+      "sha256": "d2eadca0be1a8360a22094fce6f9472e6d9532e967a917a65f3f44c8e3bfd30c",
+      "disposition": "revise",
+      "reason": "Five complete bodies were aligned in near-parallel rows with repeated sine-wave geometry, producing an overly uniform decorative treatment.",
+      "supersededBy": "work/media-drafts/microorganisms-batch-008/borrelia-draft-v2.png"
+    },
+    {
+      "pageId": "brucella",
+      "draft": "work/media-drafts/microorganisms-batch-008/brucella-draft.png",
+      "generationRecord": "exec-17e2518b-e289-4486-87cf-ef92f0e2e0f8.png",
+      "sha256": "b86774b34a02c8547181e5de639edc96f3a6b3536cc0be1314056ecdfc2fe611",
+      "disposition": "revise",
+      "reason": "Human audit found fourteen bodies in ten groupings, not the prompt-requested twelve bodies in eight groupings.",
+      "supersededBy": "work/media-drafts/microorganisms-batch-008/brucella-draft-v2.png"
+    },
+    {
+      "pageId": "brucella",
+      "draft": "work/media-drafts/microorganisms-batch-008/brucella-draft-v2.png",
+      "generationRecord": "exec-5907c4fb-c06a-411d-ab47-eefb93294b5e.png",
+      "sha256": "cc6d00bf310f5eafab2b776a2d01bee1c992b94477aefb743823a6f07509b217",
+      "disposition": "revise",
+      "reason": "Human audit found nine bodies in seven groupings, not the prompt-requested ten bodies in seven groupings.",
+      "supersededBy": "work/media-drafts/microorganisms-batch-008/brucella-draft-v3.png"
+    }
+  ]
+}

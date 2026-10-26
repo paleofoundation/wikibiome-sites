@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "batchId": "microorganisms-015",
+  "category": "microorganisms",
+  "createdOn": "2026-09-01",
+  "status": "reviewed",
+  "reviewedOn": "2026-09-01",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/microorganisms-015.md",
+  "reviewStandard": "Current identity, rank, and controlled identifiers were checked against NCBI Taxonomy and LPSN, with conservative appearance bounded by original descriptions, authoritative genus or family treatments, and referenced type-strain records. All six routes are current and cleared; no scientific hold or route substitution was needed. Exactly one built-in generation call was made for each route using its immutable passive prompt, and no retry or revision call was made. Every copied PNG was inspected at its original 1536 by 1024 resolution, and visible bodies, groupings, pairs, loose arrangements, and chains were reconciled without trusting prompt counts. WikiBiome control accepted all six exact v1 originals for promotion with the literal audited counts preserved. Enterobacteriaceae remains explicitly a representative bacillary family-level reconstruction, not a universal family morphology. The Eggerthella evidence record distinguishes NCBI Taxonomy's retained record and display/priority discrepancy from LPSN's nomenclatural authority and priority treatment rather than claiming false agreement.",
+  "routeDecisionCount": 6,
+  "candidateCount": 6,
+  "scientificHoldCount": 0,
+  "generationCallCount": 6,
+  "revisionCount": 0,
+  "assets": [
+    {
+      "pageId": "eggerthella",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-015/eggerthella-draft.png",
+      "generationRecord": "exec-823c4aa0-28a4-4a04-a61d-f9337c2a5f0d.png",
+      "sha256": "66060793895f232562cad09080fecc7c5b4bba75b482a4c4a121c199542c597b",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:84111",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=84111&mode=Info",
+        "https://lpsn.dsmz.de/genus/eggerthella",
+        "https://doi.org/10.1099/00207713-49-2-595",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3035228/"
+      ],
+      "scientificFinding": "NCBI Taxonomy retains current genus taxon NCBITaxon:84111, while its priority note and LPSN identify Eggerthella Wade et al. 1999 as the correct authority, with E. lenta as type species. Wade et al. 1999 has nomenclatural priority over the illegitimate Kageyama et al. 1999 homotypic synonym. Type-species evidence supports non-motile, non-sporulating rods occurring singly, in pairs, or chains. This plate is type-species-anchored, representative, non-exhaustive, and non-diagnostic.",
+      "visualReview": "Exactly ten rod bodies appear in seven separated groupings: five isolated singles, one touching two-body pair, and one short aligned three-body chain. This is one more single body and one more grouping than the prompt requested. All forms have gently rounded ends and ordinary individual boundaries. No coccus, branch, filament, long chain, appendage, spore, capsule, halo, shared envelope, biofilm, label, text, scale bar, host material, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Nine slender short rod bodies in six groupings: four isolated singles, one touching two-body pair, and one short aligned three-body chain.",
+        "observedSubjectDescription": "Ten rod bodies in seven groupings: five isolated singles, one touching two-body pair, and one short aligned three-body chain.",
+        "observedVisibleBodyCount": 10,
+        "observedSpatialGroupingCount": 7,
+        "observedSingleCount": 5,
+        "observedTouchingPairCount": 1,
+        "observedThreeBodyChainCount": 1,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Ten selected Eggerthella rods appear in seven groupings: five singles, one touching pair, and one short three-cell chain.",
+      "proposedCaption": "Selected type-species-anchored Eggerthella rod forms, shown as ten bodies in five single, one paired, and one short-chain grouping. This reconstruction is representative, non-diagnostic, and not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of ten selected Eggerthella rod bodies arranged as five singles, one touching pair, and one short aligned three-body chain on a pale cool field."
+    },
+    {
+      "pageId": "eggerthella-lenta",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-015/eggerthella-lenta-draft.png",
+      "generationRecord": "exec-49aa4f48-43b7-4d4e-b2a6-51946f34f3c4.png",
+      "sha256": "5f8f31f823a78d52eb746dba30adf7dfc43eeb1b23eeddff9a13385768d8b0b2",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:84112",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=84112&mode=Info",
+        "https://lpsn.dsmz.de/species/eggerthella-lenta",
+        "https://www.bacdive.dsmz.de/strain/3054",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3035228/"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Eggerthella lenta as current species NCBITaxon:84112 under the Wade et al. 1999 combination. Eubacterium lentum is a homotypic synonym, and the Kageyama et al. combination is illegitimate. Type-strain evidence supports non-motile, non-sporulating rods occurring singly, in pairs, or chains. This static plate is representative and non-diagnostic.",
+      "visualReview": "Exactly nine slender rod bodies appear in seven separated groupings: five isolated singles and two touching two-body pairs. This is one more single body and one more grouping than the prompt requested. All forms have gently rounded ends and ordinary individual boundaries. No coccus, branch, filament, long chain, appendage, spore, capsule, halo, shared envelope, biofilm, label, text, scale bar, host material, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Eight slender rod bodies in six groupings: four isolated singles and two touching two-body pairs.",
+        "observedSubjectDescription": "Nine slender rod bodies in seven groupings: five isolated singles and two touching two-body pairs.",
+        "observedVisibleBodyCount": 9,
+        "observedSpatialGroupingCount": 7,
+        "observedSingleCount": 5,
+        "observedTouchingPairCount": 2,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Nine selected Eggerthella lenta rods appear in seven groupings: five isolated singles and two touching pairs.",
+      "proposedCaption": "Representative Eggerthella lenta rod forms, shown as nine bodies in five single and two paired groupings. This reconstruction is non-diagnostic and not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of nine selected Eggerthella lenta rod bodies arranged as five singles and two touching pairs on a pale cool field."
+    },
+    {
+      "pageId": "enterobacter",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-015/enterobacter-draft.png",
+      "generationRecord": "exec-0fc016a6-c90e-41b3-90d9-ef781a513b5a.png",
+      "sha256": "116cf9d92287d316f2556e37a710af093f46c8bd5b404f69916144bb58284dbf",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:547",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=547&mode=Info",
+        "https://lpsn.dsmz.de/genus/enterobacter",
+        "https://doi.org/10.1099/0096266X-10-2-71",
+        "https://bacdive.dsmz.de/strain/4373"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Enterobacter as current conserved genus NCBITaxon:547, with E. cloacae as type species. Type-species and authoritative treatment support rod-shaped cells. This plate is type-species-anchored, representative, non-exhaustive, and non-diagnostic; flagella and capsules are omitted rather than generalized.",
+      "visualReview": "Exactly eight rod bodies appear in six separated groupings: four isolated singles and two touching two-body pairs, matching the requested count and grouping structure. Forms are straight to gently curved with rounded ends and ordinary individual boundaries. No full coccus, branch, filament, appendage, spore, capsule, halo, shared envelope, biofilm, label, text, scale bar, host material, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Eight straight-to-very-gently-curved rod bodies in six groupings: four isolated singles and two touching two-body pairs.",
+        "observedSubjectDescription": "Eight rod bodies in six groupings: four isolated singles and two touching two-body pairs.",
+        "observedVisibleBodyCount": 8,
+        "observedSpatialGroupingCount": 6,
+        "observedSingleCount": 4,
+        "observedTouchingPairCount": 2,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Eight selected Enterobacter rods appear in six groupings: four isolated singles and two touching pairs.",
+      "proposedCaption": "Selected type-species-anchored Enterobacter rod forms, shown as eight bodies in four single and two paired groupings. This reconstruction is representative, non-diagnostic, and not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of eight selected Enterobacter rod bodies arranged as four singles and two touching pairs on a pale cool field."
+    },
+    {
+      "pageId": "enterobacter-cloacae",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-015/enterobacter-cloacae-draft.png",
+      "generationRecord": "exec-0d8567e2-d090-4f60-b664-349cf8f35463.png",
+      "sha256": "545fbb5f18479bd34fb88d334cb49a9c1d06073eb228240c66d6d7652b8e63e6",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:550",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=550&mode=Info",
+        "https://lpsn.dsmz.de/species/enterobacter-cloacae",
+        "https://bacdive.dsmz.de/strain/4373",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3368419/"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Enterobacter cloacae as current species NCBITaxon:550 and the nomenclatural type of Enterobacter. The route represents the species rather than an undifferentiated E. cloacae complex label. Type-strain evidence supports rod-shaped cells. This static plate is representative and non-diagnostic and does not invent a species-level distinction from the genus plate.",
+      "visualReview": "Exactly seven straight rod bodies appear in six separated groupings: five isolated singles and one touching two-body pair, matching the requested count and grouping structure. Forms have rounded ends, fairly uniform proportions with slight natural variation, and ordinary individual boundaries. No full coccus, branch, filament, appendage, spore, capsule, halo, shared envelope, biofilm, label, text, scale bar, host material, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Seven straight rod bodies in six groupings: five isolated singles and one touching two-body pair.",
+        "observedSubjectDescription": "Seven straight rod bodies in six groupings: five isolated singles and one touching two-body pair.",
+        "observedVisibleBodyCount": 7,
+        "observedSpatialGroupingCount": 6,
+        "observedSingleCount": 5,
+        "observedTouchingPairCount": 1,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Seven selected Enterobacter cloacae rods appear in six groupings: five isolated singles and one touching pair.",
+      "proposedCaption": "Representative Enterobacter cloacae type-strain rod forms, shown as seven bodies in five single and one paired grouping. This reconstruction is non-diagnostic, does not distinguish the species visually from other Enterobacter, and is not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of seven selected Enterobacter cloacae rod bodies arranged as five singles and one touching pair on a pale cool field."
+    },
+    {
+      "pageId": "enterobacteriaceae",
+      "assetType": "microbial-community",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-015/enterobacteriaceae-draft.png",
+      "generationRecord": "exec-34661687-8f29-4a81-8f19-5b2c6b1bdc70.png",
+      "sha256": "093ed1f0621ca5bcd416254fd0fe47bcfc4beff58df78906f8ddfd66bdcb24bf",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:543",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=543&mode=Info",
+        "https://lpsn.dsmz.de/family/enterobacteriaceae",
+        "https://doi.org/10.1099/00207713-66-12-5575",
+        "https://doi.org/10.1099/00207713-33-4-892"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Enterobacteriaceae as current conserved family NCBITaxon:543, emended by Adeolu et al. 2016. Proposed replacement names are illegitimate synonyms. Authoritative family treatment supports a conservative selected plate of straight to short coccobacillary rods. This is explicitly a selected higher-taxon diversity reconstruction, not a universal family morphology and not diagnostic.",
+      "visualReview": "Exactly ten rod bodies appear in six separated spatial groupings: two isolated singles, three touching two-body pairs, and one loose two-rod arrangement. The body and grouping totals match the prompt, but one of the four requested touching pairs is instead a loose two-rod grouping. Selected forms include short coccobacillary and longer straight rods, each with its own ordinary boundary. No full coccus, branch, filament, appendage, spore, capsule, halo, shared outer envelope, sheath, biofilm, label, text, scale bar, host material, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Ten rod bodies in six groupings: two isolated singles and four touching two-body pairs, with selected short coccobacillary and longer straight forms.",
+        "observedSubjectDescription": "Ten rod bodies in six groupings: two isolated singles, three touching two-body pairs, and one loose two-rod arrangement, with selected short coccobacillary and longer straight forms.",
+        "observedVisibleBodyCount": 10,
+        "observedSpatialGroupingCount": 6,
+        "observedSingleCount": 2,
+        "observedTouchingPairCount": 3,
+        "observedLooseTwoBodyArrangementCount": 1,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Ten selected Enterobacteriaceae rods appear in six groupings: two singles, three touching pairs, and one loose two-rod arrangement spanning short and longer forms.",
+      "proposedCaption": "Selected Enterobacteriaceae rod diversity, shown as ten short coccobacillary or longer straight bodies in six groupings. This family-level reconstruction is representative, non-exhaustive, non-diagnostic, and not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific diversity reconstruction of ten selected Enterobacteriaceae rod bodies arranged as two singles, three touching pairs, and one loose two-rod grouping on a pale cool field."
+    },
+    {
+      "pageId": "enterococcus",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-015/enterococcus-draft.png",
+      "generationRecord": "exec-f4780ca0-2bce-4026-bb00-23d40ebe8c92.png",
+      "sha256": "35188c4cf97c53f99f2932abfbf91943b5cd502b97aced756222752e8d591e27",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:1350",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1350&mode=Info",
+        "https://lpsn.dsmz.de/genus/enterococcus",
+        "https://doi.org/10.1099/00207713-34-1-31",
+        "https://bacdive.dsmz.de/strain/5292",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3510518/"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Enterococcus as current genus NCBITaxon:1350, with E. faecalis as type species. Original, authoritative review, and type-strain evidence supports spherical-to-ovoid non-spore-forming cells occurring singly, in pairs, or short chains. This plate is type-species-anchored, representative, non-exhaustive, and non-diagnostic.",
+      "visualReview": "Exactly eleven spherical-to-ovoid bodies appear in seven separated groupings: four isolated singles, two touching two-body pairs, and one short aligned three-body chain. This is one more single body and one more grouping than the prompt requested. Every body retains its own ordinary boundary. No grape-like cluster, irregular pile, rod, branch, filament, appendage, spore, capsule, halo, shared envelope, biofilm, label, text, scale bar, host material, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Ten spherical-to-ovoid bodies in six groupings: three isolated singles, two touching two-body pairs, and one short aligned three-body chain.",
+        "observedSubjectDescription": "Eleven spherical-to-ovoid bodies in seven groupings: four isolated singles, two touching two-body pairs, and one short aligned three-body chain.",
+        "observedVisibleBodyCount": 11,
+        "observedSpatialGroupingCount": 7,
+        "observedSingleCount": 4,
+        "observedTouchingPairCount": 2,
+        "observedThreeBodyChainCount": 1,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Eleven selected Enterococcus spherical-to-ovoid bodies appear in seven groupings: four singles, two touching pairs, and one short three-cell chain.",
+      "proposedCaption": "Selected type-species-anchored Enterococcus spherical-to-ovoid forms, shown as eleven bodies in four single, two paired, and one short-chain grouping. This reconstruction is representative, non-diagnostic, and not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of eleven selected Enterococcus spherical-to-ovoid bodies arranged as four singles, two touching pairs, and one short aligned three-body chain on a pale cool field."
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "batchId": "interventions-106",
+  "category": "interventions",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "0fd69db83a93962b82f678cf6a92a93b694bb96b",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/interventions-106.md",
+  "reviewRecord": "docs/operations/media-reviews/interventions-106.md",
+  "publicationMetadataPlan": {
+    "reviewOnly": false,
+    "creator": "OpenAI built-in image generation",
+    "credit": "WikiBiome / Microbiome Medicine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "digitalSourceType": "trainedAlgorithmicMedia",
+    "mediaDescription": "Scientific algorithmic chemical-identity or strain-morphology reconstruction, not a source structure image, crystallographic conformer, photograph, micrograph, culture result, product image, assay result, treatment recommendation, or diagnostic image",
+    "sourceUse": "Controlled scientific records supplied exact identity and conservative representation boundaries only; no source image or design was copied."
+  },
+  "controlReviewRequired": false,
+  "initialAuditCommit": "ab3af5946f92b13f740f3682c64f6a5f348fb027",
+  "promptFreezeCommit": "3aa4842aca3a8adae1f126b39f01f1a629b5f253",
+  "controlAcceptedReviewManifestSha256": "1fa34f1b316cd3f46e244338ed050c368f8333228ba6fafb5e413b0287ab35b6",
+  "controlAcceptedPromptEvidenceSha256": "ecc9c1d6239c012243b1383e47d15ca84aba2c068527d51fa551df226904a4d9",
+  "controlFinalReview": {
+    "status": "accepted-one-exact-hash-one-quarantined-four-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "108a76fba961b044978ee2f91f18e30d2333a055",
+    "reviewer": "WikiBiome Control Tower native-resolution scientific and visual audit",
+    "approvedPageIds": [
+      "indole-3-carbinol-ovarian-cancer"
+    ],
+    "acceptedSourceSha256": [
+      "120cc8b326c6651f309aff5dbfba23b10161b6aab930b3b620cc339c9d16a3af"
+    ],
+    "nonPublishablePageIds": [
+      "iron-management",
+      "ketogenic-diet",
+      "ketogenic-diet-ms",
+      "l-rhamnosus-gg-early-life",
+      "lactoferrin-lgg-nec-prevention"
+    ]
+  },
+  "reviewStandard": "Only exact neutral indole-3-carbinol and current exact Lacticaseibacillus rhamnosus GG strain morphology are cleared for one immutable call each. The other four routes fail material, formulation, protocol, source, population, measurement, safety, or causal-interpretation gates and receive no prompt marker or generation call.",
+  "routeDecisionCount": 6,
+  "candidateCount": 2,
+  "scientificHoldCount": 4,
+  "generationCallCount": 2,
+  "reviewableGenerationCount": 1,
+  "failedGenerationCount": 1,
+  "quarantinedGenerationCount": 1,
+  "revisionCount": 0,
+  "promotionRule": "Only source SHA-256 120cc8b326c6651f309aff5dbfba23b10161b6aab930b3b620cc339c9d16a3af may be promoted to a metadata-bearing lossless master, article WebP, and centered contain-mode 1200 by 630 social WebP. Four routes remain scientific holds and the failed-count LGG source remains quarantined.",
+  "controlSocialCropReview": "accepted-one-centered-contain-derivative; native 1200 by 630 inspection preserves all eleven centers, the complete fused ring, every connector, and the carbon-to-oxygen side chain without clipping or label leakage",
+  "promotionDerivatives": {
+    "indole-3-carbinol-ovarian-cancer": {
+      "masterSha256": "19d4cc5a5090d5121b5df41c4ba901a31e28edf9a8ac230b1cdc30932a42d875",
+      "articleSha256": "dd728dc35a5e14837f8e70b663b9ed6ae509da2315a8c68aa49602785d862f76",
+      "socialSha256": "e1c7782fdd9c7295b59d871525f865a8bef1e7c6c3a7f9d273e3aed8b59ca216"
+    }
+  },
+  "routeDecisions": [
+    {
+      "pageId": "iron-management",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "WikiBiome:iron-management;multi-branch-clinical-management;zero-resolvable-sources",
+      "reason": "The zero-source route combines biomarkers, oral and intravenous products, restriction, disease-specific dosing, monitoring, contraindications, and safety decisions rather than one controlled intervention.",
+      "requiredResolution": "Choose one intervention branch, exact product and formulation, route, dose and schedule, indication and population, comparator, monitoring plan, specimen, assay, time point, endpoint, safety boundary, and direct evidence."
+    },
+    {
+      "pageId": "ketogenic-diet",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:ketogenic-diet;heterogeneous-whole-diet-protocol;zero-resolvable-sources",
+      "reason": "The zero-source route combines several diet variants, foods, macronutrient ratios, durations, populations, measurements, contraindications, adverse effects, microbes, and outcomes rather than one implementation.",
+      "requiredResolution": "Choose one ketogenic-diet variant, energy and macronutrient composition, foods or formulation, duration, population, comparator, adherence measure, specimen, assay, time point, endpoint, safety boundary, and direct evidence."
+    },
+    {
+      "pageId": "ketogenic-diet-ms",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:ketogenic-diet;MeSH:multiple-sclerosis;multi-phase-diet-condition-intervention",
+      "reason": "Three sources meet the count threshold but the route combines diet implementation, early and late microbial phases, food guidance, ketone targets, treatment context, contraindications, taxa, metabolites, and outcomes without one physical state.",
+      "requiredResolution": "Choose one implementation, measured phase and time point, population, comparator, adherence state, specimen, assay, endpoint, non-diagnostic visual subject, and directly linked evidence."
+    },
+    {
+      "pageId": "lactoferrin-lgg-nec-prevention",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "NCBITaxon:568703-plus-unspecified-lactoferrin-product;combination-intervention;zero-resolvable-sources",
+      "reason": "The zero-source route combines two biological agents, multiple origins, purities, formulations, viable counts, doses, schedules, preterm populations, feeding contexts, mechanisms, and outcomes without one product and protocol.",
+      "requiredResolution": "Choose exact lactoferrin source and product state, exact LGG culture and viable formulation, combination manufacturing, dose and schedule, population, feeding context, comparator, specimen, assay, time point, endpoint, and direct evidence."
+    }
+  ],
+  "assets": [
+    {
+      "pageId": "indole-3-carbinol-ovarian-cancer",
+      "displayName": "Neutral indole-3-carbinol",
+      "assetType": "intervention",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "generationStatus": "complete-single-call",
+      "draft": "work/media-drafts/interventions-batch-106/indole-3-carbinol-ovarian-cancer-draft.png",
+      "generationRecord": "exec-1b88d639-cafe-4fde-a68d-9b3856c7a7ec.png",
+      "rootReviewDisposition": "eligible",
+      "controlledIdentifier": "PubChem:3712;ChEBI:24814;InChIKey:IVYPNXXAYMYVSP-UHFFFAOYSA-N",
+      "promptSha256": "ea38055b5ba63b2f59c911e3d8d55e97eb1a0dfa941ff539f39fbae5cb98f3aa",
+      "sha256": "120cc8b326c6651f309aff5dbfba23b10161b6aab930b3b620cc339c9d16a3af",
+      "masterSha256": "19d4cc5a5090d5121b5df41c4ba901a31e28edf9a8ac230b1cdc30932a42d875",
+      "articleSha256": "dd728dc35a5e14837f8e70b663b9ed6ae509da2315a8c68aa49602785d862f76",
+      "socialSha256": "e1c7782fdd9c7295b59d871525f865a8bef1e7c6c3a7f9d273e3aed8b59ca216",
+      "fileSizeBytes": 1315334,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "scientificReferences": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/3712",
+        "https://www.ebi.ac.uk/chebi/CHEBI:24814"
+      ],
+      "proposedSocialResizeFit": "contain",
+      "visualReview": "One complete single connected heavy-atom model contains exactly eleven visible spheres: nine graphite carbon centers, one muted-blue nitrogen center, and one muted-rose oxygen center. The fused indole ring system and one carbon-to-oxygen hydroxymethyl side chain are fully visible and isolated.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome Control Tower native-resolution scientific and visual audit",
+        "reviewedOn": "2026-09-07",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "One complete isolated heavy-atom ball-and-stick model with a fused bicyclic ring and one short carbon-to-oxygen side chain.",
+        "observedModelCount": 1,
+        "observedHeavyAtomCenterCount": 11,
+        "observedCarbonContextCenterCount": 9,
+        "observedNitrogenContextCenterCount": 1,
+        "observedOxygenContextCenterCount": 1,
+        "observedDisconnectedFragmentCount": 0,
+        "alphaZeroPixelCount": 0,
+        "alphaIntermediatePixelCount": 0,
+        "alphaFullyOpaquePixelCount": 1572864,
+        "outerBandWidthPx": 32,
+        "outerBackgroundDarkPixelCountBelowLuma128": 0,
+        "subjectBoundsAtLuma235": {
+          "minX": 189,
+          "minY": 203,
+          "maxX": 1404,
+          "maxY": 812
+        },
+        "sourceEdgeContact": false,
+        "centered1200x630CropSafe": false,
+        "requiredSocialResizeFit": "contain",
+        "prohibitedContentReview": "PASS: no extra atom center, detached fragment, duplicate model, aromatic-circle glyph, text, atom symbol, charge glyph, arrow, legend, plant, vegetable, powder, capsule, bottle, organ, cell, disease, treatment scene, decorative particle, clipping, signature, or watermark is visible.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Single heavy-atom connectivity model of neutral indole-3-carbinol with nine carbon, one nitrogen, and one oxygen center.",
+      "proposedCaption": "Heavy-atom connectivity orientation for neutral indole-3-carbinol. Hydrogens, a measured conformation, crystal packing, DIM, cruciferous-food source, supplement formulation, dose, metabolism, EGFR or drug interactions, microbiome effects, ovarian protection, efficacy, safety, and clinical claims are intentionally omitted; this is an educational reconstruction.",
+      "proposedDescription": "WikiBiome chemical-identity teaching reconstruction of one neutral indole-3-carbinol heavy-atom model on a pale cool field.",
+      "proposedProvenance": "Generated once from the immutable Batch 106 prompt after PubChem and ChEBI identity and connectivity review; review-only trained-algorithmic reconstruction."
+    },
+    {
+      "pageId": "l-rhamnosus-gg-early-life",
+      "displayName": "Lacticaseibacillus rhamnosus GG",
+      "proposedAssetType": "morphology",
+      "revision": 1,
+      "decision": "rejected-after-output-audit",
+      "generationStatus": "quarantined-single-call",
+      "draft": "work/media-drafts/interventions-batch-106/l-rhamnosus-gg-early-life-draft.png",
+      "generationRecord": "exec-5980bc3b-29f7-49e8-9c0b-fe77d326ebbc.png",
+      "rootReviewDisposition": "ineligible",
+      "controlledIdentifier": "NCBITaxon:568703;GenBank:FM179322.1;ATCC:53103",
+      "promptSha256": "7e10b930b3fd7c7b2e07127074af601151b41a6ef11da96a50b63ff56af9426f",
+      "sha256": "bd34c704fba20f45c4339dc5057a78e30f634b1154a1958cdf1ccdc78626e73c",
+      "fileSizeBytes": 1231985,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=568703&mode=Info",
+        "https://www.ncbi.nlm.nih.gov/nuccore/FM179322.1",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2786603/",
+        "https://pubmed.ncbi.nlm.nih.gov/22247175/",
+        "https://pubmed.ncbi.nlm.nih.gov/22149133/"
+      ],
+      "proposedSocialResizeFit": "contain",
+      "visualReview": "Nine complete rods appear in seven separated groupings—five singles and two end-touching pairs—with pilus-like filaments on three isolated rods. The literal body and grouping counts exceed the frozen eight-body, six-grouping requirement.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome Control Tower native-resolution scientific and visual audit",
+        "reviewedOn": "2026-09-07",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Nine complete rounded rods in seven spatial groupings, including five singles and two pairs; three isolated rods bear sparse fine filaments.",
+        "observedRodBodyCount": 9,
+        "observedSpatialGroupingCount": 7,
+        "observedSingleRodGroupingCount": 5,
+        "observedTwoRodPairGroupingCount": 2,
+        "observedPilusBearingIsolatedRodCount": 3,
+        "alphaZeroPixelCount": 0,
+        "alphaIntermediatePixelCount": 0,
+        "alphaFullyOpaquePixelCount": 1572864,
+        "outerBandWidthPx": 32,
+        "outerBackgroundDarkPixelCountBelowLuma128": 0,
+        "subjectBoundsAtLuma235": {
+          "minX": 122,
+          "minY": 96,
+          "maxX": 1389,
+          "maxY": 912
+        },
+        "sourceEdgeContact": false,
+        "prohibitedContentReview": "PASS for prohibited classes: no label, scale bar, product, infant, organ, disease scene, flagellum, spore, branch, coccus, capsule halo, shared filament web, clipping, signature, or watermark is visible. FAIL for frozen count: nine bodies in seven groupings rather than eight bodies in six.",
+        "metadataConsistency": "failed-literal-count"
+      },
+      "quarantineReason": "Native inspection observed nine rods in seven groupings—five singles and two pairs—instead of the frozen eight rods in six groupings—four singles and two pairs. Prompt intent cannot substitute for literal output evidence.",
+      "proposedAlt": "Eight Lacticaseibacillus rhamnosus GG rod reconstructions in six groups, with restrained pili on three isolated rods.",
+      "proposedCaption": "Current-name strain-anchored morphology orientation for Lacticaseibacillus rhamnosus GG, shown as linear rods with simplified restrained SpaCBA pili. Morphology does not authenticate this strain or establish product identity, purity, viability, genome, dose, delivery, neonatal timing, colonization, immune effects, safety, probiotic efficacy, or type 1 diabetes prevention; this is an educational reconstruction, not a micrograph.",
+      "proposedDescription": "WikiBiome strain-anchored morphology teaching reconstruction of eight Lacticaseibacillus rhamnosus GG rods in six groupings on a pale cool field.",
+      "proposedProvenance": "Generated once from the immutable Batch 106 prompt after NCBI current strain identity, GenBank whole-genome, and direct pilus microscopy review; review-only trained-algorithmic reconstruction."
+    }
+  ]
+}

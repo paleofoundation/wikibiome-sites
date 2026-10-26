@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "batchId": "mechanisms-077",
+  "category": "mechanisms",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "5ed0e405c2700bd448cc152efb88dcbc7c6da761",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/mechanisms-077.md",
+  "reviewRecord": "docs/operations/media-reviews/mechanisms-077.md",
+  "controlReviewRequired": false,
+  "initialAuditCommit": "79f1cfc",
+  "reviewStandard": "The six queued routes failed the pre-generation identity, scope, source, assay, representation, evidence, or clinical-translation gate. They received no marked prompt, no built-in generation call, and no raster. Current controlled, regulatory, protein, clinical, and peer-reviewed records were checked against the generated article corpus; exact conflicts and the smallest editorial resolution are preserved in the audit and review packets. Zero hashes are eligible for promotion.",
+  "controlAcceptedReviewManifestSha256": "75b9a5f50b20e69625000e0627b2b01ce6ebbe1287f6f58e5a0d16eb7074f1dd",
+  "controlAcceptedPromptEvidenceSha256": "8b39e78c5a6e9a7b81c2646a76852b91af828a68f85fda2795db145ac3b722c4",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "7b7360bae8c838318ef705f9d44fe6256e3b96d8",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "infant-exposure",
+      "insulin-resistance",
+      "interleukin-6",
+      "intestinal-permeability",
+      "iron-sulfur-clusters",
+      "irving-williams-series"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 6,
+  "generationCallCount": 0,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "promotionRule": "No Batch 077 route is eligible for generation or promotion until its documented scientific, representation, and editorial conflicts are corrected and independently re-audited.",
+  "routeDecisions": [
+    {"pageId":"infant-exposure","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"WikiBiome:infant-exposure;no-exact-controlled-identifier","reason":"Heterogeneous prenatal, dietary, environmental, and iatrogenic exposures are collapsed into one infant phenotype and include unsafe prenatal-chelation framing.","requiredResolution":"Separate age, route, analyte/species, dose, product, geography, endpoint, and evidence; remove generalized chelation framing and reconcile overlapping routes."},
+    {"pageId":"insulin-resistance","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D007333","reason":"A measurable physiological state is dominated by PCOS and metal narratives and turns uncertain chromium biology, associations, and experimental interventions into general mechanisms and advice.","requiredResolution":"Rebuild around operational definitions and measurement; separate tissues and syndromes, association and causation, human and model evidence, and guideline-grounded care."},
+    {"pageId":"interleukin-6","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D015850;UniProt:P05231","reason":"The exact cytokine is identifiable, but classic, trans-, and cluster signaling, metal causality, disease mediation, biomarkers, supplementation, and treatment implications are overgeneralized.","requiredResolution":"Rebuild around exact protein and receptor identities, cell and tissue context, timing, signaling modes, and evidence-bounded disease examples."},
+    {"pageId":"intestinal-permeability","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D000095644","reason":"A broad physiological process becomes a universal disease gateway while serum zonulin and causal and treatment claims exceed assay and clinical evidence.","requiredResolution":"Define pathway, site, probe, and method; separate injury from permeability, remove universal causal chains, and distinguish research biomarkers from validated clinical tests and treatments."},
+    {"pageId":"iron-sulfur-clusters","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"related-MeSH:D007506;no-single-cluster-identifier","reason":"Diverse cofactors, proteins, organisms, compartments, assembly systems, and damage modes are collapsed into a universal toxic-metal mechanism with unsupported organism dependencies.","requiredResolution":"Specify cluster, protein, organism, compartment, assembly pathway, exposure, concentration, and evidence; remove universal damage and dependency claims."},
+    {"pageId":"irving-williams-series","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"named-chemistry-principle;no-exact-MeSH","reason":"A conditional affinity trend is presented as an exceptionless rule for all ligands, proteins, metals, cells, toxicants, and diseases.","requiredResolution":"Bound the chemical domain; distinguish thermodynamics, kinetics, buffered availability, transport, oxidation state, geometry, and cellular selectivity; handle non-series ions separately."}
+  ],
+  "assets": []
+}

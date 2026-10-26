@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "batchId": "clinical-cautions-116",
+  "category": "clinical-cautions",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "b473719ad14ab0b19711e77ae14e5fce4f2c5d19",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/clinical-cautions-116.md",
+  "reviewRecord": "docs/operations/media-reviews/clinical-cautions-116.md",
+  "publicationMetadataPlan": {
+    "reviewOnly": true,
+    "creator": "OpenAI built-in image generation",
+    "credit": "WikiBiome / Microbiome Medicine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "digitalSourceType": "trainedAlgorithmicMedia",
+    "mediaDescription": "No generated media; these iron-supplementation caution pages do not resolve formulation, route, deficiency or anemia state, disease phenotype, treatment protocol, or a non-prescriptive physical subject",
+    "sourceUse": "Current controlled records, clinical guidance, and local source-resolution evidence define asset-free scientific holds."
+  },
+  "controlReviewRequired": false,
+  "initialAuditCommit": "0900bcf0238d23564c34e6d1de14d9913fe86a8f",
+  "controlAcceptedReviewManifestSha256": "056c5660c0fb6a25e82c3ceeb24b1638f51fa6ae436cfc383ad2be15f321fc55",
+  "controlAcceptedPromptEvidenceSha256": "5e877ebbb859f4a24ad3ae73fbce0f14f0684efde523abc930a8cc12ec1d7d81",
+  "controlFinalReview": {
+    "status": "accepted-zero-call-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "9a37ca784a323ebefdc1d9748ce724fff3fa08e7",
+    "reviewer": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "stop-iron-supplementation-cardiovascular-disease",
+      "stop-iron-supplementation-colorectal-cancer",
+      "stop-iron-supplementation-crohns",
+      "stop-iron-supplementation-depression",
+      "stop-iron-supplementation-endometriosis",
+      "stop-iron-supplementation-graves"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
+  "reviewStandard": "Clinical-caution pages may not receive generic warning graphics, crossed-out tablets or infusions, disease anatomy used as evidence for a treatment recommendation, or elemental Iron media substituted for a clinical formulation. All six routes fail before prompt creation.",
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 6,
+  "generationCallCount": 0,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "promotionRule": "No Batch 116 source hash exists or is eligible for promotion. All six routes remain asset-free scientific holds. No generated source, master, derivative, registry record, endpoint, Schema object, social preview, or image-sitemap entry may be created from this batch.",
+  "routeDecisions": [
+    {
+      "pageId": "stop-iron-supplementation-cardiovascular-disease",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Iron-Dietary-MeSH:D019266;Iron-Deficiencies-MeSH:D000090463;Cardiovascular-Diseases-MeSH:D002318;cardiovascular-phenotype-anemia-route-formulation-and-guideline-scope-unresolved",
+      "reason": "Cardiovascular diseases comprise many heart and vascular conditions, while the page does not define heart-failure phenotype, ejection fraction, iron-deficiency criteria, anemia, formulation, oral versus intravenous route, elemental dose, timing, population, comparator, monitoring, or outcomes. Its microbiome sources do not establish a clinical iron-withholding protocol, and current heart-failure guidance supports intravenous iron for selected patients with reduced ejection fraction and iron deficiency. A heart, vessel, plaque, tablet, infusion, iron atom, or prohibition sign would imply a universal treatment rule.",
+      "requiredResolution": "Select the exact cardiovascular diagnosis and stage, iron-deficiency and anemia criteria, route, compound, formulation, elemental dose, schedule, duration, concurrent therapy, population, comparator, monitoring, functional and clinical outcomes, adverse events, and exceptions; reconcile the title to current specialty guidance before any media audit."
+    },
+    {
+      "pageId": "stop-iron-supplementation-colorectal-cancer",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Iron-Dietary-MeSH:D019266;Iron-Deficiencies-MeSH:D000090463;Colorectal-Neoplasms-MeSH:D015179;tumor-stage-blood-loss-perioperative-route-and-formulation-unresolved",
+      "reason": "The page's own disclaimer says iron-deficiency anemia often requires correction and distinguishes oral from intravenous delivery, but its four linked sources are microbiome or dietary-mechanism records rather than a clinical supplementation trial or perioperative guideline. Tumor site and stage, active bleeding, surgery timing, chemotherapy, deficiency and anemia criteria, formulation, route, elemental dose, population, monitoring, outcomes, and contraindications are unresolved. Colon, tumor, blood, tablet, infusion, bacterium, or prohibition imagery would convert a conditional clinical choice into a visual instruction.",
+      "requiredResolution": "Add current oncology and perioperative evidence; define colorectal site and stage, active tumor and bleeding state, planned surgery or therapy, iron-deficiency and anemia criteria, route, exact compound and formulation, elemental dose, timing, population, comparator, monitoring, transfusion and recovery outcomes, adverse events, and exceptions."
+    },
+    {
+      "pageId": "stop-iron-supplementation-crohns",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Iron-Dietary-MeSH:D019266;Iron-Deficiencies-MeSH:D000090463;Crohn-Disease-MeSH:D003424;disease-activity-bleeding-route-formulation-and-absorption-unresolved",
+      "reason": "The two linked sources describe metal dyshomeostasis and IBD biomarkers rather than a clinical iron-withholding trial. The route does not define Crohn phenotype or activity, bleeding, deficiency or anemia, inflammation, absorption, oral versus intravenous route, compound, elemental dose, response, tolerance, monitoring, or outcome. Current gastroenterology guidance recommends determining the cause of iron-deficiency anemia and uses intravenous iron when active inflammation compromises absorption. A bowel, lesion, tablet, infusion, iron atom, or crossed-out product could imply withholding indicated repletion.",
+      "requiredResolution": "Define Crohn phenotype and activity, bleeding and inflammation, deficiency and anemia criteria, route, exact compound and formulation, elemental dose, schedule, duration, absorption, tolerance, population, comparator, monitoring, outcomes, adverse events, escalation rules, and exceptions; reconcile the categorical title."
+    },
+    {
+      "pageId": "stop-iron-supplementation-depression",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Iron-Dietary-MeSH:D019266;Iron-Deficiencies-MeSH:D000090463;Major-Depressive-Disorder-MeSH:D003865;depression-phenotype-inflammatory-state-pregnancy-route-and-formulation-unresolved",
+      "reason": "The page explicitly exempts true deficiency, symptomatic anemia, blood loss, and pregnancy, but its six linked sources concern metal associations or toxicology rather than a trial of stopping iron in major depressive disorder. Depression phenotype, inflammatory state, deficiency and anemia criteria, pregnancy, blood loss, formulation, route, dose, population, comparator, concurrent treatment, monitoring, mood outcomes, and safety are unresolved. Brain, face, blood cell, tablet, infusion, iron atom, or prohibition imagery would be stigmatizing or imply a treatment rule that contradicts the page's own exceptions.",
+      "requiredResolution": "Add direct clinical evidence; define depressive diagnosis and phenotype, inflammation, iron deficiency and anemia, pregnancy and blood-loss status, route, compound, formulation, elemental dose, duration, concurrent treatment, population, comparator, laboratory and mood outcomes, adverse events, monitoring, and exceptions; identify a non-stigmatizing physical subject."
+    },
+    {
+      "pageId": "stop-iron-supplementation-endometriosis",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Iron-Dietary-MeSH:D019266;Iron-Deficiencies-MeSH:D000090463;Endometriosis-MeSH:D004715;single-conference-source-bleeding-deficiency-route-and-formulation-unresolved",
+      "reason": "The route relies on one conference record and does not establish a clinical iron-withholding protocol. Endometriosis phenotype and stage, menstrual or lesion-related blood loss, deficiency and anemia criteria, inflammation, pregnancy, formulation, route, elemental dose, population, comparator, monitoring, symptoms, quality-of-life outcomes, and safety are unresolved. Pelvic anatomy, lesions, blood, tablet, infusion, iron atom, or prohibition imagery would make a mechanistic hypothesis appear to override evaluation and treatment of anemia.",
+      "requiredResolution": "Add direct peer-reviewed clinical evidence and current gynecologic guidance; define endometriosis phenotype and stage, bleeding, iron deficiency and anemia, inflammation and pregnancy status, route, compound, formulation, elemental dose, duration, population, comparator, monitoring, symptoms, quality-of-life and safety outcomes, and exceptions."
+    },
+    {
+      "pageId": "stop-iron-supplementation-graves",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Iron-Dietary-MeSH:D019266;Iron-Deficiencies-MeSH:D000090463;Graves-Disease-MeSH:D006111;thyroid-state-anemia-route-formulation-and-treatment-context-unresolved",
+      "reason": "The three linked sources address iron homeostasis, microbiota, or thyroid-mineral associations rather than a clinical iron-withholding trial. Graves phenotype, thyroid hormone state, antithyroid or radioiodine therapy, pregnancy, deficiency and anemia criteria, bleeding or malabsorption, formulation, route, elemental dose, population, comparator, monitoring, thyroid and hematologic outcomes, and safety are unresolved. Thyroid, eye, blood cell, tablet, infusion, iron atom, or crossed-out product imagery would convert associative evidence into advice and duplicate the reviewed Graves disease image.",
+      "requiredResolution": "Add direct clinical evidence and current endocrine guidance; define Graves phenotype and thyroid state, concurrent therapy, pregnancy, iron deficiency and anemia, bleeding or absorption, route, compound, formulation, elemental dose, duration, population, comparator, monitoring, thyroid and hematologic outcomes, adverse events, and exceptions."
+    }
+  ],
+  "assets": []
+}

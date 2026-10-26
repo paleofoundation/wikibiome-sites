@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "batchId": "interventions-111",
+  "category": "interventions",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "42046a039432cedcba1bf3e5cf704e63f16265d6",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/interventions-111.md",
+  "reviewRecord": "docs/operations/media-reviews/interventions-111.md",
+  "publicationMetadataPlan": {
+    "reviewOnly": true,
+    "creator": "OpenAI built-in image generation",
+    "credit": "WikiBiome / Microbiome Medicine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "digitalSourceType": "trainedAlgorithmicMedia",
+    "mediaDescription": "Scientific algorithmic chemical-identity reconstruction, not a source structure image, crystallographic conformer, supplement product, assay result, treatment recommendation, or diagnostic image",
+    "sourceUse": "Controlled scientific records supplied exact identity and conservative representation boundaries only; no source image or design was copied."
+  },
+  "controlReviewRequired": false,
+  "initialAuditCommit": "aba8c1a",
+  "controlAcceptedReviewManifestSha256": "8bc1de5b5bad7119a1cf17d6fb557c8f649fdff6ee9aa91dcb3dfcfdb49b6ecb",
+  "controlAcceptedPromptEvidenceSha256": "bbeab65f5d36a891d6ef37a176c4c6e7b6b821138540bd1dc64123a5004633d4",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-five-scientific-holds-one-rejected-output",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "801abdbb2187b4c12d03780136d4a2a28f548e8c",
+    "reviewer": "WikiBiome Control Tower native-resolution scientific, visual, source-resolution, and editorial audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "probiotics-ppd",
+      "probiotics-with-ppi-gerd",
+      "quercetin",
+      "resveratrol",
+      "selenium-supplementation",
+      "selenium-supplementation-200mcg"
+    ]
+  },
+  "reviewStandard": "Only exact neutral quercetin is cleared for one immutable call. The other five routes fail strain, formulation, stereoisomer, source-resolution, evidence, protocol, population, measurement, safety, or canonical-media-ownership gates and receive no prompt marker or generation call.",
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 5,
+  "generationCallCount": 1,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 1,
+  "quarantinedGenerationCount": 1,
+  "revisionCount": 0,
+  "promotionRule": "No Batch 111 source hash is eligible for promotion. Five routes remain asset-free scientific holds, and the single generated quercetin source remains immutable non-public quarantine evidence. No master, derivative, registry record, endpoint, Schema object, social preview, or image-sitemap record may be created from this batch.",
+  "controlSocialCropReview": "not-applicable-zero-eligible-assets",
+  "promotionDerivatives": {},
+  "routeDecisions": [
+    {
+      "pageId": "probiotics-ppd",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Probiotics-MeSH:D019936;postpartum-depression-specific-product-and-protocol-unspecified;zero-resolvable-sources",
+      "reason": "The zero-source route lacks strain accessions, viable-count allocation, product, dose, postpartum timing, diagnostic criteria, comparator, assay, endpoint, safety state, and a non-stigmatizing visual subject.",
+      "requiredResolution": "Link direct evidence and select current taxon names, exact strain accessions and counts, product and lot, formulation, storage, dose, postpartum population and timing, diagnostic criteria, comparator, adherence, specimen, assay, time point, endpoint, non-stigmatizing scope, and safety exclusions."
+    },
+    {
+      "pageId": "probiotics-with-ppi-gerd",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Probiotics-MeSH:D019936;two-malformed-local-source-identifiers;probiotic-plus-PPI-protocol-unspecified",
+      "reason": "Both declared sources retain erroneous `.md` suffixes and fail normal resolution; the route also leaves strains, product composition, PPI regimen, GERD phenotype, population, dose, comparator, assay, endpoint, and safety state unresolved.",
+      "requiredResolution": "Correct both source identifiers, reconcile claims to direct evidence, and select exact strains and counts, product and lot, formulation, storage, PPI identity and regimen, GERD phenotype, population, dose, comparator, adherence, specimen, assay, time point, endpoint, and safety exclusions."
+    },
+    {
+      "pageId": "resveratrol",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Resveratrol-MeSH:D000077185;cis-versus-trans-identity-unresolved;eight-local-sources",
+      "reason": "The broad route and its sources do not select cis- or trans-resveratrol, while the current MeSH descriptor explicitly contains both narrower stereoisomers; one model would silently narrow the subject and two would imply both were represented in the interventions.",
+      "requiredResolution": "Reconcile every relevant source to cis, trans, unspecified, mixture, metabolite, or formulation; then select the canonical chemical identity, charge and stereochemistry, formulation, dose, population, comparator, assay, endpoint, and visual class policy."
+    },
+    {
+      "pageId": "selenium-supplementation",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Dietary-Supplements-MeSH:D019587;elemental-selenium-route-duplicate;chemical-form-and-product-unspecified;zero-resolvable-sources",
+      "reason": "The zero-source route does not select selenomethionine, selenite, selenate, selenium yeast, another chemical or biological form, product, formulation, dose, protocol, assay, or endpoint and overlaps the reviewed elemental Selenium entity.",
+      "requiredResolution": "Link direct evidence; select exact selenium chemical or biological form, product and lot, purity, excipients, formulation, route, dose, schedule, population, comparator, specimen, assay, time point, endpoint, safety boundary, and governed relationship to the elemental Selenium media."
+    },
+    {
+      "pageId": "selenium-supplementation-200mcg",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Dietary-Supplements-MeSH:D019587;Hashimoto-MeSH:D050031;nominal-200-microgram-dose-with-form-unspecified;zero-resolvable-sources",
+      "reason": "A nominal 200-microgram daily dose does not identify selenium species, selenium-enriched yeast composition, product, bioavailability, duration, baseline status, Hashimoto disease state, comparator, assay, endpoint, or safety monitoring.",
+      "requiredResolution": "Link direct evidence and select exact selenium form, product and lot, purity, formulation, route, dose verification, duration, baseline selenium status, Hashimoto population, comparator, adherence, specimen, assay, time point, endpoint, and safety monitoring."
+    }
+  ],
+  "assets": [
+    {
+      "pageId": "quercetin",
+      "displayName": "Neutral quercetin",
+      "proposedAssetType": "intervention",
+      "revision": 1,
+      "decision": "rejected-after-output-audit",
+      "generationStatus": "quarantined-single-call",
+      "generationCallCount": 1,
+      "draft": "work/media-drafts/interventions-batch-111/quercetin-draft.png",
+      "generationRecord": "exec-17ba231e-f32c-4eb4-9731-9bf60cfad925.png",
+      "rootReviewDisposition": "ineligible",
+      "controlledIdentifier": "PubChem:5280343;ChEBI:16243;InChIKey:REFJWTPEDVJJIY-UHFFFAOYSA-N",
+      "promptSha256": "ef45fb1963b8390586255515c1f40e36e339bb5e8c3bfbf55aed8980043f1cff",
+      "sha256": "473606b67e0e91ece875881c19db2f93d1468a5134d185ec8f23f89eb64a3763",
+      "fileSizeBytes": 1353446,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "scientificReferences": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5280343",
+        "https://www.ebi.ac.uk/chebi/CHEBI:16243"
+      ],
+      "proposedSocialResizeFit": "contain",
+      "visualReview": "One complete connected model contains exactly twenty-two visible centers: fifteen graphite carbon-context centers and seven rose oxygen-context centers. The fused benzopyranone system, attached phenyl ring, five terminal oxygen centers, one ring oxygen center, and one carbonyl oxygen center are present. The exact source is nevertheless ineligible because every visible pixel is partially transparent and the output carries broad gray and rose glow or haze rather than the required opaque uniform pale field.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome Control Tower native-resolution scientific, visual, and alpha-field audit",
+        "reviewedOn": "2026-09-07",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "One complete isolated heavy-atom ball-and-stick model with a fused benzopyranone system, attached phenyl ring, five terminal rose centers, one ring rose center, and one carbonyl rose center.",
+        "observedModelCount": 1,
+        "observedHeavyAtomCenterCount": 22,
+        "observedCarbonContextCenterCount": 15,
+        "observedOxygenContextCenterCount": 7,
+        "observedDisconnectedFragmentCount": 0,
+        "alphaZeroPixelCount": 1358897,
+        "alphaIntermediatePixelCount": 213967,
+        "alphaFullyOpaquePixelCount": 0,
+        "outerBandWidthPx": 32,
+        "outerBandNonzeroAlphaPixelCount": 0,
+        "nonzeroAlphaBounds": {
+          "minX": 45,
+          "minY": 45,
+          "maxX": 1479,
+          "maxY": 959
+        },
+        "sourceEdgeContact": false,
+        "centered1200x630CropSafe": false,
+        "requiredSocialResizeFit": "not-eligible",
+        "prohibitedContentReview": "FAIL: broad gray and muted-rose glow or haze surrounds the model, and the required fully opaque uniform pale cool field is absent. PASS for text, labels, atom symbols, charge glyphs, arrows, legend, plant, food, supplement, organ, cell, disease imagery, duplicate model, clipping, signature, and watermark.",
+        "metadataConsistency": "not-eligible"
+      },
+      "proposedAlt": "Single heavy-atom connectivity model of neutral quercetin with fifteen carbon and seven oxygen centers.",
+      "proposedCaption": "Heavy-atom connectivity orientation for neutral quercetin. Hydrogens, a measured conformation, crystal packing, glycosides, formulation, dose, mechanisms, efficacy, safety, and clinical claims are intentionally omitted; this is an educational reconstruction.",
+      "proposedDescription": "WikiBiome chemical-identity teaching reconstruction of one neutral quercetin heavy-atom model on a pale cool field.",
+      "proposedProvenance": "Generated once from the immutable Batch 111 prompt after PubChem and ChEBI identity and connectivity review; review-only trained-algorithmic reconstruction."
+    }
+  ]
+}

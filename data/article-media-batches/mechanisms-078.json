@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "batchId": "mechanisms-078",
+  "category": "mechanisms",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "56a107fc4d158fb26e112b9526ce24b8c55cf38d",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/mechanisms-078.md",
+  "reviewRecord": "docs/operations/media-reviews/mechanisms-078.md",
+  "controlReviewRequired": false,
+  "initialAuditCommit": "00614c7",
+  "reviewStandard": "The six queued routes failed the pre-generation identity, scope, measurement, compartment, representation, evidence, or clinical-translation gate. They received no marked prompt, no built-in generation call, and no raster. Current controlled chemical, pathway, protein, physiological, and peer-reviewed records were checked against the generated article corpus; exact conflicts and the smallest editorial resolution are preserved in the audit and review packets. Zero hashes are eligible for promotion.",
+  "controlAcceptedReviewManifestSha256": "2eccd45f5a12f5dbd8e9a3080cf62a478dbe7b6af0885c58da578b80cf600021",
+  "controlAcceptedPromptEvidenceSha256": "615e50a677dce00f24d70453860b2599d3354916f9b4aa068588149dae0d12a5",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "6608149f1fb14f64d9d9009a421f1c0847749ccf",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "isoflavones",
+      "ketone-bodies",
+      "kynurenine-pathway",
+      "labile-metal-pool",
+      "leptin",
+      "lipid-metabolism"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 6,
+  "generationCallCount": 0,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "promotionRule": "No Batch 078 route is eligible for generation or promotion until its documented identity, scope, representation, evidence, and clinical-translation conflicts are corrected and independently re-audited.",
+  "routeDecisions": [
+    {"pageId":"isoflavones","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D007529","reason":"A broad chemical class is reduced to soy, equol-producer prevalence, and generalized disease-response claims without compound, population, dose, or evidence boundaries.","requiredResolution":"Define class versus selected compounds; distinguish daidzein metabolism; verify taxa and human evidence; bind claims to compound, dose, model, and outcome."},
+    {"pageId":"ketone-bodies","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"Reactome:R-HSA-74182","reason":"A sparse class page conflates endogenous ketone metabolism, ketogenic-diet microbiome effects, beta-hydroxybutyrate signaling, and clinical indications.","requiredResolution":"Separate the three compounds, ketogenesis and ketolysis, physiological and pathological ketosis, endogenous signaling, diet effects, and indication-level evidence."},
+    {"pageId":"kynurenine-pathway","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"Reactome:R-HSA-71240","reason":"A compartment- and concentration-dependent pathway is split into universal neuroprotective and neurotoxic arms and tied to unsupported iron-driven activation and disease causality.","requiredResolution":"Correct enzyme/cofactor claims and bind every metabolite and disease statement to compartment, concentration, specimen, species, assay, and evidence level."},
+    {"pageId":"labile-metal-pool","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"scientific-concept;no-exact-MeSH","reason":"Organism- and condition-specific labile pools are presented through a mixed, dimensionally suspect table and universal buffering, metalation, and cross-metal mechanisms.","requiredResolution":"Rebuild per organism, ion, compartment, method, species, and condition; distinguish thermodynamic availability, concentration, total quota, and sensor inference."},
+    {"pageId":"leptin","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"UniProt:P41159;MeSH:D020738","reason":"The exact hormone is identifiable, but a sparse article presents a deterministic microbiome-metal-obesity feedback loop instead of receptor-, tissue-, and evidence-bounded biology.","requiredResolution":"Rebuild around protein/receptor identity, secretion, central/peripheral actions, deficiency versus resistance, and bounded microbiome and exposure findings."},
+    {"pageId":"lipid-metabolism","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D050356","reason":"An extremely broad physiological domain is represented by a few microbiome, metabolite, sex, disease, and heavy-metal claims and cannot map to one honest image.","requiredResolution":"Choose a bounded lipid class, organism, tissue, compartment, process, and physiological or disease question, or convert the route into a navigational overview."}
+  ],
+  "assets": []
+}

@@ -1,0 +1,1 @@
+ALTER TABLE `researcher_profiles` ADD `associations_json` text DEFAULT '[]' NOT NULL;

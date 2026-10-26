@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "batchId": "microorganisms-003",
+  "category": "microorganisms",
+  "createdOn": "2026-09-01",
+  "reviewedOn": "2026-09-01",
+  "status": "reviewed",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/microorganisms-003.md",
+  "reviewStandard": "Scientific identity, morphology, controlled identifiers, caption limits, non-diagnostic framing, provenance, accessibility, and publication files passed the WikiBiome scientific media policy before promotion. The original prompt remains immutable provenance; a separate human output audit reconciles what is actually visible with all published metadata.",
+  "candidateCount": 5,
+  "scientificHoldCount": 1,
+  "revisionCount": 0,
+  "assets": [
+    {
+      "pageId": "allisonella",
+      "assetType": null,
+      "revision": null,
+      "decision": "scientific-identity-hold",
+      "draft": null,
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=209880",
+        "https://pubmed.ncbi.nlm.nih.gov/12583709/"
+      ],
+      "scientificFinding": "NCBI now treats Allisonella histaminiformans as the basionym of Dialister histaminiformans. The original paper describes Gram-negative ovoid histamine-producing cells, but the canonical article instead names unsupported Allisonella hiatal and assigns an incompatible Bacteroidetes identity.",
+      "visualReview": "No image was generated because a generic historical morphology treatment would not resolve the page's unsupported species identity or obsolete taxonomic framing.",
+      "requiredResolution": "The control task must correct the canonical article to the current Dialister histaminiformans identity, explicitly reframe Allisonella as a historical synonym, or retire the route. A controlled identifier and corrected scientific scope are required before media review can proceed."
+    },
+    {
+      "pageId": "alloprevotella",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-metadata-correction",
+      "draft": "work/media-drafts/microorganisms-batch-003/alloprevotella-draft.png",
+      "sha256": "266e0990aebf11d9752e00833df1ad5acfc63500674d4ef7d6873176c8fc6c17",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1283313&mode=Info",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3709537/"
+      ],
+      "scientificFinding": "NCBI identifies Alloprevotella as genus NCBITaxon:1283313. The original description reports obligately anaerobic, nonmotile Gram-negative bacilli 0.5-0.6 micrometres wide by 1-5 micrometres long, arranged singly or in short chains.",
+      "visualReview": "Seven rounded bacilli span restrained short-to-long variation: a three-cell chain plus four singles; no appendages, spores, colony medium, host scene, labels, or disease symbolism are present.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Seven cellular bodies: one three-cell chain and four singles.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Seven Alloprevotella bacilli of varied lengths, including three joined in a short end-to-end chain and four singles, on a pale cool field.",
+      "proposedCaption": "Representative Alloprevotella bacilli. The original A. rava description reports nonmotile cells occurring singly or in short chains with substantial length variation; this reconstruction is genus-level and not diagnostic.",
+      "proposedDescription": "WikiBiome microscopy-informed reconstruction of the documented single and short-chain bacillary morphology of Alloprevotella rava."
+    },
+    {
+      "pageId": "alloscardovia",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-metadata-correction",
+      "draft": "work/media-drafts/microorganisms-batch-003/alloscardovia-draft.png",
+      "sha256": "57efaf73e81eea4bff4f9af7530d4a0643fea94a6ba180573f89a0d9c5192f2b",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=419014&mode=Info",
+        "https://pubmed.ncbi.nlm.nih.gov/17625172/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2756926/"
+      ],
+      "scientificFinding": "NCBI identifies Alloscardovia as genus NCBITaxon:419014. Primary clinical characterization describes A. omnicolens as nonmotile short, irregularly shaped Gram-positive rods that may show rudimentary branching and are difficult to distinguish morphologically from related genera.",
+      "visualReview": "Seven separated visual groupings include an attached two-cell pair, a shallow V-shaped branched form, a rudimentary Y-shaped branch, and restrained irregular single forms; no surface hairs, flagella, spores, long filaments, host material, labels, or clinical narrative are present.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Seven visual groupings, including one attached two-cell pair, one shallow V-shaped branch, and one rudimentary Y-shaped branch; descriptions use grouping language because connected branched forms are not reliably reduced to a prompt-derived rod count.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Seven separated Alloscardovia groupings, including an attached two-cell pair, a shallow V-shaped branch, a rudimentary Y-shaped branch, and irregular single forms.",
+      "proposedCaption": "Representative Alloscardovia morphology. A. omnicolens may appear as short irregular rods with rudimentary branching, but molecular methods are needed for identification; this reconstruction is not diagnostic.",
+      "proposedDescription": "WikiBiome microscopy-informed reconstruction of short irregular and rudimentarily branched Alloscardovia rods."
+    },
+    {
+      "pageId": "alternaria",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved",
+      "draft": "work/media-drafts/microorganisms-batch-003/alternaria-draft.png",
+      "sha256": "7f58820b0d86bbb63f8a09779d169001f2b52d00be8447456f2951f630f79e99",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5598&mode=node",
+        "https://wwwn.cdc.gov/PHIL/Details.aspx?pid=27938",
+        "https://pubmed.ncbi.nlm.nih.gov/23687125/"
+      ],
+      "scientificFinding": "NCBI identifies Alternaria as fungal genus NCBITaxon:5598. CDC public-health microscopy documents septate hyphae and multicellular obclavate conidia with transverse and longitudinal septa, while primary taxonomic work emphasizes conidial and sporulation-apparatus variation across the genus.",
+      "visualReview": "A single septate hyphal segment supports a short chain of three olive-brown, obclavate-to-obpyriform conidia with clearly legible transverse and longitudinal compartments and restrained apical beaks; no host or mold-exposure scene is present.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "One septate hyphal segment and a short chain of three multicellular conidia.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Three olive-brown Alternaria conidia in a short chain, each divided by transverse and longitudinal septa, attached to a slender septate hypha.",
+      "proposedCaption": "Representative Alternaria sporulating morphology, showing multicellular muriform conidia with transverse and longitudinal septa. Conidial form varies across sections and species; this reconstruction is not diagnostic.",
+      "proposedDescription": "WikiBiome microscopy-informed reconstruction of septate Alternaria hyphae and a short chain of muriform, obclavate conidia."
+    },
+    {
+      "pageId": "anaerococcus",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved",
+      "draft": "work/media-drafts/microorganisms-batch-003/anaerococcus-draft.png",
+      "sha256": "a00706ecfd506862cc4c1c2589426b8d0a2ed27d06ec7d27a883fb0ad8d64dd2",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=165779&mode=Info",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3035230/"
+      ],
+      "scientificFinding": "NCBI identifies Anaerococcus as genus NCBITaxon:165779. The type-species genome paper describes A. prevotii as an obligately anaerobic, nonmotile, non-sporulating Gram-positive coccus usually arranged in clumps or tetrads and includes scanning electron microscopy.",
+      "visualReview": "One tetrad, one compact irregular clump, and one pair of cocci are separated and legible; there are no chains, appendages, spores, host materials, labels, or infection symbolism.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Three separated groupings: one tetrad, one compact irregular clump, and one pair.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Anaerococcus cocci arranged as a compact tetrad, an irregular four-cell clump, and a pair against a pale cool field.",
+      "proposedCaption": "Representative Anaerococcus cellular arrangements. The type species A. prevotii is an obligate anaerobic coccus commonly seen in clumps or tetrads; this reconstruction is genus-level and not diagnostic.",
+      "proposedDescription": "WikiBiome microscopy-informed reconstruction of paired, tetrad, and clumped Anaerococcus cocci."
+    },
+    {
+      "pageId": "anaerostipes",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-metadata-correction",
+      "draft": "work/media-drafts/microorganisms-batch-003/anaerostipes-draft.png",
+      "sha256": "c8c38c00dde44a876e1dab5d351de5a078a0fb2b42b0c1cb9ff868fcc66a40d6",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=207244&mode=Info",
+        "https://pubmed.ncbi.nlm.nih.gov/12086188/"
+      ],
+      "scientificFinding": "NCBI identifies Anaerostipes as genus NCBITaxon:207244. The original A. caccae description reports Gram-variable, obligately anaerobic, asporogenous rod-shaped cells.",
+      "visualReview": "Seven rounded medium-length rods occur as three singles, a loose pair, and one attached two-cell end-to-end arrangement; no stain color claim, appendages, spores, metabolites, host scene, labels, or disease symbolism are present.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Seven cellular bodies: three singles, one loose pair, and one attached two-cell arrangement.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Seven rounded Anaerostipes rods, shown as three singles, a loose pair, and one attached two-cell end-to-end arrangement on a pale cool field.",
+      "proposedCaption": "Representative Anaerostipes rod morphology. The original A. caccae description reports Gram-variable, obligately anaerobic, asporogenous cells; this reconstruction is genus-level and not diagnostic.",
+      "proposedDescription": "WikiBiome microscopy-informed reconstruction of the asporogenous rod morphology described for Anaerostipes caccae."
+    }
+  ]
+}

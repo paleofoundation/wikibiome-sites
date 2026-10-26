@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "batchId": "interventions-109",
+  "category": "interventions",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "79347eee3747150ebc1fe12f9e22a4cba5b16209",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/interventions-109.md",
+  "reviewRecord": "docs/operations/media-reviews/interventions-109.md",
+  "publicationMetadataPlan": {
+    "reviewOnly": true,
+    "creator": "OpenAI built-in image generation",
+    "credit": "WikiBiome / Microbiome Medicine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "digitalSourceType": "trainedAlgorithmicMedia",
+    "mediaDescription": "Scientific algorithmic chemical-identity reconstruction, not a source structure image, measured conformer, supplement product, treatment recommendation, assay result, or diagnostic image",
+    "sourceUse": "Controlled scientific records supplied exact identity and conservative representation boundaries only; no source image or design was copied."
+  },
+  "controlReviewRequired": false,
+  "initialAuditCommit": "a8f61fa60b759fca4b17cf9e62dd89e5b1d52ec9",
+  "promptFreezeCommit": "3b39be7e741eeaa1af17069fbc3c4a06db2f71e0",
+  "controlAcceptedReviewManifestSha256": "f6abb1f0bb75d2cac33ddbae1c916c31a4e37d66a4345636efe6d13b326aa91f",
+  "controlAcceptedPromptEvidenceSha256": "eed19423a6a8849aeb8207cb6cc9fa0fbb9910b27ada38c7b4df610eeac571ee",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-five-scientific-holds-one-rejected-output",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "ada7f8a79cd34d4f921993446b653ab0496a96cf",
+    "reviewer": "WikiBiome Control Tower native-resolution scientific and visual audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "metformin-intervention",
+      "multi-strain-synbiotic-schizophrenia",
+      "nac-autism",
+      "nac-supplementation",
+      "omega-3-fatty-acids",
+      "plant-based-diet-ckd"
+    ]
+  },
+  "reviewStandard": "Only the explicitly named neutral all-cis EPA and DHA pair is cleared for one immutable chemical-identity call. Metformin and both NAC intervention routes duplicate separate canonical chemical-identity pages; the synbiotic cannot visually encode its twelve unresolved strain-level organisms and fructooligosaccharide composition; and the zero-source CKD diet route does not select one physical protocol. Those five routes receive no prompt marker or generation call.",
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 5,
+  "generationCallCount": 1,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 1,
+  "quarantinedGenerationCount": 1,
+  "revisionCount": 0,
+  "promotionRule": "No Batch 109 source hash is eligible for promotion. Five routes remain asset-free scientific holds, and the single generated omega-3 source remains immutable non-public quarantine evidence. No master, derivative, registry record, endpoint, Schema object, social preview, or image-sitemap record may be created from this batch.",
+  "controlSocialCropReview": "not-applicable-zero-eligible-assets",
+  "promotionDerivatives": {},
+  "routeDecisions": [
+    {
+      "pageId": "metformin-intervention",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "PubChem:4091;ChEBI:6801;MeSH:D008687;duplicate-canonical-identity-metformin",
+      "reason": "This intervention route and the separate canonical `metformin` entity route identify the same drug while carrying overlapping evidence. Generating a second chemical portrait would create duplicate public ownership before the two canonical page identities and reuse rules are reconciled; the intervention page also does not select free base versus hydrochloride product or formulation.",
+      "requiredResolution": "Merge or alias the duplicate Metformin routes, or adopt an explicit one-asset multi-route reuse policy; then select neutral metformin or an exact salt, hydration state, formulation, route, dose, population, comparator, specimen, assay, time point, endpoint, and claim boundary."
+    },
+    {
+      "pageId": "multi-strain-synbiotic-schizophrenia",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D058616;DOI:10.1186/s12888-024-06061-y;twelve-species-level-labels-plus-FOS;malformed-local-source-ids",
+      "reason": "The study specifies two daily capsules for eight weeks, 10^9 CFU with twelve organism names, 21 mg fructooligosaccharide, and a manufacturer, but supplies species-level labels rather than twelve strain accessions and does not make those visually distinguishable. The local page also appends `.md` to all three source identifiers, so its otherwise present source records do not resolve normally.",
+      "requiredResolution": "Correct the three source identifiers; recover exact strain accessions, per-strain viable counts and allocation, fructooligosaccharide identity, product lot and capsule composition, storage and dosing protocol, population, comparator, specimen, assay, time point, endpoint, and a non-product-promotional representation plan."
+    },
+    {
+      "pageId": "nac-autism",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "PubChem:12035;ChEBI:28939;MeSH:D000111;duplicate-canonical-identity-n-acetyl-cysteine;zero-resolvable-sources",
+      "reason": "The zero-source route names the same N-acetyl-L-cysteine chemical identity already represented by the reviewed canonical `n-acetyl-cysteine` asset, while adding autism-specific dose, outcome, mechanism, chelation, and tolerability claims without linked evidence. A second molecular portrait would duplicate ownership and an autism scene would imply treatment efficacy.",
+      "requiredResolution": "Link the claimed trial evidence and reconcile this route as a condition-specific section or alias of the canonical NAC page, or define a governed media-reuse relationship; then specify formulation, dose, schedule, population, comparator, outcome, safety boundary, and evidence tier."
+    },
+    {
+      "pageId": "nac-supplementation",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "PubChem:12035;ChEBI:28939;MeSH:D000111;duplicate-canonical-identity-n-acetyl-cysteine;zero-resolvable-sources",
+      "reason": "The zero-source cross-condition route names the same N-acetyl-L-cysteine identity already represented by the reviewed canonical asset, but combines multiple formulations, doses, psychiatric and post-viral populations, metal claims, mechanisms, efficacy, and safety. A duplicate molecule or generic supplement product would conceal those differences.",
+      "requiredResolution": "Merge or relate the route to canonical `n-acetyl-cysteine` through an explicit media-reuse policy, add direct evidence, and select exact chemical or salt state, product and formulation, route, dose, schedule, population, comparator, specimen, assay, time point, endpoint, and safety boundary."
+    },
+    {
+      "pageId": "plant-based-diet-ckd",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D000095500;CKD-specific-diet-protocol-unspecified;zero-resolvable-sources",
+      "reason": "MeSH defines a broad plant-emphasizing dietary pattern, while the zero-source CKD route does not select foods and quantities, preparation, protein and energy targets, potassium and phosphorus management, disease stage, duration, comparator, adherence, specimen, assay, or endpoint. A meal still life would invent a potentially safety-critical protocol.",
+      "requiredResolution": "Link direct evidence and choose one CKD-stage-specific plant-based protocol with complete foods, quantities, preparation, protein and energy targets, potassium and phosphorus safety rules, duration, population, comparator, adherence measure, specimen, assay, time point, and endpoint."
+    }
+  ],
+  "assets": [
+    {
+      "pageId": "omega-3-fatty-acids",
+      "displayName": "All-cis eicosapentaenoic acid and docosahexaenoic acid pair",
+      "proposedAssetType": "intervention",
+      "revision": 1,
+      "decision": "rejected-after-output-audit",
+      "generationStatus": "quarantined-single-call",
+      "draft": "work/media-drafts/interventions-batch-109/omega-3-fatty-acids-draft.png",
+      "generationRecord": "exec-c6852bc4-1f96-4150-b656-215bd0ed59c3.png",
+      "rootReviewDisposition": "ineligible",
+      "controlledIdentifier": "MeSH:D015525;EPA-PubChem:5282847;EPA-ChEBI:28364;DHA-PubChem:445580;DHA-ChEBI:28125",
+      "promptSha256": "70c3a13c8c33e12063ec4cea0efe2ec92f66a3318c9cb2d5f49ea24393252a6c",
+      "sha256": "3d400c37a0a343e2675d82127b3371e42d810e63959c173f18663bfb5d2ac9ed",
+      "fileSizeBytes": 1230577,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "scientificReferences": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D015525",
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5282847",
+        "https://www.ebi.ac.uk/chebi/CHEBI:28364",
+        "https://pubchem.ncbi.nlm.nih.gov/compound/445580",
+        "https://www.ebi.ac.uk/chebi/CHEBI:28125"
+      ],
+      "proposedSocialResizeFit": "contain",
+      "visualReview": "Exactly two separated horizontal molecular-model-like chains are present. The upper chain contains 21 graphite centers and two rose centers; the lower chain contains 25 graphite centers and two rose centers. The output therefore has 46 graphite centers rather than the required 42, with one excess in the upper model and three excess in the lower model. The upper chain visibly contains six paired chain-bond connectors rather than five, and the lower chain visibly contains eight rather than six.",
+      "quarantineReason": "The native output fails both scientific structure and field requirements. It adds four carbon-like centers overall and excess paired chain-bond connectors, so neither graph matches the frozen EPA/DHA identities. The raster also has 1,433,998 fully transparent pixels, 138,866 intermediate-alpha pixels, and zero fully opaque pixels; broad graphite and rose glow or haze appears around both models, and 18 nonzero-alpha pixels enter the outer 32-pixel band. These native failures cannot be repaired without replacing the generated evidence.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome Control Tower native-resolution visual and programmatic alpha-field audit",
+        "reviewedOn": "2026-09-07",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Two separate elongated horizontal ball-and-stick-like chains, one above the other, each ending in two rose centers.",
+        "observedVisibleModelCount": 2,
+        "observedSpatialGroupingCount": 2,
+        "observedUpperGraphiteCenterCount": 21,
+        "observedUpperRoseCenterCount": 2,
+        "observedUpperChainDoubleBondPairCount": 6,
+        "observedLowerGraphiteCenterCount": 25,
+        "observedLowerRoseCenterCount": 2,
+        "observedLowerChainDoubleBondPairCount": 8,
+        "observedTotalGraphiteCenterCount": 46,
+        "observedTotalRoseCenterCount": 4,
+        "observedGraphReview": "FAIL: the requested upper EPA model required 20 carbon centers and five chain double bonds, but 21 graphite centers and six paired chain-bond connectors are visible. The requested lower DHA model required 22 carbon centers and six chain double bonds, but 25 graphite centers and eight paired chain-bond connectors are visible.",
+        "alphaZeroPixelCount": 1433998,
+        "alphaIntermediatePixelCount": 138866,
+        "alphaFullyOpaquePixelCount": 0,
+        "outerBandWidthPx": 32,
+        "outerBandNonzeroAlphaPixelCount": 18,
+        "nonzeroAlphaBounds": {
+          "minX": 30,
+          "minY": 69,
+          "maxX": 1501,
+          "maxY": 887
+        },
+        "sourceEdgeContact": true,
+        "centered1200x630CropSafe": false,
+        "requiredSocialResizeFit": "contain",
+        "prohibitedContentReview": "FAIL: the canvas is transparent rather than fully opaque pale blue-white, every nontransparent pixel is partially transparent, and broad graphite and rose glow or haze surrounds both chains. No text, label, letter, number, atom symbol, charge glyph, third molecule, fish, food, capsule, tablet, bottle, organ, cell, pathway, signature, or watermark is visible.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Two separate heavy-atom connectivity models representing neutral all-cis EPA and DHA omega-3 fatty acids.",
+      "proposedCaption": "Heavy-atom connectivity orientation for neutral all-cis eicosapentaenoic acid and docosahexaenoic acid. Hydrogens, measured conformations, formulation, concentration, dose, metabolism, biological activity, microbiome effects, efficacy, safety, and treatment claims are intentionally omitted; this is an educational reconstruction.",
+      "proposedDescription": "WikiBiome chemical-identity teaching reconstruction of separate neutral all-cis EPA and DHA heavy-atom models on a pale cool field.",
+      "proposedProvenance": "Generated once from the immutable Batch 109 prompt after MeSH, PubChem, and ChEBI identity and connectivity review; review-only trained-algorithmic reconstruction."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "mechanisms-074",
+  "category": "mechanisms",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "b631ddd737830fe0eab9eef54d55eca75fc2252d",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/mechanisms-074.md",
+  "reviewRecord": "docs/operations/media-reviews/mechanisms-074.md",
+  "controlReviewRequired": false,
+  "initialAuditCommit": "2e0b4c4",
+  "reviewStandard": "The six queued routes failed the pre-generation identity, source, scope, or evidence gate. They received no marked prompt, no built-in generation call, and no raster. Current controlled records and authoritative literature were checked against the generated article corpus; exact conflicts and the smallest editorial resolution are preserved in the prompt/audit and review packets. Zero hashes are eligible for promotion.",
+  "controlAcceptedReviewManifestSha256": "bbc5e45a2b5a7d6de941a48d27217de1a3413f0df510fe0fc3f8b546a77e5999",
+  "controlAcceptedPromptEvidenceSha256": "339683959892ff8c5729a00aa1693e115cd7fa2b9b7b6ed8c0bdbdfa87ef7dd8",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "60d1cfd8f5f73d9993b3913e8a332a7263d67da8",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "horizontal-gene-transfer",
+      "hmos",
+      "hydrogen-sulfide",
+      "hydrogenase",
+      "hyperaccumulator",
+      "hyperandrogenism"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 6,
+  "generationCallCount": 0,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "promotionRule": "No route in Batch 074 is eligible for generation or promotion. All six remain asset-free scientific-media holds until the named article corrections are committed and independently re-audited.",
+  "routeDecisions": [
+    {
+      "pageId": "horizontal-gene-transfer",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D022761;scope-conflict:mobile-genetic-elements",
+      "reason": "The page conflates transfer processes with genetic vehicles and universalizes co-selection, intI1, persistence, diet, and biofilm claims beyond the cited evidence.",
+      "requiredResolution": "Separate identities and mechanisms; evidence-grade linkage and environmental claims; source the biofilm section; and bound the small diet comparison before re-audit."
+    },
+    {
+      "pageId": "hmos",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "WikiBiome:hmos;related-MeSH:D009844,D008895,C031420",
+      "reason": "The heterogeneous HMO family lacks an exact controlled identifier and the page contains obsolete formula claims, teleology, absolutes, and unbounded NEC and microbiome causation.",
+      "requiredResolution": "Define family scope, update formula supplementation, separate evidence tiers, remove absolutes, and bound structure-, strain-, product-, and population-specific findings."
+    },
+    {
+      "pageId": "hydrogen-sulfide",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D006862;ChEBI:16136;related-ChEBI:29919",
+      "reason": "The page collapses H2S/HS− speciation, understates microbial production routes, relies on a protocol for disease claims, and overgeneralizes dose, diet, metal, and disease effects.",
+      "requiredResolution": "Separate chemical species and donors, cover major microbial routes, replace mis-scoped citations, and bound all tissue-, dose-, assay-, and model-specific effects."
+    },
+    {
+      "pageId": "hydrogenase",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "WikiBiome:hydrogenase;non-equivalent-MeSH:D006864",
+      "reason": "A generic family title is used for a pathogen-focused [NiFe] thesis with malformed source keys and unsupported saturation, nickel, virulence, cancer, diet, and therapeutic extrapolations.",
+      "requiredResolution": "Choose a general or narrow scope, normalize source keys, map claims to primary organism/model evidence, and remove unsupported clinical and dietary causation."
+    },
+    {
+      "pageId": "hyperaccumulator",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "WikiBiome:hyperaccumulator;no-exact-MeSH",
+      "reason": "The definition is nonstandard and the page misclassifies ordinary food crops as botanical hyperaccumulators while asserting an unsupported microbiome-disease chain.",
+      "requiredResolution": "Use element-specific ecological criteria, separate true hyperaccumulators from crop contaminant accumulation, and remove the unsupported causal chain."
+    },
+    {
+      "pageId": "hyperandrogenism",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D017588",
+      "reason": "The page falsely calls aromatase zinc-dependent, stores the trace-element study under an unrelated DOI, and overstates heterogeneous PCOS microbiome associations as central mechanisms and treatment targets.",
+      "requiredResolution": "Remove the false zinc-aromatase chain, correct DOI and author metadata, rebuild trace-element outcomes, distinguish PCOS from hyperandrogenism, and evidence-grade microbiome and treatment claims."
+    }
+  ],
+  "assets": []
+}

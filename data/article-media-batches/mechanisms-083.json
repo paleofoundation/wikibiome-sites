@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "batchId": "mechanisms-083",
+  "category": "mechanisms",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "340e6b88341fbe816efcb7ad8593ab7e07a547a5",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/mechanisms-083.md",
+  "reviewRecord": "docs/operations/media-reviews/mechanisms-083.md",
+  "controlReviewRequired": false,
+  "initialAuditCommit": "b58e980",
+  "reviewStandard": "The six queued routes failed the pre-generation cell-state nomenclature, molecular-identity, functional-phenotype, immunological-causality, low-biomass community, glycosylation-scope, or representation gate. They received no marked prompt, no built-in generation call, and no raster. Controlled records and primary-indexed reviews were checked against the generated article corpus; conflicts and required resolution are preserved in the audit and review packets. Zero hashes are eligible for promotion.",
+  "controlAcceptedReviewManifestSha256": "8ee338d9ec8e11bdf4d10395b744f7d152a525c1503839457307338d24916d4b",
+  "controlAcceptedPromptEvidenceSha256": "06e2746a46d92ee9cbe5afec6939ad242cee762fc1aff465194eea5e750a8e7c",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "a573eb46a5b1ef0f2735ee14edca2cc9cf38dbd6",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "microglia",
+      "mis-metallation",
+      "mitochondrial-dysfunction",
+      "molecular-mimicry",
+      "mycobiome",
+      "n-glycosylation"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 6,
+  "generationCallCount": 0,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "promotionRule": "No Batch 083 route is eligible for generation or promotion until its documented identity, scope, representation, evidence, analytical, causal, and nomenclature conflicts are corrected and independently re-audited.",
+  "routeDecisions": [
+    {"pageId":"microglia","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D017628","reason":"Heterogeneous context-dependent cell states are reduced to M1/M2 polarity and a universal metal-gut-brain neurodegeneration mediator.","requiredResolution":"Specify species, age, region, model, cell markers, state data, exposure dose/route/time, comparator, and measured function using current nomenclature."},
+    {"pageId":"mis-metallation","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"mechanism-umbrella;no-single-controlled-entity","reason":"Protein metalation, ionic mimicry, transport competition, toxicology, host defense, exposure biomarkers, and proposed treatments are conflated.","requiredResolution":"Split by protein/accession, organism/compartment, cognate and competing species, site/stoichiometry, availability, assay, phenotype, and in-vivo evidence."},
+    {"pageId":"mitochondrial-dysfunction","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"functional-phenotype-umbrella;no-single-controlled-entity","reason":"Many organelles, tissues, assays, toxicants, diseases, and cell-death mechanisms are presented as one measurable causal pathway.","requiredResolution":"Define tissue/cell/model, perturbation, dose/time, respiratory substrate and assay, membrane potential, redox/morphology/quality-control measures, comparator, and causal intervention."},
+    {"pageId":"molecular-mimicry","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D008969;immunological-mechanism-umbrella","reason":"One established infection association and several proposed microbiome links are presented together as a primary causal mechanism without epitope-level proof.","requiredResolution":"Document foreign and self epitopes, structural/sequence similarity, HLA, cross-reactivity assay, cohort, epidemiology, model transfer, and alternatives for each example."},
+    {"pageId":"mycobiome","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"community-umbrella;no-single-controlled-entity","reason":"Body-site, transient, colonizing, pathogenic, and low-biomass fungal signals are merged with strong disease and functional claims.","requiredResolution":"Define body site, specimen, biomass controls, method, primers/database, absolute burden, viability/residency, taxon resolution, confounders, replication, and function."},
+    {"pageId":"n-glycosylation","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D006026;process-umbrella","reason":"Eukaryotic, bacterial, fungal, host-protein, microbial-protein, and glycome-association findings are conflated, including an unsupported metal-dependent enzyme claim.","requiredResolution":"Select organism, compartment, substrate/site, glycan structure, enzyme/pathway identifiers, analytical method, phenotype, and evidence; remove or substantiate metal dependence."}
+  ],
+  "assets": []
+}

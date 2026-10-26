@@ -1,0 +1,401 @@
+{
+  "schemaVersion": 1,
+  "batchId": "diseases-052",
+  "category": "diseases",
+  "status": "reviewed",
+  "createdOn": "2026-09-06",
+  "reviewedOn": "2026-09-06",
+  "authorizedParent": "35152d4acb220de9a983a54c16780a35c8260f46",
+  "auditCommit": "5c6cd2b",
+  "promptFreezeCommit": "5c6cd2b",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/diseases-052.md",
+  "reviewRecord": "docs/operations/media-reviews/diseases-052.md",
+  "publicationMetadataPlan": {
+    "reviewOnly": false,
+    "creator": "OpenAI built-in image generation",
+    "credit": "WikiBiome / Microbiome Medicine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "digitalSourceType": "trainedAlgorithmicMedia",
+    "mediaDescription": "Review-only scientific algorithmic anatomical or pathology reconstruction, not a photograph, scan, histology slide, patient record, or diagnostic image",
+    "sourceUse": "NLM MeSH supplies controlled condition identity and scope; official NIH or CDC sources supply conservative anatomical and communication boundaries only. No source image or design is copied."
+  },
+  "reviewStandard": "Current controlled condition identity, conservative non-diagnostic anatomy or systems orientation, non-stigmatizing communication, complete pale edge field, crop-safe geometry, and exact prompt frozen before exactly one generation call per cleared route. Every PNG was inspected at native 1536 by 1024 resolution; observed output controls later metadata.",
+  "routeDecisionCount": 6,
+  "candidateCount": 6,
+  "scientificHoldCount": 0,
+  "generationCallCount": 6,
+  "reviewableGenerationCount": 6,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "controlAcceptedReviewManifestSha256": "7f12542e45a38d8d5d19d9977b9a1fca750982f22fd0f7a0a64c8df4f8ba8567",
+  "controlAcceptedPromptEvidenceSha256": "1cd4d340813fffddfc95cca4134585c9824cd5a63a717dffb877ee79acfe0b31",
+  "controlReviewRequired": false,
+  "promotionRule": "Only the six exact accepted source hashes may be promoted to metadata-bearing lossless masters, article WebP derivatives, and centered contain-mode 1200x630 social WebP derivatives.",
+  "assets": [
+    {
+      "pageId": "huntingtons-disease",
+      "displayName": "Huntington's Disease",
+      "assetType": "pathology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "generationStatus": "complete-single-call",
+      "draft": "work/media-drafts/diseases-batch-052/huntingtons-disease-draft.png",
+      "generationRecord": "exec-7b97f5b6-2105-4320-af62-af91d32d6649.png",
+      "promptSha256": "283cbabe2cb983bdab009b02c9a6b0f4ae5d154e5f193521ceb36d9436f1883f",
+      "sha256": "cba77e4bc5d91a7aed671344b4e88ba7e4e83d8724ddfe6bd709b87404dc368b",
+      "fileSizeBytes": 1684521,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "proposedSocialResizeFit": "contain",
+      "meshHeading": "Huntington Disease",
+      "meshId": "D006816",
+      "controlledIdentifier": "MeSH:D006816",
+      "scientificReferences": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D006816",
+        "https://www.ninds.nih.gov/sites/default/files/2025-05/huntingtons-disease-hope-through-research.pdf"
+      ],
+      "scientificFinding": "Current inherited progressive neurodegenerative condition with variable movement, cognitive, and behavioral manifestations. A neutral neuroanatomical orientation plate cannot establish diagnosis, pathology, or stage.",
+      "visualReview": "Three complete teaching groups: one intact lateral brain, one coronal brain cutaway with paired deep structures, and one connected network containing five prominent neuron bodies. No atrophy, lesion, patient, symptom scene, gene symbol, label, clipping, signature, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome media task native-resolution visual audit",
+        "reviewedOn": "2026-09-06",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Three complete teaching models: lateral brain, coronal cutaway, and neural network.",
+        "observedSubjectDescription": "Three complete teaching groups: an intact lateral brain, a coronal brain cutaway with paired deep blue and rose structures, and a connected network containing five prominent neuron bodies.",
+        "observedVisibleBodyCount": 3,
+        "observedSpatialGroupingCount": 3,
+        "observedProminentNeuronBodyCount": 5,
+        "outerBackgroundBandWidthPx": 32,
+        "outerBackgroundDarkPixelCountBelowLuma128": 26,
+        "outerBackgroundMinRgb": [
+          109,
+          78,
+          67
+        ],
+        "foregroundBoundsAtLumaBelow220": {
+          "minX": 13,
+          "minY": 245,
+          "maxX": 1521,
+          "maxY": 760
+        },
+        "sourceEdgeContact": false,
+        "containRequired": true,
+        "promptDeviation": "none material; fine terminal neuron branches approach both horizontal margins without clipping",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Three Huntington disease orientation models: an intact lateral brain, a coronal brain cutaway, and a five-neuron network.",
+      "proposedCaption": "Neutral Huntington disease neuroanatomical reconstruction with intact brain, coronal deep-structure orientation, and a generic neural network. Representative, non-diagnostic, and not a scan or pathology specimen.",
+      "proposedDescription": "WikiBiome scientific reconstruction of three neutral neuroanatomical teaching groups for Huntington disease on a pale cool field; it does not depict atrophy, a patient, symptom, stage, or diagnostic sign.",
+      "proposedProvenance": "Generated once from the immutable batch-052 prompt after MeSH and NINDS scope audit; human-audited at native resolution. Review-only trained-algorithmic reconstruction."
+    },
+    {
+      "pageId": "hypertension",
+      "displayName": "Hypertension",
+      "assetType": "pathology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "generationStatus": "complete-single-call",
+      "draft": "work/media-drafts/diseases-batch-052/hypertension-draft.png",
+      "generationRecord": "exec-d7cc2aa0-e334-4443-b294-fa9a1a8c3422.png",
+      "promptSha256": "054e6bc75acde86ce0a8602e84fbfb46aad9b1791717bfe30b86e3f8dd030072",
+      "sha256": "bafbdd7618b4dc2dbbc5da403bcd00d247824d25b672210b9cc3a0604b47f3b7",
+      "fileSizeBytes": 1803514,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "proposedSocialResizeFit": "contain",
+      "meshHeading": "Hypertension",
+      "meshId": "D006973",
+      "controlledIdentifier": "MeSH:D006973",
+      "scientificReferences": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D006973",
+        "https://www.nhlbi.nih.gov/health/high-blood-pressure"
+      ],
+      "scientificFinding": "Current systemic arterial-pressure condition established by measurement rather than appearance. Neutral heart and artery models must not imply visible diagnosis or universal damage.",
+      "visualReview": "Three complete teaching groups: one heart with major proximal vessels, one open muscular-artery segment, and one circular arterial cross-section with a patent lumen. No cuff, gauge, number, plaque, clot, hemorrhage, organ damage, label, clipping, signature, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome media task native-resolution visual audit",
+        "reviewedOn": "2026-09-06",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Three complete teaching models: heart, artery segment, and arterial cross-section.",
+        "observedSubjectDescription": "Three complete teaching groups: a heart with major proximal vessels, a longitudinal muscular-artery segment with an open lumen, and a circular layered arterial cross-section with a patent central lumen.",
+        "observedVisibleBodyCount": 3,
+        "observedSpatialGroupingCount": 3,
+        "outerBackgroundBandWidthPx": 32,
+        "outerBackgroundDarkPixelCountBelowLuma128": 0,
+        "outerBackgroundMinRgb": [
+          231,
+          235,
+          243
+        ],
+        "foregroundBoundsAtLumaBelow220": {
+          "minX": 95,
+          "minY": 130,
+          "maxX": 1463,
+          "maxY": 873
+        },
+        "sourceEdgeContact": false,
+        "containRequired": true,
+        "promptDeviation": "none material",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Three hypertension orientation models: a heart, an open artery segment, and a layered arterial cross-section.",
+      "proposedCaption": "Neutral cardiovascular reconstruction for hypertension orientation. Blood pressure is established by measurement; these undamaged teaching models are non-diagnostic and do not represent universal vascular change.",
+      "proposedDescription": "WikiBiome scientific reconstruction of a heart and two artery teaching models on a pale cool field, without a visible hypertension lesion or measurement claim.",
+      "proposedProvenance": "Generated once from the immutable batch-052 prompt after MeSH and NHLBI scope audit; human-audited at native resolution. Review-only trained-algorithmic reconstruction."
+    },
+    {
+      "pageId": "inflammatory-bowel-disease",
+      "displayName": "Inflammatory Bowel Disease (IBD)",
+      "assetType": "pathology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "generationStatus": "complete-single-call",
+      "draft": "work/media-drafts/diseases-batch-052/inflammatory-bowel-disease-draft.png",
+      "generationRecord": "exec-ddbb7a08-4e31-4f8f-b4dd-d8c97fd3a865.png",
+      "promptSha256": "6c08f397aadc837db927ce515dcfbbd19f04a87ce29a964af671ce0c02058d19",
+      "sha256": "a34968bb6a50c37ee5bffb908c8eac5bb565620c2645792d66762ae1b6ba09b8",
+      "fileSizeBytes": 2152787,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "proposedSocialResizeFit": "contain",
+      "meshHeading": "Inflammatory Bowel Diseases",
+      "meshId": "D015212",
+      "controlledIdentifier": "MeSH:D015212",
+      "scientificReferences": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D015212",
+        "https://www.niddk.nih.gov/health-information/digestive-diseases/crohns-disease/definition-facts"
+      ],
+      "scientificFinding": "Current umbrella for chronic structural inflammatory bowel disorders including Crohn disease and ulcerative colitis. Selected wall patterns are illustrative, non-universal, and non-diagnostic.",
+      "visualReview": "Three complete teaching groups: one digestive-tract orientation with colon and coiled small bowel, plus two separate layered bowel-wall cutaways. One cutaway has an even outer wall; the other shows a focal rounded deeper-wall bulge. No blood, ulcer, fistula, abscess, obstruction, label, clipping, signature, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome media task native-resolution visual audit",
+        "reviewedOn": "2026-09-06",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Three complete teaching models: digestive orientation and two selected inflammatory wall cutaways.",
+        "observedSubjectDescription": "Three complete teaching groups: a digestive-tract orientation containing colon and coiled small bowel, one layered bowel-wall cutaway with an even outer wall, and one layered cutaway with a focal rounded bulge in a deeper wall layer.",
+        "observedVisibleBodyCount": 3,
+        "observedSpatialGroupingCount": 3,
+        "outerBackgroundBandWidthPx": 32,
+        "outerBackgroundDarkPixelCountBelowLuma128": 0,
+        "outerBackgroundMinRgb": [
+          185,
+          170,
+          166
+        ],
+        "foregroundBoundsAtLumaBelow220": {
+          "minX": 62,
+          "minY": 141,
+          "maxX": 1524,
+          "maxY": 802
+        },
+        "sourceEdgeContact": false,
+        "containRequired": true,
+        "promptDeviation": "the first orientation model includes coiled small bowel in addition to colon; the wall differences are illustrative and cannot establish IBD subtype or pathology",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Three IBD teaching models: colon and small-bowel orientation beside two different layered bowel-wall cutaways.",
+      "proposedCaption": "Representative inflammatory-bowel-disease structural reconstruction with digestive orientation and two selected wall patterns. The patterns are non-universal, non-diagnostic, and do not visually classify Crohn disease or ulcerative colitis.",
+      "proposedDescription": "WikiBiome scientific reconstruction of three structural IBD teaching groups on a pale cool field; it is not endoscopy, histology, subtype classification, or a disease-stage image.",
+      "proposedProvenance": "Generated once from the immutable batch-052 prompt after MeSH and NIDDK scope audit; human-audited at native resolution. Review-only trained-algorithmic reconstruction."
+    },
+    {
+      "pageId": "ibs",
+      "displayName": "Irritable Bowel Syndrome (IBS)",
+      "assetType": "pathology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "generationStatus": "complete-single-call",
+      "draft": "work/media-drafts/diseases-batch-052/ibs-draft.png",
+      "generationRecord": "exec-762379d0-3539-4362-820c-f95046187b4b.png",
+      "promptSha256": "985365f26f76529658ec67bbb7ba30fd3868c2fd04f27f90a6e4bba6213e18e4",
+      "sha256": "ab837454e3fad5b60165456ae0ca9124769b11e065bf046009b39db0733638eb",
+      "fileSizeBytes": 2044927,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "proposedSocialResizeFit": "contain",
+      "meshHeading": "Irritable Bowel Syndrome",
+      "meshId": "D043183",
+      "controlledIdentifier": "MeSH:D043183",
+      "scientificReferences": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D043183",
+        "https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome/definition-facts/"
+      ],
+      "scientificFinding": "Current disorder of gut-brain interaction in which symptoms occur without visible digestive-tract damage. The plate must remain structurally intact and visually distinct from IBD.",
+      "visualReview": "Three complete teaching groups: one intact colon, one orderly circular bowel-wall cross-section with an open lumen, and one combined intact brain and short colon-like segment linked by two fine neutral nerve-like strands. No structural inflammation, lesion, blood, stool, label, clipping, signature, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome media task native-resolution visual audit",
+        "reviewedOn": "2026-09-06",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Three complete teaching models: colon, intact wall cross-section, and gut-brain connection abstraction.",
+        "observedSubjectDescription": "Three complete teaching groups: an intact colon, an orderly circular bowel-wall cross-section with a patent lumen, and an intact brain over a short colon-like segment connected by two fine neutral nerve-like strands.",
+        "observedVisibleBodyCount": 3,
+        "observedSpatialGroupingCount": 3,
+        "observedConnectionStrandCount": 2,
+        "outerBackgroundBandWidthPx": 32,
+        "outerBackgroundDarkPixelCountBelowLuma128": 0,
+        "outerBackgroundMinRgb": [
+          232,
+          237,
+          245
+        ],
+        "foregroundBoundsAtLumaBelow220": {
+          "minX": 43,
+          "minY": 169,
+          "maxX": 1475,
+          "maxY": 858
+        },
+        "sourceEdgeContact": false,
+        "containRequired": true,
+        "promptDeviation": "the connection abstraction contains two fine strands rather than one sparse arc; neither is labeled or mechanistically identified",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Three IBS teaching groups: an intact colon, an orderly bowel-wall cross-section, and an intact brain linked to a small bowel segment by two fine strands.",
+      "proposedCaption": "Neutral irritable-bowel-syndrome gut–brain orientation reconstruction with visibly intact bowel structures. IBS is not represented as structural inflammation or damage; the plate is non-diagnostic and does not assert a mechanism.",
+      "proposedDescription": "WikiBiome scientific reconstruction of three intact IBS orientation models on a pale cool field, visually distinct from structural inflammatory bowel disease.",
+      "proposedProvenance": "Generated once from the immutable batch-052 prompt after MeSH and NIDDK scope audit; human-audited at native resolution. Review-only trained-algorithmic reconstruction."
+    },
+    {
+      "pageId": "long-covid",
+      "displayName": "Long COVID",
+      "assetType": "pathology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "generationStatus": "complete-single-call",
+      "draft": "work/media-drafts/diseases-batch-052/long-covid-draft.png",
+      "generationRecord": "exec-ce76c947-7c75-452f-8564-c283edfafba7.png",
+      "promptSha256": "814adbb2e74e8db180efdb49e1d108c386a68dd46c1f1f84d3f4e4cbf27ab06b",
+      "sha256": "ba99090a6bd04e0cf26b56dd4df2ff12998ae8094c1cbe0ce2c207ee7e0d4917",
+      "fileSizeBytes": 1655558,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "proposedSocialResizeFit": "contain",
+      "meshHeading": "Post-Acute COVID-19 Syndrome",
+      "meshId": "D000094024",
+      "controlledIdentifier": "MeSH:D000094024",
+      "scientificReferences": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000094024",
+        "https://www.cdc.gov/long-covid/signs-symptoms/index.html"
+      ],
+      "scientificFinding": "Current heterogeneous post-acute condition with many possible symptoms and body systems. A selected multisystem plate must not reduce it to one lesion, biomarker, mechanism, stage, or universal symptom set.",
+      "visualReview": "Four complete teaching groups: paired lungs with central airway and laryngeal framework, heart with proximal vessels, intact lateral brain, and one skeletal-muscle fascicle cross-section. All appear undamaged. No person, virus, clot, scar, inflammation, symptom icon, label, clipping, signature, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome media task native-resolution visual audit",
+        "reviewedOn": "2026-09-06",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Four separate undamaged system models: lungs, heart, brain, and skeletal-muscle fascicle.",
+        "observedSubjectDescription": "Four complete undamaged teaching groups: paired lungs with a central airway and laryngeal framework, a heart with proximal vessels, an intact lateral brain, and a skeletal-muscle fascicle cross-section.",
+        "observedVisibleBodyCount": 4,
+        "observedSpatialGroupingCount": 4,
+        "outerBackgroundBandWidthPx": 32,
+        "outerBackgroundDarkPixelCountBelowLuma128": 6,
+        "outerBackgroundMinRgb": [
+          129,
+          114,
+          132
+        ],
+        "foregroundBoundsAtLumaBelow220": {
+          "minX": 28,
+          "minY": 212,
+          "maxX": 1522,
+          "maxY": 736
+        },
+        "sourceEdgeContact": false,
+        "containRequired": true,
+        "promptDeviation": "the lung model includes a laryngeal framework; fine pale peripheral tissue approaches both horizontal margins without clipping",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Four neutral Long COVID orientation models: paired lungs, heart, brain, and a skeletal-muscle fascicle.",
+      "proposedCaption": "Heterogeneous multisystem Long COVID reconstruction showing four selected undamaged teaching models. It does not assert that these systems are affected in every person or identify a lesion, biomarker, mechanism, stage, or diagnosis.",
+      "proposedDescription": "WikiBiome scientific reconstruction of selected lung, heart, brain, and muscle orientations for Long COVID on a pale cool field; not a patient image or diagnostic plate.",
+      "proposedProvenance": "Generated once from the immutable batch-052 prompt after MeSH and CDC scope audit; human-audited at native resolution. Review-only trained-algorithmic reconstruction."
+    },
+    {
+      "pageId": "major-depressive-disorder",
+      "displayName": "Major Depressive Disorder",
+      "assetType": "pathology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "generationStatus": "complete-single-call",
+      "draft": "work/media-drafts/diseases-batch-052/major-depressive-disorder-draft.png",
+      "generationRecord": "exec-f5314b6f-fae6-4487-a752-6ae54926ae25.png",
+      "promptSha256": "889e8ba2e69b1e6dfe3909f972f9315396821115bf087a096117f0ac765c82dd",
+      "sha256": "50c7b82570fafbbf887299998ed75f10236ad897b6e86f0d8c3c1c757c665152",
+      "fileSizeBytes": 1791554,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "proposedSocialResizeFit": "contain",
+      "meshHeading": "Major Depressive Disorder",
+      "meshId": "D003865",
+      "controlledIdentifier": "MeSH:D003865",
+      "scientificReferences": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D003865",
+        "https://www.nimh.nih.gov/health/topics/depression"
+      ],
+      "scientificFinding": "Current heterogeneous mental disorder affecting feeling, thinking, and daily activities with multiple contributing domains. Representation must be non-stigmatizing and must not assert a visible lesion, neurotransmitter, mechanism, patient stereotype, or diagnostic sign.",
+      "visualReview": "Two complete teaching groups: one intact lateral brain and one connected network with nine prominent blue or pale-rose neuron bodies. No person, face, mood symbol, lesion, molecular symbol, scan heatmap, label, clipping, signature, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome media task native-resolution visual audit",
+        "reviewedOn": "2026-09-06",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Two complete teaching models: intact brain and distributed neural network.",
+        "observedSubjectDescription": "Two complete teaching groups: an intact lateral brain and a connected distributed network containing nine prominent blue or pale-rose neuron bodies.",
+        "observedVisibleBodyCount": 2,
+        "observedSpatialGroupingCount": 2,
+        "observedProminentNeuronBodyCount": 9,
+        "outerBackgroundBandWidthPx": 32,
+        "outerBackgroundDarkPixelCountBelowLuma128": 0,
+        "outerBackgroundMinRgb": [
+          227,
+          236,
+          248
+        ],
+        "foregroundBoundsAtLumaBelow220": {
+          "minX": 47,
+          "minY": 137,
+          "maxX": 1497,
+          "maxY": 832
+        },
+        "sourceEdgeContact": false,
+        "containRequired": true,
+        "promptDeviation": "network contains nine prominent neuronal cell bodies; the prompt did not prescribe a neuron count",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Two major-depressive-disorder orientation models: an intact brain and a connected network with nine prominent neuron bodies.",
+      "proposedCaption": "Non-stigmatizing major-depressive-disorder brain-and-network reconstruction. The neutral teaching models do not depict a patient, mood, lesion, neurotransmitter, single mechanism, severity, or diagnosis.",
+      "proposedDescription": "WikiBiome scientific reconstruction of an intact brain and a generic distributed neural network on a pale cool field, without a patient stereotype or diagnostic claim.",
+      "proposedProvenance": "Generated once from the immutable batch-052 prompt after MeSH and NIMH scope audit; human-audited at native resolution. Review-only trained-algorithmic reconstruction."
+    }
+  ],
+  "controlFinalReview": {
+    "status": "accepted-exact-hash",
+    "acceptedOn": "2026-09-06",
+    "acceptedReviewCommit": "138f51f861c4a5c756bf856c8fbc053dd18e93d2",
+    "integratedReviewCommit": "b7e12d5",
+    "acceptanceCommit": "f1b1538",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": [
+      "huntingtons-disease",
+      "hypertension",
+      "inflammatory-bowel-disease",
+      "ibs",
+      "long-covid",
+      "major-depressive-disorder"
+    ]
+  },
+  "controlSocialCropReview": "accepted-six-centered-contain-derivatives"
+}

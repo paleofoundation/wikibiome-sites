@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "batchId": "mechanisms-085",
+  "category": "mechanisms",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "0c4c6af376175c8bea312c7f3cf8c502d342772b",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/mechanisms-085.md",
+  "reviewRecord": "docs/operations/media-reviews/mechanisms-085.md",
+  "controlReviewRequired": false,
+  "initialAuditCommit": "5557768",
+  "reviewStandard": "The six queued routes failed the pre-generation transporter-identity, active-site chemistry, enzyme-family, physiological-compartment, evidence-tier, or source-completeness gate. They received no marked prompt, no built-in generation call, and no raster. Current controlled, structural, enzymological, and toxicological evidence was checked against the generated article corpus; conflicts and required resolution are preserved in the audit and review packets. Zero hashes are eligible for promotion.",
+  "controlAcceptedReviewManifestSha256": "c0e25af26ec8771e19b03ddc404face0a4021cc186230bb27bb15087fcd1d651",
+  "controlAcceptedPromptEvidenceSha256": "2600f06487bde9ad9f1dde7ad568b3c2ebfc2900da970c6de1c5a305801fee5c",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "fabb9529310740823c377541653c8185478edfe4",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "nickel-transporters",
+      "nickel-glyoxalase",
+      "nickel-urease",
+      "nife-hydrogenase",
+      "nitric-oxide",
+      "nrf2"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 6,
+  "generationCallCount": 0,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "promotionRule": "No Batch 085 route is eligible for generation or promotion until its documented molecular identity, active-site chemistry, organism, compartment, evidence-tier, exposure, and causal conflicts are corrected and independently re-audited.",
+  "routeDecisions": [
+    {"pageId":"nickel-transporters","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"transport-family-umbrella;no-single-protein-or-complex","reason":"Non-homologous permeases, ABC complexes, broad channels, metallophores, regulators, and host sequestration are merged across organisms and compartments.","requiredResolution":"Split by protein/complex identifier, organism/strain, topology/stoichiometry, membrane, substrate species, energy source, regulation, assay, and phenotype."},
+    {"pageId":"nickel-glyoxalase","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"EC:4.4.1.5;organism-and-metal-specific","reason":"Valid E. coli nickel-activated glyoxalase chemistry is mixed with an incorrect reaction label and unsupported disease, diet, zinc, chelation, and antimicrobial claims.","requiredResolution":"Define enzyme sequence/structure and organism, correct hemithioacetal chemistry and coordination, metal-activation assay, growth condition, phenotype, and evidence-qualified relevance."},
+    {"pageId":"nickel-urease","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"EC:3.5.1.5;nickel-dependent-active-site","reason":"The active-site ligation is incorrect and organism-specific acid acclimation is extended into unsupported eradication, chelation, disease, and unrelated-protein claims.","requiredResolution":"Select organism and urease/PDB; correct histidine/aspartate/carbamylated-lysine ligation, reaction, oligomer/accessory architecture, pH/activity, phenotype, and clinical evidence."},
+    {"pageId":"nife-hydrogenase","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"EC-class:1.12;multi-subgroup-enzyme-family","reason":"Nickel ligation is incorrect and diverse oxygen-sensitive/tolerant enzymes are merged with broad pathogen, gut, biofilm, and therapeutic narratives.","requiredResolution":"Define enzyme/organism/PDB, subunits and Fe-S relay, catalytic state, four-cysteine Ni ligation, directionality, electron partners, oxygen response, assay, and phenotype."},
+    {"pageId":"nitric-oxide","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D009569;CAS:10102-43-9","reason":"Mammalian NOS isoforms, microbial nitrate reduction, gastric chemistry, gut respiration, metal toxicology, and disease associations are collapsed without compartment or flux boundaries.","requiredResolution":"Split by cell/compartment and define enzyme, reactants/products, cofactors/oxygen, concentration/flux/time, analytical method, target, and evidence tier."},
+    {"pageId":"nrf2","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"NFE2L2-pathway;source-sparse-route","reason":"The sparse route omits KEAP1 turnover, stabilization, translocation, DNA binding, targets, context, assay, and source-qualified microbiome claims.","requiredResolution":"Define NFE2L2/KEAP1 identity, species/cell, exposure/dose/time, protein state/localization, DNA-binding and target-gene readouts, metabolite provenance, and disease-specific evidence."}
+  ],
+  "assets": []
+}

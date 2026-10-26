@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "batchId": "microorganisms-013",
+  "category": "microorganisms",
+  "createdOn": "2026-09-01",
+  "status": "reviewed",
+  "reviewedOn": "2026-09-01",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/microorganisms-013.md",
+  "reviewStandard": "Current identity, rank, and controlled identifiers were checked against NCBI Taxonomy and bacterial or fungal nomenclatural authorities, with conservative appearance bounded by primary descriptions, primary microscopy, monographic revisions, or referenced type-strain records. Davidiella was withheld because current one-fungus/one-name treatments recognize Cladosporium, which has nomenclatural priority, and recommend Cladosporium rather than Davidiella. Exactly one built-in generation call was made for each of the five supported current subjects using the immutable passive prompt record, and none was made for Davidiella. Every copied PNG was inspected at its original 1536 by 1024 resolution, and visible bodies, spatial groupings, budding pairs, and capsule contours were reconciled without trusting prompt counts. WikiBiome control accepted all five exact v1 originals for promotion. For Cryptococcus neoformans, control accepted the honestly recorded output: encapsulated round-to-ovoid yeast with two narrow-based budding pairs; the transparent halo forms a continuous lobed contour around each attached mother-bud pair. The asset is explicitly classified as a scientific reconstruction, not a micrograph. Before promotion, control merged Davidiella into the already-covered Cladosporium route as an audited asset-free alias. No Davidiella generation call, raster, registry record, master, derivative, or sitemap image exists.",
+  "routeDecisionCount": 6,
+  "candidateCount": 5,
+  "scientificHoldCount": 0,
+  "generationCallCount": 5,
+  "revisionCount": 0,
+  "assets": [
+    {
+      "pageId": "collinsella",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-013/collinsella-draft.png",
+      "generationRecord": "exec-26e4efd3-a459-4604-bf6a-dd8a92395c4d.png",
+      "sha256": "defe4488d16fb9f63a085a69ff9db506b1efaf17fd581fcaf7f6828564ed94a6",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:102106",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=102106&mode=Info",
+        "https://lpsn.dsmz.de/genus/collinsella",
+        "https://pubmed.ncbi.nlm.nih.gov/10319476/",
+        "https://doi.org/10.1099/00207713-49-2-557",
+        "https://bacdive.dsmz.de/strain/165615"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Collinsella as current genus NCBITaxon:102106, with C. aerofaciens as type species. Type-species and family evidence support small pleomorphic rods or coccobacilli in singles, pairs, or short chains. This selected plate is type-species-anchored, representative, non-exhaustive, and non-diagnostic.",
+      "visualReview": "Exactly nine short pleomorphic rod-to-coccobacillus bodies appear in seven separated groupings: five isolated singles and two touching two-body pairs. This is one more body and one more grouping than the prompt requested. Bodies have gently rounded ends, restrained length variation, and mild curvature. No branch, filament, spore, appendage, capsule, halo, shared envelope, biofilm, label, text, scale bar, host material, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Eight bodies in six groupings: four isolated singles and two touching two-body pairs.",
+        "observedSubjectDescription": "Nine short pleomorphic rod-to-coccobacillus bodies in seven groupings: five isolated singles and two touching two-body pairs.",
+        "observedVisibleBodyCount": 9,
+        "observedSpatialGroupingCount": 7,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Nine selected Collinsella short rod-to-coccobacillus bodies appear in seven groupings: five isolated singles and two touching pairs.",
+      "proposedCaption": "Selected type-species-anchored Collinsella short rod-to-coccobacillus forms, shown as nine bodies in seven groupings. This genus-level reconstruction is representative, non-exhaustive, non-diagnostic, and not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of nine selected Collinsella short pleomorphic rod-to-coccobacillus bodies arranged as five singles and two touching pairs on a pale cool field."
+    },
+    {
+      "pageId": "coprococcus",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-013/coprococcus-draft.png",
+      "generationRecord": "exec-a82e5b6a-6a32-4046-a7d0-55029466975a.png",
+      "sha256": "46b1f421f86c1c34629d76d108858759913e62c7f00c6f9497f302cdbd0f479e",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:33042",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=33042&mode=Info",
+        "https://lpsn.dsmz.de/genus/coprococcus",
+        "https://doi.org/10.1099/00207713-24-2-260",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11406416/"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Coprococcus as current genus NCBITaxon:33042, with C. eutactus as type species. The original type description supports coccoid bodies commonly occurring in pairs. This selected plate is type-species-anchored, representative, non-exhaustive, and non-diagnostic.",
+      "visualReview": "Exactly eight coccoid-to-short-ovoid bodies appear in four widely separated groupings, each a touching two-body pair with both bodies individually countable. No grape-like cluster, continuous long chain, full rod, spore, appendage, capsule, halo, shared envelope, biofilm, label, text, scale bar, host material, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Eight coccoid-to-short-ovoid bodies in four widely separated two-body pairs.",
+        "observedSubjectDescription": "Eight coccoid-to-short-ovoid bodies in four widely separated touching two-body pairs.",
+        "observedVisibleBodyCount": 8,
+        "observedSpatialGroupingCount": 4,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Eight selected Coprococcus coccoid-to-short-ovoid bodies appear as four separated touching pairs.",
+      "proposedCaption": "Selected type-species-anchored Coprococcus coccoid-to-short-ovoid forms, shown as eight bodies in four paired groupings. This genus-level reconstruction is representative, non-diagnostic, and not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of eight selected Coprococcus coccoid-to-short-ovoid bodies arranged as four separated touching pairs without a grape-like cluster or long chain."
+    },
+    {
+      "pageId": "corynebacterium",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-013/corynebacterium-draft.png",
+      "generationRecord": "exec-f254d2a8-1cf9-4304-9e33-e2ae09cbe2df.png",
+      "sha256": "0d23b84ec6d82a5994a25f484866a1601c4d26a390e142bd63bb1f4fb700738d",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:1716",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1716&mode=Info",
+        "https://lpsn.dsmz.de/genus/corynebacterium",
+        "https://www.sciencedirect.com/science/article/pii/S0196439905000036"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Corynebacterium as current genus NCBITaxon:1716, with C. diphtheriae as type species. Authoritative genus treatments support pleomorphic, often club-shaped rods in singles, pairs, angular V forms, and palisades. This selected static plate is type-species-anchored, representative, and non-diagnostic.",
+      "visualReview": "Exactly nine pleomorphic club-shaped rod bodies appear in six separated groupings: three isolated singles, one restrained open-V pair, one near-parallel palisade pair, and one shallow angled two-body grouping. The bodies show mild length, curvature, and end-thickness variation. No true branched or Y-shaped cellular body, filament, spore, appendage, capsule, halo, label, text, scale bar, host material, disease scene, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Nine pleomorphic club-shaped rod bodies in six groupings: three singles, one open-V pair, one near-parallel pair, and one shallow angled pair.",
+        "observedSubjectDescription": "Nine pleomorphic club-shaped rod bodies in six groupings: three isolated singles, one open-V pair, one near-parallel palisade pair, and one shallow angled two-body grouping.",
+        "observedVisibleBodyCount": 9,
+        "observedSpatialGroupingCount": 6,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Nine selected Corynebacterium club-shaped rod bodies appear in six groupings: three singles, one open-V pair, one near-parallel pair, and one shallow angled pair.",
+      "proposedCaption": "Selected type-species-anchored Corynebacterium club-shaped and pleomorphic rod forms, shown as nine bodies in six single, V-shaped, angled, or palisade groupings. This reconstruction is representative, non-diagnostic, and not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of nine selected Corynebacterium pleomorphic club-shaped rod bodies arranged as three singles and three restrained two-body arrangements."
+    },
+    {
+      "pageId": "cryptococcus-neoformans",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-013/cryptococcus-neoformans-draft.png",
+      "generationRecord": "exec-1037b9a2-8b4d-43d7-b429-cff92d034d6f.png",
+      "sha256": "3fd06f1855e644f3624df66585834d47bab3f07075a1f1b84f585a24f5fa2781",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:5207",
+      "mycoBankOrIndexFungorumIdentifier": "119294",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5207&mode=Info",
+        "https://www.indexfungorum.org/Names/NamesRecord.asp?RecordID=119294",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7957021/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC251949/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6779390/"
+      ],
+      "scientificFinding": "NCBI Taxonomy and Index Fungorum retain Cryptococcus neoformans as current species NCBITaxon:5207 and fungal name record 119294. Primary light and electron microscopy supports round-to-oval budding yeast bodies surrounded by a polysaccharide capsule. Capsule extent varies, so this selected static plate is representative and non-diagnostic.",
+      "visualReview": "Exactly ten encapsulated round-to-ovoid yeast bodies appear in eight separated groupings: six isolated singles and two narrow-based budding pairs. This is two more bodies and two more groupings than the prompt requested. The transparent halo forms a continuous lobed contour around each attached mother-bud pair. Control accepted this exact observed morphology and provenance description as a representative, non-diagnostic scientific reconstruction, not a micrograph. No giant halo, pseudohypha, hypha, spore, internal organelle diagram, host cell or tissue, lifecycle scene, label, text, scale bar, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Eight round-to-oval yeast bodies in six groupings: four isolated singles and two touching budding pairs, each body with its own thin capsule halo and no shared capsule.",
+        "observedSubjectDescription": "Ten encapsulated round-to-ovoid yeast bodies in eight groupings: six isolated singles and two narrow-based budding pairs; the transparent halo forms a continuous lobed contour around each attached mother-bud pair.",
+        "observedVisibleBodyCount": 10,
+        "observedSpatialGroupingCount": 8,
+        "observedBuddingPairCount": 2,
+        "observedVisibleCapsuleContourCount": 8,
+        "observedCapsuleDescription": "Six individual transparent halo contours surround the isolated singles, and two continuous lobed transparent halo contours each surround one attached narrow-based mother-bud pair.",
+        "promptConstraintDisposition": "Control accepted the continuous lobed halo contour around each attached mother-bud pair when preserved exactly in the observed-description and provenance language; the asset is a scientific reconstruction, not a micrograph.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Ten encapsulated round-to-ovoid C. neoformans yeast bodies in eight groups: six singles and two narrow-based budding pairs; the transparent halo forms a continuous lobed contour around each attached mother-bud pair.",
+      "proposedCaption": "Representative Cryptococcus neoformans encapsulated round-to-ovoid yeast with two narrow-based budding pairs; the transparent halo forms a continuous lobed contour around each attached mother-bud pair. This is a non-diagnostic scientific reconstruction, not a micrograph.",
+      "proposedDescription": "WikiBiome scientific reconstruction of ten encapsulated round-to-ovoid Cryptococcus neoformans yeast bodies in eight groupings: six isolated singles and two narrow-based budding pairs, with the transparent halo forming a continuous lobed contour around each attached mother-bud pair."
+    },
+    {
+      "pageId": "debaryomyces",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-013/debaryomyces-draft.png",
+      "generationRecord": "exec-f9224f5a-d7b5-4d9c-b316-d5b54059c634.png",
+      "sha256": "5c6a0517e702e70e4fbd92d5737073f2e0a25b565e8799b152a90194ddc3a02e",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:4958",
+      "indexFungorumIdentifier": "1432",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4958&mode=Info",
+        "https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=1432",
+        "https://fungalgenera.org/genus/debaryomyces.html",
+        "https://doi.org/10.3767/003158508X336576"
+      ],
+      "scientificFinding": "NCBI Taxonomy and Index Fungorum recognize Debaryomyces as current genus NCBITaxon:4958 and conserved fungal genus record 1432, with D. hansenii as type species. Authoritative genus treatment supports multilateral budding with cells singly, in pairs, short chains, or small clusters; only some species form poorly developed pseudohyphae. This plate therefore omits pseudohyphae, asci, and spores and is type-species-anchored, representative, and non-diagnostic.",
+      "visualReview": "Exactly eight round-to-oval yeast bodies appear in six separated groupings: four isolated singles and two touching mother-and-bud pairs, each with a smaller individually countable bud. No surrounding halo, capsule, pseudohypha, hypha, chain, ascus, ascospore, host material, label, text, scale bar, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Eight round-to-oval yeast bodies in six groupings: four isolated singles and two touching budding pairs.",
+        "observedSubjectDescription": "Eight round-to-oval yeast bodies in six groupings: four isolated singles and two touching mother-and-bud pairs.",
+        "observedVisibleBodyCount": 8,
+        "observedSpatialGroupingCount": 6,
+        "observedBuddingPairCount": 2,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Eight selected Debaryomyces yeast bodies appear in six groupings: four isolated round-to-oval singles and two budding pairs.",
+      "proposedCaption": "Selected type-species-anchored Debaryomyces budding-yeast forms, shown as eight bodies in six single or paired groupings. This genus-level reconstruction is representative, non-diagnostic, and not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of eight selected Debaryomyces round-to-oval yeast bodies arranged as four singles and two budding pairs without pseudohyphae, capsules, or spores."
+    },
+    {
+      "pageId": "davidiella",
+      "decision": "scientific-identity-hold-resolved",
+      "generationStatus": "withheld-no-call",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "legacyControlledIdentifier": "NCBITaxon:237557",
+      "currentIdentity": "Cladosporium",
+      "currentRank": "genus",
+      "canonicalIdentifier": "NCBITaxon:5498",
+      "reason": "The ICTF Working Group on Dothideomycetes recommends Cladosporium Link 1816 over the younger sexual-morph name Davidiella Crous & U. Braun 2003 under one-fungus/one-name treatment. Species Fungorum accepts Cladosporium, and NCBI Taxonomy assigns genus TaxID 5498 to Cladosporium. A second canonical route or asset would duplicate the selected genus.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5498&mode=Info",
+        "https://www.speciesfungorum.org/names/TreeOfLife.asp?GenusRecordID=7681",
+        "https://doi.org/10.5598/imafungus.2015.06.02.14",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4681266/"
+      ],
+      "requiredResolution": "Merge the supported historical Davidiella observation and source-label context into the Cladosporium record, retire the obsolete genus slug, and preserve source-era uses of Davidiella without creating a second canonical taxon or media asset.",
+      "routingImpact": "The obsolete slug is excluded from the canonical queue, registry, public media files, and image sitemap. The existing reviewed Cladosporium asset remains the sole current-route asset keyed to NCBITaxon:5498.",
+      "resolutionStatus": "resolved-before-promotion",
+      "resolvedOn": "2026-09-01",
+      "resolution": "Control retired the Davidiella route after merging its single supported historical observation into Cladosporium with the original label and limitations. Article, history, and suggest routes permanently redirect to the current Cladosporium record.",
+      "canonicalPageId": "cladosporium"
+    }
+  ]
+}

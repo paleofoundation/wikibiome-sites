@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "batchId": "mechanisms-080",
+  "category": "mechanisms",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "a2e7c4bc0fc604ba3f436b332578093f1968b411",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/mechanisms-080.md",
+  "reviewRecord": "docs/operations/media-reviews/mechanisms-080.md",
+  "controlReviewRequired": false,
+  "initialAuditCommit": "5145522",
+  "reviewStandard": "The six queued routes failed the pre-generation diagnostic, analytical, exposure, taxonomic, causal, representation, evidence, or clinical-treatment gate. They received no marked prompt, no built-in generation call, and no raster. Current controlled clinical, analytical, carcinogen, toxicology, resistance, and metalloregulation records were checked against the generated article corpus; conflicts and required resolution are preserved in the audit and review packets. Zero hashes are eligible for promotion.",
+  "controlAcceptedReviewManifestSha256": "ed373f5920a352697c7a27a1f4c4f9ae8b0c79632fbe3598dd757194aa152bc1",
+  "controlAcceptedPromptEvidenceSha256": "13a7dc26242cb48b6bf69053d233911d7fe8807d225ba1f44955e90e470ddfe9",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "77f320dc4894cc3e3e106b6c29d0f793e039f891",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "metabolic-syndrome",
+      "metabolomics",
+      "metal-carcinogenesis",
+      "metal-chelation-therapy",
+      "metal-resistance-genes",
+      "metal-sensing"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 6,
+  "generationCallCount": 0,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "promotionRule": "No Batch 080 route is eligible for generation or promotion until its documented identity, scope, representation, evidence, and clinical-translation conflicts are corrected and independently re-audited.",
+  "routeDecisions": [
+    {"pageId":"metabolic-syndrome","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D024821","reason":"The syndrome is reduced to contradictory cross-sectional nickel studies while prevalence comparisons and oxidative-stress markers risk implying causality.","requiredResolution":"Define diagnostic criteria, specimen/biomarker, exposure, timing, kidney adjustment, population, covariates, multiplicity, and prospective evidence."},
+    {"pageId":"metabolomics","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D055432","reason":"A measurement discipline is presented as a platform/biomarker catalog with analytical generalizations and no specimen, identification, QC, normalization, or validation standards.","requiredResolution":"Rebuild around design, specimen, preparation, platform, separation, ionization, calibration, QC, normalization, annotation confidence, validation, batch effects, and deposition."},
+    {"pageId":"metal-carcinogenesis","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"mechanism-umbrella;no-single-controlled-entity","reason":"Distinct elements, species, routes, doses, tissues, and cancer sites are compressed into three universal mechanistic paradigms and one repair-inhibition theme.","requiredResolution":"Separate agent/species, exposure route, target site, human evidence, mechanistic model, dose, co-exposure, and regulatory classification."},
+    {"pageId":"metal-chelation-therapy","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D002612","reason":"Prescription treatment is presented as a simplified chelator-by-metal protocol with approval, indication, threshold, first-line, safety, and efficacy claims requiring current toxicology guidance.","requiredResolution":"Replace protocols with a non-prescriptive, dated jurisdictional overview linked to poison-control/toxicology guidance, exact approvals, contraindications, monitoring, source control, and emergency referral."},
+    {"pageId":"metal-resistance-genes","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"gene-family-ecology-umbrella;no-single-controlled-identifier","reason":"Selected genes, taxa, environments, mobile elements, and co-selection examples become universal automatic AMR-selection and clinical-risk claims.","requiredResolution":"Separate resistance mechanisms and require host-linked genomic/functional evidence, expression, transfer, metal species/concentration, environment, and clinical outcome."},
+    {"pageId":"metal-sensing","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"regulatory-system-umbrella;no-single-controlled-identifier","reason":"Diverse organism-specific protein and RNA sensors become one compatibility/flow theory with universal virulence and therapeutic-target claims.","requiredResolution":"Rebuild by sensor family, organism and identifier, cognate species, structure, stoichiometry, regulon, assay, condition, and in-vivo evidence; separate hypotheses from validated targets."}
+  ],
+  "assets": []
+}

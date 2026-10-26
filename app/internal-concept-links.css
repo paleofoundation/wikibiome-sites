@@ -1,0 +1,22 @@
+/* Contextual knowledge-graph links must remain recognizable without relying on color alone. */
+:is(.article-body, .disease-body) :is(p, li, td) a[href^="/article/"] {
+  color: #1f5ca8;
+  font-weight: 500;
+  text-decoration-line: underline;
+  text-decoration-color: #8eaed2;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+  text-decoration-skip-ink: auto;
+}
+
+:is(.article-body, .disease-body) :is(p, li, td) a[href^="/article/"]:hover {
+  color: #123f82;
+  text-decoration-color: currentColor;
+  text-decoration-thickness: 2px;
+}
+
+:is(.article-body, .disease-body) :is(p, li, td) a[href^="/article/"]:focus-visible {
+  border-radius: 2px;
+  outline: 2px solid #3f76b7;
+  outline-offset: 2px;
+}

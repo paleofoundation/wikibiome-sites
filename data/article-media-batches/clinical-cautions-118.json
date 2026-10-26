@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "batchId": "clinical-cautions-118",
+  "category": "clinical-cautions",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "76a53aeb589c46d5eb740a9ba6a7bd4302b7ddd1",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/clinical-cautions-118.md",
+  "reviewRecord": "docs/operations/media-reviews/clinical-cautions-118.md",
+  "publicationMetadataPlan": {
+    "reviewOnly": true,
+    "creator": "OpenAI built-in image generation",
+    "credit": "WikiBiome / Microbiome Medicine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "digitalSourceType": "trainedAlgorithmicMedia",
+    "mediaDescription": "No generated media; these clinical-caution routes do not resolve exact product, protocol, disease state, population, outcome, or a non-prescriptive physical subject",
+    "sourceUse": "Current controlled records and local source-resolution evidence define asset-free scientific holds."
+  },
+  "controlReviewRequired": false,
+  "initialAuditCommit": "df0561777b966bbe30c1849e51b2cf4ea13c6263",
+  "controlAcceptedReviewManifestSha256": "576c1b84aaa44fab8f028680ab49720a252c8db4978011c0e1c9e82aacb2972c",
+  "controlAcceptedPromptEvidenceSha256": "a4e3384dc161d888ded117c155217d04951a0f11f18ea475a9a7bac86e305a73",
+  "controlFinalReview": {
+    "status": "accepted-zero-call-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "32395d844ab90c961baed514b13b5f2eced37856",
+    "reviewer": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "stop-iron-supplementation-asd",
+      "stop-iron-supplementation-schizophrenia",
+      "stop-iron-phosphate-binders-ckd",
+      "stop-isolated-zinc-supplementation-pcos",
+      "stop-ppi-monotherapy-without-microbiome-support-gerd",
+      "stop-neglecting-constipation-ckd"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
+  "reviewStandard": "Clinical-caution pages may not receive generic warning graphics, crossed-out products, stigmatizing patient imagery, condition anatomy used as treatment evidence, or elemental-metal media substituted for a clinical product. All six routes fail before prompt creation.",
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 6,
+  "generationCallCount": 0,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "promotionRule": "No Batch 118 source hash exists or is eligible for promotion. All six routes remain asset-free scientific holds. No generated source, master, derivative, registry record, endpoint, Schema object, social preview, or image-sitemap entry may be created from this batch.",
+  "routeDecisions": [
+    {
+      "pageId": "stop-iron-supplementation-asd",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Iron-Dietary-MeSH:D019266;Iron-Deficiencies-MeSH:D000090463;Autism-Spectrum-Disorder-MeSH:D000067877;child-iron-state-metal-assessment-product-protocol-and-outcomes-unresolved",
+      "reason": "The page explicitly exempts true pediatric iron deficiency and labels its proposal a mechanistic hypothesis. Its four autism and microbiome sources do not establish a clinical iron-withholding protocol or define hepcidin testing, deficiency or anemia, formulation, route, dose, age, diet, comorbidity, monitoring, outcomes, safety, or exceptions. Child, brain, gut, blood, tablet, iron, or prohibition imagery would be stigmatizing or clinically misleading.",
+      "requiredResolution": "Add direct pediatric clinical evidence and guidance; define autism population, deficiency and anemia criteria, hepcidin assay and threshold, formulation, route, elemental dose, schedule, diet, comorbidities, comparator, monitoring, developmental and hematologic outcomes, adverse events, and exceptions."
+    },
+    {
+      "pageId": "stop-iron-supplementation-schizophrenia",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Iron-Dietary-MeSH:D019266;Iron-Deficiencies-MeSH:D000090463;Schizophrenia-MeSH:D012559;neuroinflammation-anemia-product-protocol-and-psychiatric-outcomes-unresolved",
+      "reason": "The page states that true iron-deficiency anemia requires supplementation, while its three polyphenol, immune, and microbiome sources do not establish withholding. Schizophrenia phenotype, neuroinflammation measurement, deficiency or anemia, formulation, route, dose, antipsychotic treatment, population, monitoring, psychiatric outcomes, safety, and exceptions are unresolved. Patient, face, brain, blood, tablet, iron, or prohibition imagery would stigmatize or prescribe.",
+      "requiredResolution": "Add direct clinical evidence; define schizophrenia phenotype and treatment, neuroinflammation assessment, deficiency and anemia criteria, route, compound, formulation, elemental dose, schedule, population, comparator, monitoring, psychiatric and hematologic outcomes, adverse events, and exceptions; identify a non-stigmatizing subject."
+    },
+    {
+      "pageId": "stop-iron-phosphate-binders-ckd",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Renal-Insufficiency-Chronic-MeSH:D051436;iron-based-phosphate-binder-product-ckd-stage-dialysis-protocol-and-outcomes-unresolved",
+      "reason": "The two CKD microbiome reviews do not establish discontinuation of an iron-based phosphate binder. The route does not select ferric citrate, sucroferric oxyhydroxide, or another product; CKD stage, dialysis, phosphate and iron status, dose, co-therapy, monitoring, efficacy, adverse events, and exceptions are unresolved. Kidney, tablet, elemental Iron, gut, or prohibition imagery would imply a prescription-level decision.",
+      "requiredResolution": "Select the exact approved binder and formulation; define CKD stage and dialysis, phosphate and iron status, dose, schedule, concurrent binders and therapies, population, comparator, microbiome method, biochemical and clinical outcomes, adverse events, monitoring, and exceptions."
+    },
+    {
+      "pageId": "stop-isolated-zinc-supplementation-pcos",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Zinc-MeSH:D015032;Polycystic-Ovary-Syndrome-MeSH:D011085;zinc-compound-isolation-copper-status-dose-protocol-and-outcomes-unresolved",
+      "reason": "The two linked records concern heavy-metal oxidative stress and copper associations, not an isolated-zinc intervention. Zinc compound, formulation, dose, duration, baseline zinc and copper status, PCOS phenotype, pregnancy or fertility treatment, comparator, monitoring, metabolic and reproductive outcomes, adverse events, and exceptions are unresolved. Existing elemental Zinc or PCOS anatomy cannot stand in for an unspecified supplement protocol.",
+      "requiredResolution": "Add direct zinc-intervention evidence; define zinc compound and formulation, elemental dose, duration, baseline zinc and copper status, diet, PCOS phenotype, pregnancy and fertility-treatment context, population, comparator, monitoring, metabolic, reproductive and safety outcomes, and exceptions."
+    },
+    {
+      "pageId": "stop-ppi-monotherapy-without-microbiome-support-gerd",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Proton-Pump-Inhibitors-MeSH:D054328;Gastroesophageal-Reflux-MeSH:D005764;ppi-agent-duration-probiotic-strain-protocol-and-outcomes-unresolved",
+      "reason": "The page says PPIs remain appropriate first-line therapy and proposes co-administration rather than avoidance. Its sources do not resolve one PPI, dose, duration, GERD phenotype, probiotic species and strain, product, dose, timing, comparator, microbiome method, symptom or mucosal outcomes, adverse events, or exceptions. Reflux anatomy, pill, microbe, or combined product imagery would misrepresent an unresolved combination protocol.",
+      "requiredResolution": "Select the exact PPI agent, formulation, dose and duration plus exact probiotic taxa, strains, product, dose and timing; define GERD phenotype, population, comparator, concurrent treatment, microbiome method, symptom, mucosal and safety outcomes, monitoring, and exceptions."
+    },
+    {
+      "pageId": "stop-neglecting-constipation-ckd",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Constipation-MeSH:D003248;Renal-Insufficiency-Chronic-MeSH:D051436;constipation-cause-ckd-stage-treatment-protocol-and-outcomes-unresolved",
+      "reason": "One observational constipation and end-stage renal disease risk record does not define a treatment protocol. Constipation subtype and cause, CKD stage and dialysis, fluid and electrolyte restrictions, exact dietary or pharmacologic intervention, dose, duration, contraindications, comparator, monitoring, renal and bowel outcomes, safety, and exceptions are unresolved. Bowel, kidney, stool, laxative, or warning imagery would imply diagnosis or management beyond the evidence.",
+      "requiredResolution": "Add current renal and gastroenterology guidance; define constipation subtype and cause, CKD stage and dialysis, fluid and electrolyte limits, exact intervention and formulation, dose, schedule, population, comparator, monitoring, bowel and renal outcomes, adverse events, contraindications, escalation, and exceptions."
+    }
+  ],
+  "assets": []
+}

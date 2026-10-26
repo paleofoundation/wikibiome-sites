@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "interventions-107",
+  "category": "interventions",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "26d75d4775ce42512cd50d08becaffaae7887de4",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/interventions-107.md",
+  "reviewRecord": "docs/operations/media-reviews/interventions-107.md",
+  "controlReviewRequired": false,
+  "initialAuditCommit": "c4d2e8a176054ab70131972f0f47546f1c6a5750",
+  "controlAcceptedReviewManifestSha256": "7d52f7e459fc1d36a2b12a061def18df5e4e9363e010a64b50240b67c731b834",
+  "controlAcceptedPromptEvidenceSha256": "53784dfec60a03d1848c927bc54e8066f4fb613b75f8f43f5f008d6dafed1da7",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "fd336dd42978c7f650b4e6b8e1d86b1ef93d6736",
+    "reviewer": "WikiBiome Control Tower scientific and editorial audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "lactoferrin-supplementation",
+      "low-carbohydrate-diet-gerd",
+      "low-carbohydrate-diet",
+      "low-fat-diet",
+      "low-nickel-diet",
+      "low-red-meat-diet"
+    ]
+  },
+  "reviewStandard": "All six routes fail the pre-generation physical-state, protocol, evidence, or non-prescriptive representation gate. Five have zero linked sources. Low-Nickel Diet has 29 sources but no single controlled meal, food-composition system, preparation, intake threshold, phenotype, protocol, or measured outcome. No marked prompt, call, raster, or eligible source hash exists.",
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 6,
+  "generationCallCount": 0,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "promotionRule": "No route in Batch 107 is eligible for generation or promotion. All six remain asset-free scientific-media holds until a bounded, evidence-backed intervention state is selected and independently re-audited.",
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
+  "routeDecisions": [
+    {
+      "pageId": "lactoferrin-supplementation",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D007781;unspecified-protein-source-state-and-supplement-product;zero-resolvable-sources",
+      "reason": "The zero-source route combines unspecified biological sources, molecular and iron-loading states, oral products, doses, populations, microbial mechanisms, immune effects, and clinical outcomes rather than one controlled supplement.",
+      "requiredResolution": "Choose species and biological source, exact sequence or product specification, processing, purity, glycosylation and iron-loading state, formulation and excipients, route, dose and schedule, population, comparator, specimen, assay, time point, endpoint, and direct evidence."
+    },
+    {
+      "pageId": "low-carbohydrate-diet-gerd",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D050528;GERD-specific-diet-protocol-unspecified;zero-resolvable-sources",
+      "reason": "The zero-source route does not select a carbohydrate definition, energy target, food composition, duration, GERD phenotype, medication context, adherence measure, reflux assay, or endpoint.",
+      "requiredResolution": "Choose operational diet composition, energy and carbohydrate definition, exact foods or formulation, duration, GERD criteria and population, medication context, comparator, adherence measure, reflux assay, time point, endpoint, safety boundary, and direct evidence."
+    },
+    {
+      "pageId": "low-carbohydrate-diet",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D050528;PCOS-specific-diet-protocol-unspecified;zero-resolvable-sources",
+      "reason": "The zero-source route combines multiple carbohydrate thresholds, PCOS and GERD contexts, energy and weight states, foods, fiber, probiotics, biomarkers, mechanisms, and outcomes rather than one controlled diet.",
+      "requiredResolution": "Choose one PCOS diet protocol, carbohydrate amount and quality, energy balance, exact foods or formulation, duration, population, comparator, adherence measure, specimen, assay, time point, endpoint, safety boundary, and direct evidence."
+    },
+    {
+      "pageId": "low-fat-diet",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D018752;endometriosis-specific-diet-protocol-unspecified;zero-resolvable-sources",
+      "reason": "The zero-source route combines total and specific fats, substitutions, energy and weight, bile acids, hormones, prostaglandins, microbiota, symptoms, and nutrient cautions without one protocol.",
+      "requiredResolution": "Choose one endometriosis diet protocol, total and saturated fat targets, exact foods and substitutions, energy balance, duration, population, comparator, adherence measure, specimen, assay, time point, endpoint, nutrient-safety boundary, and direct evidence."
+    },
+    {
+      "pageId": "low-nickel-diet",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D009532-plus-uncontrolled-dietary-restriction-protocol;multi-population-multi-food-system;29-local-sources",
+      "reason": "Twenty-nine sources span multiple diagnoses, food lists, analytical methods, intake estimates, preparations, phenotypes, challenges, co-interventions, durations, and outcomes; no single meal or food set is universally low nickel.",
+      "requiredResolution": "Choose jurisdiction and food-composition dataset, analytical method and units, exact foods and preparation/storage, intake threshold, complete menu and duration, diagnostic and sensitization phenotype, comparator, adherence measure, specimen, assay, time point, endpoint, contraindications, and evidence tier."
+    },
+    {
+      "pageId": "low-red-meat-diet",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D000069466;endometriosis-specific-restriction-and-substitution-protocol-unspecified;zero-resolvable-sources",
+      "reason": "The zero-source route does not fix red-meat definition, baseline and target servings, processing, species, cut, preparation, replacement foods, energy balance, duration, population, adherence, specimen, assay, or endpoint.",
+      "requiredResolution": "Choose red-meat definition, baseline and target intake, exact species/cuts and preparation, processed-meat boundary, substitutions and nutrient equivalence, energy balance, duration, endometriosis population, comparator, adherence measure, specimen, assay, time point, endpoint, and direct evidence."
+    }
+  ],
+  "assets": []
+}

@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "batchId": "interventions-108",
+  "category": "interventions",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "920ce932832e16029c065e42b88dbdbeb8fe01c0",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/interventions-108.md",
+  "reviewRecord": "docs/operations/media-reviews/interventions-108.md",
+  "publicationMetadataPlan": {
+    "reviewOnly": true,
+    "creator": "OpenAI built-in image generation",
+    "credit": "WikiBiome / Microbiome Medicine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "digitalSourceType": "trainedAlgorithmicMedia",
+    "mediaDescription": "Scientific algorithmic chemical-identity reconstruction, not a source structure image, crystallographic conformer, photograph, supplement product, assay result, treatment recommendation, or diagnostic image",
+    "sourceUse": "Controlled scientific records supplied exact identity and conservative representation boundaries only; no source image or design was copied."
+  },
+  "controlReviewRequired": false,
+  "initialAuditCommit": "497c4992d74dac80c283cb1f7b2fee20f3f86132",
+  "promptFreezeCommit": "23345552c70e9e53a3d0ffdd4a5ada269c9129d3",
+  "controlAcceptedReviewManifestSha256": "3e1c02218a81ee011d04af8341b1c291b623d6e9539e00887c441055fc05f75e",
+  "controlAcceptedPromptEvidenceSha256": "399c901664943abc7cd6ca819f63487aa3a30f6fbc97ef887a15df8691158010",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-five-scientific-holds-one-rejected-output",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "36b3b00a49da9904f9fd790dab59c2671a090287",
+    "reviewer": "WikiBiome Control Tower native-resolution scientific and visual audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "magnesium-supplementation",
+      "mediterranean-diet-fibromyalgia",
+      "mediterranean-diet-gerd",
+      "mediterranean-diet-ovarian-cancer",
+      "mediterranean-diet-t1d",
+      "melatonin"
+    ]
+  },
+  "reviewStandard": "Only exact neutral melatonin is cleared for one immutable chemical-identity call. The five supplement or diet-protocol routes fail material, formulation, protocol, evidence, population, measurement, safety, or non-prescriptive-representation gates and receive no prompt marker or generation call.",
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 5,
+  "generationCallCount": 1,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 1,
+  "quarantinedGenerationCount": 1,
+  "revisionCount": 0,
+  "promotionRule": "No Batch 108 source hash is eligible for promotion. Five routes remain asset-free scientific holds, and the single generated melatonin original remains immutable non-public quarantine evidence. No master, derivative, registry record, endpoint, Schema object, social preview, or image-sitemap record may be created from this batch.",
+  "controlSocialCropReview": "not-applicable-zero-eligible-assets",
+  "promotionDerivatives": {},
+  "routeDecisions": [
+    {
+      "pageId": "magnesium-supplementation",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D008274-plus-MeSH:D019587;unspecified-magnesium-compound-product-and-protocol;zero-resolvable-sources",
+      "reason": "The zero-source route combines elemental magnesium, deficiency, multiple salts and formulations, doses, specimens, assays, mechanisms, fibromyalgia outcomes, bioavailability, and tolerance rather than one controlled supplement state.",
+      "requiredResolution": "Choose exact magnesium compound and hydration state, product and formulation, elemental-magnesium content, excipients, route, dose and schedule, population, comparator, specimen, assay, time point, endpoint, safety boundary, and direct evidence."
+    },
+    {
+      "pageId": "mediterranean-diet-fibromyalgia",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D038441;fibromyalgia-specific-diet-protocol-unspecified;zero-resolvable-sources",
+      "reason": "The zero-source route does not select an operational Mediterranean-diet score, exact foods and quantities, preparation, energy balance, duration, fibromyalgia population, comparator, adherence measure, specimen, assay, or endpoint.",
+      "requiredResolution": "Choose one directly sourced diet definition and score or complete menu, preparation, energy balance, duration, population, comparator, adherence measure, specimen, assay, time point, endpoint, and safety boundary."
+    },
+    {
+      "pageId": "mediterranean-diet-gerd",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D038441;GERD-specific-diet-protocol-unspecified;zero-resolvable-sources",
+      "reason": "The zero-source route combines diet adherence, fiber, nitrite, antioxidants, melatonin-rich foods, lower-esophageal-sphincter tone, symptoms, and comparison with proton-pump inhibitors without one protocol or measured state.",
+      "requiredResolution": "Choose one directly sourced diet score or complete menu, preparation, duration, GERD phenotype, medication context, comparator, adherence measure, reflux assay, time point, endpoint, and safety boundary."
+    },
+    {
+      "pageId": "mediterranean-diet-ovarian-cancer",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D038441;human-AMED-adherence-plus-mouse-dietary-fat-model;two-local-sources",
+      "reason": "The two sources describe a prospective human AMED adherence analysis and a separate mouse dietary-fat experiment, while the page combines survival, microbiome, inflammation, polyamines, metal chelation, and counseling; no single physical diet or intervention state is selected.",
+      "requiredResolution": "Choose one study-specific diet definition, adherence score or complete formulation, species or population, comparator, duration, adherence or exposure measure, specimen, assay, time point, endpoint, and evidence-qualified claim boundary."
+    },
+    {
+      "pageId": "mediterranean-diet-t1d",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D038441;type-1-diabetes-specific-diet-and-insulin-protocol-unspecified;zero-resolvable-sources",
+      "reason": "The zero-source route combines dietary adherence, carbohydrate counting, insulin dosing, glycemic control, cardiovascular markers, taxa, butyrate, immune claims, and a proposed probiotic combination without one controlled protocol.",
+      "requiredResolution": "Choose one directly sourced diet score or complete menu, carbohydrate and insulin context, duration, population, comparator, adherence measure, specimen, assay, time point, endpoint, and safety boundary."
+    }
+  ],
+  "assets": [
+    {
+      "pageId": "melatonin",
+      "displayName": "Neutral melatonin",
+      "proposedAssetType": "intervention",
+      "revision": 1,
+      "decision": "rejected-after-output-audit",
+      "generationStatus": "quarantined-single-call",
+      "draft": "work/media-drafts/interventions-batch-108/melatonin-draft.png",
+      "generationRecord": "exec-7110926e-0bd6-4b7a-9f59-7bcb49a59e77.png",
+      "rootReviewDisposition": "ineligible",
+      "controlledIdentifier": "PubChem:896;ChEBI:16796;MeSH:D008550;InChIKey:DRLFMBDRBRZALE-UHFFFAOYSA-N",
+      "promptSha256": "2634c44c85a74cc9c0f517ddb9434a1854157d7f5fe815c47275ae841ae60a32",
+      "sha256": "87fb53f5e03658a683ee56ec761af8fd0ab28a2442944e0dcf014ee0d3b1e9dc",
+      "fileSizeBytes": 1224846,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "scientificReferences": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/896",
+        "https://www.ebi.ac.uk/chebi/CHEBI:16796",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D008550"
+      ],
+      "proposedSocialResizeFit": "contain",
+      "visualReview": "One complete connected shallow-planar model contains exactly 17 visible heavy-atom centers: 13 graphite carbon centers, two blue nitrogen centers, and two rose oxygen centers. The fused indole, methoxy, two-carbon chain, amide nitrogen, carbonyl, and terminal methyl connectivity are visually present without atom labels.",
+      "quarantineReason": "The raster has a transparent canvas rather than the required opaque uniform pale blue-white field: 1,412,694 pixels have alpha zero, 160,170 pixels have intermediate alpha, and no pixel is fully opaque. Broad red, blue, and graphite glow or haze also surrounds the model despite the explicit no-glow constraint. These native-output defects cannot be cured by metadata or ordinary cropping, and modifying the rejected source would break immutable-output provenance.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome Control Tower native-resolution visual and programmatic alpha-field audit",
+        "reviewedOn": "2026-09-07",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "One connected shallow-planar ball-and-stick model with one fused indole system, one methoxy substituent, and one two-carbon amide-bearing side chain.",
+        "observedVisibleCenterCount": 17,
+        "observedGraphiteCenterCount": 13,
+        "observedBlueCenterCount": 2,
+        "observedRoseCenterCount": 2,
+        "observedSpatialGroupingCount": 1,
+        "observedGraphReview": "The visible indole, methoxy, ethyl, amide, carbonyl, and terminal-methyl connections reconcile with the authority-defined neutral melatonin graph, and no connector overlap conceals a required adjacency.",
+        "alphaZeroPixelCount": 1412694,
+        "alphaIntermediatePixelCount": 160170,
+        "alphaFullyOpaquePixelCount": 0,
+        "outerBandWidthPx": 32,
+        "outerBandNonzeroAlphaPixelCount": 2,
+        "nonzeroAlphaBounds": {
+          "minX": 45,
+          "minY": 30,
+          "maxX": 1473,
+          "maxY": 967
+        },
+        "sourceEdgeContact": false,
+        "centered1200x630CropSafe": false,
+        "requiredSocialResizeFit": "contain",
+        "prohibitedContentReview": "FAIL: the canvas is transparent rather than opaque pale blue-white, every nontransparent pixel is partially transparent, and broad red, blue, and graphite glow or haze surrounds the model. No text, label, letter, number, atom symbol, charge glyph, arrow, legend, chart, detached fragment, duplicate model, hydrogen sphere, pineal gland, brain, clock, moon, star, capsule, tablet, bottle, food, plant, organ, cell, receptor, reaction partner, signature, watermark, or clipped atom center or connector is visible.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Single heavy-atom connectivity model of neutral melatonin with thirteen carbon, two nitrogen, and two oxygen centers.",
+      "proposedCaption": "Heavy-atom connectivity orientation for neutral melatonin. Hydrogens, a measured conformation, crystal packing, supplement formulation, dose, bioavailability, metabolism, receptor activity, sleep and circadian effects, antioxidant action, microbiome effects, disease treatment, efficacy, safety, and clinical claims are intentionally omitted; this is an educational reconstruction.",
+      "proposedDescription": "WikiBiome chemical-identity teaching reconstruction of one neutral melatonin heavy-atom model on a pale cool field.",
+      "proposedProvenance": "Generated once from the immutable Batch 108 prompt after PubChem, ChEBI, and MeSH identity and connectivity review; review-only trained-algorithmic reconstruction."
+    }
+  ]
+}

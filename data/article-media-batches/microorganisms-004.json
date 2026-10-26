@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "batchId": "microorganisms-004",
+  "category": "microorganisms",
+  "createdOn": "2026-09-01",
+  "reviewedOn": "2026-09-01",
+  "status": "reviewed",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/microorganisms-004.md",
+  "reviewStandard": "Scientific identity, morphology, controlled identifiers, caption limits, non-diagnostic framing, provenance, accessibility, and publication files passed the WikiBiome scientific media policy before promotion. The original prompt remains immutable provenance; a separate human output audit reconciles what is actually visible with all published metadata.",
+  "candidateCount": 4,
+  "scientificHoldCount": 2,
+  "revisionCount": 0,
+  "assets": [
+    {
+      "pageId": "anaerotruncus",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved",
+      "draft": "work/media-drafts/microorganisms-batch-004/anaerotruncus-draft.png",
+      "sha256": "dea2c6b801532a10808b62b38d1f8c99eebe2cfe4840eb04fa9c66aa7dbbe33e",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=244127&mode=Info",
+        "https://pubmed.ncbi.nlm.nih.gov/15023953/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC1860411/"
+      ],
+      "scientificFinding": "The original A. colihominis description reports anaerobic rods, while an emended description based on electron microscopy reports nonmotile pleomorphic thin bacilli with occasional oval terminal spores, including re-observation of spores in the original strains.",
+      "visualReview": "Seven thin bacilli span restrained straight-to-curved pleomorphism with one loose pair; exactly one cell contains an oval terminal spore and no cell bears an appendage. No host, stool, blood, label, or diagnostic narrative is shown.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Seven cellular bodies, including one loose pair; one cell contains one oval terminal spore.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Seven thin Anaerotruncus bacilli, including a loose pair and one cell with an oval terminal endospore, on a pale cool field.",
+      "proposedCaption": "Representative Anaerotruncus morphology. A. colihominis is a nonmotile pleomorphic bacillus whose emended description reports occasional oval terminal spores; this reconstruction is not diagnostic.",
+      "proposedDescription": "WikiBiome microscopy-informed reconstruction of pleomorphic Anaerotruncus rods and the occasional terminal endospore documented for A. colihominis."
+    },
+    {
+      "pageId": "aspergillus",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved",
+      "draft": "work/media-drafts/microorganisms-batch-004/aspergillus-draft.png",
+      "sha256": "34304bbf26f701807027fbac8cadf9e01845ad4b8c568bfe6d9a0f2f3333fb1e",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5052&mode=node",
+        "https://wwwn.cdc.gov/phil/Details.aspx?pid=19407",
+        "https://wwwnc.cdc.gov/eid/article/14/4/07-1157_article"
+      ],
+      "scientificFinding": "NCBI identifies Aspergillus as fungal genus NCBITaxon:5052. CDC public-health microscopy documents smooth hyaline conidiophores ending in a bulbous vesicle with biseriate metulae, phialides, and chains of spherical conidia, while CDC case work emphasizes species-level variation in these structures.",
+      "visualReview": "One septate hyphal segment supports a smooth conidiophore and one organized radiating head whose vesicle, biseriate supporting cells, and short spherical conidial chains remain legible; no moldy room, host, culture plate, or generic spore cloud is present.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "One septate hyphal segment, one conidiophore, and one organized radiating conidial head with its component structures legible.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "An Aspergillus conidial head with a smooth stalk, bulbous vesicle, two supporting cell layers, and radiating short chains of spherical conidia.",
+      "proposedCaption": "Representative biseriate Aspergillus conidial-head morphology. Vesicle shape, phialide arrangement, and conidial form vary across species; this reconstruction is genus-level and not diagnostic.",
+      "proposedDescription": "WikiBiome microscopy-informed reconstruction of a septate Aspergillus hypha, smooth conidiophore, vesicle, metulae, phialides, and conidial chains."
+    },
+    {
+      "pageId": "atopobium",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved",
+      "draft": "work/media-drafts/microorganisms-batch-004/atopobium-draft.png",
+      "sha256": "f694fa04c5648e412270fc6dd0cb685b78cbc639b599118b36c9a2e80bf9cb07",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1380&mode=Info",
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1381&mode=Info",
+        "https://pubmed.ncbi.nlm.nih.gov/1382033/",
+        "https://bacdive.dsmz.de/strain/3039"
+      ],
+      "scientificFinding": "NCBI retains Atopobium as genus NCBITaxon:1380 and A. minutum as its current type species NCBITaxon:1381. The original genus proposal and DSMZ type-strain record support a Gram-positive elliptical-to-rod treatment, while species transferred to Lancefieldella or Fannyhessea are excluded from the visual scope.",
+      "visualReview": "Nine small elliptical-to-short-rod cells occur as four singles, one pair, and one three-cell chain without appendages, spores, host scene, labels, or biofilm. The image does not encode the obsolete A. parvulum or A. vaginae combinations.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Nine cellular bodies: four singles, one pair, and one three-cell chain.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Nine small Atopobium cells ranging from elliptical forms to short rods, arranged singly, as a pair, and in a three-cell chain on a pale cool field.",
+      "proposedCaption": "Representative morphology for the current Atopobium genus, centered on A. minutum-like elliptical to short rods. Species now assigned to Lancefieldella or Fannyhessea are outside this image's scope; it is not diagnostic.",
+      "proposedDescription": "WikiBiome microscopy-informed reconstruction of current-genus Atopobium cells occurring singly, in a pair, and in a short chain."
+    },
+    {
+      "pageId": "atopobium-parvulum",
+      "assetType": null,
+      "revision": null,
+      "decision": "scientific-identity-hold",
+      "draft": null,
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1382&mode=Info",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3035223/"
+      ],
+      "scientificFinding": "NCBI recognizes Lancefieldella parvula as the current name for NCBITaxon:1382 and lists Atopobium parvulum only as a homotypic synonym. The canonical route therefore uses a superseded combination.",
+      "visualReview": "No image was generated because publication under the obsolete route title would misstate the current scientific identity.",
+      "requiredResolution": "Rename or redirect the canonical route to Lancefieldella parvula, or explicitly scope the article as a historical synonym page keyed to NCBITaxon:1382, before media review proceeds."
+    },
+    {
+      "pageId": "atopobium-vaginae",
+      "assetType": null,
+      "revision": null,
+      "decision": "scientific-identity-hold",
+      "draft": null,
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=82135&mode=Info",
+        "https://pubmed.ncbi.nlm.nih.gov/10555338/"
+      ],
+      "scientificFinding": "NCBI recognizes Fannyhessea vaginae as the current name for NCBITaxon:82135 and lists Atopobium vaginae as its basionym. The canonical route therefore uses a superseded combination.",
+      "visualReview": "No image was generated because publication under the obsolete route title would misstate the current scientific identity.",
+      "requiredResolution": "Rename or redirect the canonical route to Fannyhessea vaginae, or explicitly scope the article as a historical synonym page keyed to NCBITaxon:82135, before media review proceeds."
+    },
+    {
+      "pageId": "bacillus",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved",
+      "draft": "work/media-drafts/microorganisms-batch-004/bacillus-draft.png",
+      "sha256": "e30dd4e05cf4d1fbac2bd84f9692fc269722536772dd9d9d817a02902d6a2967",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1386&mode=Info",
+        "https://pubmed.ncbi.nlm.nih.gov/21334463/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC245785/"
+      ],
+      "scientificFinding": "NCBI identifies the emended Bacillus genus as NCBITaxon:1386, now limited principally to the subtilis and cereus clades. Taxonomic and electron-microscopy sources support aerobic vegetative rods and dormant endospores, with species-level variation in spore position and cell morphology.",
+      "visualReview": "Five robust rods include one pair, one central and one subterminal non-swelling internal spore, plus one separate mature oval spore; no flagella, capsule, anthrax-specific chain, host material, labels, or disease symbolism are shown.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Five rod-shaped cellular bodies, two internal endospores, and one separate mature oval spore.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Five Bacillus rods, two containing oval endospores, beside one separate mature spore on a pale cool field.",
+      "proposedCaption": "Representative Bacillus sensu stricto vegetative rods and dormant endospores. Spore position, cell shape, and motility vary by species; this reconstruction is genus-level and not diagnostic.",
+      "proposedDescription": "WikiBiome microscopy-informed reconstruction of representative Bacillus rods, internal endospores, and one free mature spore."
+    }
+  ]
+}

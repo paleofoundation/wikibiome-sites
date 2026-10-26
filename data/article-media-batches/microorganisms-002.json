@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "batchId": "microorganisms-002",
+  "category": "microorganisms",
+  "createdOn": "2026-09-01",
+  "reviewedOn": "2026-09-01",
+  "status": "reviewed",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/microorganisms-002.md",
+  "reviewStandard": "Scientific identity, morphology, controlled identifiers, caption limits, non-diagnostic framing, provenance, accessibility, and publication files passed the WikiBiome scientific media policy before promotion. The original prompt remains immutable provenance; a separate human output audit reconciles what is actually visible with all published metadata.",
+  "candidateCount": 5,
+  "scientificHoldCount": 1,
+  "revisionCount": 1,
+  "assets": [
+    {
+      "pageId": "adlercreutzia",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved",
+      "draft": "work/media-drafts/microorganisms-batch-002/adlercreutzia-draft.png",
+      "sha256": "22f66e3527d7b6ef969c119e703107a3814f71a2e9d3da4c3817c86ce10364b4",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=447020&mode=Info",
+        "https://pubmed.ncbi.nlm.nih.gov/18450717/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8549271/"
+      ],
+      "scientificFinding": "NCBI identifies Adlercreutzia as genus NCBITaxon:447020. The original description reports obligately anaerobic, non-spore-forming, nonmotile Gram-positive coccobacilli; the emended description documents rod-shaped type-strain cells.",
+      "visualReview": "Six isolated cells span short ovoid coccobacilli to rounded rods, including one pair; no flagella, pili, spores, host scene, labels, or disease symbolism.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Six cellular bodies: four singles and one two-cell pair.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Six isolated Adlercreutzia cells ranging from short ovoid coccobacilli to rounded rods, including one paired arrangement, on a pale cool field.",
+      "proposedCaption": "Representative Adlercreutzia morphology. Described members include coccobacillary and rod-shaped, nonmotile, non-spore-forming cells; this is an educational genus-level reconstruction, not a micrograph.",
+      "proposedDescription": "WikiBiome microscopy-informed reconstruction of the documented coccobacillary-to-rod morphology within Adlercreutzia."
+    },
+    {
+      "pageId": "aerococcus",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved",
+      "draft": "work/media-drafts/microorganisms-batch-002/aerococcus-draft.png",
+      "sha256": "7ff9fda9dfd842dd21299f7bd60b2a1d0d53e878a38060d841af3ea3393f4dc8",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1375&mode=Info",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC86536/"
+      ],
+      "scientificFinding": "NCBI identifies Aerococcus as genus NCBITaxon:1375. Primary isolate characterization documents Gram-positive cocci in pairs, tetrads, and clusters.",
+      "visualReview": "One clear tetrad, one pair, and one small irregular cluster remain separated and legible; there are no chains, appendages, spores, host materials, labels, or culture media.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Three separated groupings: one tetrad, one pair, and one small irregular cluster.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Aerococcus cocci arranged as a compact tetrad, a pair, and a small irregular cluster against a pale cool field.",
+      "proposedCaption": "Representative Aerococcus cellular arrangements. Members are cocci that may occur in pairs, tetrads, and clusters; this reconstruction is genus-level and not diagnostic.",
+      "proposedDescription": "WikiBiome microscopy-informed reconstruction of paired, tetrad, and clustered Aerococcus cocci."
+    },
+    {
+      "pageId": "aeromonas",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-revision",
+      "draft": "work/media-drafts/microorganisms-batch-002/aeromonas-draft-v2.png",
+      "sha256": "eb7d223d81ff8d3ad42e2883cdd1d7eba77e065430f83b498e52b4bb97938bde",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=642&mode=Info",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC1347287/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC139559/"
+      ],
+      "scientificFinding": "NCBI identifies Aeromonas as genus NCBITaxon:642. Electron-microscopy studies document straight rods and a single unsheathed polar flagellum in motile mesophilic aeromonads, with conditional lateral flagella in some strains and growth states.",
+      "visualReview": "The initial draft's upper-right polar tuft was revised to exactly one polar flagellum. V2 shows four rounded rods, three with one fine polar flagellum and one with no visible appendage; no lateral or peritrichous bundles remain.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Four cellular bodies; three show one polar flagellum and one shows no visible appendage.",
+        "metadataConsistency": "pass"
+      },
+      "revisionLinkage": {
+        "revisedDraft": "work/media-drafts/microorganisms-batch-002/aeromonas-draft.png",
+        "revisedDraftSha256": "08c575a03284238d1826e962e999faa275a2a5d9101435c4d446ee1e305ca757",
+        "acceptedCandidateDraft": "work/media-drafts/microorganisms-batch-002/aeromonas-draft-v2.png",
+        "reason": "The first draft rendered a lophotrichous-looking polar tuft rather than the restrained single-polar form intended for the canonical genus treatment."
+      },
+      "proposedAlt": "Four rounded Aeromonas rods on a pale cool field, three bearing one long fine flagellum from a single cell pole.",
+      "proposedCaption": "Representative motile Aeromonas rods with single polar flagella. Flagellar expression varies by species and growth condition; morphology alone does not identify a clinical isolate.",
+      "proposedDescription": "WikiBiome microscopy-informed reconstruction of straight Aeromonas rods and the single-polar flagellum documented in motile mesophilic strains."
+    },
+    {
+      "pageId": "alishewanella",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-metadata-correction",
+      "draft": "work/media-drafts/microorganisms-batch-002/alishewanella-draft.png",
+      "sha256": "7f9d414e295bebac718c1e8020b7108c7e92ca0a87b208cd7fe1b00f05a2ed27",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=111142&mode=Info",
+        "https://pubmed.ncbi.nlm.nih.gov/27499827/",
+        "https://doi.org/10.1186/s40793-016-0169-3",
+        "https://doi.org/10.1099/00207713-50-3-1133",
+        "https://pubmed.ncbi.nlm.nih.gov/19196789/"
+      ],
+      "scientificFinding": "NCBI identifies Alishewanella as genus NCBITaxon:111142. The 2016 strain record (PMID 27499827; DOI 10.1186/s40793-016-0169-3) documents a Gram-negative, motile, rod-shaped strain. The original A. fetalis description (DOI 10.1099/00207713-50-3-1133) reports nonmotility, whereas later taxonomic descriptions, including A. aestuarii (PMID 19196789), support motile members with a single polar flagellum. The reconstruction therefore represents genus-level variation rather than a universal flagellar state.",
+      "visualReview": "Six simple rounded rods are visible: upper-left, upper-middle flagellated, lower-left flagellated, lower-middle, and a two-cell pair at right. Exactly two cells bear one polar flagellum; four have no visible appendage. No lesion, tissue, metal, label, or pathogen narrative is shown.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Six cellular bodies; two show one polar flagellum and four show no visible appendage.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Six isolated Alishewanella rods, including a two-cell pair; two rods each show one fine polar flagellum, representing motile members of the variable genus.",
+      "proposedCaption": "Representative Alishewanella rods showing genus-level variation. Two of six cells bear a single polar flagellum to represent motile members, while the original A. fetalis description is nonmotile; this reconstruction is not a micrograph or diagnostic image.",
+      "proposedDescription": "WikiBiome microscopy-informed genus-level reconstruction of six straight Alishewanella rods, with single polar flagella limited to two cells to represent documented motile members without implying that every species or strain is flagellated."
+    },
+    {
+      "pageId": "alistipes",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved",
+      "draft": "work/media-drafts/microorganisms-batch-002/alistipes-draft.png",
+      "sha256": "e5ead00afb54a3d69f4856b36d93a74377a2830e25ceb74b8c8634a343a94ba3",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=239759&mode=Info",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4149002/"
+      ],
+      "scientificFinding": "NCBI identifies Alistipes as genus NCBITaxon:239759. Electron-microscopy-backed species descriptions document Gram-negative, obligately anaerobic, nonmotile, non-spore-forming rods, with some described species spanning ovoid to short rod forms.",
+      "visualReview": "Six cells span ovoid to short rounded rods, mostly single with one loose pair; there are no appendages, spores, gut scenery, metabolites, labels, or disease symbols.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Six cellular bodies, including one loose pair.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Six isolated Alistipes cells ranging from compact ovoid forms to short rounded rods, including one loose pair, on a pale cool field.",
+      "proposedCaption": "Representative Alistipes morphology, spanning ovoid to short rounded rods among described species. These obligate anaerobes are nonmotile and non-spore-forming; the image is not diagnostic.",
+      "proposedDescription": "WikiBiome microscopy-informed reconstruction of the documented ovoid-to-short-rod morphology within Alistipes."
+    },
+    {
+      "pageId": "akkermansia-mucinicola",
+      "assetType": null,
+      "revision": null,
+      "decision": "scientific-identity-hold",
+      "draft": null,
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=Akkermansia",
+        "https://www.lpsn.dsmz.de/genus/akkermansia"
+      ],
+      "scientificFinding": "Neither NCBI Taxonomy nor LPSN recognizes Akkermansia mucinicola. Current recognized or provisional genus children include A. muciniphila, A. biwaensis, A. massiliensis, A. glycaniphila, and named Candidatus taxa, but not A. mucinicola.",
+      "visualReview": "No image was generated because no controlled taxonomic identifier or species description exists to support subject identity or morphology.",
+      "requiredResolution": "The control task must correct or retire the canonical route, or supply an authoritative taxonomic description and controlled identifier. Until then the route remains uncovered and must fail any attempted reviewed-media publication."
+    }
+  ]
+}

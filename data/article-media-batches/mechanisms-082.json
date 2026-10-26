@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "batchId": "mechanisms-082",
+  "category": "mechanisms",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "fc112e01ebbf6ee9ac69a7b4e8f5332d440e1523",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/mechanisms-082.md",
+  "reviewRecord": "docs/operations/media-reviews/mechanisms-082.md",
+  "controlReviewRequired": false,
+  "initialAuditCommit": "74aba6f",
+  "reviewStandard": "The six queued routes failed the pre-generation molecular-identity, process-scope, analytical, biomarker-qualification, causal, duplication, or statistical-representation gate. They received no marked prompt, no built-in generation call, and no raster. Controlled records, FDA guidance, international consensus, and primary-indexed reviews were checked against the generated article corpus; conflicts and required resolution are preserved in the audit and review packets. Zero hashes are eligible for promotion.",
+  "controlAcceptedReviewManifestSha256": "ae268d99b659aeb05f5efc5d5b6ce7aa88ec86170bf57c5c4a92b08820ea70ca",
+  "controlAcceptedPromptEvidenceSha256": "929e1f7ae54d3e93b90db19e76fc7d349435ab401e7d4b6c1d7c14a38eca9eff",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "b768c524536385a172a486d0b0320edb3476e2f2",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "metallothionein",
+      "methylation",
+      "microbial-biomarkers",
+      "metabolites",
+      "microbiome-diversity-metrics",
+      "microbiome-derived-metabolites"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 6,
+  "generationCallCount": 0,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "promotionRule": "No Batch 082 route is eligible for generation or promotion until its documented identity, scope, representation, evidence, analytical, and causal conflicts are corrected and independently re-audited.",
+  "routeDecisions": [
+    {"pageId":"metallothionein","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D008676;protein-family-umbrella","reason":"Mammalian isoforms, species-specific proteins, metalation states, stoichiometries, tissues, and disease claims are compressed into one fixed structure and binding hierarchy.","requiredResolution":"Select an organism and isoform/accession or PDB structure, exact metalation state, conditions, stoichiometry, and experimentally supported function."},
+    {"pageId":"methylation","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D008745;process-umbrella","reason":"DNA, histone, protein, and xenobiotic methylation are conflated with one-carbon metabolism and broad microbiome and metal causality.","requiredResolution":"Split by process and specify substrate/site, enzyme, donor, organism/tissue, exposure, assay, genomic context, direction, and causal evidence."},
+    {"pageId":"microbial-biomarkers","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"biomarker-category-umbrella;no-qualified-context-of-use","reason":"Associations, pathogens, host inflammatory markers, metabolites, and experimental metallophores are presented as clinical tools without analytical or clinical validation.","requiredResolution":"Define BEST category, specimen, measurand, assay, preanalytics, threshold, population, context of use, validation, performance, calibration, and qualification status."},
+    {"pageId":"metabolites","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"chemical-class-umbrella;duplicate-overlapping-route","reason":"Host, microbial, co-metabolic, dietary, and hepatic products are combined with categorical beneficial, toxic, and causal disease labels.","requiredResolution":"Reconcile the duplicate route and organize by compound identifier, source/precursor, organism/enzyme evidence, host co-metabolism, matrix, assay, concentration, and validated effect."},
+    {"pageId":"microbiome-diversity-metrics","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"statistical-method-umbrella;no-single-biological-entity","reason":"Estimators and distances with different assumptions are treated as interchangeable disease markers, with generic significance implied without design or model conditions.","requiredResolution":"Document formulas, assumptions, feature construction, preprocessing, sampling depth, covariates, dispersion, null hypothesis, effect size, uncertainty, and interpretation."},
+    {"pageId":"microbiome-derived-metabolites","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"chemical-class-umbrella;duplicate-overlapping-route","reason":"Microbial attribution, host co-metabolism, concentration, compartment, and causality are blurred across many molecules and diseases.","requiredResolution":"Merge or distinguish the duplicate route and bound each compound by identity, origin evidence, pathway, compartment, concentration, target, model, and human causal status."}
+  ],
+  "assets": []
+}

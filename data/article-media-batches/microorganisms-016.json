@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "batchId": "microorganisms-016",
+  "category": "microorganisms",
+  "status": "reviewed",
+  "createdOn": "2026-09-01",
+  "reviewedOn": "2026-09-01",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/microorganisms-016.md",
+  "reviewStandard": "Current identity, rank, and controlled identifiers were checked against NCBI Taxonomy and LPSN, with conservative appearance bounded by nomenclatural, type-strain, authoritative review, and primary morphology sources. All six current routes cleared; no scientific hold or route substitution was needed. Eubacteriales is the only current order media key, while retired Clostridiales remains an audited asset-free alias. Exactly one built-in generation call was made for each route using its immutable passive prompt, and no retry or revision call was made. Every copied PNG was inspected at its original 1536 by 1024 resolution, and visible bodies, groupings, pairs, and chains were reconciled without trusting prompt counts. WikiBiome control accepted all six exact v1 originals with the literal audited counts preserved. Erysipelotrichaceae and Eubacteriales remain explicitly representative higher-rank morphology-diversity reconstructions, not universal family or order forms. Promotion is limited to the six current canonical keys and Eubacteriales NCBITaxon:186802; retired Clostridiales receives no prompt, raster, registry key, master, derivative, or image-sitemap entry.",
+  "routeDecisionCount": 6,
+  "candidateCount": 6,
+  "scientificHoldCount": 0,
+  "generationCallCount": 6,
+  "revisionCount": 0,
+  "assets": [
+    {
+      "pageId": "enterococcus-faecalis",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-016/enterococcus-faecalis-draft.png",
+      "generationRecord": "exec-6895a554-e3c9-4a50-bee0-ce8cb669c015.png",
+      "sha256": "090e932a8addbab0edf73c3da241347f423afa4f52524849875732abc0b95629",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:1351",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351&mode=Info",
+        "https://lpsn.dsmz.de/species/enterococcus-faecalis",
+        "https://doi.org/10.1099/00207713-34-1-31",
+        "https://bacdive.dsmz.de/strain/5292",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3510518/"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Enterococcus faecalis as current species NCBITaxon:1351 and the type species of Enterococcus. The type-strain record and authoritative genus review support spherical-to-ovoid cells occurring singly, in pairs, or short chains. This static plate is representative and non-diagnostic and does not claim a species-specific visual distinction from other enterococci.",
+      "visualReview": "Exactly ten spherical-to-ovoid bodies appear in seven separated groupings: four isolated singles and three touching two-body pairs. This is one more single body and one more grouping than the prompt requested. Every body retains its own ordinary boundary. No grape-like cluster, irregular pile, rod, branch, filament, appendage, spore, capsule, halo, shared envelope, biofilm, label, text, scale bar, host material, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Nine spherical-to-ovoid bodies in six groupings: three isolated singles and three touching two-body pairs.",
+        "observedSubjectDescription": "Ten spherical-to-ovoid bodies in seven groupings: four isolated singles and three touching two-body pairs.",
+        "observedVisibleBodyCount": 10,
+        "observedSpatialGroupingCount": 7,
+        "observedSingleCount": 4,
+        "observedTouchingPairCount": 3,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Ten selected Enterococcus faecalis spherical-to-ovoid bodies appear in seven groupings: four singles and three touching pairs.",
+      "proposedCaption": "Representative Enterococcus faecalis spherical-to-ovoid forms, shown as ten bodies in four single and three paired groupings. This reconstruction is non-diagnostic, does not visually distinguish the species from other enterococci, and is not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of ten selected Enterococcus faecalis spherical-to-ovoid bodies arranged as four singles and three touching pairs on a pale cool field."
+    },
+    {
+      "pageId": "enterococcus-faecium",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-016/enterococcus-faecium-draft.png",
+      "generationRecord": "exec-cf68ed2b-8022-43d1-8988-d407354eae51.png",
+      "sha256": "c0a0543329a25ef7dc651c8d8fd0e94005493e11110dc874fe4db652bb42078b",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:1352",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1352&mode=Info",
+        "https://lpsn.dsmz.de/species/enterococcus-faecium",
+        "https://doi.org/10.1099/00207713-34-1-31",
+        "https://bacdive.dsmz.de/strain/5301",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3510518/"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Enterococcus faecium as current species NCBITaxon:1352. The type-strain record and authoritative genus review support spherical-to-ovoid cells occurring singly, in pairs, or short chains. This static plate is representative and non-diagnostic and does not invent a morphology that visually distinguishes the species from E. faecalis.",
+      "visualReview": "Exactly twelve spherical-to-ovoid bodies appear in seven separated groupings: two isolated singles and five touching two-body pairs. This is one additional touching pair, two additional bodies, and one additional grouping compared with the prompt request. Every body retains its own ordinary boundary. No grape-like cluster, irregular pile, rod, branch, filament, appendage, spore, capsule, halo, shared envelope, biofilm, label, text, scale bar, host material, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Ten spherical-to-ovoid bodies in six groupings: two isolated singles and four touching two-body pairs.",
+        "observedSubjectDescription": "Twelve spherical-to-ovoid bodies in seven groupings: two isolated singles and five touching two-body pairs.",
+        "observedVisibleBodyCount": 12,
+        "observedSpatialGroupingCount": 7,
+        "observedSingleCount": 2,
+        "observedTouchingPairCount": 5,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Twelve selected Enterococcus faecium spherical-to-ovoid bodies appear in seven groupings: two singles and five touching pairs.",
+      "proposedCaption": "Representative Enterococcus faecium spherical-to-ovoid forms, shown as twelve bodies in two single and five paired groupings. This reconstruction is non-diagnostic, does not visually distinguish the species from E. faecalis, and is not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of twelve selected Enterococcus faecium spherical-to-ovoid bodies arranged as two singles and five touching pairs on a pale cool field."
+    },
+    {
+      "pageId": "erysipelotrichaceae",
+      "assetType": "microbial-community",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-016/erysipelotrichaceae-draft.png",
+      "generationRecord": "exec-a0018845-a9e7-4567-8439-437f719908e4.png",
+      "sha256": "9ac0f6a2597b65856832855f5e5d0e9e86360b6b185b302a51b66b0aec913882",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:128827",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=128827&mode=Info",
+        "https://lpsn.dsmz.de/family/erysipelotrichaceae",
+        "https://doi.org/10.1016/j.syapm.2016.05.003",
+        "https://doi.org/10.1099/ijsem.0.001793",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5817276/"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Erysipelotrichaceae as current family NCBITaxon:128827. Family-level primary evidence spans slender or filamentous rods, shorter rods, and coccoid forms among selected descendants. This plate is an explicitly selected, non-exhaustive morphology-diversity reconstruction, not a universal family morphology and not diagnostic.",
+      "visualReview": "Exactly ten bodies appear in six separated groupings: three isolated singles consisting of one slender long rod, one short rod, and one coccoid-to-short-ovoid body; one touching slender-rod pair; one touching coccoid pair; and one aligned three-short-rod chain. The observed count and grouping structure match the prompt request. Every form has its own ordinary boundary. No excessive filament, branch, appendage, spore, capsule, halo, shared outer envelope, sheath, biofilm, label, text, scale bar, host material, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Ten bodies in six groupings: three selected singles, one touching slender-rod pair, one touching coccoid pair, and one aligned three-short-rod chain.",
+        "observedSubjectDescription": "Ten bodies in six groupings: three selected singles, one touching slender-rod pair, one touching coccoid pair, and one aligned three-short-rod chain.",
+        "observedVisibleBodyCount": 10,
+        "observedSpatialGroupingCount": 6,
+        "observedSingleCount": 3,
+        "observedTouchingPairCount": 2,
+        "observedThreeBodyChainCount": 1,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Ten selected Erysipelotrichaceae bodies appear in six groupings: three varied singles, a slender-rod pair, a coccoid pair, and a three-short-rod chain.",
+      "proposedCaption": "Selected Erysipelotrichaceae morphology diversity, shown as ten slender-rod, short-rod, and coccoid-to-ovoid bodies in six groupings. This family-level reconstruction is representative, non-exhaustive, non-diagnostic, and not a micrograph; it is not a universal family form.",
+      "proposedDescription": "WikiBiome static scientific diversity reconstruction of ten selected Erysipelotrichaceae cellular bodies arranged as three singles, two touching pairs, and one three-short-rod chain on a pale cool field."
+    },
+    {
+      "pageId": "escherichia",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-016/escherichia-draft.png",
+      "generationRecord": "exec-c76772f9-093e-44cb-b975-8b8d34739e37.png",
+      "sha256": "356ac08340612c43a4fb36372b741a9e8710d5844f9c69869a9b7ed48a1351de",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:561",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=561&mode=Info",
+        "https://lpsn.dsmz.de/genus/escherichia",
+        "https://bacdive.dsmz.de/strain/4907",
+        "https://www.ncbi.nlm.nih.gov/books/NBK8035/"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Escherichia as current conserved genus NCBITaxon:561, with E. coli as type species. Type-species and authoritative records support conservative short rod forms. This plate is type-species-anchored, representative, non-exhaustive, and non-diagnostic; flagella, pili, and capsules are omitted rather than generalized.",
+      "visualReview": "Exactly eight short rod bodies appear in six separated groupings: four isolated singles and two touching two-body pairs, matching the requested count and grouping structure. Forms are straight to very gently curved with rounded ends and ordinary individual boundaries. No full coccus, branch, filament, appendage, spore, capsule, halo, shared envelope, biofilm, label, text, scale bar, host material, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Eight short straight-to-very-gently-curved rods in six groupings: four isolated singles and two touching two-body pairs.",
+        "observedSubjectDescription": "Eight short rod bodies in six groupings: four isolated singles and two touching two-body pairs.",
+        "observedVisibleBodyCount": 8,
+        "observedSpatialGroupingCount": 6,
+        "observedSingleCount": 4,
+        "observedTouchingPairCount": 2,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Eight selected Escherichia rods appear in six groupings: four isolated singles and two touching pairs.",
+      "proposedCaption": "Selected type-species-anchored Escherichia rod forms, shown as eight bodies in four single and two paired groupings. This reconstruction is representative, non-diagnostic, and not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of eight selected Escherichia rod bodies arranged as four singles and two touching pairs on a pale cool field."
+    },
+    {
+      "pageId": "eubacteriales",
+      "assetType": "microbial-community",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-016/eubacteriales-draft.png",
+      "generationRecord": "exec-dadeecba-db7f-4122-9361-8f97fccc0189.png",
+      "sha256": "834720a2695f431d3cab7a83b30b22cd10fb69bc661b6c1ce747d067437598cd",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:186802",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/datasets/taxonomy/186802/",
+        "https://lpsn.dsmz.de/order/eubacteriales",
+        "https://doi.org/10.1128/jb.2.4.347-350.1917",
+        "https://lpsn.dsmz.de/genus/eubacterium"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Eubacteriales as current order NCBITaxon:186802, with Eubacterium as type genus. LPSN records Clostridiales as a heterotypic synonym; the retired WikiBiome Clostridiales slug remains an asset-free alias and is never used as an asset key. The plate selects type-genus-anchored rods and current descendant forms. It is explicitly representative, non-exhaustive, and non-diagnostic, not a universal order morphology.",
+      "visualReview": "Exactly ten bodies appear in six separated groupings: three isolated selected rods consisting of one short uniform rod, one longer mildly pleomorphic rod, and one gently curved rod; one touching rod pair; one touching coccoid pair; and one aligned three-short-rod chain. The observed count and grouping structure match the prompt request. Every form has its own ordinary boundary. No spore, appendage, capsule, halo, shared outer envelope, sheath, biofilm, label, legacy-name text, scale bar, host material, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Ten bodies in six groupings: three selected isolated rods, one touching rod pair, one touching coccoid pair, and one aligned three-short-rod chain.",
+        "observedSubjectDescription": "Ten bodies in six groupings: three selected isolated rods, one touching rod pair, one touching coccoid pair, and one aligned three-short-rod chain.",
+        "observedVisibleBodyCount": 10,
+        "observedSpatialGroupingCount": 6,
+        "observedSingleCount": 3,
+        "observedTouchingPairCount": 2,
+        "observedThreeBodyChainCount": 1,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Ten selected Eubacteriales bodies appear in six groupings: three varied rod singles, a rod pair, a coccoid pair, and a three-short-rod chain.",
+      "proposedCaption": "Selected Eubacteriales morphology diversity, shown as ten type-genus-anchored or current-descendant rod and coccoid bodies in six groupings. This order-level reconstruction is representative, non-exhaustive, non-diagnostic, and not a micrograph; it is not a universal order form.",
+      "proposedDescription": "WikiBiome static scientific diversity reconstruction of ten selected Eubacteriales cellular bodies arranged as three singles, two touching pairs, and one three-short-rod chain on a pale cool field."
+    },
+    {
+      "pageId": "eubacterium",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-016/eubacterium-draft.png",
+      "generationRecord": "exec-40d6fe9b-cc66-4dff-b49e-4e255a1cb932.png",
+      "sha256": "39ca3065835e23fcc702e3a190d2ce753922f5eed1d780ac008a77baca5157be",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:1730",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1730&mode=Info",
+        "https://lpsn.dsmz.de/genus/eubacterium",
+        "https://doi.org/10.1002/9781118960608.gbm00629",
+        "https://bacdive.dsmz.de/strain/5432",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4791908/"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Eubacterium as current genus NCBITaxon:1730, with E. limosum as its conserved type species. Authoritative genus and type-species evidence support uniform or pleomorphic rod forms. This plate is type-species-anchored, representative, non-exhaustive, and non-diagnostic; spores and motility structures are omitted rather than generalized.",
+      "visualReview": "Exactly nine uniform-to-mildly-pleomorphic rod bodies appear in six separated groupings: three isolated singles and three touching two-body pairs, matching the requested count and grouping structure. Forms have rounded ends, restrained length and width variation, mild natural irregularity, and ordinary individual boundaries. No full coccus, branch, filament, appendage, spore, capsule, halo, shared envelope, biofilm, label, text, scale bar, host material, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Nine uniform-to-mildly-pleomorphic rods in six groupings: three isolated singles and three touching two-body pairs.",
+        "observedSubjectDescription": "Nine uniform-to-mildly-pleomorphic rod bodies in six groupings: three isolated singles and three touching two-body pairs.",
+        "observedVisibleBodyCount": 9,
+        "observedSpatialGroupingCount": 6,
+        "observedSingleCount": 3,
+        "observedTouchingPairCount": 3,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Nine selected Eubacterium rods appear in six groupings: three isolated singles and three touching pairs.",
+      "proposedCaption": "Selected type-species-anchored Eubacterium uniform-to-pleomorphic rod forms, shown as nine bodies in three single and three paired groupings. This reconstruction is representative, non-diagnostic, and not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of nine selected Eubacterium rod bodies arranged as three singles and three touching pairs on a pale cool field."
+    }
+  ]
+}

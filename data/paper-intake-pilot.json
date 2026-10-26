@@ -1,0 +1,677 @@
+{
+  "ownerOrcid": "0000-0002-2348-7259",
+  "topic": "microbial-metallomics",
+  "packet": {
+    "metadata": {
+      "title": "Heavy metal exposure, microbial metal ecology, and disease pathogenesis: a first-principles framework for microbiome medicine",
+      "authors": [
+        "Karen Pendergrass"
+      ],
+      "authorOrcids": [
+        "0000-0002-2348-7259"
+      ],
+      "year": 2026,
+      "doi": "10.83376/hmi.metals-microbiome-disease-pathogenesis",
+      "publicationStatus": "Institutional technical report; in-house editorial review; external peer review not completed",
+      "license": "CC BY 4.0",
+      "sourceId": "pendergrass-2026-metals-microbiome-disease-pathogenesis",
+      "affiliations": [
+        "Heavy Metal Index",
+        "Institute of Contaminant Standards (ICS)"
+      ],
+      "abstract": "A critical narrative synthesis connecting exposure, compartment-specific metal availability, microbial function, and host injury. Proposed causal chains remain distinct from experimentally demonstrated component mechanisms."
+    },
+    "claims": [
+      {
+        "id": "framework",
+        "page": 11,
+        "passage": "The proposed analytical sequence is: exposure or endogenous redistribution -> compartment-specific metal availability -> microbial selection or functional activation -> host injury -> disease expression. This is a hypothesis-organizing structure. Each arrow is a separate causal proposition, and some pathways may bypass the microbiome entirely. Its value is to make a complex system experimentally interpretable without assuming that disease biology is strictly linear.",
+        "statement": "The report proposes a compartment-specific exposure\u2013metal availability\u2013microbial function\u2013injury framework.",
+        "evidenceType": "hypothesis",
+        "references": [],
+        "population": "Disease-specific research populations",
+        "compartment": "Connected tissue compartments",
+        "outcome": "A testable research framework",
+        "limitations": "This is not a validated diagnostic category or a demonstrated universal causal chain.",
+        "support": "paper"
+      },
+      {
+        "id": "nickel",
+        "page": 7,
+        "passage": "Nickel makes the importance of microbial function especially clear. Certain microbial enzymes require nickel-containing active sites, including urease and [NiFe]-hydrogenases. Nickel-responsive regulation of urease expression has been demonstrated in Helicobacter pylori. Metal availability can therefore influence both catalytic competence and regulation, rather than merely supplying biomass. These effects remain organism- and context-specific; increasing nickel is not expected to increase virulence indefinitely, because excess metal can also be inhibitory.",
+        "statement": "Nickel-dependent functions vary by organism and context; excess nickel can also inhibit function.",
+        "evidenceType": "biochemical",
+        "references": [
+          9,
+          31
+        ],
+        "population": "Specified microbial systems including H. pylori",
+        "compartment": "Microbial active sites and local niche",
+        "outcome": "Enzyme regulation and competence",
+        "limitations": "The report cites component mechanisms; it does not establish clinical eradication through nickel restriction.",
+        "support": "secondary_citation"
+      },
+      {
+        "id": "immunity",
+        "page": 4,
+        "passage": "Nutritional immunity therefore supports a more precise thesis than \u201cmore metal feeds pathogens.\u201d Both surplus and scarcity can reorganize an ecosystem, depending on the organisms and their acquisition, buffering, and detoxification capabilities. Nor is metal tolerance synonymous with pathogenicity. A microorganism may tolerate a toxicant while providing useful functions; another may become harmful only in a susceptible host or tissue. The proposed disease mechanism is the conjunction of a chemical opportunity, a microbial capability, and a vulnerable host, rather than a taxonomic label alone.",
+        "statement": "Both metal surplus and scarcity can change microbial competition.",
+        "evidenceType": "synthesis",
+        "references": [
+          11,
+          18
+        ],
+        "population": "Organism- and host-dependent systems",
+        "compartment": "Local microbial environment",
+        "outcome": "Competitive selection",
+        "limitations": "Metal tolerance is not synonymous with pathogenicity.",
+        "support": "paper"
+      },
+      {
+        "id": "endometriosis",
+        "page": 8,
+        "passage": "Microbial studies provide a separate line of investigation. Muraoka and colleagues reported an association of Fusobacterium with endometriosis and experimental evidence connecting infection with fibroblast changes and lesion development. A subsequent study did not reproduce a significant enrichment of F. nucleatum in eutopic endometrium. The disagreement reinforces the need to examine sampling location, patient population, laboratory contamination, and analytical methods. Neither study establishes an antecedent metal exposure that selected the organism.",
+        "statement": "The synthesis reports supportive and non-replicating Fusobacterium findings in endometriosis.",
+        "evidenceType": "synthesis",
+        "references": [
+          38,
+          39
+        ],
+        "population": "Human studies with differing sampling; experimental models",
+        "compartment": "Endometrium and lesion-related compartments",
+        "outcome": "Microbial association and experimental lesion findings",
+        "limitations": "Neither study demonstrates antecedent metal exposure selecting the organism.",
+        "support": "secondary_citation"
+      },
+      {
+        "id": "ms",
+        "page": 9,
+        "passage": "Zinc aspartate offers an instructive example of the difference between a promising mechanism and a comparative clinical conclusion. Oral zinc aspartate improved outcomes in experimental autoimmune encephalomyelitis, with effects involving immune-cell function. This is relevant preclinical evidence, but experimental autoimmune encephalomyelitis is not a human multiple sclerosis trial. The study did not establish that zinc aspartate outperforms zinc oxide in people with MS by depriving potentially pathogenic microbes of zinc. [43]",
+        "statement": "The cited zinc-aspartate findings are in experimental autoimmune encephalomyelitis.",
+        "evidenceType": "animal",
+        "references": [
+          43
+        ],
+        "population": "Experimental autoimmune encephalomyelitis model",
+        "compartment": "Immune-cell function",
+        "outcome": "Preclinical outcomes",
+        "limitations": "This is not a human MS trial or a demonstration of microbial zinc deprivation.",
+        "support": "secondary_citation"
+      },
+      {
+        "id": "lactoferrin",
+        "page": 10,
+        "passage": "Clinical trial evidence is essential here. An early randomized trial in very-low-birth-weight infants found reduced late-onset sepsis with bovine lactoferrin supplementation. In contrast, the substantially larger ELFIN trial in 2,203 very preterm infants did not demonstrate a significant reduction in late-onset infection: the adjusted risk ratio was 0.95, with a 95% confidence interval of 0.86\u20131.04. A further randomized trial published in 2025 also did not establish prevention of late-onset sepsis in its study population. These findings require discussion of preparation, population, background feeding, and clinical endpoints; they do not permit a general claim that omission of added lactoferrin causes neonatal sepsis.",
+        "statement": "The report describes differing lactoferrin trial results; ELFIN did not show a significant reduction in late-onset infection.",
+        "evidenceType": "human_interventional",
+        "references": [
+          36,
+          45,
+          46
+        ],
+        "population": "Very preterm and low-birth-weight infants; trials differ",
+        "compartment": "Neonatal feeding and infection",
+        "outcome": "Late-onset sepsis/infection",
+        "limitations": "Do not combine unlike preparations, populations, or endpoints; lactoferrin alone is not the same as lactoferrin plus a probiotic.",
+        "support": "secondary_citation"
+      },
+      {
+        "id": "formula",
+        "page": 10,
+        "passage": "The proposed nickel\u2013microbe pathway is biologically intelligible: a feed could influence available nickel, which could affect nickel-dependent functions in an organism already present, potentially modifying colonization or injury. However, it has not been established that nickel in soy-based formula causes Klebsiella infection through urease, hydrogenase, or glyoxalase activity in premature infants.",
+        "statement": "The paper identifies a proposed, unestablished nickel\u2013microbe pathway in infant feeding.",
+        "evidenceType": "hypothesis",
+        "references": [
+          9,
+          10,
+          47,
+          48
+        ],
+        "population": "Proposed premature-infant context",
+        "compartment": "Feed, accessible nickel, microbial niche",
+        "outcome": "Possible colonization and injury",
+        "limitations": "The paper does not establish that nickel in soy formula causes Klebsiella infection.",
+        "support": "paper"
+      },
+      {
+        "id": "drug",
+        "page": 9,
+        "passage": "The metallomic extension is a testable interaction: prior metal-associated redox disturbance might alter susceptibility to a drug whose reactive intermediates require protective thiol chemistry, while the local microbial community determines deconjugation and re-exposure. The existing studies establish component mechanisms, not the completed sequence from metal exposure to glutathione depletion to microbial change to NSAID injury. Demonstrating that interaction would require concurrent measures of exposure, drug metabolites, redox state, microbial function, and clinical injury. [21, 24, 42]",
+        "statement": "Metal-related redox disturbance interacting with microbial drug metabolism is a testable extension.",
+        "evidenceType": "hypothesis",
+        "references": [
+          21,
+          24,
+          42
+        ],
+        "population": "Mechanistic research; clinical interaction unestablished",
+        "compartment": "Host drug metabolism and intestinal microbial function",
+        "outcome": "Possible susceptibility to NSAID injury",
+        "limitations": "Component mechanisms are not a completed causal sequence.",
+        "support": "paper"
+      },
+      {
+        "id": "iron",
+        "page": 5,
+        "passage": "For the present framework, these mechanisms have two implications. First, endogenous metal mobilization may help determine how an exposed or inflamed tissue responds. Second, metal-related injury can arise directly in host cells, without requiring microbial mediation. An integrated disease model should therefore separate direct host injury from microbial amplification and investigate their interaction, rather than assigning every metal-associated outcome to a change in community composition.",
+        "statement": "Direct host metal injury must be distinguished from microbial amplification.",
+        "evidenceType": "synthesis",
+        "references": [
+          25,
+          26,
+          27
+        ],
+        "population": "Cellular and experimental evidence",
+        "compartment": "Host intracellular iron and redox handling",
+        "outcome": "Host injury and microbial amplification",
+        "limitations": "Do not assign every metal-associated outcome to microbiome mediation.",
+        "support": "paper"
+      }
+    ],
+    "changes": [
+      {
+        "targetId": "microbial-metallomics",
+        "title": "Microbial Metallomics",
+        "section": "A compartment-specific research framework",
+        "claimIds": [
+          "framework",
+          "immunity"
+        ],
+        "proposedText": "A 2026 institutional narrative synthesis proposes examining metal exposure or redistribution, local metal availability, microbial function, and host injury as distinct steps. Each connection requires evidence within a biologically relevant compartment and time sequence. The framework is hypothesis-organizing, not a validated diagnostic model.",
+        "rationale": "Adds a bounded framework without treating all proposed links as causal.",
+        "kind": "addition",
+        "baseHash": "",
+        "currentText": ""
+      },
+      {
+        "targetId": "metals-microbiome-disease-pathogenesis",
+        "title": "Metals, Microbial Ecology, and Disease Pathogenesis",
+        "section": "Proposed framework and evidentiary boundaries",
+        "claimIds": [
+          "framework",
+          "iron"
+        ],
+        "proposedText": "A critical narrative report by Karen Pendergrass proposes a framework linking exposure or endogenous redistribution to compartment-specific metal availability, microbial selection or functional activation, and host injury. Some pathways can bypass the microbiome. The report is an institutional technical report without completed external peer review; its organizing model is a hypothesis rather than a validated universal causal chain.",
+        "rationale": "Prepare a framework article for editorial review and the existing source-threshold gates.",
+        "kind": "new_page",
+        "baseHash": "",
+        "currentText": ""
+      },
+      {
+        "targetId": "nutritional-immunity",
+        "title": "Nutritional Immunity",
+        "section": "Ecological limits of metal restriction",
+        "claimIds": [
+          "immunity"
+        ],
+        "proposedText": "Metal restriction does not have a uniform community-level effect. The synthesis describes how both scarcity and surplus can reorganize competition according to microbial acquisition, buffering, and detoxification capabilities. Metal tolerance alone does not establish pathogenicity.",
+        "rationale": "Adds organism-specific ecological context.",
+        "kind": "addition",
+        "baseHash": "",
+        "currentText": ""
+      },
+      {
+        "targetId": "nickel-urease",
+        "title": "Nickel-Urease",
+        "section": "Evidence and clinical boundaries",
+        "claimIds": [
+          "nickel"
+        ],
+        "proposedText": "The report describes nickel-responsive microbial enzyme regulation in defined systems, including H. pylori, while noting that nickel effects depend on organism and context and that excess nickel can be inhibitory. This supports investigation of a target mechanism; it does not establish clinical eradication through dietary nickel restriction.",
+        "rationale": "Qualifies the existing jump from nickel starvation to eradication.",
+        "kind": "correction",
+        "baseHash": "",
+        "currentText": ""
+      },
+      {
+        "targetId": "endometriosis",
+        "title": "Endometriosis",
+        "section": "Conflicting findings and proposed microbial amplification",
+        "claimIds": [
+          "endometriosis",
+          "framework"
+        ],
+        "proposedText": "The narrative synthesis places endometriosis-associated microbial findings alongside a subsequent non-replication and emphasizes differences in sampling and biological compartment. These reports do not establish that antecedent metal exposure selected the implicated organism. Metal-dependent microbial amplification remains a proposed pathway requiring connected evidence.",
+        "rationale": "Preserves contradictory findings and prevents an unsupported combined causal chain.",
+        "kind": "contradiction",
+        "baseHash": "",
+        "currentText": ""
+      },
+      {
+        "targetId": "multiple-sclerosis",
+        "title": "Multiple Sclerosis",
+        "section": "Preclinical zinc evidence",
+        "claimIds": [
+          "ms"
+        ],
+        "proposedText": "The zinc-aspartate evidence discussed in this synthesis comes from experimental autoimmune encephalomyelitis. It does not establish efficacy in human multiple sclerosis, superiority to another formulation in patients, or microbial zinc deprivation as the operative mechanism.",
+        "rationale": "Separates animal evidence from clinical conclusions.",
+        "kind": "addition",
+        "baseHash": "",
+        "currentText": ""
+      },
+      {
+        "targetId": "lactoferrin",
+        "title": "Lactoferrin",
+        "section": "Differing neonatal trial results",
+        "claimIds": [
+          "lactoferrin"
+        ],
+        "proposedText": "The synthesis contrasts an early positive bovine-lactoferrin trial with the larger ELFIN trial, which did not demonstrate a significant reduction in late-onset infection, and a further trial that did not establish prevention in its study population. Preparation, feeding context, population, and endpoint constrain comparison. These results do not establish that omission of added lactoferrin causes neonatal sepsis.",
+        "rationale": "Balances the evidence without conflating lactoferrin alone with combination interventions.",
+        "kind": "contradiction",
+        "baseHash": "",
+        "currentText": ""
+      },
+      {
+        "targetId": "heavy-metals-infant-foods",
+        "title": "Heavy Metals in Infant Foods",
+        "section": "Proposed microbial pathways and their limits",
+        "claimIds": [
+          "formula"
+        ],
+        "proposedText": "The report proposes investigating feed composition, accessible nickel, microbial function, and host vulnerability together. It explicitly states that a causal pathway from nickel in soy-based formula to Klebsiella infection in premature infants has not been established.",
+        "rationale": "Keeps an infant-feeding hypothesis distinct from a proven causal mechanism.",
+        "kind": "addition",
+        "baseHash": "",
+        "currentText": ""
+      },
+      {
+        "targetId": "glutathione",
+        "title": "Glutathione",
+        "section": "Metal handling and drug\u2013microbe interactions",
+        "claimIds": [
+          "drug",
+          "iron"
+        ],
+        "proposedText": "The synthesis identifies possible interactions between metal-related redox disturbance, host drug metabolism, and microbial deconjugation. The cited component mechanisms do not complete a causal sequence from metal exposure through glutathione depletion and microbial change to NSAID injury. Direct host injury and microbial amplification require separate evaluation.",
+        "rationale": "Adds mechanistic integration with explicit causal limitations.",
+        "kind": "addition",
+        "baseHash": "",
+        "currentText": ""
+      }
+    ],
+    "references": [
+      {
+        "number": 1,
+        "text": "Dietary zinc alters the microbiota and decreases resistance to Clostridium difficile infection\nZackular JP, Moore JL, Jordan AT, et al. \u00b7 Nature Medicine \u00b7 2016 \u00b7 doi.org/10.1038/nm.4174",
+        "doi": "10.1038/nm.4174",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 2,
+        "text": "Iron fortification adversely affects the gut microbiome, increases pathogen abundance and induces intestinal inflammation \nin Kenyan infants\nJaeggi T, et al. \u00b7 Gut \u00b7 2015 \u00b7 doi.org/10.1136/gutjnl-2014-307720",
+        "doi": "10.1136/gutjnl-2014-307720",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 3,
+        "text": "Arsenic exposure perturbs the gut microbiome and its metabolic profile in mice: an integrated metagenomics and \nmetabolomics analysis\nLu K, Abo RP, Schlieper KA, et al. \u00b7 Environmental Health Perspectives \u00b7 2014 \u00b7 doi.org/10.1289/ehp.1307429",
+        "doi": "10.1289/ehp.1307429",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 4,
+        "text": "Subchronic exposure of mice to cadmium perturbs their hepatic energy metabolism and gut microbiome\nZhang S, Jin Y, Zeng Z, Liu Z, Fu Z \u00b7 Chemical Research in Toxicology \u00b7 2015 \u00b7 doi.org/10.1021/acs.chemrestox.5b00237",
+        "doi": "10.1021/acs.chemrestox.5b00237",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 5,
+        "text": "Sex-specific associations of infants' gut microbiome with arsenic exposure in a US population\nHoen AG, et al. \u00b7 Scientific Reports \u00b7 2018 \u00b7 doi.org/10.1038/s41598-018-30581-9",
+        "doi": "10.1038/s41598-018-30581-9",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 6,
+        "text": "Metal chelation and inhibition of bacterial growth in tissue abscesses\nCorbin BD, et al. \u00b7 Science \u00b7 2008 \u00b7 doi.org/10.1126/science.1152449",
+        "doi": "10.1126/science.1152449",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 7,
+        "text": "Hepcidin regulates cellular iron efflux by binding to ferroportin and inducing its internalization\nNemeth E, Tuttle MS, Powelson J, et al. \u00b7 Science \u00b7 2004 \u00b7 doi.org/10.1126/science.1104742",
+        "doi": "10.1126/science.1104742",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 8,
+        "text": "A role for the ATP7A copper-transporting ATPase in macrophage bactericidal activity\nWhite C, Lee J, Kambe T, Fritsche K, Petris MJ \u00b7 Journal of Biological Chemistry \u00b7 2009 \u00b7 doi.org/10.1074/jbc.M109.070201",
+        "doi": "10.1074/jbc.M109.070201",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 9,
+        "text": "Nickel-responsive induction of urease expression in Helicobacter pylori is mediated at the transcriptional level\nvan Vliet AHM, et al. \u00b7 Infection and Immunity \u00b7 2001 \u00b7 doi.org/10.1128/IAI.69.8.4891-4897.2001",
+        "doi": "10.1128/IAI.69.8.4891-4897.2001",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 10,
+        "text": "Determination of the structure of Escherichia coli glyoxalase I suggests a structural basis for differential metal activation\nHe MM, Clugston SL, Honek JF, Matthews BW \u00b7 Biochemistry \u00b7 2000 \u00b7 doi.org/10.1021/bi000856g",
+        "doi": "10.1021/bi000856g",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 11,
+        "text": "Zinc sequestration by the neutrophil protein calprotectin enhances Salmonella growth in the inflamed gut\nLiu JZ, et al. \u00b7 Cell Host & Microbe \u00b7 2012 \u00b7 doi.org/10.1016/j.chom.2012.01.017",
+        "doi": "10.1016/j.chom.2012.01.017",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 12,
+        "text": "Nickel sequestration by the host-defense protein human calprotectin\nNakashige TG, Zygiel EM, Drennan CL, Nolan EM \u00b7 Journal of the American Chemical Society \u00b7 2017 \u00b7 doi.org/10.1021/jacs.7b01212",
+        "doi": "10.1021/jacs.7b01212",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 13,
+        "text": "Iron overload in the peritoneal cavity of women with pelvic endometriosis03346-0)\nVan Langendonckt A, Casanas-Roux F, Donnez J \u00b7 Fertility and Sterility \u00b7 2002 \u00b7 doi.org/10.1016/S0015-0282(02)03346-003346-0)",
+        "doi": "10.1016/S0015-0282(02)03346-003346-0)",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 14,
+        "text": "Oxidative metal release from metallothionein via zinc-thiol/disulfide interchange\nMaret W \u00b7 Proceedings of the National Academy of Sciences USA \u00b7 1994 \u00b7 doi.org/10.1073/pnas.91.1.237",
+        "doi": "10.1073/pnas.91.1.237",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 15,
+        "text": "Zinc absorption by young adults from supplemental zinc citrate is comparable with that from zinc gluconate and higher than \nfrom zinc oxide\nWegm\u00fcller R, Tay F, Zeder C, Brni\u0107 M, Hurrell RF \u00b7 Journal of Nutrition \u00b7 2014 \u00b7 doi.org/10.3945/jn.113.181487",
+        "doi": "10.3945/jn.113.181487",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 16,
+        "text": "A component of innate immunity prevents bacterial biofilm development\nSingh PK, Parsek MR, Greenberg EP, Welsh MJ \u00b7 Nature \u00b7 2002 \u00b7 doi.org/10.1038/417552a",
+        "doi": "10.1038/417552a",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 17,
+        "text": "Lipocalin 2 mediates an innate immune response to bacterial infection by sequestrating iron\nFlo TH, et al. \u00b7 Nature \u00b7 2004 \u00b7 doi.org/10.1038/nature03104",
+        "doi": "10.1038/nature03104",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 18,
+        "text": "The gut microbiome is required for full protection against acute arsenic toxicity in mouse models\nCoryell M, McAlpine M, Pinkham NV, McDermott TR, Walk ST \u00b7 Nature Communications \u00b7 2018 \u00b7 doi.org/10.1038/s41467-018-07803-9",
+        "doi": "10.1038/s41467-018-07803-9",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 19,
+        "text": "A molecular mechanism for bacterial susceptibility to zinc\nMcDevitt CA, et al. \u00b7 PLoS Pathogens \u00b7 2011 \u00b7 doi.org/10.1371/journal.ppat.1002357",
+        "doi": "10.1371/journal.ppat.1002357",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 20,
+        "text": "The iron-sulfur clusters of dehydratases are primary intracellular targets of copper toxicity\nMacomber L, Imlay JA \u00b7 Proceedings of the National Academy of Sciences USA \u00b7 2009 \u00b7 doi.org/10.1073/pnas.0812808106",
+        "doi": "10.1073/pnas.0812808106",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 21,
+        "text": "Role of glutathione and hepatic glutathione S-transferase in the biliary excretion of methyl mercury, cadmium and zinc\nGregus Z, Varga F \u00b7 Acta Pharmacologica et Toxicologica \u00b7 1985 \u00b7 doi.org/10.1111/j.1600-0773.1985.tb01309.x",
+        "doi": "10.1111/j.1600-0773.1985.tb01309.x",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 22,
+        "text": "Excretion of zinc in rat bile: a role of glutathione\nAlexander J, Aaseth J, Refsvik T \u00b7 Acta Pharmacologica et Toxicologica \u00b7 1981 \u00b7 doi.org/10.1111/j.1600-0773.1981.tb00891.x",
+        "doi": "10.1111/j.1600-0773.1981.tb00891.x",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 23,
+        "text": "The glutathione redox couple modulates zinc transfer from metallothionein to zinc-depleted sorbitol dehydrogenase\nJiang LJ, Maret W, Vallee BL \u00b7 Proceedings of the National Academy of Sciences USA \u00b7 1998 \u00b7 doi.org/10.1073/pnas.95.7.3483",
+        "doi": "10.1073/pnas.95.7.3483",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 24,
+        "text": "Studies on cytochrome P-450-mediated bioactivation of diclofenac in rats and in human hepatocytes: identification of \nglutathione conjugated metabolites\nTang W, Stearns RA, Bandiera SM, et al. \u00b7 Drug Metabolism and Disposition \u00b7 1999 \u00b7 pubmed.ncbi.nlm.nih.gov/10064567",
+        "doi": "",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 25,
+        "text": "Quantitative proteomics identifies NCOA4 as the cargo receptor mediating ferritinophagy\nMancias JD, Wang X, Gygi SP, Harper JW, Kimmelman AC \u00b7 Nature \u00b7 2014 \u00b7 doi.org/10.1038/nature13148",
+        "doi": "10.1038/nature13148",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 26,
+        "text": "Ferroptosis: an iron-dependent form of nonapoptotic cell death\nDixon SJ, Lemberg KM, Lamprecht MR, et al. \u00b7 Cell \u00b7 2012 \u00b7 doi.org/10.1016/j.cell.2012.03.042",
+        "doi": "10.1016/j.cell.2012.03.042",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 27,
+        "text": "Regulation of ferroptotic cancer cell death by GPX4\nYang WS, SriRamaratnam R, Welsch ME, et al. \u00b7 Cell \u00b7 2014 \u00b7 doi.org/10.1016/j.cell.2013.12.010",
+        "doi": "10.1016/j.cell.2013.12.010",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 28,
+        "text": "Bile salts regulate zinc uptake and capsule synthesis in a mastitis-associated extraintestinal pathogenic Escherichia coli \nstrain\nOlson MA, Grimsrud A, Richards AC, Mulvey MA, Wilson E, Erickson DL \u00b7 Infection and Immunity \u00b7 2021 \u00b7 doi.org/10.1128/IAI.00357-21",
+        "doi": "10.1128/IAI.00357-21",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 29,
+        "text": "Comparative study of natural antioxidants (curcumin, resveratrol and melatonin) in cadmium-induced oxidative damage in \nmice\nEybl V, Kotyzova D, Koutensky J \u00b7 Toxicology \u00b7 2006 \u00b7 doi.org/10.1016/j.tox.2006.05.011",
+        "doi": "10.1016/j.tox.2006.05.011",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 30,
+        "text": "Co-occurrence of resistance genes to antibiotics, biocides and metals reveals novel insights into their co-selection potential\nPal C, Bengtsson-Palme J, Kristiansson E, Larsson DGJ \u00b7 BMC Genomics \u00b7 2015 \u00b7 doi.org/10.1186/s12864-015-2153-5",
+        "doi": "10.1186/s12864-015-2153-5",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 31,
+        "text": "Nickel chelation therapy as an approach to combat multi-drug resistant enteric pathogens\nBenoit SL, Schmalstig AA, Glushka J, Maier SE, Edison AS, Maier RJ \u00b7 Scientific Reports \u00b7 2019 \u00b7 doi.org/10.1038/s41598-019-50027-0",
+        "doi": "10.1038/s41598-019-50027-0",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 32,
+        "text": "Nickel free-diet enhances the Helicobacter pylori eradication rate: a pilot study\nCampanale M, Nucera E, Ojetti V, et al. \u00b7 Digestive Diseases and Sciences \u00b7 2014 \u00b7 doi.org/10.1007/s10620-014-3060-3",
+        "doi": "10.1007/s10620-014-3060-3",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 33,
+        "text": "Low-nickel diet as a strategy in the treatment of Helicobacter pylori infection\nBrito BS, Souza FFR, Baptista DM, et al. \u00b7 Arquivos de Gastroenterologia \u00b7 2025 \u00b7 doi.org/10.1590/S0004-2803.24612024-108",
+        "doi": "10.1590/S0004-2803.24612024-108",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 34,
+        "text": "Role of urea in intestinal barrier dysfunction and disruption of epithelial tight junction in chronic kidney disease\nVaziri ND, Yuan J, Norris K \u00b7 American Journal of Nephrology \u00b7 2013 \u00b7 doi.org/10.1159/000345969",
+        "doi": "10.1159/000345969",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 35,
+        "text": "Expansion of urease- and uricase-containing, indole- and p-cresol-forming and contraction of short-chain fatty \nacid-producing intestinal microbiota in ESRD\nWong J, Piceno YM, DeSantis TZ, Pahl M, Andersen GL, Vaziri ND \u00b7 American Journal of Nephrology \u00b7 2014 \u00b7 doi.org/10.1159/000360010",
+        "doi": "10.1159/000360010",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 36,
+        "text": "Enteral lactoferrin supplementation for very preterm infants: a randomised placebo-controlled trial32221-9)\nELFIN Trial Investigators Group \u00b7 Lancet \u00b7 2019 \u00b7 doi.org/10.1016/S0140-6736(18)32221-932221-9)",
+        "doi": "10.1016/S0140-6736(18)32221-932221-9)",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 37,
+        "text": "Iron overload enhances epithelial cell proliferation in endometriotic lesions induced in a murine model\nDefr\u00e8re S, Van Langendonckt A, Vaesen S, et al. \u00b7 Human Reproduction \u00b7 2006 \u00b7 doi.org/10.1093/humrep/del261",
+        "doi": "10.1093/humrep/del261",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 38,
+        "text": "Fusobacterium infection facilitates the development of endometriosis through the phenotypic transition of endometrial \nfibroblasts\nMuraoka A, et al. \u00b7 Science Translational Medicine \u00b7 2023 \u00b7 doi.org/10.1126/scitranslmed.add1531",
+        "doi": "10.1126/scitranslmed.add1531",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 39,
+        "text": "Fusobacterium nucleatum is not significantly present in eutopic endometrium from patients with minimal-mild and \nmoderate-severe endometriosis\nGraciano-Espa\u00f1a MC, Barnhart K, Gonzalez-Monfort M, et al. \u00b7 Fertility and Sterility \u00b7 2025 \u00b7 doi.org/10.1016/j.fertnstert.2025.06.035",
+        "doi": "10.1016/j.fertnstert.2025.06.035",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 40,
+        "text": "Urinary cadmium and endometriosis prevalence in a US nationally representative sample: results from NHANES 1999\u20132006\nHall MS, Talge NM, Upson K \u00b7 Human Reproduction \u00b7 2023 \u00b7 doi.org/10.1093/humrep/dead117",
+        "doi": "10.1093/humrep/dead117",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 41,
+        "text": "Trace elements and endometriosis: the ENDO Study\nPollack AZ, Buck Louis GM, Chen Z, et al. \u00b7 Reproductive Toxicology \u00b7 2013 \u00b7 doi.org/10.1016/j.reprotox.2013.05.009",
+        "doi": "10.1016/j.reprotox.2013.05.009",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 42,
+        "text": "Pharmacologic targeting of bacterial \u03b2-glucuronidase alleviates nonsteroidal anti-inflammatory drug-induced enteropathy \nin mice\nLoGuidice A, Wallace BD, Bendel L, Redinbo MR, Boelsterli UA \u00b7 Journal of Pharmacology and Experimental Therapeutics \u00b7 2012 \u00b7 \ndoi.org/10.1124/jpet.111.191122",
+        "doi": "10.1124/jpet.111.191122",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 43,
+        "text": "Oral zinc aspartate treats experimental autoimmune encephalomyelitis\nSchubert C, et al. \u00b7 Biometals \u00b7 2014 \u00b7 doi.org/10.1007/s10534-014-9786-8",
+        "doi": "10.1007/s10534-014-9786-8",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 44,
+        "text": "Longitudinal analysis reveals high prevalence of Epstein-Barr virus associated with multiple sclerosis\nBjornevik K, et al. \u00b7 Science \u00b7 2022 \u00b7 doi.org/10.1126/science.abj8222",
+        "doi": "10.1126/science.abj8222",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 45,
+        "text": "Bovine lactoferrin supplementation for prevention of late-onset sepsis in very low-birth-weight neonates: a randomized trial\nManzoni P, et al. \u00b7 JAMA \u00b7 2009 \u00b7 doi.org/10.1001/jama.2009.1403",
+        "doi": "10.1001/jama.2009.1403",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 46,
+        "text": "Evaluation of bovine lactoferrin for prevention of late-onset sepsis in low-birth-weight infants: a double-blind randomized \ncontrolled trial\nAriff S, Soofi SB, Jiwani U, et al. \u00b7 Nutrients \u00b7 2025 \u00b7 doi.org/10.3390/nu17111774",
+        "doi": "10.3390/nu17111774",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 47,
+        "text": "Levels of 26 elements in infant formula from USA, UK, and Nigeria by microwave digestion and ICP-OES00378-8)\nIkem A, Nwankwoala A, Odueyungbo S, Nyavor K, Egiebor N \u00b7 Food Chemistry \u00b7 2002 \u00b7 doi.org/10.1016/S0308-8146(01)00378-800378-8)",
+        "doi": "10.1016/S0308-8146(01)00378-800378-8)",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 48,
+        "text": "The contribution of infant formula to the food survey-based dietary exposure of nine selected elements\nH\u00f6pfner T, Wollenberg M, J\u00e4ger A, et al. \u00b7 Journal of Environmental Exposure Assessment \u00b7 2025 \u00b7 doi.org/10.20517/jeea.2024.45",
+        "doi": "10.20517/jeea.2024.45",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 49,
+        "text": "Gut pathogen colonization precedes bloodstream infection in the neonatal intensive care unit\nSchwartz DJ, Shalon N, Wardenburg K, et al. \u00b7 Science Translational Medicine \u00b7 2023 \u00b7 doi.org/10.1126/scitranslmed.adg5562",
+        "doi": "10.1126/scitranslmed.adg5562",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      },
+      {
+        "number": 50,
+        "text": "Host-derived nitrate boosts growth of E. coli in the inflamed gut\nWinter SE, Winter MG, Xavier MN, et al. \u00b7 Science \u00b7 2013 \u00b7 doi.org/10.1126/science.1232467",
+        "doi": "10.1126/science.1232467",
+        "matchedSourceId": null,
+        "status": "Secondary citation \u00b7 underlying source not checked"
+      }
+    ],
+    "flags": [
+      {
+        "id": "reference-47",
+        "message": "Reference 47 has a duplicated DOI suffix and malformed title. Verify the original publisher record before citing it as direct evidence.",
+        "blocking": true
+      },
+      {
+        "id": "doi-check",
+        "message": "The report DOI is transcribed from the supplied PDF; verify its registration and publication metadata.",
+        "blocking": true
+      },
+      {
+        "id": "clinical-boundaries",
+        "message": "Review existing nickel-eradication and intervention statements against primary evidence. The new synthesis cannot by itself establish a treatment recommendation.",
+        "blocking": false
+      },
+      {
+        "id": "new-page-threshold",
+        "message": "The proposed framework article must pass the existing editorial source thresholds; 50 references in this report are not 50 independently verified sources.",
+        "blocking": false
+      }
+    ],
+    "provenance": {
+      "mode": "Prepared from the supplied PDF after a successful local malware scan; evidence selected for independent editorial review",
+      "documentHash": "0718d5039810e05692c8ed0b89e14d96d047857e2c9ccb4dd3b4c2f8bdf64985",
+      "pageCount": 20,
+      "scanStatus": "clean",
+      "parserVersion": "pypdf-6.10.0/poppler/tesseract; ClamAV 1.4.3"
+    },
+    "metadataConfirmed": false
+  }
+}

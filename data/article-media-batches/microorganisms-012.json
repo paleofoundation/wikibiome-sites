@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "batchId": "microorganisms-012",
+  "category": "microorganisms",
+  "createdOn": "2026-09-01",
+  "status": "reviewed",
+  "reviewedOn": "2026-09-01",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/microorganisms-012.md",
+  "reviewStandard": "Current identity, rank, and NCBI Taxonomy identifiers were checked against NCBI Taxonomy and current nomenclatural authorities, with conservative appearance bounded by primary taxonomic literature, primary microscopy, or referenced type-strain records. The duplicate Clostridium difficile route was initially withheld; control subsequently merged it into the current Clostridioides difficile record as an audited asset-free 308 alias, so the obsolete slug remains excluded from the registry and image sitemap. Clostridium symbiosum remains the validly published correct and medically recommended name in LPSN and the current NCBI name for Taxonomy ID 1512; Enterocloster symbiosus is not an authoritative replacement, while the GTDB-oriented Otoolea symbiosa name lacks nomenclatural standing. Exactly one built-in generation call was made for each of the five supported routes, followed by exactly one control-authorized Clostridioides difficile revision call after v1 was rejected for containing no visible endospores. The type-strain record supports a rod-shaped spore-forming organism, and the selected primary morphology record supports restrained oval subterminal spores with slight sporangial distension. Every copied PNG was inspected at original 1536 by 1024 resolution and visible bodies, spatial groupings, and spores were reconciled without trusting prompt counts. Control accepted Clostridioides difficile v2 and the unchanged Clostridium, C. butyricum, C. perfringens, and C. symbiosum originals. Only those five exact accepted originals are eligible for promotion; v1 remains rejected review evidence and must never become a canonical master.",
+  "routeDecisionCount": 6,
+  "candidateCount": 5,
+  "scientificHoldCount": 0,
+  "generationCallCount": 6,
+  "revisionCount": 1,
+  "assets": [
+    {
+      "pageId": "clostridioides-difficile",
+      "assetType": "morphology",
+      "revision": 2,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-012/clostridioides-difficile-draft-v2.png",
+      "generationRecord": "exec-80a36b53-94ac-4918-9640-62a88a7e6d7f.png",
+      "sha256": "b53e405ce495ce0873b63f477a7d21ee5ce8ef7a4e3571c142bfbce8ada42053",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "revisionLinkage": {
+        "replacesDraft": "work/media-drafts/microorganisms-batch-012/clostridioides-difficile-draft.png",
+        "replacementReason": "Control rejected v1 because its otherwise clean vegetative-rod plate contained no visible endospores and was too generic for the species page. The sole authorized revision requested two restrained oval subterminal internal endospores."
+      },
+      "controlledIdentifier": "NCBITaxon:1496",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1496&mode=Info",
+        "https://lpsn.dsmz.de/species/clostridioides-difficile",
+        "https://pubmed.ncbi.nlm.nih.gov/27370902/",
+        "https://bacdive.dsmz.de/strain/2582",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4098856/",
+        "https://etheses.whiterose.ac.uk/id/eprint/972/1/uk_bl_ethos_490383.pdf"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Clostridioides difficile as current species NCBITaxon:1496. The referenced type-strain record supports a rod-shaped spore-forming organism, while the selected primary morphology record describes large oval subterminal spores with slight sporangial distension. Revision 2 therefore shows only two restrained internal subterminal spores among otherwise vegetative rods, without a lifecycle, universal sporulation, or morphology-only diagnostic claim.",
+      "visualReview": "Exactly ten elongated rod bodies appear in eight separated groupings: six isolated single rods and two touching two-rod pairs. This is two more bodies and two more groupings than the v2 prompt requested. Exactly two single rods each contain one clearly visible oval internal body in a subterminal position; the other eight rods are vegetative. Spore-bearing rods are not exaggeratedly swollen. No free spore, terminal or central spore, appendage, capsule, halo, shared envelope, host material, disease scene, process sequence, labels, text, scale bar, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control tower original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Eight rod bodies in six groupings: four isolated singles and two touching pairs; exactly two rods each with one restrained oval internal subterminal endospore.",
+        "observedSubjectDescription": "Ten elongated rod bodies in eight groupings: six isolated singles and two touching two-body pairs.",
+        "observedVisibleSporeCount": 2,
+        "observedSporeDescription": "Two single rods each contain one clearly visible restrained oval internal body in a subterminal position; no free, terminal, or central spore is visible.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Ten representative Clostridioides difficile rod bodies appear in eight groupings: six isolated singles and two touching pairs; two single rods contain one oval subterminal internal endospore each.",
+      "proposedCaption": "Representative Clostridioides difficile rod forms, shown as ten bodies in eight single or paired groupings, with two restrained subterminal internal endospores. This reconstruction is non-diagnostic and is not a micrograph or lifecycle image.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of ten Clostridioides difficile rod bodies arranged as six singles and two touching pairs; two single rods each contain one restrained oval subterminal internal endospore."
+    },
+    {
+      "pageId": "clostridium",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-012/clostridium-draft.png",
+      "generationRecord": "exec-8822aa66-0655-419e-b560-a8f65437970a.png",
+      "sha256": "b5a7a2d3e0c0aaf4c092bc2aa132afd9781920bb8cfe9267724a9ce1f02fb3d7",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:1485",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1485&mode=Info",
+        "https://lpsn.dsmz.de/genus/clostridium",
+        "https://pubmed.ncbi.nlm.nih.gov/26643615/",
+        "https://doi.org/10.1099/ijsem.0.000824",
+        "https://lpsn.dsmz.de/species/clostridium-butyricum",
+        "https://bacdive.dsmz.de/strain/2563"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Clostridium as current emended genus NCBITaxon:1485, restricted around the type species C. butyricum and Clostridium sensu stricto. The plate selects only conservative type-species-anchored straight and slightly curved rods. It is representative and non-diagnostic and makes no genus-wide sporulation, motility, capsule, toxin, or curvature claim.",
+      "visualReview": "Exactly nine rod bodies appear in six spatial groupings: three isolated singles across the upper field, two loose two-rod arrangements with visible inter-body gaps across the middle field, and one touching two-rod pair near the lower center. The bodies include straight and gently curved rods with rounded ends. No visible spore, swollen spore-bearing form, appendage, capsule, halo, shared envelope, host material, labels, text, scale bar, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control tower original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Nine rod bodies in six spatial groupings: three singles, two loose two-rod arrangements, and one touching pair.",
+        "observedSubjectDescription": "Nine rod bodies in six spatial groupings: three isolated singles, two loose two-rod arrangements with visible gaps, and one touching two-body pair.",
+        "observedVisibleSporeCount": 0,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Nine selected Clostridium rod bodies appear in six groupings: three singles, two loose two-rod arrangements, and one touching pair.",
+      "proposedCaption": "Selected type-species-anchored rod forms for Clostridium, shown as nine bodies in six groupings. This genus-level reconstruction is representative, non-exhaustive, non-diagnostic, and makes no genus-wide sporulation or motility claim.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of nine selected Clostridium rod bodies in three single, two loose paired, and one touching paired arrangement without visible spores or appendages."
+    },
+    {
+      "pageId": "clostridium-butyricum",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-012/clostridium-butyricum-draft.png",
+      "generationRecord": "exec-eb345b75-d1d6-498c-93ec-8e3aa285f400.png",
+      "sha256": "5009f8952ec639fbea4bc44e295153061e12e6920108dbb3c5a96e55fe6b6e52",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:1492",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1492&mode=Info",
+        "https://lpsn.dsmz.de/species/clostridium-butyricum",
+        "https://bacdive.dsmz.de/strain/2563",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12046288/",
+        "https://pubmed.ncbi.nlm.nih.gov/4927234/"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Clostridium butyricum as current species NCBITaxon:1492 and the type species of Clostridium. Referenced type-strain and equivalent morphology evidence support straight or slightly curved rods and oval spores. This plate deliberately selects only vegetative rods and omits spores rather than asserting developmental state, spore position, or frequency.",
+      "visualReview": "Exactly eight rod bodies appear in seven separated groupings: six isolated singles and one touching two-rod pair. This is one more single body and one more grouping than the prompt requested. The bodies include one strongly but smoothly curved rod and seven straight-to-gently-curved rods with rounded ends. No visible spore, free spore, swollen spore-bearing form, appendage, capsule, halo, shared envelope, host material, labels, text, scale bar, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control tower original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Seven rod bodies in six groupings: five isolated singles and one touching pair.",
+        "observedSubjectDescription": "Eight rod bodies in seven groupings: six isolated singles and one touching two-body pair.",
+        "observedVisibleSporeCount": 0,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Eight representative Clostridium butyricum rod bodies appear in seven groupings: six isolated straight-to-curved singles and one touching pair.",
+      "proposedCaption": "Representative Clostridium butyricum vegetative rod forms, shown as eight bodies in seven single or paired groupings. This reconstruction is non-diagnostic, shows no visible spores, and is not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of eight Clostridium butyricum rod bodies arranged as six straight-to-curved singles and one touching pair without visible spores or appendages."
+    },
+    {
+      "pageId": "clostridium-perfringens",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-012/clostridium-perfringens-draft.png",
+      "generationRecord": "exec-9a17987d-6df3-4124-bc30-e50ed71970d0.png",
+      "sha256": "52cc6214bfe3a405a9c456f4723e51e57fd2e76268e97633a1c3cc154c687ed5",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:1502",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1502&mode=Info",
+        "https://lpsn.dsmz.de/species/clostridium-perfringens",
+        "https://bacdive.dsmz.de/strain/2631",
+        "https://pubmed.ncbi.nlm.nih.gov/218402/",
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=195103&mode=Info"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Clostridium perfringens as current species NCBITaxon:1502. Referenced type-strain and microscopy records support large straight thick or rectangular rods with blunt-to-rounded ends, while visible spores are uncommon. The plate shows conservative vegetative rods only and omits spores, capsule claims, and motility structures.",
+      "visualReview": "Exactly seven large straight rectangular rod bodies appear in six separated groupings: five isolated singles and one touching two-rod pair across the center. The rods have parallel sides, blunt-to-softly-rounded ends, and modest length and width variation. No visible spore, swollen spore-bearing form, capsule, halo, shared envelope, appendage, gas bubble, host material, disease scene, labels, text, scale bar, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control tower original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Seven large rectangular rod bodies in six groupings: five isolated singles and one touching pair.",
+        "observedSubjectDescription": "Seven large straight rectangular rod bodies in six groupings: five isolated singles and one touching two-body pair.",
+        "observedVisibleSporeCount": 0,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Seven large straight Clostridium perfringens rod bodies appear in six groupings: five isolated rectangular rods and one touching pair.",
+      "proposedCaption": "Representative Clostridium perfringens large straight rod forms, shown as seven bodies in six single or paired groupings. This reconstruction is non-diagnostic, shows no visible spores or capsules, and is not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of seven large straight rectangular Clostridium perfringens rods arranged as five singles and one touching pair without visible spores, capsules, or appendages."
+    },
+    {
+      "pageId": "clostridium-symbiosum",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-012/clostridium-symbiosum-draft.png",
+      "generationRecord": "exec-a119d844-a3ad-492f-8297-c828a36d17b8.png",
+      "sha256": "e4848809d9db7a754fc467f693adb2c0293f54e94df3061f8ee25ba5a6cdef52",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:1512",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1512&mode=Info",
+        "https://lpsn.dsmz.de/species/clostridium-symbiosum",
+        "https://bacdive.dsmz.de/strain/2721",
+        "https://doi.org/10.1099/00207713-26-2-195",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC516307/"
+      ],
+      "scientificFinding": "LPSN retains Clostridium symbiosum as the validly published correct and medically recommended name, while NCBI retains current Taxonomy ID 1512 and flags its placement outside Clostridium sensu stricto. Enterocloster symbiosus is not an authoritative combination and GTDB-oriented Otoolea symbiosa lacks nomenclatural standing. Original and later morphology evidence supports elongated cigar- or lemon-like rods in pairs or short chains with spores uncommon; this plate omits spores and external flagella.",
+      "visualReview": "Exactly eight elongated cigar-to-lemon-shaped rod bodies appear in six separated groupings: four isolated singles and two touching two-rod pairs. The bodies show tapered-to-softly-rounded poles and restrained variation in fullness and length. No visible spore, swollen spore-bearing form, appendage, polar flagellum, capsule, halo, shared envelope, host material, labels, text, scale bar, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control tower original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Eight cigar-to-lemon-shaped rod bodies in six groupings: four isolated singles and two touching pairs.",
+        "observedSubjectDescription": "Eight elongated cigar-to-lemon-shaped rod bodies in six groupings: four isolated singles and two touching two-body pairs.",
+        "observedVisibleSporeCount": 0,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Eight representative Clostridium symbiosum bodies appear in six groupings: four isolated cigar-to-lemon-shaped rods and two touching pairs.",
+      "proposedCaption": "Representative Clostridium symbiosum cigar-to-lemon-shaped rod forms, shown as eight bodies in six single or paired groupings. This reconstruction is non-diagnostic, shows no visible spores or flagella, and is not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of eight Clostridium symbiosum cigar-to-lemon-shaped rod bodies arranged as four singles and two touching pairs without visible spores or appendages."
+    },
+    {
+      "pageId": "clostridium-difficile",
+      "decision": "scientific-identity-hold-resolved",
+      "generationStatus": "withheld",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "currentIdentity": "Clostridioides difficile",
+      "currentRank": "species",
+      "controlledIdentifier": "NCBITaxon:1496",
+      "reason": "LPSN records Clostridium difficile as a validly published synonym not recommended for medical use and names Clostridioides difficile as the correct combination. NCBI Taxonomy uses Clostridioides difficile as the current name for Taxonomy ID 1496. The route duplicates the existing current-name canonical route and cannot receive a distinct raster.",
+      "checkedUrls": [
+        "https://lpsn.dsmz.de/species/clostridium-difficile",
+        "https://lpsn.dsmz.de/species/clostridioides-difficile",
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1496&mode=Info",
+        "https://pubmed.ncbi.nlm.nih.gov/27370902/",
+        "https://doi.org/10.1016/j.anaerobe.2016.06.008"
+      ],
+      "requiredResolution": "Retire or permanently alias clostridium-difficile to the current clostridioides-difficile route and regenerate the deterministic media queue.",
+      "routingImpact": "The obsolete route is excluded from the public registry, canonical media queue, public media files, and image sitemap. Batch 012 creates no raster, master, derivative, approval, or replacement queue item for clostridium-difficile.",
+      "resolutionStatus": "resolved-before-promotion",
+      "resolvedOn": "2026-09-01",
+      "resolution": "Control merged the duplicate historical-combination record into Clostridioides difficile without dropping its source associations or name-change provenance. The obsolete article, history, and suggest routes permanently redirect to the current record. Only clostridioides-difficile receives the accepted v2 asset.",
+      "canonicalPageId": "clostridioides-difficile",
+      "canonicalIdentifier": "NCBITaxon:1496",
+      "queueReplacement": {
+        "pageId": "clostridioides-difficile",
+        "title": "Clostridioides difficile",
+        "route": "/article/clostridioides-difficile",
+        "controlledIdentifier": "NCBITaxon:1496",
+        "coverageStatus": "reviewed"
+      }
+    }
+  ],
+  "rejectedVariants": [
+    {
+      "pageId": "clostridioides-difficile",
+      "revision": 1,
+      "draft": "work/media-drafts/microorganisms-batch-012/clostridioides-difficile-draft.png",
+      "generationRecord": "exec-a2f32f3f-c7df-4525-8f42-6c446474fc6b.png",
+      "sha256": "619879df51d07e7927e585c0ccfc14378bc26b7f71808d3a8d2b30cdd6ee8f6c",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "disposition": "rejected",
+      "reviewedBy": "WikiBiome control tower original-resolution visual review",
+      "reviewedOn": "2026-09-01",
+      "observedSubjectDescription": "Nine elongated rod bodies in eight groupings: seven isolated singles and one touching two-body pair; no visible endospore.",
+      "reason": "The otherwise clean plate contains no visible endospores and is too generic for the Clostridioides difficile species page.",
+      "supersededBy": "work/media-drafts/microorganisms-batch-012/clostridioides-difficile-draft-v2.png"
+    }
+  ]
+}

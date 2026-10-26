@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "interventions-110",
+  "category": "interventions",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "9f559e3270d3ddefa9b92f7d9c8ef37fede578c3",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/interventions-110.md",
+  "reviewRecord": "docs/operations/media-reviews/interventions-110.md",
+  "controlReviewRequired": false,
+  "initialAuditCommit": "ee7bf48",
+  "controlAcceptedReviewManifestSha256": "579176fa2669159c313e25ed46b64407fec7a7fc2679207b17287ce0318cf664",
+  "controlAcceptedPromptEvidenceSha256": "7882793b1be32056d967827b68f57bbf8d552751dc0d0c12de86dbca723d4a0d",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "dc151ca98bc925eb24f6e81f39b5411bbc9c4038",
+    "reviewer": "WikiBiome Control Tower scientific, source-resolution, and editorial audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "prebiotics-inulin-fructo-oligosaccharide",
+      "probiotic-combination-ckd",
+      "probiotics-general",
+      "probiotics-lactobacillus-bifidobacterium",
+      "probiotics-asd-dysbiosis",
+      "probiotics-thyroid"
+    ]
+  },
+  "reviewStandard": "All six routes fail the pre-generation identity, composition, evidence, or non-prescriptive representation gate. Four have zero linked sources, the ASD route's five declared source identifiers are malformed and do not resolve, and the general probiotics route has only one strain-taxonomy source while spanning many distinct organisms, products, conditions, and claimed effects. No marked generation prompt, call, raster, or eligible source hash exists.",
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 6,
+  "generationCallCount": 0,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "promotionRule": "No Batch 110 source hash exists or is eligible for promotion. All six routes remain asset-free scientific holds. No master, derivative, registry record, endpoint, Schema object, social preview, or image-sitemap record may be created from this batch.",
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
+  "routeDecisions": [
+    {
+      "pageId": "prebiotics-inulin-fructo-oligosaccharide",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D056692;Inulin-MeSH:D007444;Fructans-MeSH:D005630;PCOS-MeSH:D011085;zero-resolvable-sources",
+      "reason": "The zero-source PCOS route combines inulin and fructooligosaccharide families without selecting molecular distribution, chain length, linkage profile, ingredient source, ratio, purity, product, preparation, dose, duration, comparator, assay, or endpoint.",
+      "requiredResolution": "Link direct evidence and choose exact inulin and fructooligosaccharide specifications, chain-length distributions and linkages, ingredient sources and processing, ratio, purity, formulation, dose and schedule, PCOS population, comparator, adherence, specimen, assay, time point, endpoint, and safety boundary."
+    },
+    {
+      "pageId": "probiotic-combination-ckd",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Probiotics-MeSH:D019936;CKD-MeSH:D051436;multi-organism-product-unspecified;zero-resolvable-sources",
+      "reason": "The zero-source route names three organism labels but supplies no strain accessions, per-strain viable counts, allocation, product or lot, excipients, storage, CKD stage, dose, duration, comparator, assay, or endpoint.",
+      "requiredResolution": "Link direct evidence and recover current taxon names and exact strain accessions, per-strain counts and allocation, product and lot, excipients, storage, dosing protocol, CKD stage and population, comparator, adherence, specimen, assay, time point, endpoint, and safety exclusions."
+    },
+    {
+      "pageId": "probiotics-general",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Probiotics-MeSH:D019936;multi-genus-multi-strain-multi-product-class;one-resolvable-source",
+      "reason": "The broad route spans bacterial and yeast taxa, single- and multi-strain products, many conditions, ecological mechanisms, doses, and safety states. Its sole resolved source establishes the reassignment of strain 35624 rather than one representative probiotic product or observable state.",
+      "requiredResolution": "Split or scope the class page to one governed visual taxonomy, or select a specific product with current taxon names, exact strain accessions, viable counts and allocation, formulation, storage, route, dose, population, comparator, assay, endpoint, safety boundaries, and direct evidence."
+    },
+    {
+      "pageId": "probiotics-lactobacillus-bifidobacterium",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Probiotics-MeSH:D019936;PCOS-MeSH:D011085;four-species-level-labels-without-strains;zero-resolvable-sources",
+      "reason": "The zero-source PCOS route names four organism labels but no current strain accessions, viable counts, allocation, product, formulation, storage, dose, duration, comparator, adherence, assay, endpoint, or safety state.",
+      "requiredResolution": "Link direct PCOS evidence and recover current organism names, exact strain accessions, per-strain counts and allocation, product and lot, excipients, storage, dosing protocol, PCOS population, comparator, adherence, specimen, assay, time point, endpoint, and safety exclusions."
+    },
+    {
+      "pageId": "probiotics-asd-dysbiosis",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Probiotics-MeSH:D019936;ASD-MeSH:D000067877;five-malformed-local-source-identifiers;multi-organism-protocol-unspecified",
+      "reason": "All five declared local source identifiers include erroneous `.md` suffixes and fail normal source resolution. The route also spans many incompletely identified taxa, variable products and doses, heterogeneous outcomes, and speculative mechanistic claims rather than one bounded probiotic intervention.",
+      "requiredResolution": "Correct all source identifiers, reconcile each claim to direct evidence, and select current taxon names, exact strain accessions, per-strain counts and allocation, product and lot, formulation, storage, dose and duration, ASD population, comparator, adherence, specimen, assay, time point, endpoint, non-stigmatizing visual scope, and safety exclusions."
+    },
+    {
+      "pageId": "probiotics-thyroid",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Probiotics-MeSH:D019936;Hashimoto-MeSH:D050031;multi-organism-product-unspecified;zero-resolvable-sources",
+      "reason": "The zero-source Hashimoto route provides only broad Lactobacillus and Bifidobacterium labels while leaving strains, viable counts, allocation, product, storage, dose, duration, thyroid disease state, comparator, assay, endpoint, and safety conditions unresolved.",
+      "requiredResolution": "Link direct evidence and select current taxon names, exact strain accessions, per-strain counts and allocation, product and lot, excipients, storage, route and dose, Hashimoto disease state and population, comparator, adherence, specimen, assay, time point, endpoint, and safety exclusions."
+    }
+  ],
+  "assets": []
+}

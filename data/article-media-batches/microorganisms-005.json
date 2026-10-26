@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "batchId": "microorganisms-005",
+  "category": "microorganisms",
+  "createdOn": "2026-09-01",
+  "reviewedOn": "2026-09-01",
+  "status": "reviewed",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/microorganisms-005.md",
+  "reviewStandard": "Scientific identity, morphology, controlled identifiers, caption limits, non-diagnostic framing, provenance, accessibility, and the human output audit passed WikiBiome control-tower review before promotion. The original prompt remains immutable provenance and is not count evidence; the reviewed output audit records what is actually visible.",
+  "candidateCount": 6,
+  "scientificHoldCount": 0,
+  "revisionCount": 0,
+  "assets": [
+    {
+      "pageId": "bacteroidaceae",
+      "assetType": "microbial-community",
+      "revision": 1,
+      "decision": "approved",
+      "draft": "work/media-drafts/microorganisms-batch-005/bacteroidaceae-draft.png",
+      "sha256": "002ae2409e511e59132b60280bfe9218c59b90f85b24b86a345852b3a358c28f",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=815&mode=Info",
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=816&mode=Info",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9360105/"
+      ],
+      "scientificFinding": "NCBI identifies Bacteroidaceae as family NCBITaxon:815 and places the current Bacteroides genus within it. Current family membership spans multiple genera, while microscopy-informed Bacteroides work supports rod-shaped cells, plausible Gram-negative envelopes, and variable surface capsule expression; no selected grouping is presented as exhaustive or diagnostic for the family.",
+      "visualReview": "Five separated morphology groupings contain seven cellular bodies: a two-rod pair, one slender rod, two ovoid cells, one gently curved rod, and one rod with a thin capsular boundary. No appendages, spores, host materials, labels, colony scene, or pathology are shown.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Five separated visual groupings and seven cellular bodies: one two-rod pair, one slender rod, one two-cell ovoid grouping, one curved rod, and one encapsulated rod.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Five separated Bacteroidaceae morphology groupings show a two-rod pair, one slender rod, two ovoid cells, one curved rod, and one encapsulated rod.",
+      "proposedCaption": "Selected morphology breadth within Bacteroidaceae, shown as seven cells in five groupings. Relative scale is illustrative; no single grouping is diagnostic of the family, and this reconstruction is not a micrograph.",
+      "proposedDescription": "WikiBiome microscopy-informed family-level reconstruction showing selected Bacteroidaceae cell forms and restrained surface-capsule variation without implying exhaustive family morphology."
+    },
+    {
+      "pageId": "bacteroidales",
+      "assetType": "microbial-community",
+      "revision": 1,
+      "decision": "approved",
+      "draft": "work/media-drafts/microorganisms-batch-005/bacteroidales-draft.png",
+      "sha256": "df1c17982ee4120618f60c781df2cc811b036047750ad4a4021a73081f2108fe",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=171549&mode=Info",
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=815&mode=Info",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9360105/"
+      ],
+      "scientificFinding": "NCBI identifies Bacteroidales as order NCBITaxon:171549 and includes Bacteroidaceae within it. The order-level treatment therefore uses selected coccobacillary, ovoid, straight, plump, and curved rod groupings rather than asserting a single diagnostic cell form or exhaustive taxonomic diagram.",
+      "visualReview": "Five separated morphology groupings contain ten cellular bodies: three coccobacilli, a two-cell plump-rod pair, two slender rods, two tapered ovoid rods, and one encapsulated curved rod. No appendages, spores, branching, host materials, labels, colony scene, or pathology are shown.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Five separated visual groupings and ten cellular bodies: three coccobacilli, two plump rods, two slender rods, two tapered ovoid rods, and one encapsulated curved rod.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Five separated Bacteroidales morphology groupings show three coccobacilli, a pair of plump rods, two slender rods, two tapered ovoid rods, and one encapsulated curved rod.",
+      "proposedCaption": "Selected cellular-form breadth within Bacteroidales, shown as ten cells in five groupings. The reconstruction is order-level, not exhaustive or diagnostic, and is not a micrograph.",
+      "proposedDescription": "WikiBiome microscopy-informed order-level reconstruction showing selected Bacteroidales coccobacillary, ovoid, straight, plump, and curved rod forms."
+    },
+    {
+      "pageId": "bacteroides",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-005/bacteroides-draft.png",
+      "sha256": "f8b4af37478b9c5c5da8177a16196a64685b6bfd28fb02e751144081fe8a69a0",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/datasets/taxonomy/816/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9360105/",
+        "https://pubmed.ncbi.nlm.nih.gov/6837522/"
+      ],
+      "scientificFinding": "NCBI identifies Bacteroides as genus NCBITaxon:816. Microscopy-informed review describes rod-shaped cells, a multilayer Gram-negative envelope, and variable microcapsule appearance; comparative microscopy also documents capsular material across multiple members historically studied within the B. fragilis group.",
+      "visualReview": "Eight cells—not the seven requested by the immutable prompt—range from compact ovoid forms to short plump rods, shown as six singles and one pair. Four cells—not the three requested by the prompt—have restrained thin capsular halos; the remaining four show no halo. No appendages, spores, host materials, labels, biofilm, or pathology are shown.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Eight cellular bodies: six singles and one two-cell pair; four cells have a visible thin capsular halo and four do not.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Eight Bacteroides cells ranging from ovoid forms to short plump rods, including one pair; four cells have thin capsular halos.",
+      "proposedCaption": "Representative Bacteroides morphology with restrained variation in cell form and visible capsule expression. Capsule appearance varies and is not uniform; this genus-level reconstruction is not diagnostic or a micrograph.",
+      "proposedDescription": "WikiBiome microscopy-informed reconstruction of eight Bacteroides cells, including one pair and four cells with visible thin capsule boundaries."
+    },
+    {
+      "pageId": "bacteroides-caccae",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-005/bacteroides-caccae-draft.png",
+      "sha256": "a5f3b8f337abdfe309fa46480db478e02e3dc6e8305e64f11199b1f7b9584115",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=47678&mode=Info",
+        "https://bacdive.dsmz.de/strain/1617",
+        "https://doi.org/10.1099/00207713-36-4-499"
+      ],
+      "scientificFinding": "NCBI identifies Bacteroides caccae as NCBITaxon:47678. The original species description and the DSMZ type-strain record support an anaerobic rod-shaped treatment; the proposed visual does not add a species-wide capsule, appendage, or diagnostic claim.",
+      "visualReview": "Seven rounded rods—not the six requested by the immutable prompt—show restrained length variation as five singles and one separated two-cell pair. No visible capsule halos, appendages, spores, host materials, labels, biofilm, or pathology are shown.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Seven rod-shaped cellular bodies: five singles and one separated two-cell pair.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Seven Bacteroides caccae rods of varied length, shown as five singles and one two-cell pair on a pale cool field.",
+      "proposedCaption": "Representative Bacteroides caccae rod morphology grounded in the species and type-strain descriptions. This reconstruction is not diagnostic and is not a micrograph.",
+      "proposedDescription": "WikiBiome microscopy-informed reconstruction of seven Bacteroides caccae rods with restrained natural length variation."
+    },
+    {
+      "pageId": "bacteroides-fragilis",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-005/bacteroides-fragilis-draft.png",
+      "sha256": "78f249586b9d8d0c3ecb9ec7ede5db629b8de4815ecca117201532456a87227a",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=817&mode=Info",
+        "https://pubmed.ncbi.nlm.nih.gov/1451/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3090145/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11213024/"
+      ],
+      "scientificFinding": "NCBI identifies Bacteroides fragilis as NCBITaxon:817. Primary microscopy and capsule studies support rounded-to-rod cells and strain- and population-level heterogeneity in polysaccharide surface layers; a partial visibly capsulated subset avoids implying uniform expression.",
+      "visualReview": "Seven cells—not the six requested by the immutable prompt—range from rounded forms to short plump rods as five singles and one pair. Three cells have thin capsular halos and four do not. No appendages, spores, host materials, labels, biofilm, or disease narrative are shown.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Seven cellular bodies: five singles and one two-cell pair; three cells have a visible thin capsular halo and four do not.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Seven Bacteroides fragilis cells ranging from rounded forms to short rods, including one pair; three have thin capsular halos.",
+      "proposedCaption": "Representative Bacteroides fragilis cell forms and nonuniform visible capsule expression. Capsule structure varies among strains and cells; this reconstruction is not diagnostic or a micrograph.",
+      "proposedDescription": "WikiBiome microscopy-informed reconstruction of seven Bacteroides fragilis cells, including one pair and three visibly capsulated cells."
+    },
+    {
+      "pageId": "bacteroides-thetaiotaomicron",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-005/bacteroides-thetaiotaomicron-draft.png",
+      "sha256": "ba5c13dd683eeb3abed8a60d92d3b8d8aa0ad232acf4b325aa5ec4993bf80e2a",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=818&mode=Info",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7002182/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4611039/",
+        "https://pubmed.ncbi.nlm.nih.gov/6837522/"
+      ],
+      "scientificFinding": "NCBI identifies Bacteroides thetaiotaomicron as NCBITaxon:818. Primary microscopy studies directly measure or image its capsular layers and support phase-variable surface expression; the proposed reconstruction deliberately shows visible capsule on only a subset and excludes the distinct crystalline surface-layer phenotype.",
+      "visualReview": "Seven rods—not the six requested by the immutable prompt—occur as five singles and one pair. Two cells—not three—show thin reticulated capsular layers; the other five show only matte outer membranes. No crystalline S-layer, appendages, spores, host materials, labels, or metabolism narrative are shown.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control-tower visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Seven rod-shaped cellular bodies: five singles and one two-cell pair; two cells have a visible thin reticulated capsule and five do not.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Seven Bacteroides thetaiotaomicron rods, including one pair; two have thin reticulated capsular layers.",
+      "proposedCaption": "Representative Bacteroides thetaiotaomicron rods with nonuniform visible capsular layers. Capsule expression is phase-variable; this reconstruction does not imply that every cell is capsulated and is not diagnostic or a micrograph.",
+      "proposedDescription": "WikiBiome microscopy-informed reconstruction of seven Bacteroides thetaiotaomicron rods, including one pair and two visibly capsulated cells."
+    }
+  ]
+}

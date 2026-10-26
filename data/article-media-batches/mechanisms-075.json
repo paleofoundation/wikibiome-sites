@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "batchId": "mechanisms-075",
+  "category": "mechanisms",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "260541c1352f3c10206963a7886ae50e279643cf",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/mechanisms-075.md",
+  "reviewRecord": "docs/operations/media-reviews/mechanisms-075.md",
+  "controlReviewRequired": false,
+  "initialAuditCommit": "9e98633",
+  "reviewStandard": "The six queued routes failed the pre-generation identity, source, scope, or evidence gate. They received no marked prompt, no built-in generation call, and no raster. Current controlled records and authoritative literature were checked against the generated article corpus; exact conflicts and the smallest editorial resolution are preserved in the prompt/audit and review packets. Zero hashes are eligible for promotion.",
+  "controlAcceptedReviewManifestSha256": "e07c1931495730e6808ccb0486749a7b376070c8b0584ee7ab07de939e3a7f75",
+  "controlAcceptedPromptEvidenceSha256": "4ddd1b7abe5f33a68faa6cbbd22098026dd2aeaa3be72129556ba653431e2b23",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "1f84db590cf315e0364ecd5b0629ca9bced9c6ad",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "hyperparathyroidism",
+      "hypoxia",
+      "hypoxic-signaling",
+      "il-10",
+      "il-17",
+      "il-1beta"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 6,
+  "generationCallCount": 0,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "promotionRule": "No Batch 075 route is eligible for generation or promotion until its documented scientific and editorial conflicts are corrected and independently re-audited.",
+  "routeDecisions": [
+    {"pageId":"hyperparathyroidism","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D006961;related-MeSH:D049950","reason":"The general condition is reframed as a causal metal-driven secondary pathway and chelation hypothesis from insufficient evidence.","requiredResolution":"Restore clinical disease taxonomy and guideline scope; verify the association source; remove causal and treatment extrapolations."},
+    {"pageId":"hypoxia","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D000860","reason":"A universal threshold and simple ecological model conflate physiologic, inflammatory, and tumour hypoxia and include incorrect organism and urease claims.","requiredResolution":"Use context-specific oxygen measurements, correct physiology, source ecological claims, distinguish settings, and repair broken links."},
+    {"pageId":"hypoxic-signaling","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"related-MeSH:D051793","reason":"The HIF pathway is reduced to nickel carcinogenesis and includes identity conflation, unsupported uniqueness, and chemically incoherent prolyl-hydroxylation language.","requiredResolution":"Bound HIF-1/HIF-1α identity, correct hydroxylation chemistry, and separate established regulation from graded metal evidence."},
+    {"pageId":"il-10","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D016753;UniProt:P22301","reason":"The cytokine is described as universally primary and deficient, while context-dependent animal and compartment-specific associations become treatment targets.","requiredResolution":"Bound human protein, receptor, cell, compartment, cohort, knockout-model, microbiota, and therapeutic evidence."},
+    {"pageId":"il-17","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D020381;UniProt:Q16552","reason":"The family, IL-17A/F, Th17 and other sources, murine SFB results, mucosal defense, autoimmunity, and indication-specific blockade are conflated.","requiredResolution":"Define the exact ligand/family, distinguish species and cell sources, and preserve protective/pathogenic and clinical context."},
+    {"pageId":"il-1beta","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D053583;UniProt:P01584","reason":"NLRP3 is treated as the exclusive primary source and distinct metals/forms are universalized as dual-signal activators and disease mechanisms.","requiredResolution":"Define precursor and processing routes; bound material, form, dose, cell, assay, and disease evidence."}
+  ],
+  "assets": []
+}

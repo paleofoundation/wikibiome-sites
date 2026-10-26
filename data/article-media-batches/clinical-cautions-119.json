@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "batchId": "clinical-cautions-119",
+  "category": "clinical-cautions",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "d3ff557b6b0406c13ab33a9ab5f0424b5201b393",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/clinical-cautions-119.md",
+  "reviewRecord": "docs/operations/media-reviews/clinical-cautions-119.md",
+  "publicationMetadataPlan": {
+    "reviewOnly": true,
+    "creator": "OpenAI built-in image generation",
+    "credit": "WikiBiome / Microbiome Medicine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "digitalSourceType": "trainedAlgorithmicMedia",
+    "mediaDescription": "No generated media; these clinical-caution routes do not resolve an exact product, treatment protocol, clinical population, outcome, or non-prescriptive physical subject",
+    "sourceUse": "Current NLM controlled records and local source-resolution evidence define asset-free scientific holds."
+  },
+  "controlReviewRequired": false,
+  "initialAuditCommit": "90ca319965c207101d9040af9bc077f8f11dab43",
+  "controlAcceptedReviewManifestSha256": "a7c82b41d13ae804444110f6bdd71de804815fedada6c3cb227bc9268baad0b4",
+  "controlAcceptedPromptEvidenceSha256": "a20233a57b11d0a18e1e488ade80a54f33ed86e8de0aab85cfd7cbc7c1c557d3",
+  "controlFinalReview": {
+    "status": "accepted-zero-call-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "2b6dc756ca3434d8183ab30a13a037e00d2ed1b4",
+    "reviewer": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "stop-nickel-rich-foods-snas",
+      "stop-nsaids-ckd",
+      "stop-probiotics-without-stress-management-ovarian-cancer",
+      "stop-broad-spectrum-antibiotics-pre-nec",
+      "stop-scfa-replacement-without-dysbiosis-restoration-ms",
+      "stop-standard-probiotics-endometriosis"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
+  "reviewStandard": "Clinical-caution pages may not receive generic warning graphics, crossed-out foods or medicines, condition anatomy used as treatment evidence, elemental-metal or microorganism media substituted for a clinical protocol, stigmatizing patient imagery, or neonatal treatment scenes. All six routes fail before prompt creation.",
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 6,
+  "generationCallCount": 0,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "promotionRule": "No Batch 119 source hash exists or is eligible for promotion. All six routes remain asset-free scientific holds. No generated source, master, derivative, registry record, endpoint, Schema object, social preview, or image-sitemap entry may be created from this batch.",
+  "routeDecisions": [
+    {
+      "pageId": "stop-nickel-rich-foods-snas",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Nickel-MeSH:D009532;systemic-nickel-allergy-syndrome-food-identity-serving-analytical-method-phenotype-threshold-and-diet-protocol-unresolved",
+      "reason": "The page spans many foods, variable nickel concentrations, serving sizes, analytical sources, gastrointestinal and cutaneous phenotypes, dietary thresholds, cooking materials, vitamin C, and oral hyposensitization. It does not identify one stable physical subject or one validated food composition dataset for depiction. A generic food collage, crossed-out meal, elemental Nickel specimen, patient, skin, gut, or prohibition image would collapse a conditional dietary protocol into a misleading visual rule.",
+      "requiredResolution": "Select a dated authoritative food-composition dataset and analytical method; define food identity, cultivar and processing, serving, nickel concentration and uncertainty, SNAS or nickel-allergy phenotype, diagnostic criteria, dietary threshold, duration, comparator, nutritional adequacy, monitoring, outcomes, exceptions, and one non-prescriptive physical subject."
+    },
+    {
+      "pageId": "stop-nsaids-ckd",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Anti-Inflammatory-Agents-Non-Steroidal-MeSH:D000894;Renal-Insufficiency-Chronic-MeSH:D051436;nsaid-agent-dose-route-indication-ckd-stage-renal-risk-alternative-and-outcomes-unresolved",
+      "reason": "The route cites one chronic-kidney-disease microbiome review and does not resolve an NSAID agent, formulation, route, dose, indication, duration, CKD stage, acute kidney injury risk, comorbidities, concurrent medicines, comparator, monitoring, outcomes, or exceptions. Pills, kidneys, pain, warning symbols, crossed-out medicines, or microbiome imagery would imply a universal prescribing instruction unsupported by the linked evidence.",
+      "requiredResolution": "Add direct current renal and pharmacologic guidance; select the exact NSAID and formulation; define indication, route, dose, duration, CKD stage, kidney function, volume status, comorbidities, interacting medicines, population, comparator, monitoring, renal and pain outcomes, adverse events, alternatives, and exceptions."
+    },
+    {
+      "pageId": "stop-probiotics-without-stress-management-ovarian-cancer",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Probiotics-MeSH:D019936;Ovarian-Neoplasms-MeSH:D010051;stress-intervention-probiotic-strain-cancer-state-treatment-context-and-human-outcomes-unresolved",
+      "reason": "The sole source is an animal-model thesis and the page acknowledges absent human evidence. It does not resolve the probiotic species and strain, product, dose, timing, stress assessment or intervention, ovarian-cancer subtype and stage, anticancer treatment, human population, comparator, immune or clinical outcomes, safety, or exceptions. Patient, ovary, tumor, cortisol, microbe, supplement, wellness, or warning imagery would overstate translation and could stigmatize people with cancer.",
+      "requiredResolution": "Add direct human evidence; define ovarian-cancer subtype and stage, treatment context, stress measure and exact intervention, probiotic species, strain, product, dose and timing, population, comparator, microbiome and immune methods, clinical outcomes, adverse events, contraindications, and exceptions; identify a non-stigmatizing visual subject."
+    },
+    {
+      "pageId": "stop-broad-spectrum-antibiotics-pre-nec",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Anti-Bacterial-Agents-MeSH:D000900;Enterocolitis-Necrotizing-MeSH:D020345;preterm-infant-antibiotic-agent-indication-protocol-evidence-and-neonatal-outcomes-unresolved",
+      "reason": "The page has zero linked sources, explicitly identifies itself as a mechanistic hypothesis, and concerns high-stakes neonatal care. It does not resolve gestational or postnatal age, birth weight, infection risk, cultures, antibiotic agent or spectrum, route, dose, duration, indication, neonatal-unit protocol, milk feeding, comparator, NEC definition or stage, sepsis and mortality outcomes, safety, or exceptions. Infant, intestine, antibiotic, bottle, microbiome, warning, or treatment imagery would manufacture clinical authority where no cited evidence exists.",
+      "requiredResolution": "Add current neonatal guidance and direct comparative evidence; define gestational and postnatal age, birth weight, infection assessment and cultures, exact antibiotic agent, spectrum, route, dose and duration, indication, unit protocol, feeding context, comparator, NEC definition and stage, microbiome method, sepsis, mortality and safety outcomes, stopping rules, and exceptions."
+    },
+    {
+      "pageId": "stop-scfa-replacement-without-dysbiosis-restoration-ms",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Fatty-Acids-Volatile-MeSH:D005232;Multiple-Sclerosis-MeSH:D009103;scfa-compound-formulation-clostridial-taxa-restoration-protocol-ms-phenotype-and-outcomes-unresolved",
+      "reason": "The page combines several short-chain fatty acids, Clostridial groups, dysbiosis reversal, ketogenic diet, B-cell depletion, bile-acid support, and multiple-sclerosis outcomes while labeling the proposal a hypothesis. Exact compound, formulation, dose, taxa and strains, restoration intervention, MS phenotype and activity, disease-modifying therapy, comparator, microbiome method, neurologic outcomes, safety, and exceptions are unresolved. Existing Multiple Sclerosis, microbe, or metabolite imagery cannot represent this multi-component protocol.",
+      "requiredResolution": "Add direct comparative clinical evidence; select the exact short-chain fatty acid compound, formulation and dose and exact taxa, strains or restoration product; define MS phenotype and activity, concurrent therapy, population, comparator, microbiome and metabolite methods, neurologic and patient-centered outcomes, adverse events, monitoring, duration, and exceptions."
+    },
+    {
+      "pageId": "stop-standard-probiotics-endometriosis",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "Probiotics-MeSH:D019936;Endometriosis-MeSH:D004715;unselected-probiotic-product-strain-endometriosis-phenotype-combination-protocol-and-outcomes-unresolved",
+      "reason": "The term standard or unselected probiotics does not identify a product, species, strain, formulation, dose, or timing. The page further combines estrobolome activity, Candida, metal ecology, low-nickel diet, lactoferrin, and N-acetylcysteine without resolving endometriosis phenotype, stage, fertility treatment, comparator, microbiome method, symptom or lesion outcomes, safety, or exceptions. Existing anatomy, microorganism, elemental-metal, supplement, or prohibition media would substitute components for an undefined clinical protocol.",
+      "requiredResolution": "Add strain-specific comparative clinical evidence; define probiotic species, strains, product, formulation, dose, timing and duration, endometriosis phenotype and stage, fertility and hormonal-treatment context, concurrent interventions, population, comparator, microbiome and enzyme methods, symptom, fertility and lesion outcomes, adverse events, contraindications, and exceptions."
+    }
+  ],
+  "assets": []
+}

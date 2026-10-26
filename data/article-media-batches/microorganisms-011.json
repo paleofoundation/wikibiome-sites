@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "batchId": "microorganisms-011",
+  "category": "microorganisms",
+  "createdOn": "2026-09-01",
+  "status": "reviewed",
+  "reviewedOn": "2026-09-01",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/microorganisms-011.md",
+  "reviewStandard": "Current identity, rank, and NCBI Taxonomy identifiers were checked against NCBI Taxonomy and current nomenclatural authorities, with conservative appearance bounded by primary descriptions, monographic revisions, or referenced type-strain records. Clostridiales was withheld because Eubacteriales is the current correct order name for NCBITaxon:186802; control subsequently retired the synonym route as an audited asset-free 308 alias to uncovered eubacteriales, and no raster was generated, fabricated, or rekeyed for that transition. Exactly one built-in generation call was made for each of the five supported current subjects using the immutable passive prompt record. The WikiBiome media task and control root inspected every copied PNG at original 1536 by 1024 resolution and reconciled visible bodies, structures, and spatial groupings without trusting prompt counts. Control accepted all five exact originals unchanged, including the honestly recorded Candidozyma prompt-count mismatch. Only those five originals were promoted after approved review-log records and all release gates were established.",
+  "routeDecisionCount": 6,
+  "candidateCount": 5,
+  "scientificHoldCount": 1,
+  "generationCallCount": 5,
+  "revisionCount": 0,
+  "assets": [
+    {
+      "pageId": "candidozyma-auris",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-011/candidozyma-auris-draft.png",
+      "generationRecord": "exec-e5606526-8dfe-4205-b8fc-a3e7b69d23c6.png",
+      "sha256": "3d0a7214aa6f90c9347132604e9f73ad2297ea069f199ea3d70fa8cc3802492b",
+      "controlledIdentifier": "NCBITaxon:498019",
+      "mycoBankIdentifier": "MB 848169",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=498019&mode=Info",
+        "https://doi.org/10.3767/persoonia.2024.52.02",
+        "https://pubmed.ncbi.nlm.nih.gov/19161556/",
+        "https://onlinelibrary.wiley.com/doi/10.1111/j.1348-0421.2008.00083.x"
+      ],
+      "scientificFinding": "NCBI Taxonomy records Candidozyma auris as current species NCBITaxon:498019 and Candida auris as its basionym. The current combination is MycoBank MB 848169. The original type description supports ovoid, ellipsoidal to elongate budding cells occurring singly, in pairs, or groups and reports no pseudohyphae. This conservative plate is non-diagnostic, and no obsolete-name raster was reused or rekeyed.",
+      "visualReview": "Exactly nine yeast bodies appear in eight separated groupings: seven isolated smooth ovoid-to-ellipsoidal singles and one touching mother-and-bud pair. This is one more single body and one more grouping than the prompt requested. No pseudohypha, hypha, branching, colony plate, host material, labels, text, scale bar, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome root original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Nine yeast bodies in eight groupings: seven isolated ovoid-to-ellipsoidal singles and one touching two-body mother-and-bud pair.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Nine Candidozyma auris yeast bodies appear in eight groupings: seven isolated ovoid-to-ellipsoidal singles and one mother-and-bud pair.",
+      "proposedCaption": "Representative Candidozyma auris budding-yeast morphology, shown as nine bodies in eight single or paired groupings. This reconstruction is non-diagnostic, is not a micrograph, and is keyed only to the current species name.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of nine Candidozyma auris yeast bodies arranged as seven ovoid-to-ellipsoidal singles and one budding pair on a pale cool field."
+    },
+    {
+      "pageId": "christensenellaceae",
+      "assetType": "microbial-community",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-011/christensenellaceae-draft.png",
+      "generationRecord": "exec-b1d97c92-458c-4419-9ebf-dee23ac08851.png",
+      "sha256": "8317f103db0213cf265014858244d5660bca63ea4bb11fe6ff59e283167d3954",
+      "controlledIdentifier": "NCBITaxon:990719",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=990719&mode=Info",
+        "https://lpsn.dsmz.de/family/christensenellaceae",
+        "https://pubmed.ncbi.nlm.nih.gov/21357455/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8067450/"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Christensenellaceae as current family NCBITaxon:990719, with Christensenella as type genus. The family proposal and later type-strain microscopy support selected short straight rods with tapered ends occurring singly or in pairs. This type-genus-anchored plate is representative, non-exhaustive, and not a family-diagnostic morphology.",
+      "visualReview": "Exactly eight straight rod bodies appear in six separated groupings: four isolated singles and two touching two-rod pairs. The rods have clean ordinary boundaries and restrained length and orientation variation; their ends read as rounded to subtly tapered. No appendages, spores, capsule halo, shared envelope, host material, labels, text, scale bar, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome root original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Eight straight rod bodies in six groupings: four isolated singles and two touching two-body pairs, with rounded-to-subtly-tapered ends.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Eight selected Christensenellaceae rod bodies appear in six groupings: four isolated singles and two touching pairs.",
+      "proposedCaption": "Selected type-genus-anchored rod forms for Christensenellaceae, shown as eight bodies in six groupings. This family-level reconstruction is representative, non-exhaustive, non-diagnostic, and not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of eight selected Christensenellaceae rod bodies arranged as four singles and two pairs with restrained rounded-to-tapered ends."
+    },
+    {
+      "pageId": "citrobacter",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-011/citrobacter-draft.png",
+      "generationRecord": "exec-bd23f96d-1441-467b-a040-c4102debf1f0.png",
+      "sha256": "a4ea3013d3e531631e3509747c8160cc64039f919bf52dae9afdd6dde28c40c6",
+      "controlledIdentifier": "NCBITaxon:544",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=544&mode=Info",
+        "https://lpsn.dsmz.de/genus/citrobacter",
+        "https://bacdive.dsmz.de/strain/4325",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3569269/"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Citrobacter as current genus NCBITaxon:544, with C. freundii as type species. The referenced type-strain record supports short rods. This selected plate omits variable flagella and capsule claims and is representative rather than genus-diagnostic.",
+      "visualReview": "Exactly seven short rounded rod bodies appear in six separated groupings: five isolated singles and one touching two-rod pair. The cells have ordinary smooth boundaries with slight length and orientation variation. No capsule, halo, shared envelope, appendage, spore, host material, labels, text, scale bar, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome root original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Seven short rounded rod bodies in six groupings: five isolated singles and one touching two-body pair.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Seven selected Citrobacter rods appear in six groupings: five isolated short rounded rods and one touching pair.",
+      "proposedCaption": "Representative Citrobacter short-rod morphology, shown as seven bodies in six single or paired groupings. This genus-level reconstruction is non-diagnostic and is not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of seven Citrobacter short rounded rod bodies arranged as five singles and one pair without capsule or appendage claims."
+    },
+    {
+      "pageId": "cladosporium",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-011/cladosporium-draft.png",
+      "generationRecord": "exec-780186bd-d153-42cd-9d34-ead0b4b87202.png",
+      "sha256": "6964a84ec8c76dbc6d96824622f0aa4a525a8a2fde476a105ecf5647a1e643df",
+      "controlledIdentifier": "NCBITaxon:5498",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5498&mode=Info",
+        "https://pubmed.ncbi.nlm.nih.gov/22815589/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3390897/",
+        "https://doi.org/10.3114/sim0003"
+      ],
+      "scientificFinding": "NCBI Taxonomy recognizes Cladosporium as current genus NCBITaxon:5498. The modern monographic revision supports conidia in true acropetal chains and multiple conidial classes with substantial species-level variation. This selected two-structure plate is representative, non-exhaustive, and not genus-diagnostic.",
+      "visualReview": "Exactly two separated conidiophore groupings appear. Each grouping contains one short unbranched stalk and five distinct attached oval-to-lemon-shaped conidial bodies, for two stalk structures and ten conidia, twelve discrete visible structures in total. Clear attachment scars separate each conidium. No sprawling hyphal network, substrate, environmental or disease scene, host material, labels, text, scale bar, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome root original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Two separated conidiophore groupings, each with one short stalk and five attached conidial bodies: two stalks plus ten conidia, twelve discrete visible structures total.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Two selected Cladosporium conidiophore groupings each show one short stalk and five attached conidia, for two stalks and ten conidial bodies total.",
+      "proposedCaption": "Two selected Cladosporium conidiophore-and-chain structures, each with five conidia. This genus-level reconstruction is representative, non-exhaustive, non-diagnostic, and not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of two isolated Cladosporium conidiophore groupings containing two stalk structures and ten countable attached conidial bodies."
+    },
+    {
+      "pageId": "clostridia",
+      "assetType": "microbial-community",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-011/clostridia-draft.png",
+      "generationRecord": "exec-5644e35f-02d5-4a93-88a2-385748bd707d.png",
+      "sha256": "11154fe3f758db73e80a4577488e1f048987aa7e1f05f4b61ea6153b15c230e9",
+      "controlledIdentifier": "NCBITaxon:186801",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=186801&mode=Info",
+        "https://lpsn.dsmz.de/class/clostridia",
+        "https://lpsn.dsmz.de/species/clostridium-butyricum",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11851364/"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Clostridia as current class NCBITaxon:186801, with Clostridium as type genus. The type species C. butyricum is documented as rod shaped or slightly curved, singly or in pairs. This selected type-genus-anchored plate avoids a class-wide morphology, sporulation, motility, toxin, or phenotype claim.",
+      "visualReview": "Exactly nine rod bodies appear in six spatial groupings: three isolated singles, two loose two-rod arrangements whose bodies remain separated by visible gaps, and one touching angled two-rod pair. Forms include straight and slightly curved rods with rounded ends and restrained length variation. No visible spore, swollen spore-bearing form, appendage, capsule, halo, shared envelope, host material, labels, text, scale bar, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome root original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Nine rod bodies in six spatial groupings: three isolated singles, two loose two-rod arrangements with visible inter-body gaps, and one touching angled two-rod pair.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Nine selected Clostridia rod bodies appear in six groupings: three singles, two loose two-rod arrangements, and one touching angled pair.",
+      "proposedCaption": "Selected type-genus-anchored rod forms for Clostridia, shown as nine bodies in six groupings. This class-level reconstruction is representative, non-exhaustive, non-diagnostic, and makes no class-wide sporulation or motility claim.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of nine selected Clostridia rod bodies in three single, two loose paired, and one touching paired arrangement without visible spores or appendages."
+    },
+    {
+      "pageId": "clostridiales",
+      "decision": "scientific-identity-hold-resolved",
+      "generationStatus": "withheld",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "currentIdentity": "Eubacteriales",
+      "currentRank": "order",
+      "controlledIdentifier": "NCBITaxon:186802",
+      "reason": "LPSN records Eubacteriales as the validly published correct order name and Clostridiales as a validly published heterotypic synonym. NCBI Taxonomy uses Eubacteriales for Taxonomy ID 186802. A new canonical asset cannot be keyed to the non-current route name.",
+      "checkedUrls": [
+        "https://lpsn.dsmz.de/order/eubacteriales",
+        "https://lpsn.dsmz.de/order/clostridiales",
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=186802&mode=Info"
+      ],
+      "requiredResolution": "Establish or confirm a current-name canonical eubacteriales route keyed to NCBITaxon:186802, retire or permanently alias clostridiales, and regenerate the deterministic media queue before order-level media work resumes.",
+      "routingImpact": "The non-current route remains uncovered and is excluded from the public registry and image sitemap. Batch 011 creates no raster, master, derivative, approval, or replacement queue item for clostridiales.",
+      "resolutionStatus": "resolved-before-promotion",
+      "resolvedOn": "2026-09-01",
+      "resolution": "Control retired the synonym route and established an audited asset-free 308 alias to the current Eubacteriales record. No raster was generated, fabricated, rekeyed, registered, or published for either the obsolete slug or its current-name replacement in batch 011.",
+      "canonicalPageId": "eubacteriales",
+      "canonicalIdentifier": "NCBITaxon:186802",
+      "queueReplacement": {
+        "pageId": "eubacteriales",
+        "title": "Eubacteriales",
+        "route": "/article/eubacteriales",
+        "controlledIdentifier": "NCBITaxon:186802",
+        "coverageStatus": "uncovered"
+      }
+    }
+  ]
+}

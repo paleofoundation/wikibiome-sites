@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "batchId": "microorganisms-037",
+  "category": "microorganisms",
+  "status": "reviewed",
+  "createdOn": "2026-09-06",
+  "reviewedOn": "2026-09-06",
+  "authorizedParent": "e112f6ca929f3ddc8094c6ec2afdab23ca7eb6a0",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/microorganisms-037.md",
+  "controlAcceptedReviewManifestSha256": "8f3af0da90d271aa9658a60bbb64fe0a93bff9ab880d365350bc74eeb1508012",
+  "controlAcceptedPromptEvidenceSha256": "850a16d1c019378b08bd348276277fa12c7810a9d36b5fe03a2d325757b8169b",
+  "publicationMetadataPlan": {
+    "reviewOnly": false,
+    "creator": "OpenAI built-in image generation",
+    "credit": "WikiBiome / Microbiome Medicine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "digitalSourceType": "trainedAlgorithmicMedia",
+    "mediaDescription": "Review-only scientific algorithmic reconstruction, not a micrograph or photograph",
+    "sourceUse": "Taxonomic and morphology authorities supplied factual constraints only; no source image or design was copied.",
+    "promotionRule": "Control Tower independently verified review commit 8ad2a0027d3aa4777f5569823b5f826edccaa0cd and authorized promotion of only its six accepted exact immutable PNG hashes. Quarantined Phocaeicola and every scientific identity hold remain asset-free."
+  },
+  "reviewStandard": "Current identity, canonical scope, controlled identifier, type anchoring, conservative morphology, cited authority mappings, native dimensions, literal visible counts, edge field, and crop-safe bounds were checked. Phocaeicola remained quarantined and received no call. Each of six eligible routes received exactly one immutable built-in generation call; observed output controls the record.",
+  "routeDecisionCount": 6,
+  "candidateCount": 6,
+  "scientificHoldCount": 0,
+  "generationCallCount": 6,
+  "reviewableGenerationCount": 6,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "controlReviewRequired": false,
+  "controlFinalReview": {
+    "reviewedOn": "2026-09-06",
+    "reviewingAuthority": "WikiBiome Control Tower native-resolution exact-hash review",
+    "status": "accepted-six-exact-hashes",
+    "acceptedReviewCommit": "8ad2a0027d3aa4777f5569823b5f826edccaa0cd",
+    "integratedReviewCommit": "8ad2a0027d3aa4777f5569823b5f826edccaa0cd",
+    "notes": "Control Tower verified the exact parent, immutable prompts and draft hashes, current identities, type anchoring, literal native output counts, edge fields, crop-safe bounds, and zero public/master leakage. Only the six recorded sources are approved for promotion."
+  },
+  "controlSocialCropReview": {
+    "reviewedOn": "2026-09-06",
+    "reviewingAuthority": "WikiBiome Control Tower native 1200 by 630 social-derivative review",
+    "status": "accepted-six-centered-cover-derivatives",
+    "notes": "Control Tower completed original-detail review of all six native 1200 by 630 centered-cover derivatives. Every reviewed coccus, pair, chain, and grouping remains fully visible and unclipped, with the pale cool scientific plate treatment preserved."
+  },
+  "assets": [
+    {
+      "pageId": "streptococcus-agalactiae", "displayName": "Streptococcus agalactiae", "assetType": "morphology", "revision": 1,
+      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted", "draft": "work/media-drafts/microorganisms-batch-037/streptococcus-agalactiae-draft.png", "generationRecord": "exec-a4531fc4-7d3f-496c-bae0-fa1fb01bb11e.png",
+      "promptSha256": "a818e6c2f5f9c7db47cf5b91443f0c5d6bcd30fe782ddc8ed53eb6b8dae86f6b", "sha256": "5e44d7416670c71411a98ad1d307ba662f2714d328603313fc3458bfd9b6920a", "fileSizeBytes": 1379654, "dimensions": { "width": 1536, "height": 1024 }, "proposedSocialResizeFit": "cover",
+      "acceptedScientificName": "Streptococcus agalactiae", "taxonomicRank": "species", "controlledIdentifier": "NCBITaxon:1311", "typeMaterialCulture": "ATCC 13813 / DSM 2134", "scientificReferences": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1311&mode=Info", "https://lpsn.dsmz.de/species/streptococcus-agalactiae", "https://www.ncbi.nlm.nih.gov/books/NBK7611/"],
+      "scientificFinding": "Current S. agalactiae and its type material support a conservative coccal-chain plate; arrangement is representative and non-diagnostic.",
+      "visualReview": "Exactly fifteen round-to-ovoid cocci appear in three gently curved chains of five, six, and four, one additional coccus versus the prompt. No capsule, halo, hemolysis, tissue, text, scene, clipping, signature, or watermark is visible.",
+      "outputAudit": { "reviewedBy": "WikiBiome Control Tower native-resolution visual audit", "reviewedOn": "2026-09-06", "promptCountTrusted": false, "promptRequestedSubjectDescription": "Fourteen cocci in chains of five, five, and four.", "observedSubjectDescription": "Fifteen cocci in chains of five, six, and four.", "observedVisibleBodyCount": 15, "observedSpatialGroupingCount": 3, "observedChainCount": 3, "observedChainSizes": [5,6,4], "outerBackgroundBandWidthPx": 32, "outerBackgroundDarkPixelCountBelowLuma128": 0, "outerBackgroundMinRgb": [237,244,251], "foregroundBoundsAtLumaBelow220": { "minX": 318, "minY": 179, "maxX": 1222, "maxY": 849 }, "coverSafe": true, "promptDeviation": "One additional coccus in the middle chain.", "metadataConsistency": "pass" },
+      "proposedAlt": "Fifteen selected Streptococcus agalactiae cocci in three curved chains of five, six, and four.", "proposedCaption": "Type-strain-anchored Streptococcus agalactiae reconstruction with fifteen cocci in three chains. Representative, non-diagnostic, and not a micrograph.", "proposedDescription": "WikiBiome scientific reconstruction of fifteen selected Streptococcus agalactiae cocci on a uniform pale cool field.", "proposedProvenance": "Generated once from the immutable batch-037 prompt after identity and morphology audit; human-audited at native resolution. Observed counts govern metadata. Review-only trained-algorithmic reconstruction."
+    },
+    {
+      "pageId": "streptococcus-gallolyticus", "displayName": "Streptococcus gallolyticus", "assetType": "morphology", "revision": 1,
+      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted", "draft": "work/media-drafts/microorganisms-batch-037/streptococcus-gallolyticus-draft.png", "generationRecord": "exec-58fd5b61-324b-4b9c-b5e7-2c71e1509204.png",
+      "promptSha256": "6290d8caff941b623c8745d4087078e6a914b79505fd24d2da07d6dc4190bb3b", "sha256": "7a19309d7350c6cc9225dcc70362c598fce52802492d8024ce595289760719c8", "fileSizeBytes": 1384354, "dimensions": { "width": 1536, "height": 1024 }, "proposedSocialResizeFit": "cover",
+      "acceptedScientificName": "Streptococcus gallolyticus", "taxonomicRank": "species", "controlledIdentifier": "NCBITaxon:315405", "typeMaterialCulture": "LMG 16802 / DSM 16831", "scientificReferences": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=315405&mode=Info", "https://lpsn.dsmz.de/species/streptococcus-gallolyticus", "https://www.ncbi.nlm.nih.gov/books/NBK7611/"],
+      "scientificFinding": "Current S. gallolyticus and its type material support a pairs-and-short-chains plate without subspecies or clinical-source claims.",
+      "visualReview": "Exactly twelve cocci appear in four groups: two curved chains of four and two opposed pairs. No capsule, halo, organ, tissue, text, scene, clipping, signature, or watermark is visible.",
+      "outputAudit": { "reviewedBy": "WikiBiome Control Tower native-resolution visual audit", "reviewedOn": "2026-09-06", "promptCountTrusted": false, "promptRequestedSubjectDescription": "Twelve cocci in two chains of four and two pairs.", "observedSubjectDescription": "Twelve cocci in two chains of four and two pairs.", "observedVisibleBodyCount": 12, "observedSpatialGroupingCount": 4, "observedChainCount": 2, "observedChainSizes": [4,4], "observedPairCount": 2, "outerBackgroundBandWidthPx": 32, "outerBackgroundDarkPixelCountBelowLuma128": 0, "outerBackgroundMinRgb": [236,243,250], "foregroundBoundsAtLumaBelow220": { "minX": 175, "minY": 236, "maxX": 1348, "maxY": 792 }, "coverSafe": true, "promptDeviation": "none", "metadataConsistency": "pass" },
+      "proposedAlt": "Twelve selected Streptococcus gallolyticus cocci in two chains of four and two opposed pairs.", "proposedCaption": "Type-strain-anchored Streptococcus gallolyticus reconstruction with twelve cocci in short chains and pairs. Representative, non-diagnostic, and not a micrograph.", "proposedDescription": "WikiBiome scientific reconstruction of twelve selected Streptococcus gallolyticus cocci on a uniform pale cool field.", "proposedProvenance": "Generated once from the immutable batch-037 prompt after identity and morphology audit; human-audited at native resolution. Review-only trained-algorithmic reconstruction."
+    },
+    {
+      "pageId": "streptococcus-mutans", "displayName": "Streptococcus mutans", "assetType": "morphology", "revision": 1,
+      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted", "draft": "work/media-drafts/microorganisms-batch-037/streptococcus-mutans-draft.png", "generationRecord": "exec-80188bb4-a992-4bf0-9955-eff87fcd8018.png",
+      "promptSha256": "7d52895d28f8621b7210e997b9c9b3cf48858a0744bf42e41829bc41a1a985f7", "sha256": "42c065c35f003776da33f4b36138dfec8949c6b36605e2fc396bd6f526894b6a", "fileSizeBytes": 1463455, "dimensions": { "width": 1536, "height": 1024 }, "proposedSocialResizeFit": "cover",
+      "acceptedScientificName": "Streptococcus mutans", "taxonomicRank": "species", "controlledIdentifier": "NCBITaxon:1309", "typeMaterialCulture": "ATCC 25175 / DSM 20523", "scientificReferences": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1309&mode=Info", "https://lpsn.dsmz.de/species/streptococcus-mutans", "https://www.ncbi.nlm.nih.gov/books/NBK7611/"],
+      "scientificFinding": "Current S. mutans and its type material support a conservative chain-forming coccal plate without plaque, matrix, tooth, or disease imagery.",
+      "visualReview": "Exactly fifteen cocci appear in three curved chains of five. No plaque, matrix, tooth, tissue, text, scene, clipping, signature, or watermark is visible.",
+      "outputAudit": { "reviewedBy": "WikiBiome Control Tower native-resolution visual audit", "reviewedOn": "2026-09-06", "promptCountTrusted": false, "promptRequestedSubjectDescription": "Fifteen cocci in three chains of five.", "observedSubjectDescription": "Fifteen cocci in three chains of five.", "observedVisibleBodyCount": 15, "observedSpatialGroupingCount": 3, "observedChainCount": 3, "observedChainSizes": [5,5,5], "outerBackgroundBandWidthPx": 32, "outerBackgroundDarkPixelCountBelowLuma128": 0, "outerBackgroundMinRgb": [236,242,248], "foregroundBoundsAtLumaBelow220": { "minX": 302, "minY": 183, "maxX": 1168, "maxY": 821 }, "coverSafe": true, "promptDeviation": "none", "metadataConsistency": "pass" },
+      "proposedAlt": "Fifteen selected Streptococcus mutans cocci in three curved chains of five.", "proposedCaption": "Type-strain-anchored Streptococcus mutans reconstruction with fifteen cocci in three chains. Representative, non-diagnostic, and not a micrograph.", "proposedDescription": "WikiBiome scientific reconstruction of fifteen selected Streptococcus mutans cocci on a uniform pale cool field.", "proposedProvenance": "Generated once from the immutable batch-037 prompt after identity and morphology audit; human-audited at native resolution. Review-only trained-algorithmic reconstruction."
+    },
+    {
+      "pageId": "streptococcus-pneumoniae", "displayName": "Streptococcus pneumoniae", "assetType": "morphology", "revision": 1,
+      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted", "draft": "work/media-drafts/microorganisms-batch-037/streptococcus-pneumoniae-draft.png", "generationRecord": "exec-acdf3c8a-5d19-4340-98b6-d025c0589d4d.png",
+      "promptSha256": "287bc25b5eb188d5376a11432310f563c1c52034e934328c213cbb295101d9ec", "sha256": "1030b09141f397917bf5bd5388095deefafe6ef646bb19e845029dcc2c1eeae7", "fileSizeBytes": 1640739, "dimensions": { "width": 1536, "height": 1024 }, "proposedSocialResizeFit": "cover",
+      "acceptedScientificName": "Streptococcus pneumoniae", "taxonomicRank": "species", "controlledIdentifier": "NCBITaxon:1313", "typeMaterialCulture": "ATCC 33400 / DSM 20566", "scientificReferences": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1313&mode=Info", "https://lpsn.dsmz.de/species/streptococcus-pneumoniae", "https://www.ncbi.nlm.nih.gov/books/NBK7611/"],
+      "scientificFinding": "Current S. pneumoniae and its type material support a conservative paired ovoid-coccus plate; capsule and disease imagery are intentionally absent.",
+      "visualReview": "Exactly twelve gently tapered ovoid cocci appear as six separated opposed pairs. No chain longer than two, capsule, halo, tissue, text, scene, clipping, signature, or watermark is visible.",
+      "outputAudit": { "reviewedBy": "WikiBiome Control Tower native-resolution visual audit", "reviewedOn": "2026-09-06", "promptCountTrusted": false, "promptRequestedSubjectDescription": "Twelve ovoid cocci in six opposed pairs.", "observedSubjectDescription": "Twelve gently tapered ovoid cocci in six opposed pairs.", "observedVisibleBodyCount": 12, "observedSpatialGroupingCount": 6, "observedPairCount": 6, "outerBackgroundBandWidthPx": 32, "outerBackgroundDarkPixelCountBelowLuma128": 0, "outerBackgroundMinRgb": [239,245,251], "foregroundBoundsAtLumaBelow220": { "minX": 290, "minY": 135, "maxX": 1235, "maxY": 816 }, "coverSafe": true, "promptDeviation": "none", "metadataConsistency": "pass" },
+      "proposedAlt": "Twelve selected Streptococcus pneumoniae cocci arranged as six opposed ovoid pairs.", "proposedCaption": "Type-strain-anchored Streptococcus pneumoniae reconstruction with twelve ovoid cocci in six pairs. Representative, non-diagnostic, and not a micrograph; capsule is not depicted.", "proposedDescription": "WikiBiome scientific reconstruction of six selected Streptococcus pneumoniae pairs on a uniform pale cool field.", "proposedProvenance": "Generated once from the immutable batch-037 prompt after identity and morphology audit; human-audited at native resolution. Review-only trained-algorithmic reconstruction."
+    },
+    {
+      "pageId": "streptococcus-salivarius", "displayName": "Streptococcus salivarius", "assetType": "morphology", "revision": 1,
+      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted", "draft": "work/media-drafts/microorganisms-batch-037/streptococcus-salivarius-draft.png", "generationRecord": "exec-632e271d-dadd-43cc-9c76-07f8b034f34a.png",
+      "promptSha256": "8f074f00cbce084b2eb7fc7c1f2606da895e273dc6218284bbad19291d5d749f", "sha256": "a19f9e506d76ee534cec781002cdda9291268e56b2d4b032db5a65f6cc37d0e5", "fileSizeBytes": 1461615, "dimensions": { "width": 1536, "height": 1024 }, "proposedSocialResizeFit": "cover",
+      "acceptedScientificName": "Streptococcus salivarius", "taxonomicRank": "species", "controlledIdentifier": "NCBITaxon:1304", "typeMaterialCulture": "ATCC 7073 / DSM 20560", "scientificReferences": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1304&mode=Info", "https://lpsn.dsmz.de/species/streptococcus-salivarius", "https://www.ncbi.nlm.nih.gov/books/NBK7611/"],
+      "scientificFinding": "Current S. salivarius and its type material support a representative coccal-chain plate without oral habitat, colony, or probiotic claims.",
+      "visualReview": "Exactly fourteen cocci appear in three chains of five, six, and three, one additional coccus versus the prompt. No oral anatomy, colony texture, text, scene, clipping, signature, or watermark is visible.",
+      "outputAudit": { "reviewedBy": "WikiBiome Control Tower native-resolution visual audit", "reviewedOn": "2026-09-06", "promptCountTrusted": false, "promptRequestedSubjectDescription": "Thirteen cocci in chains of five, five, and three.", "observedSubjectDescription": "Fourteen cocci in chains of five, six, and three.", "observedVisibleBodyCount": 14, "observedSpatialGroupingCount": 3, "observedChainCount": 3, "observedChainSizes": [5,6,3], "outerBackgroundBandWidthPx": 32, "outerBackgroundDarkPixelCountBelowLuma128": 0, "outerBackgroundMinRgb": [234,242,250], "foregroundBoundsAtLumaBelow220": { "minX": 234, "minY": 206, "maxX": 1175, "maxY": 893 }, "coverSafe": true, "promptDeviation": "One additional coccus in the middle chain.", "metadataConsistency": "pass" },
+      "proposedAlt": "Fourteen selected Streptococcus salivarius cocci in three curved chains of five, six, and three.", "proposedCaption": "Type-strain-anchored Streptococcus salivarius reconstruction with fourteen cocci in three chains. Representative, non-diagnostic, and not a micrograph.", "proposedDescription": "WikiBiome scientific reconstruction of fourteen selected Streptococcus salivarius cocci on a uniform pale cool field.", "proposedProvenance": "Generated once from the immutable batch-037 prompt after identity and morphology audit; human-audited at native resolution. Observed counts govern metadata. Review-only trained-algorithmic reconstruction."
+    },
+    {
+      "pageId": "streptococcus-thermophilus", "displayName": "Streptococcus thermophilus", "assetType": "morphology", "revision": 1,
+      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted", "draft": "work/media-drafts/microorganisms-batch-037/streptococcus-thermophilus-draft.png", "generationRecord": "exec-1243e062-329d-4012-8c70-3269de577c1d.png",
+      "promptSha256": "a40fe2f0da7558f0bc82d66f205b9761722a0dc94a808e8e557a38045c246e3c", "sha256": "8462afb99f47f9bd81fc3470f8678dfcfbdd9322a78dd3243a8fe216987c7d58", "fileSizeBytes": 1459039, "dimensions": { "width": 1536, "height": 1024 }, "proposedSocialResizeFit": "cover",
+      "acceptedScientificName": "Streptococcus thermophilus", "taxonomicRank": "species", "controlledIdentifier": "NCBITaxon:1308", "typeMaterialCulture": "ATCC 19258 / DSM 20617", "scientificReferences": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1308&mode=Info", "https://lpsn.dsmz.de/species/streptococcus-thermophilus", "https://bacdive.dsmz.de/strain/14786", "https://www.ncbi.nlm.nih.gov/books/NBK7611/"],
+      "scientificFinding": "Current S. thermophilus and its type material support a chain-forming coccal plate, with explicit distinct-name awareness and no food or strain-function claims.",
+      "visualReview": "Exactly seventeen cocci appear in three curved chains of seven, five, and five, one additional coccus versus the prompt. No food, vessel, packaging, text, scene, clipping, signature, or watermark is visible.",
+      "outputAudit": { "reviewedBy": "WikiBiome Control Tower native-resolution visual audit", "reviewedOn": "2026-09-06", "promptCountTrusted": false, "promptRequestedSubjectDescription": "Sixteen cocci in chains of six, five, and five.", "observedSubjectDescription": "Seventeen cocci in chains of seven, five, and five.", "observedVisibleBodyCount": 17, "observedSpatialGroupingCount": 3, "observedChainCount": 3, "observedChainSizes": [7,5,5], "outerBackgroundBandWidthPx": 32, "outerBackgroundDarkPixelCountBelowLuma128": 0, "outerBackgroundMinRgb": [236,244,251], "foregroundBoundsAtLumaBelow220": { "minX": 247, "minY": 181, "maxX": 1299, "maxY": 840 }, "coverSafe": true, "promptDeviation": "One additional coccus in the upper chain.", "metadataConsistency": "pass" },
+      "proposedAlt": "Seventeen selected Streptococcus thermophilus cocci in three curved chains of seven, five, and five.", "proposedCaption": "Type-strain-anchored Streptococcus thermophilus reconstruction with seventeen cocci in three chains. Representative, non-diagnostic, and not a micrograph.", "proposedDescription": "WikiBiome scientific reconstruction of seventeen selected Streptococcus thermophilus cocci on a uniform pale cool field.", "proposedProvenance": "Generated once from the immutable batch-037 prompt after identity and morphology audit; human-audited at native resolution. Observed counts govern metadata. Review-only trained-algorithmic reconstruction."
+    }
+  ]
+}

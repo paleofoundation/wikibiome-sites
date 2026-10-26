@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "batchId": "microorganisms-036",
+  "category": "microorganisms",
+  "status": "reviewed",
+  "createdOn": "2026-09-06",
+  "reviewedOn": "2026-09-06",
+  "authorizedParent": "5504e0931d2ac0d7edaf434f0d726d1a13cbec76",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/microorganisms-036.md",
+  "controlAcceptedReviewManifestSha256": "316b5a4887860856b5924ed0ccdf9140e13f2378c481676189af5952c7bdead6",
+  "controlAcceptedPromptEvidenceSha256": "66f47726a9aa43da631a9616e6dc08f3919dddd64dfe41f6de9f2dc32c6408f7",
+  "publicationMetadataPlan": {
+    "reviewOnly": false,
+    "creator": "OpenAI built-in image generation",
+    "credit": "WikiBiome / Microbiome Medicine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "digitalSourceType": "trainedAlgorithmicMedia",
+    "mediaDescription": "Review-only scientific algorithmic reconstruction, not a micrograph or photograph",
+    "sourceUse": "Taxonomic and morphology authorities supplied factual constraints only; no source image or design was copied.",
+    "promotionRule": "Control Tower independently verified review commit 3d52a2731d202628f1a1aae7c101f63f61a3dc77 and authorized promotion of only its six accepted exact immutable PNG hashes. Quarantined Phocaeicola and every scientific identity hold remain asset-free."
+  },
+  "reviewStandard": "Current identity, canonical scope, controlled identifier, type anchoring, conservative morphology, and cited authority mappings were checked before prompt creation. Phocaeicola remains quarantined and received no call. Six eligible routes may receive exactly one immutable built-in generation call each; observed output controls the record.",
+  "routeDecisionCount": 6,
+  "candidateCount": 6,
+  "scientificHoldCount": 0,
+  "generationCallCount": 6,
+  "reviewableGenerationCount": 6,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "controlReviewRequired": false,
+  "controlFinalReview": {
+    "reviewedOn": "2026-09-06",
+    "reviewingAuthority": "WikiBiome Control Tower native-resolution exact-hash review",
+    "status": "accepted-six-exact-hashes",
+    "acceptedReviewCommit": "3d52a2731d202628f1a1aae7c101f63f61a3dc77",
+    "integratedReviewCommit": "3d52a2731d202628f1a1aae7c101f63f61a3dc77",
+    "notes": "Control Tower verified the exact parent, immutable prompts and draft hashes, current identities, type anchoring, literal native output counts, crop bounds, and zero public/master leakage. Only the six recorded sources are approved for promotion."
+  },
+  "controlSocialCropReview": {
+    "reviewedOn": "2026-09-06",
+    "reviewingAuthority": "WikiBiome Control Tower native 1200 by 630 social-derivative review",
+    "status": "accepted-six-centered-cover-derivatives",
+    "notes": "Control Tower completed original-detail review of all six native 1200 by 630 centered-cover derivatives. Every reviewed body and grouping remains visible and unclipped, with the pale cool scientific plate treatment preserved."
+  },
+  "assets": [
+    {
+      "pageId": "sphingobium", "displayName": "Sphingobium", "assetType": "morphology", "revision": 1,
+      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted", "draft": "work/media-drafts/microorganisms-batch-036/sphingobium-draft.png", "generationRecord": "exec-93736042-7e19-4d78-ba93-6933600a411b.png",
+      "promptSha256": "a70d96a8a5afe5e908ba09a04b36df0f5ca54150ec460d94e1ed689b7142cf35", "sha256": "e025476d9c1d8a46d915911f89c7e1273e71b91cb7b06cdb85630ad369238a4f", "fileSizeBytes": 1209687, "dimensions": { "width": 1536, "height": 1024 }, "proposedSocialResizeFit": "cover",
+      "acceptedScientificName": "Sphingobium", "taxonomicRank": "genus", "controlledIdentifier": "NCBITaxon:165695", "typeSpecies": "Sphingobium yanoikuyae", "scientificReferences": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=165695&mode=Info", "https://lpsn.dsmz.de/genus/sphingobium", "https://bacdive.dsmz.de/strain/14180"],
+      "visualReview": "Exactly ten slender rods appear in eight groups: six isolated singles and two touching pairs, one additional single and group versus the prompt. No appendage, text, clipping, scene, signature, or watermark is visible.",
+      "outputAudit": { "reviewedBy": "WikiBiome Control Tower native-resolution visual audit", "reviewedOn": "2026-09-06", "promptCountTrusted": false, "observedSubjectDescription": "Ten slender rods in eight groups: six singles and two touching pairs.", "metadataConsistency": "pass", "observedVisibleBodyCount": 10, "observedSpatialGroupingCount": 8, "observedSingleCount": 6, "observedTouchingPairCount": 2, "observedVisibleAppendageCount": 0, "outerBackgroundDarkPixelCountBelowLuma128": 0, "outerBackgroundMinRgb": [240,246,251], "foregroundBoundsAtLumaBelow220": { "minX": 219, "minY": 143, "maxX": 1308, "maxY": 870 }, "coverSafe": true, "publishedSocialCropAudit": "Control Tower approved the native 1200 by 630 centered-cover derivative: all ten bodies and eight groups remain fully visible and unclipped.", "promptDeviation": "One additional isolated single and one additional group." },
+      "proposedAlt": "Ten selected Sphingobium rods in eight groups, including six singles and two touching pairs.", "proposedCaption": "Type-species-anchored Sphingobium reconstruction with ten slender rods. Representative, non-universal, non-diagnostic, and not a micrograph."
+    },
+    {
+      "pageId": "sphingomonas", "displayName": "Sphingomonas", "assetType": "morphology", "revision": 1,
+      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted", "draft": "work/media-drafts/microorganisms-batch-036/sphingomonas-draft.png", "generationRecord": "exec-11573aa4-d2ef-41c2-ad0f-438e4a14df86.png",
+      "promptSha256": "f964db551c8cec34926026a1ad1061842b63312fc4c2ccbbaff724bc4c169e19", "sha256": "2d984ffd3e387c49d27d451bd05358d4d7ff0fa4ef3819f80c0a8da01d01d30a", "fileSizeBytes": 1242349, "dimensions": { "width": 1536, "height": 1024 }, "proposedSocialResizeFit": "cover",
+      "acceptedScientificName": "Sphingomonas", "taxonomicRank": "genus", "controlledIdentifier": "NCBITaxon:13687", "typeSpecies": "Sphingomonas paucimobilis", "scientificReferences": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=13687&mode=Info", "https://lpsn.dsmz.de/genus/sphingomonas", "https://bacdive.dsmz.de/strain/14201"],
+      "visualReview": "Exactly nine short slender rods appear in seven groups: five isolated singles and two touching pairs, one additional single and group versus the prompt. No appendage, pigment, text, clipping, scene, signature, or watermark is visible.",
+      "outputAudit": { "reviewedBy": "WikiBiome Control Tower native-resolution visual audit", "reviewedOn": "2026-09-06", "promptCountTrusted": false, "observedSubjectDescription": "Nine short slender rods in seven groups: five singles and two touching pairs.", "metadataConsistency": "pass", "observedVisibleBodyCount": 9, "observedSpatialGroupingCount": 7, "observedSingleCount": 5, "observedTouchingPairCount": 2, "observedVisibleAppendageCount": 0, "outerBackgroundDarkPixelCountBelowLuma128": 0, "outerBackgroundMinRgb": [240,247,252], "foregroundBoundsAtLumaBelow220": { "minX": 163, "minY": 147, "maxX": 1332, "maxY": 862 }, "coverSafe": true, "publishedSocialCropAudit": "Control Tower approved the native 1200 by 630 centered-cover derivative: all nine bodies and seven groups remain fully visible and unclipped.", "promptDeviation": "One additional isolated single and one additional group." },
+      "proposedAlt": "Nine selected Sphingomonas rods in seven groups, including five singles and two touching pairs.", "proposedCaption": "Type-species-anchored Sphingomonas reconstruction with nine short rods. Representative, non-universal, non-diagnostic, and not a micrograph."
+    },
+    {
+      "pageId": "staphylococcus", "displayName": "Staphylococcus", "assetType": "morphology", "revision": 1,
+      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted", "draft": "work/media-drafts/microorganisms-batch-036/staphylococcus-draft.png", "generationRecord": "exec-06f461f5-deae-4b03-8c89-eea223eab5ab.png",
+      "promptSha256": "30a2b81d1151bd64f08a98087d2d60736b9f93910d78878578f65c573dcd4f28", "sha256": "ad534bc6b9237f5a9dc7c61544aa4f8750698ef6554557b9bd32bf62ab1d3d19", "fileSizeBytes": 1568937, "dimensions": { "width": 1536, "height": 1024 }, "proposedSocialResizeFit": "cover",
+      "acceptedScientificName": "Staphylococcus", "taxonomicRank": "genus", "controlledIdentifier": "NCBITaxon:1279", "typeSpecies": "Staphylococcus aureus", "scientificReferences": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1279&mode=Info", "https://lpsn.dsmz.de/genus/staphylococcus", "https://www.ncbi.nlm.nih.gov/books/NBK8448/"],
+      "visualReview": "Exactly fifteen spherical cocci appear as three separated irregular clusters of five, one additional coccus versus the requested fourteen. Every sphere is countable; no chain, pigment, text, clipping, scene, signature, or watermark is visible.",
+      "outputAudit": { "reviewedBy": "WikiBiome Control Tower native-resolution visual audit", "reviewedOn": "2026-09-06", "promptCountTrusted": false, "observedSubjectDescription": "Fifteen spherical cocci in three irregular clusters of five.", "metadataConsistency": "pass", "observedVisibleBodyCount": 15, "observedSpatialGroupingCount": 3, "observedClusterCount": 3, "observedClusterSizes": [5,5,5], "outerBackgroundDarkPixelCountBelowLuma128": 0, "outerBackgroundMinRgb": [238,245,251], "foregroundBoundsAtLumaBelow220": { "minX": 153, "minY": 266, "maxX": 1386, "maxY": 759 }, "coverSafe": true, "publishedSocialCropAudit": "Control Tower approved the native 1200 by 630 centered-cover derivative: all fifteen cocci and three clusters remain fully visible and unclipped.", "promptDeviation": "The third cluster contains five cocci rather than four; fifteen total." },
+      "proposedAlt": "Fifteen selected Staphylococcus cocci arranged in three irregular clusters of five.", "proposedCaption": "Type-species-anchored Staphylococcus reconstruction with fifteen cocci in three irregular clusters. Representative, non-universal, non-diagnostic, and not a micrograph."
+    },
+    {
+      "pageId": "staphylococcus-aureus", "displayName": "Staphylococcus aureus", "assetType": "morphology", "revision": 1,
+      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted", "draft": "work/media-drafts/microorganisms-batch-036/staphylococcus-aureus-draft.png", "generationRecord": "exec-01d3e83d-da61-45c7-a2c9-5437554a4774.png",
+      "promptSha256": "048ea7fa053c0aa8eaf3d8c35af409efb74df01c480b1bc57f50379b5765d093", "sha256": "735146ed26f5bc7a743d51ce41cfc4f3feb9147efa357433bcf400bc8b6a95de", "fileSizeBytes": 1634683, "dimensions": { "width": 1536, "height": 1024 }, "proposedSocialResizeFit": "cover",
+      "acceptedScientificName": "Staphylococcus aureus", "taxonomicRank": "species", "controlledIdentifier": "NCBITaxon:1280", "typeMaterialCulture": "ATCC 12600 / DSM 20231", "scientificReferences": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280&mode=Info", "https://lpsn.dsmz.de/species/staphylococcus-aureus", "https://www.ncbi.nlm.nih.gov/books/NBK562897/"],
+      "visualReview": "Exactly twelve spherical cocci appear as two separated irregular clusters of six. Every sphere is countable; no golden pigment, chain, text, clipping, scene, signature, or watermark is visible.",
+      "outputAudit": { "reviewedBy": "WikiBiome Control Tower native-resolution visual audit", "reviewedOn": "2026-09-06", "promptCountTrusted": false, "observedSubjectDescription": "Twelve spherical cocci in two irregular clusters of six.", "metadataConsistency": "pass", "observedVisibleBodyCount": 12, "observedSpatialGroupingCount": 2, "observedClusterCount": 2, "observedClusterSizes": [6,6], "outerBackgroundDarkPixelCountBelowLuma128": 0, "outerBackgroundMinRgb": [237,244,251], "foregroundBoundsAtLumaBelow220": { "minX": 235, "minY": 248, "maxX": 1346, "maxY": 769 }, "coverSafe": true, "publishedSocialCropAudit": "Control Tower approved the native 1200 by 630 centered-cover derivative: all twelve cocci and both clusters remain fully visible and unclipped.", "promptDeviation": "none" },
+      "proposedAlt": "Twelve selected Staphylococcus aureus cocci arranged in two irregular clusters of six.", "proposedCaption": "Type-strain-anchored Staphylococcus aureus reconstruction with twelve cocci. Representative, non-diagnostic, not visually separable from other staphylococci, and not a micrograph."
+    },
+    {
+      "pageId": "staphylococcus-epidermidis", "displayName": "Staphylococcus epidermidis", "assetType": "morphology", "revision": 1,
+      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted", "draft": "work/media-drafts/microorganisms-batch-036/staphylococcus-epidermidis-draft.png", "generationRecord": "exec-50cd037e-7cf0-4623-a67c-df06f2152577.png",
+      "promptSha256": "ba4d458dd50cc469f6754e66d19c893b75fc9f103f62293d3d8f167de4c736fd", "sha256": "aeaa3031755b50d1d1bac1a1b027030c1458815317182e22ffce70e2f889a75c", "fileSizeBytes": 1455787, "dimensions": { "width": 1536, "height": 1024 }, "proposedSocialResizeFit": "cover",
+      "acceptedScientificName": "Staphylococcus epidermidis", "taxonomicRank": "species", "controlledIdentifier": "NCBITaxon:1282", "typeMaterialCulture": "ATCC 14990 / DSM 20044", "scientificReferences": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1282&mode=Info", "https://lpsn.dsmz.de/species/staphylococcus-epidermidis", "https://www.ncbi.nlm.nih.gov/books/NBK563240/"],
+      "visualReview": "Exactly thirteen spherical cocci appear as three separated irregular clusters containing five, four, and four. Every sphere is countable; no biofilm, tissue, device, text, clipping, scene, signature, or watermark is visible.",
+      "outputAudit": { "reviewedBy": "WikiBiome Control Tower native-resolution visual audit", "reviewedOn": "2026-09-06", "promptCountTrusted": false, "observedSubjectDescription": "Thirteen spherical cocci in irregular clusters of five, four, and four.", "metadataConsistency": "pass", "observedVisibleBodyCount": 13, "observedSpatialGroupingCount": 3, "observedClusterCount": 3, "observedClusterSizes": [5,4,4], "outerBackgroundDarkPixelCountBelowLuma128": 0, "outerBackgroundMinRgb": [236,243,250], "foregroundBoundsAtLumaBelow220": { "minX": 168, "minY": 257, "maxX": 1390, "maxY": 741 }, "coverSafe": true, "publishedSocialCropAudit": "Control Tower approved the native 1200 by 630 centered-cover derivative: all thirteen cocci and three clusters remain fully visible and unclipped.", "promptDeviation": "none" },
+      "proposedAlt": "Thirteen selected Staphylococcus epidermidis cocci in three irregular clusters of five, four, and four.", "proposedCaption": "Type-strain-anchored Staphylococcus epidermidis reconstruction with thirteen cocci. Representative, non-diagnostic, not visually separable from other staphylococci, and not a micrograph."
+    },
+    {
+      "pageId": "streptococcus", "displayName": "Streptococcus", "assetType": "morphology", "revision": 1,
+      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted", "draft": "work/media-drafts/microorganisms-batch-036/streptococcus-draft.png", "generationRecord": "exec-8f25d726-94f5-4674-b8c4-59f42870b7ef.png",
+      "promptSha256": "ec94adcea16da9f97fe8f5afd02f88d61caa1ce07f7bc12ad55ccb202fbdb84e", "sha256": "63ef7c378c6a771cc920787568683b839b6d8810bdf06012ed8893ca148205d6", "fileSizeBytes": 1316560, "dimensions": { "width": 1536, "height": 1024 }, "proposedSocialResizeFit": "cover",
+      "acceptedScientificName": "Streptococcus", "taxonomicRank": "genus", "controlledIdentifier": "NCBITaxon:1301", "typeSpecies": "Streptococcus pyogenes", "scientificReferences": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1301&mode=Info", "https://lpsn.dsmz.de/genus/streptococcus", "https://www.ncbi.nlm.nih.gov/books/NBK7611/"],
+      "visualReview": "Exactly fourteen round-to-ovoid cocci appear in four separated groups: curved chains of six and five, one pair, and one isolated single. Every sphere is countable; no irregular grape cluster, capsule, text, clipping, scene, signature, or watermark is visible.",
+      "outputAudit": { "reviewedBy": "WikiBiome Control Tower native-resolution visual audit", "reviewedOn": "2026-09-06", "promptCountTrusted": false, "observedSubjectDescription": "Fourteen round-to-ovoid cocci in chains of six and five, one pair, and one single.", "metadataConsistency": "pass", "observedVisibleBodyCount": 14, "observedSpatialGroupingCount": 4, "observedChainCount": 2, "observedChainSizes": [6,5], "observedPairCount": 1, "observedSingleCount": 1, "outerBackgroundDarkPixelCountBelowLuma128": 0, "outerBackgroundMinRgb": [239,245,250], "foregroundBoundsAtLumaBelow220": { "minX": 281, "minY": 200, "maxX": 1294, "maxY": 872 }, "coverSafe": true, "publishedSocialCropAudit": "Control Tower approved the native 1200 by 630 centered-cover derivative: all fourteen cocci and four groups remain fully visible and unclipped.", "promptDeviation": "The requested pair and isolated single correctly resolve as two spatial groups; four total groups." },
+      "proposedAlt": "Fourteen selected Streptococcus cocci in two curved chains, one pair, and one isolated single.", "proposedCaption": "Type-species-anchored Streptococcus reconstruction with fourteen cocci in chains, a pair, and a single. Representative, non-universal, non-diagnostic, and not a micrograph."
+    }
+  ]
+}

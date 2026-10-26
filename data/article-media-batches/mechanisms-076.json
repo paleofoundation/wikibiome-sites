@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "batchId": "mechanisms-076",
+  "category": "mechanisms",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "cbd913f9ee2e5d3102d5616d264c1a4384311a55",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/mechanisms-076.md",
+  "reviewRecord": "docs/operations/media-reviews/mechanisms-076.md",
+  "controlReviewRequired": false,
+  "initialAuditCommit": "9313e57",
+  "reviewStandard": "The six queued routes failed the pre-generation identity, duplication, source, scope, representation, or evidence gate. They received no marked prompt, no built-in generation call, and no raster. Current controlled records and authoritative literature were checked against the generated article corpus; exact conflicts and the smallest editorial resolution are preserved in the prompt/audit and review packets. Zero hashes are eligible for promotion.",
+  "controlAcceptedReviewManifestSha256": "47194cb30f9f3223cc85124e95bd7997d6455e6399033d3e89611e286dce5204",
+  "controlAcceptedPromptEvidenceSha256": "9f4482c0bdea8669cf54b39b58e0ebe94e96eb686c7ed4558781bef05e0d9e19",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "cf6b25719b34a14a01d5d2544953047abe0971f3",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "il-8",
+      "immune-balance",
+      "immunotherapy",
+      "indole",
+      "indoles",
+      "indoxyl-sulfate"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 6,
+  "generationCallCount": 0,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "promotionRule": "No Batch 076 route is eligible for generation or promotion until its documented scientific, identity, representation, and editorial conflicts are corrected and independently re-audited.",
+  "routeDecisions": [
+    {"pageId":"il-8","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D016209;UniProt:P10145","reason":"The exact human protein is identifiable, but the page reduces it to one gingipain narrative and lacks a defensible structure or tissue representation boundary.","requiredResolution":"Rebuild around human CXCL8 identity, receptors, processing, cellular sources, and bounded disease contexts; then select an exact structure or explicitly contextual tissue representation."},
+    {"pageId":"immune-balance","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"WikiBiome:immune-balance;no-exact-controlled-identifier","reason":"A non-canonical umbrella term presents heterogeneous, plastic immune states and broad metal, microbiome, disease, and treatment claims as a single binary equilibrium.","requiredResolution":"Define a narrower measurable construct, separate immune compartments and evidence levels, remove binary causal simplifications, verify exposures, and remove unsourced treatment advice."},
+    {"pageId":"immunotherapy","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D007167;scope-conflict:immune-checkpoint-inhibitors","reason":"A broad treatment class is represented almost entirely as cancer checkpoint inhibition while cohort associations, experimental FMT, taxa, metabolites, and supplementation become deterministic clinical rules.","requiredResolution":"Narrow the route or cover the full class; separate association from intervention, human from model evidence, regimen-specific findings, trials, and standard care."},
+    {"pageId":"indole","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"PubChem:CID798;ChEBI:16881","reason":"The exact parent compound is mixed with a heterogeneous derivative family and context-dependent receptor, concentration, species, disease, and organism claims.","requiredResolution":"Separate parent from derivatives; specify structures, concentrations, receptors, species, cells, and models; and resolve duplication with the indoles route."},
+    {"pageId":"indoles","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D007211;ChEBI:24828","reason":"A broad chemical class is redefined as an exclusively microbial pathway and compounds with distinct structures, producers, host transformations, receptors, and effects are collapsed into one protective axis.","requiredResolution":"Choose chemical-class or microbial-metabolite scope, reconcile the singular duplicate, and source each compound-specific pathway, receptor, concentration, species, and model."},
+    {"pageId":"indoxyl-sulfate","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"PubChem:CID10258;ChEBI:43355","reason":"The exact metabolite is identifiable, but model and association evidence become universal producers, causal organ damage, a cadmium mechanism, BBB passage, biomarkers, and treatment implications.","requiredResolution":"Preserve the exact chemical pathway while separating cell, animal, human, renal-clearance, transporter-direction, association, and intervention evidence; remove deterministic cadmium and disease chains."}
+  ],
+  "assets": []
+}

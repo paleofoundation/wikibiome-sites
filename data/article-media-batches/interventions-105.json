@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "batchId": "interventions-105",
+  "category": "interventions",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "21c550d0e48c5242c396045d09753ef2c39b9ffb",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/interventions-105.md",
+  "reviewRecord": "docs/operations/media-reviews/interventions-105.md",
+  "publicationMetadataPlan": {
+    "reviewOnly": false,
+    "creator": "OpenAI built-in image generation",
+    "credit": "WikiBiome / Microbiome Medicine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "digitalSourceType": "trainedAlgorithmicMedia",
+    "mediaDescription": "Scientific algorithmic intervention-device reconstruction, not a source photograph, product rendering, engineering drawing, operating instruction, treatment scene, efficacy evidence, recommendation, or diagnostic image",
+    "sourceUse": "Controlled scientific and regulatory records supplied intervention identity and conservative representation boundaries only; no source image or design was copied."
+  },
+  "controlReviewRequired": false,
+  "initialAuditCommit": "b7ce3a197bddc5d296198c93e05e62af094ed1f2",
+  "promptFreezeCommit": "e5be00e42e8878770ef442cf53136732bbc2e879",
+  "controlAcceptedReviewManifestSha256": "9a48b478304bada15f6cae1a8597e7af75dda3182956a3722220b431ef1bdeea",
+  "controlAcceptedPromptEvidenceSha256": "950216e61ee6fd71a0cead7d9f4c1a2b8bd1d389e13e03d180c7c8390c58675b",
+  "controlFinalReview": {
+    "status": "accepted-exact-hash",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "aed47b6b2692f9f50328b666779db6ae00300c99",
+    "reviewer": "WikiBiome Control Tower native-resolution scientific and visual audit",
+    "approvedPageIds": [
+      "hbot"
+    ],
+    "acceptedSourceSha256": [
+      "4718f4941c0c4429335414de7ae52a56b5ac24caa7a4efdc5db97d85b837c9f9"
+    ],
+    "nonPublishablePageIds": [
+      "ferrichrome-probiotics",
+      "glutathione-supplementation",
+      "gluten-free-diet",
+      "high-fiber-diet",
+      "high-fiber-prebiotics"
+    ]
+  },
+  "reviewStandard": "Only a generic unoccupied monoplace hyperbaric chamber is cleared for one immutable device-orientation call. The other five routes fail material, formulation, protocol, source, population, measurement, or causal-interpretation gates and receive no prompt marker or generation call.",
+  "routeDecisionCount": 6,
+  "candidateCount": 1,
+  "scientificHoldCount": 5,
+  "generationCallCount": 1,
+  "reviewableGenerationCount": 1,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "promotionRule": "Only source SHA-256 4718f4941c0c4429335414de7ae52a56b5ac24caa7a4efdc5db97d85b837c9f9 may be promoted to a metadata-bearing lossless master, article WebP, and centered contain-mode 1200 by 630 social WebP. The other five routes remain non-public scientific holds.",
+  "controlSocialCropReview": "accepted-one-centered-contain-derivative; native 1200 by 630 inspection preserves the complete chamber vessel, empty support carriage, and adjacent control pedestal without clipping or label leakage",
+  "promotionDerivatives": {
+    "hbot": {
+      "masterSha256": "46bfdf7ce9f49a61ae08fd961419658e9d5486bd5bcfb613d05618ac22baee84",
+      "articleSha256": "5d649b1c3902d35163e243303dfea365edb97ad9d0632d964a08bef9caec03ca",
+      "socialSha256": "c767e17404536e56213c4c2dbd51a08acfc84927a18ebfb69b59a443780d3cf0"
+    }
+  },
+  "routeDecisions": [
+    {
+      "pageId": "ferrichrome-probiotics",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D005291;probiotic-intervention-not-ferrichrome-identity;zero-resolvable-sources",
+      "reason": "Ferrichrome identity does not define a probiotic intervention, and the route has no sources, strain, product, manufacturing state, viable count, formulation, dose, delivery, population, assay, or endpoint.",
+      "requiredResolution": "Choose an exact ferrichrome-producing strain, culture collection, manufacturing and viability state, product and formulation, dose and schedule, delivery, population, comparator, specimen, assay, time point, endpoint, and direct evidence."
+    },
+    {
+      "pageId": "glutathione-supplementation",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D005978;supplement-intervention-not-chemical-identity;below-source-threshold",
+      "reason": "Two sources remain below threshold and do not fix reduced or oxidized state, salt or protonation state, formulation, route, product, purity, dose, population, comparator, assay, or endpoint.",
+      "requiredResolution": "Choose exact chemical and redox state, formulation and excipients, product or manufacturing specification, route, dose and schedule, population, comparator, specimen, assay, time point, endpoint, and sufficient direct evidence."
+    },
+    {
+      "pageId": "gluten-free-diet",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D055050;broad-diet-category;unpopulated-local-evidence-structure",
+      "reason": "The page remains an unpopulated evidence placeholder and does not define one menu, ingredient standard, cross-contact control, duration, population, comparator, adherence measure, specimen, assay, time point, or endpoint.",
+      "requiredResolution": "Choose an operational gluten-free dietary protocol, ingredient and cross-contact standard, duration, population, comparator, adherence measure, specimen, assay, time point, endpoint, and direct route-linked evidence."
+    },
+    {
+      "pageId": "high-fiber-diet",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D004043;heterogeneous-whole-diet-and-fiber-class;below-source-threshold",
+      "reason": "One source and a broad whole-diet pattern combine many foods, fiber chemistries, doses, microbial states, metabolites, diseases, and outcomes rather than one controlled intervention.",
+      "requiredResolution": "Choose diet composition, exact fiber sources and chemistry, preparation and processing, dose and schedule, population, comparator, specimen, assay, time point, endpoint, and sufficient direct evidence."
+    },
+    {
+      "pageId": "high-fiber-prebiotics",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D056692;multi-material-prebiotic-regimen;zero-resolvable-sources",
+      "reason": "The route has no sources and combines inulin, fructooligosaccharides, resistant starch, differing products and doses, Crohn's disease states, taxa, metabolites, immune effects, and cautions without one protocol.",
+      "requiredResolution": "Choose exact prebiotic material and source, composition, formulation, dose and schedule, Crohn's disease state and population, comparator, specimen, assay, time point, endpoint, and direct evidence."
+    }
+  ],
+  "assets": [
+    {
+      "pageId": "hbot",
+      "displayName": "Hyperbaric oxygen therapy monoplace chamber",
+      "assetType": "intervention",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "generationStatus": "complete-single-call",
+      "draft": "work/media-drafts/interventions-batch-105/hbot-draft.png",
+      "generationRecord": "exec-11f96d78-0342-43bb-929e-9fa8ba6c21ef.png",
+      "rootReviewDisposition": "eligible",
+      "controlledIdentifier": "MeSH:D006931;FDA:21-CFR-868.5470;FDA-product-code:CBF;representative-monoplace-device-class",
+      "promptSha256": "1938da60a6a3d678e0b8699329c4d658fcc5ca64582c66917bafefd91c8e0594",
+      "sha256": "4718f4941c0c4429335414de7ae52a56b5ac24caa7a4efdc5db97d85b837c9f9",
+      "masterSha256": "46bfdf7ce9f49a61ae08fd961419658e9d5486bd5bcfb613d05618ac22baee84",
+      "articleSha256": "5d649b1c3902d35163e243303dfea365edb97ad9d0632d964a08bef9caec03ca",
+      "socialSha256": "c767e17404536e56213c4c2dbd51a08acfc84927a18ebfb69b59a443780d3cf0",
+      "fileSizeBytes": 1535407,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "scientificReferences": [
+        "https://pubmed.ncbi.nlm.nih.gov/?term=%22Hyperbaric+Oxygenation%22%5BMeSH+Terms%5D",
+        "https://www.fda.gov/medical-devices/letters-health-care-providers/follow-instructions-safe-use-hyperbaric-oxygen-therapy-devices-letter-health-care-providers",
+        "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm?ID=CBF",
+        "https://www.accessdata.fda.gov/cdrh_docs/pdf5/K052866.pdf",
+        "https://www.accessdata.fda.gov/cdrh_docs/pdf14/K140559.pdf"
+      ],
+      "proposedSocialResizeFit": "contain",
+      "visualReview": "One complete unoccupied monoplace chamber assembly is visible in two separated equipment groupings: a rigid horizontal cylindrical pressure vessel with a broad clear viewing section, two opaque end structures, an aligned three-cushion support carriage and base, plus one adjacent compact operator-control pedestal with a blank display and unlabeled controls.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome Control Tower native-resolution scientific and visual audit",
+        "reviewedOn": "2026-09-07",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "One complete generic unoccupied monoplace hyperbaric chamber assembly on an opaque pale cool field.",
+        "observedChamberAssemblyCount": 1,
+        "observedEquipmentGroupingCount": 2,
+        "observedPressureVesselCount": 1,
+        "observedControlPedestalCount": 1,
+        "observedPatientSupportCount": 1,
+        "observedClearCylindricalViewingSectionCount": 1,
+        "alphaZeroPixelCount": 0,
+        "alphaIntermediatePixelCount": 0,
+        "alphaFullyOpaquePixelCount": 1572864,
+        "outerBandWidthPx": 32,
+        "outerBackgroundDarkPixelCountBelowLuma128": 0,
+        "subjectBoundsAtLuma235": {
+          "minX": 57,
+          "minY": 182,
+          "maxX": 1486,
+          "maxY": 876
+        },
+        "sourceEdgeContact": false,
+        "centered1200x630CropSafe": false,
+        "requiredSocialResizeFit": "contain",
+        "prohibitedContentReview": "PASS: no person, mannequin, body part, mask, breathing circuit, oxygen cylinder, wound, disease, microorganism, cell, molecule, tissue, treatment action, soft bag, ordinary bed, scanner, tanning bed, submarine, spacecraft, room interior, floor seam, clutter, cable tangle, extra equipment, decorative particle, haze, glow, severe vignette, border, source-edge clipping, text, label, letter, number, logo, readable gauge marking, display content, arrow, legend, chart, pressure symbol, oxygen symbol, safety claim, signature, or watermark is visible.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Unoccupied representative monoplace hyperbaric oxygen chamber with a transparent cylindrical vessel and patient support carriage.",
+      "proposedCaption": "Representative unoccupied monoplace hyperbaric chamber device orientation. It depicts one generic chamber form only and does not establish a manufacturer, pressure or oxygen dose, indication, clearance for a named condition, microbiome effect, efficacy, safety, or treatment recommendation; this is an educational reconstruction, not a source photograph or operating instruction.",
+      "proposedDescription": "WikiBiome technical teaching reconstruction of one generic unoccupied monoplace hyperbaric oxygen chamber on a pale cool field.",
+      "proposedProvenance": "Generated once from the immutable Batch 105 prompt after MeSH identity and FDA device-class review; review-only trained-algorithmic reconstruction."
+    }
+  ]
+}

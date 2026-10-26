@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "batchId": "microorganisms-038",
+  "category": "microorganisms",
+  "status": "reviewed",
+  "createdOn": "2026-09-06",
+  "reviewedOn": "2026-09-06",
+  "authorizedParent": "873db4904cadd0590f1803eb1ca30c3e71024d4a",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/microorganisms-038.md",
+  "controlAcceptedReviewManifestSha256": "9e9cb76be690432cbfa49dbd11c0b88d4f4ae15fb5bdb14a32f09572b875bc55",
+  "controlAcceptedPromptEvidenceSha256": "c4b0dd891a3a828c74aa20518790a1343fa44800bb297467d31af7b4e722b23f",
+  "publicationMetadataPlan": {
+    "reviewOnly": false,
+    "creator": "OpenAI built-in image generation",
+    "credit": "WikiBiome / Microbiome Medicine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "digitalSourceType": "trainedAlgorithmicMedia",
+    "mediaDescription": "Review-only scientific algorithmic reconstruction, not a micrograph or photograph",
+    "sourceUse": "Taxonomic and morphology authorities supplied factual constraints only; no source image or design was copied.",
+    "promotionRule": "Control Tower independently verified review commit 71ab28ddaf87c626ddccd6838d9c3c20fc9674b4 and authorized promotion of only its six accepted exact immutable PNG hashes. Phocaeicola and every scientific identity hold remain asset-free."
+  },
+  "reviewStandard": "Current identity, canonical scope, controlled identifier, type anchoring, conservative morphology, cited authority mappings, native dimensions, literal visible counts, edge field, and crop-safe bounds were checked. Phocaeicola remained quarantined and received no call. Each of six eligible routes received exactly one immutable built-in generation call; observed output controls the record.",
+  "routeDecisionCount": 6,
+  "candidateCount": 6,
+  "scientificHoldCount": 0,
+  "generationCallCount": 6,
+  "reviewableGenerationCount": 6,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "controlReviewRequired": false,
+  "controlFinalReview": {
+    "reviewedOn": "2026-09-06",
+    "reviewingAuthority": "WikiBiome Control Tower native-resolution exact-hash review",
+    "status": "accepted-six-exact-hashes",
+    "acceptedReviewCommit": "71ab28ddaf87c626ddccd6838d9c3c20fc9674b4",
+    "integratedReviewCommit": "71ab28ddaf87c626ddccd6838d9c3c20fc9674b4",
+    "notes": "Control Tower verified the exact parent, immutable prompts and draft hashes, current identities, type anchoring, literal native output counts, edge fields, social crop strategy, and zero public/master leakage. Only the six recorded sources are approved for promotion."
+  },
+  "controlSocialCropReview": {
+    "reviewedOn": "2026-09-06",
+    "reviewingAuthority": "WikiBiome Control Tower native 1200 by 630 social-derivative review",
+    "status": "accepted-five-centered-cover-and-one-contain-derivative",
+    "notes": "Control Tower completed original-detail review of all six native 1200 by 630 derivatives. Every reviewed cell, flagellum, wave form, bud, conidium, phialide, and branch remains visible and unclipped. Trichoderma uses centered contain on the pale field; the other five use centered cover."
+  },
+  "assets": [
+    {
+      "pageId": "subdoligranulum", "displayName": "Subdoligranulum", "assetType": "morphology", "revision": 1,
+      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted", "draft": "work/media-drafts/microorganisms-batch-038/subdoligranulum-draft.png", "generationRecord": "exec-554bac63-8bf7-4832-af56-a4e932af14f1.png",
+      "promptSha256": "ff3f0b7c9c546dbee68120f5f007afacd228138d125c3d00e21039e05bedee2a", "sha256": "e87da32095611f9cefb05b2c2b5c67ace2626e631ce0623bdfc50697039ceb22", "fileSizeBytes": 1262942, "dimensions": { "width": 1536, "height": 1024 }, "proposedSocialResizeFit": "cover",
+      "acceptedScientificName": "Subdoligranulum", "taxonomicRank": "genus", "controlledIdentifier": "NCBITaxon:292632", "typeSpecies": "Subdoligranulum variabile", "typeMaterialCulture": "BI 114 / CCUG 47106 / DSM 15176", "scientificReferences": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=292632&mode=Info", "https://lpsn.dsmz.de/genus/subdoligranulum", "https://pubmed.ncbi.nlm.nih.gov/16701519/"],
+      "scientificFinding": "The current genus and type isolate support variable coccoid morphology without a Gram-status color claim.",
+      "visualReview": "Exactly ten separated coccoid cells appear, with near-spherical and subtly ovoid forms. No rods, chains, spores, text, scene, clipping, signature, or watermark are visible.",
+      "outputAudit": { "reviewedBy": "WikiBiome Control Tower native-resolution visual audit", "reviewedOn": "2026-09-06", "promptCountTrusted": false, "promptRequestedSubjectDescription": "Eleven separated variable coccoid cells.", "observedSubjectDescription": "Ten separated variable coccoid cells.", "observedVisibleBodyCount": 10, "observedSpatialGroupingCount": 10, "outerBackgroundBandWidthPx": 32, "outerBackgroundDarkPixelCountBelowLuma128": 0, "outerBackgroundMinRgb": [239,245,251], "foregroundBoundsAtLumaBelow220": { "minX": 225, "minY": 215, "maxX": 1298, "maxY": 787 }, "coverSafe": true, "promptDeviation": "One fewer cell than requested.", "metadataConsistency": "pass" },
+      "proposedAlt": "Ten selected Subdoligranulum cells showing variable coccoid forms.", "proposedCaption": "Type-species-anchored Subdoligranulum reconstruction with ten variable coccoid cells. Representative, non-diagnostic, and not a micrograph.", "proposedDescription": "WikiBiome scientific reconstruction of ten selected Subdoligranulum coccoid cells on a uniform pale cool field.", "proposedProvenance": "Generated once from the immutable batch-038 prompt after identity and morphology audit; human-audited at native resolution. Observed counts govern metadata. Review-only trained-algorithmic reconstruction."
+    },
+    {
+      "pageId": "sutterella", "displayName": "Sutterella", "assetType": "morphology", "revision": 1,
+      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted", "draft": "work/media-drafts/microorganisms-batch-038/sutterella-draft.png", "generationRecord": "exec-e383d79d-46d8-439c-a56b-1f88ea887c6d.png",
+      "promptSha256": "80202fa8f458b2279b9d0cade5f351a9ed5c02d572614bbb810270c912703335", "sha256": "ab88e84565a8ff37c1f6a8ab68aaa58aec164d0b696773e10687a7d9b9c122e9", "fileSizeBytes": 1338327, "dimensions": { "width": 1536, "height": 1024 }, "proposedSocialResizeFit": "cover",
+      "acceptedScientificName": "Sutterella", "taxonomicRank": "genus", "controlledIdentifier": "NCBITaxon:40544", "typeSpecies": "Sutterella wadsworthensis", "typeMaterialCulture": "WAL 9799 / ATCC 51579", "scientificReferences": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=40544&mode=Info", "https://lpsn.dsmz.de/genus/sutterella", "https://pubmed.ncbi.nlm.nih.gov/8573504/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC3205041/"],
+      "scientificFinding": "The type species is pleomorphic, with published microscopy documenting long rods and coccobacilli.",
+      "visualReview": "Exactly eight separated cells appear: four elongated rods and four short coccobacilli. No lattice, flagella, host context, text, clipping, signature, or watermark are visible.",
+      "outputAudit": { "reviewedBy": "WikiBiome Control Tower native-resolution visual audit", "reviewedOn": "2026-09-06", "promptCountTrusted": false, "promptRequestedSubjectDescription": "Four slender rods and four coccobacilli.", "observedSubjectDescription": "Four elongated rods and four coccobacilli.", "observedVisibleBodyCount": 8, "observedSpatialGroupingCount": 8, "outerBackgroundBandWidthPx": 32, "outerBackgroundDarkPixelCountBelowLuma128": 0, "outerBackgroundMinRgb": [238,245,251], "foregroundBoundsAtLumaBelow220": { "minX": 181, "minY": 175, "maxX": 1377, "maxY": 780 }, "coverSafe": true, "promptDeviation": "none", "metadataConsistency": "pass" },
+      "proposedAlt": "Eight selected Sutterella cells showing four elongated rods and four coccobacilli.", "proposedCaption": "Type-species-anchored Sutterella reconstruction showing two documented pleomorphic forms. Representative, non-diagnostic, and not a micrograph.", "proposedDescription": "WikiBiome scientific reconstruction of selected pleomorphic Sutterella cells on a uniform pale cool field.", "proposedProvenance": "Generated once from the immutable batch-038 prompt after identity and morphology audit; human-audited at native resolution. Review-only trained-algorithmic reconstruction."
+    },
+    {
+      "pageId": "torulaspora", "displayName": "Torulaspora", "assetType": "morphology", "revision": 1,
+      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted", "draft": "work/media-drafts/microorganisms-batch-038/torulaspora-draft.png", "generationRecord": "exec-25a68402-12e4-45da-a565-801d96d2a52a.png",
+      "promptSha256": "70f3ebfd5bc97f1bb3815ce4923a517fbc748039a725acb0230ce1ede29e2673", "sha256": "1ec1a7e467f9ff73646928a6677bc553210fb168fb5a389de955f2e39c433e15", "fileSizeBytes": 1427498, "dimensions": { "width": 1536, "height": 1024 }, "proposedSocialResizeFit": "cover",
+      "acceptedScientificName": "Torulaspora", "taxonomicRank": "genus", "controlledIdentifier": "NCBITaxon:4948", "typeSpecies": "Torulaspora delbrueckii", "typeMaterialCulture": "CBS 1146 / NRRL Y-866", "scientificReferences": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4948&mode=Info", "https://www.ncbi.nlm.nih.gov/taxonomy/4950"],
+      "scientificFinding": "The current budding-yeast genus and type species support an ovoid vegetative-cell plate with multilateral budding.",
+      "visualReview": "Exactly nine ovoid mother cells appear; four carry one smaller attached bud. No hyphae, asci, food context, text, clipping, signature, or watermark are visible.",
+      "outputAudit": { "reviewedBy": "WikiBiome Control Tower native-resolution visual audit", "reviewedOn": "2026-09-06", "promptCountTrusted": false, "promptRequestedSubjectDescription": "Nine mother cells with four buds.", "observedSubjectDescription": "Nine mother cells with four buds.", "observedVisibleBodyCount": 13, "observedSpatialGroupingCount": 9, "observedMotherCellCount": 9, "observedBudCount": 4, "outerBackgroundBandWidthPx": 32, "outerBackgroundDarkPixelCountBelowLuma128": 0, "outerBackgroundMinRgb": [237,243,249], "foregroundBoundsAtLumaBelow220": { "minX": 237, "minY": 191, "maxX": 1288, "maxY": 846 }, "coverSafe": true, "promptDeviation": "none", "metadataConsistency": "pass" },
+      "proposedAlt": "Nine selected Torulaspora yeast cells, four with attached buds.", "proposedCaption": "Type-species-anchored Torulaspora reconstruction with nine ovoid mother cells and four buds. Representative, non-diagnostic, and not a micrograph.", "proposedDescription": "WikiBiome scientific reconstruction of selected budding Torulaspora cells on a uniform pale cool field.", "proposedProvenance": "Generated once from the immutable batch-038 prompt after identity and morphology audit; human-audited at native resolution. Review-only trained-algorithmic reconstruction."
+    },
+    {
+      "pageId": "treponema", "displayName": "Treponema", "assetType": "morphology", "revision": 1,
+      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted", "draft": "work/media-drafts/microorganisms-batch-038/treponema-draft.png", "generationRecord": "exec-add96a72-804e-4fd8-868e-6138e1a685cc.png",
+      "promptSha256": "144d9635269b429193ca07b5f3e3ddeb2ae7858391c3489a1d668763f5674a53", "sha256": "77ec8b24345671313debd185384e791530e7ee8b26d44bfcc204d5fc53001947", "fileSizeBytes": 1236259, "dimensions": { "width": 1536, "height": 1024 }, "proposedSocialResizeFit": "cover",
+      "acceptedScientificName": "Treponema", "taxonomicRank": "genus", "controlledIdentifier": "NCBITaxon:157", "typeSpecies": "Treponema pallidum", "scientificReferences": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=157&mode=Info", "https://lpsn.dsmz.de/genus/treponema", "https://www.cdc.gov/mmwr/volumes/73/rr/rr7301a1.htm"],
+      "scientificFinding": "The type species supports a thin flexuous flat-wave form with internal periplasmic endoflagella, not exposed appendages.",
+      "visualReview": "Exactly four complete, separated, slender regular wave-form bodies appear. No external flagella, lesions, host context, text, clipping, signature, or watermark are visible.",
+      "outputAudit": { "reviewedBy": "WikiBiome Control Tower native-resolution visual audit", "reviewedOn": "2026-09-06", "promptCountTrusted": false, "promptRequestedSubjectDescription": "Five separated flat-wave bodies.", "observedSubjectDescription": "Four separated flat-wave bodies.", "observedVisibleBodyCount": 4, "observedSpatialGroupingCount": 4, "outerBackgroundBandWidthPx": 32, "outerBackgroundDarkPixelCountBelowLuma128": 0, "outerBackgroundMinRgb": [239,245,251], "foregroundBoundsAtLumaBelow220": { "minX": 140, "minY": 292, "maxX": 1402, "maxY": 689 }, "coverSafe": true, "promptDeviation": "One fewer body than requested.", "metadataConsistency": "pass" },
+      "proposedAlt": "Four selected Treponema flat-wave spirochete forms.", "proposedCaption": "Type-species-anchored Treponema reconstruction with four slender flat-wave bodies. Representative, non-diagnostic, and not a micrograph; internal endoflagella are not shown.", "proposedDescription": "WikiBiome scientific reconstruction of four selected Treponema wave forms on a uniform pale cool field.", "proposedProvenance": "Generated once from the immutable batch-038 prompt after identity and morphology audit; human-audited at native resolution. Observed counts govern metadata. Review-only trained-algorithmic reconstruction."
+    },
+    {
+      "pageId": "trichoderma", "displayName": "Trichoderma", "assetType": "morphology", "revision": 1,
+      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted", "draft": "work/media-drafts/microorganisms-batch-038/trichoderma-draft.png", "generationRecord": "exec-1b0e3dc2-d254-4294-ad91-b21797034050.png",
+      "promptSha256": "4b49dc2ab47788444f2bd8593485306af18fbf7c00875cf2ef2506c19b9ec148", "sha256": "4aad216551c7d9e35e5a2093ee829a0494ce8d26f8a20598b63f786e84c93f80", "fileSizeBytes": 1359669, "dimensions": { "width": 1536, "height": 1024 }, "proposedSocialResizeFit": "contain", "socialResizeFit": "contain", "socialResizePosition": "centre", "socialBackground": "#f3f7fb",
+      "acceptedScientificName": "Trichoderma", "taxonomicRank": "genus", "controlledIdentifier": "NCBITaxon:5543", "typeSpecies": "Trichoderma viride", "scientificReferences": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5543&mode=Info", "https://phil.cdc.gov/Details.aspx?pid=23104", "https://www.atcc.org/products/32098"],
+      "scientificFinding": "The type-species record and CDC microscopy support septate hyphae, pyramidal branching, flask-shaped phialides, and globose conidia.",
+      "visualReview": "One complete septate hyphal base and pyramidal conidiophore system appears with flask-shaped phialides and globose conidial clusters. No colony, habitat, text, clipping, signature, or watermark are visible.",
+      "outputAudit": { "reviewedBy": "WikiBiome Control Tower native-resolution visual audit", "reviewedOn": "2026-09-06", "promptCountTrusted": false, "promptRequestedSubjectDescription": "One complete septate pyramidal conidiophore system.", "observedSubjectDescription": "One complete septate pyramidal conidiophore system.", "observedVisibleBodyCount": 1, "observedSpatialGroupingCount": 1, "outerBackgroundBandWidthPx": 32, "outerBackgroundDarkPixelCountBelowLuma128": 0, "outerBackgroundMinRgb": [237,244,250], "foregroundBoundsAtLumaBelow220": { "minX": 275, "minY": 44, "maxX": 1258, "maxY": 970 }, "coverSafe": false, "promptDeviation": "none; social derivative requires contain rather than cover to preserve the complete structure", "metadataConsistency": "pass" },
+      "proposedAlt": "Selected Trichoderma conidiophore with septate branches, flask-shaped phialides, and globose conidia.", "proposedCaption": "Type-species-anchored Trichoderma reconstruction showing one complete conidiophore system. Representative, non-diagnostic, and not a micrograph.", "proposedDescription": "WikiBiome scientific reconstruction of selected Trichoderma conidiophore morphology on a uniform pale cool field.", "proposedProvenance": "Generated once from the immutable batch-038 prompt after identity and morphology audit; human-audited at native resolution. Social output uses contain to preserve the full structure. Review-only trained-algorithmic reconstruction."
+    },
+    {
+      "pageId": "trichomonas-vaginalis", "displayName": "Trichomonas vaginalis", "assetType": "morphology", "revision": 1,
+      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted", "draft": "work/media-drafts/microorganisms-batch-038/trichomonas-vaginalis-draft.png", "generationRecord": "exec-e3c20415-02ab-41b9-81d9-1d84fa61a9e3.png",
+      "promptSha256": "5e35cc88cf1f1a8d15280181033dd34b468c7093450ed26e3411d08a57ea0798", "sha256": "b069d922d888d731ad4e2ed5ec3e5bba908607351e3bea1a82abeece782ead64", "fileSizeBytes": 1426041, "dimensions": { "width": 1536, "height": 1024 }, "proposedSocialResizeFit": "cover",
+      "acceptedScientificName": "Trichomonas vaginalis", "taxonomicRank": "species", "controlledIdentifier": "NCBITaxon:5722", "scientificReferences": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5722&mode=Info", "https://www.cdc.gov/dpdx/trichomoniasis/"],
+      "scientificFinding": "CDC DPDx supports a pyriform trophozoite with four anterior flagella, one recurrent flagellum along an undulating membrane, one anterior nucleus, and no cyst stage.",
+      "visualReview": "One pear-shaped trophozoite appears with four individually traceable anterior flagella, one recurrent flagellum along the undulating membrane, one anterior nucleus, and an internal axostyle. No cyst, host context, text, clipping, signature, or watermark are visible.",
+      "outputAudit": { "reviewedBy": "WikiBiome Control Tower native-resolution visual audit", "reviewedOn": "2026-09-06", "promptCountTrusted": false, "promptRequestedSubjectDescription": "One trophozoite with four anterior flagella and one recurrent flagellum.", "observedSubjectDescription": "One trophozoite with four anterior flagella and one recurrent flagellum.", "observedVisibleBodyCount": 1, "observedSpatialGroupingCount": 1, "observedAnteriorFlagellumCount": 4, "observedRecurrentFlagellumCount": 1, "outerBackgroundBandWidthPx": 32, "outerBackgroundDarkPixelCountBelowLuma128": 0, "outerBackgroundMinRgb": [237,244,251], "foregroundBoundsAtLumaBelow220": { "minX": 89, "minY": 194, "maxX": 1448, "maxY": 744 }, "coverSafe": true, "promptDeviation": "none", "metadataConsistency": "pass" },
+      "proposedAlt": "Selected Trichomonas vaginalis trophozoite with four anterior flagella and one recurrent flagellum.", "proposedCaption": "Trichomonas vaginalis trophozoite reconstruction showing the CDC-described flagellar arrangement. Representative, non-diagnostic, and not a micrograph.", "proposedDescription": "WikiBiome scientific reconstruction of one Trichomonas vaginalis trophozoite on a uniform pale cool field.", "proposedProvenance": "Generated once from the immutable batch-038 prompt after identity and morphology audit; human-audited at native resolution. Review-only trained-algorithmic reconstruction."
+    }
+  ]
+}

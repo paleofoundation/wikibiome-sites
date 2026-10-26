@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-07",
+  "authority": "WikiBiome delegated scientific identity reconciliation",
+  "aliases": {
+    "akkermansia-mucinicola": "akkermansia-muciniphila",
+    "allisonella": "dialister-histaminiformans",
+    "atopobium-parvulum": "lancefieldella-parvula",
+    "atopobium-vaginae": "fannyhessea-vaginae",
+    "barnesella": "barnesiella",
+    "bifidobacterium-infantis": "bifidobacterium-longum-subsp-infantis",
+    "candida-auris": "candidozyma-auris",
+    "candida-glabrata": "nakaseomyces-glabratus",
+    "clostridiales": "eubacteriales",
+    "clostridium-difficile": "clostridioides-difficile",
+    "davidiella": "cladosporium",
+    "eubacterium-eligens": "lachnospira-eligens",
+    "eubacterium-rectale": "agathobacter-rectalis",
+    "metabolites": "microbiome-derived-metabolites"
+  },
+  "canonicalTaxa": {
+    "akkermansia-muciniphila": {
+      "title": "Akkermansia muciniphila",
+      "ncbiTaxonomyId": 239935
+    },
+    "dialister-histaminiformans": {
+      "title": "Dialister histaminiformans",
+      "ncbiTaxonomyId": 209880
+    },
+    "lancefieldella-parvula": {
+      "title": "Lancefieldella parvula",
+      "ncbiTaxonomyId": 1382
+    },
+    "fannyhessea-vaginae": {
+      "title": "Fannyhessea vaginae",
+      "ncbiTaxonomyId": 82135
+    },
+    "barnesiella": {
+      "title": "Barnesiella",
+      "ncbiTaxonomyId": 397864
+    },
+    "bifidobacterium-longum-subsp-infantis": {
+      "title": "Bifidobacterium longum subsp. infantis",
+      "ncbiTaxonomyId": 1682
+    },
+    "candidozyma-auris": {
+      "title": "Candidozyma auris",
+      "ncbiTaxonomyId": 498019
+    },
+    "nakaseomyces-glabratus": {
+      "title": "Nakaseomyces glabratus",
+      "ncbiTaxonomyId": 5478
+    },
+    "eubacteriales": {
+      "title": "Eubacteriales",
+      "ncbiTaxonomyId": 186802
+    },
+    "clostridioides-difficile": {
+      "title": "Clostridioides difficile",
+      "ncbiTaxonomyId": 1496,
+      "revisionPaths": ["wiki/entities/clostridium-difficile.md"]
+    },
+    "cladosporium": {
+      "title": "Cladosporium",
+      "ncbiTaxonomyId": 5498,
+      "revisionPaths": ["wiki/entities/davidiella.md"]
+    },
+    "lachnospira-eligens": {
+      "title": "Lachnospira eligens",
+      "ncbiTaxonomyId": 39485,
+      "revisionPaths": ["wiki/entities/eubacterium-eligens.md"]
+    },
+    "agathobacter-rectalis": {
+      "title": "Agathobacter rectalis",
+      "ncbiTaxonomyId": 39491,
+      "revisionPaths": ["wiki/entities/eubacterium-rectale.md"]
+    }
+  },
+  "canonicalArticles": {
+    "microbiome-derived-metabolites": {
+      "title": "Microbiome-Derived Metabolites",
+      "revisionPaths": ["wiki/concepts/metabolites.md"]
+    }
+  },
+  "retiredCanonicalIds": [
+    "akkermansia-mucinicola",
+    "allisonella",
+    "atopobium-parvulum",
+    "atopobium-vaginae",
+    "barnesella",
+    "bifidobacterium-infantis",
+    "candida-auris",
+    "candida-glabrata",
+    "clostridiales",
+    "clostridium-difficile",
+    "davidiella",
+    "eubacterium-eligens",
+    "eubacterium-rectale",
+    "metabolites"
+  ],
+  "forbiddenCanonicalTitles": [
+    "Akkermansia mucinicola",
+    "Allisonella",
+    "Atopobium parvulum",
+    "Atopobium vaginae",
+    "Barnesella",
+    "Bifidobacterium infantis",
+    "Candida auris",
+    "Candida glabrata",
+    "Clostridiales",
+    "Clostridium difficile",
+    "Davidiella",
+    "Eubacterium eligens",
+    "Eubacterium rectale",
+    "Microbial Metabolites"
+  ],
+  "forbiddenPublicPatterns": [
+    "Allisonella hiatal",
+    "Barnesella is a genus of",
+    "Bifidobacterium infantis is the current",
+    "Candida auris is the current name",
+    "Candida glabrata is the current name",
+    "Clostridiales is the current name",
+    "Clostridium difficile is the current name",
+    "Davidiella is the current name",
+    "Eubacterium eligens is the current name",
+    "Eubacterium rectale is the current name"
+  ]
+}

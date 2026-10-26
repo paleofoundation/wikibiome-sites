@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "batchId": "microorganisms-014",
+  "category": "microorganisms",
+  "createdOn": "2026-09-01",
+  "status": "reviewed",
+  "reviewedOn": "2026-09-01",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/microorganisms-014.md",
+  "reviewStandard": "Current identity, rank, and controlled identifiers were checked against NCBI Taxonomy and LPSN, with conservative appearance bounded by original descriptions, authoritative genus treatments, and referenced type-strain records. All six routes are current and cleared; no scientific hold or route substitution was needed. Exactly one built-in generation call was made for each route using its immutable passive prompt, and no retry or revision call was made. Every copied PNG was inspected at its original 1536 by 1024 resolution, and visible bodies, groupings, pairs, loose arrangements, and tetrad were reconciled without trusting prompt counts. WikiBiome control accepted all six exact v1 originals for promotion with the literal audited counts preserved. Desulfovibrionales remains explicitly a representative morphology diversity reconstruction for the order, not a universal order-level form. Dialister histaminiformans is keyed only to the accepted current combination and never to the retired Allisonella route.",
+  "routeDecisionCount": 6,
+  "candidateCount": 6,
+  "scientificHoldCount": 0,
+  "generationCallCount": 6,
+  "revisionCount": 0,
+  "assets": [
+    {
+      "pageId": "deinococcus",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-014/deinococcus-draft.png",
+      "generationRecord": "exec-ab93c429-11c1-4880-ad7d-fc59e4b4251a.png",
+      "sha256": "430bee991e31c195903f4034378db5a1d6fc0041a7e89c39f76d3d371d1e87fa",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:1298",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1298&mode=Info",
+        "https://lpsn.dsmz.de/genus/deinococcus",
+        "https://doi.org/10.1099/00207713-31-3-353",
+        "https://bacdive.dsmz.de/strain/3852"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Deinococcus as current genus NCBITaxon:1298, with D. radiodurans as type species. Original and type-strain evidence supports coccus-shaped, tetrad-forming cells. This plate is type-species-anchored, representative, non-exhaustive, and non-diagnostic, with no radiation-resistance or pigment claim encoded visually.",
+      "visualReview": "Exactly eleven coccoid bodies appear in six separated groupings: three isolated singles, two touching two-body pairs, and one compact planar four-body tetrad. This is one more single body and one more grouping than the prompt requested. Every body remains individually countable with its own ordinary boundary. No large irregular cluster, rod, branch, filament, spore, appendage, capsule, halo, shared envelope, biofilm, radiation symbol, glow, DNA graphic, label, text, scale bar, host material, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Ten coccoid bodies in five groupings: two isolated singles, two touching two-body pairs, and one compact planar four-body tetrad.",
+        "observedSubjectDescription": "Eleven coccoid bodies in six groupings: three isolated singles, two touching two-body pairs, and one compact planar four-body tetrad.",
+        "observedVisibleBodyCount": 11,
+        "observedSpatialGroupingCount": 6,
+        "observedSingleCount": 3,
+        "observedPairCount": 2,
+        "observedTetradCount": 1,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Eleven selected Deinococcus coccoid bodies appear as three singles, two touching pairs, and one compact four-cell tetrad.",
+      "proposedCaption": "Selected type-species-anchored Deinococcus coccoid forms, shown as eleven bodies in three single, two paired, and one tetrad grouping. This reconstruction is representative, non-diagnostic, and not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of eleven selected Deinococcus coccoid bodies arranged as three singles, two touching pairs, and one compact planar tetrad on a pale cool field."
+    },
+    {
+      "pageId": "desulfovibrio",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-014/desulfovibrio-draft.png",
+      "generationRecord": "exec-ef9037d6-827f-465b-b519-8aa76e95dfb4.png",
+      "sha256": "07d4e482e1d54da247ff43456dbf04dd935efe008ff703c52d5beb986e460a2d",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:872",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=872&mode=Info",
+        "https://lpsn.dsmz.de/genus/desulfovibrio",
+        "https://doi.org/10.1002/9781118960608.gbm01035",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8069399/"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Desulfovibrio as current genus NCBITaxon:872, with D. desulfuricans as type species. Authoritative treatment supports curved or occasionally straight rods and restrained sigmoid forms. This plate is type-species-anchored, representative, non-exhaustive, and non-diagnostic; flagella are omitted rather than generalized.",
+      "visualReview": "Exactly nine rod bodies appear in seven separated groupings: five isolated singles and two touching two-body pairs. This is one more single body and one more grouping than the prompt requested. Selected singles include gently curved or comma-shaped forms, near-straight rods, and one restrained sigmoid form. No tight corkscrew, exaggerated spiral, appendage, spore, capsule, halo, shared envelope, biofilm, sulfur crystal, gas bubble, label, text, scale bar, host material, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Eight rod bodies in six groupings: four isolated singles and two touching two-body pairs.",
+        "observedSubjectDescription": "Nine rod bodies in seven groupings: five isolated singles and two touching two-body pairs, including gently curved, near-straight, and one restrained sigmoid form.",
+        "observedVisibleBodyCount": 9,
+        "observedSpatialGroupingCount": 7,
+        "observedSingleCount": 5,
+        "observedPairCount": 2,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Nine selected Desulfovibrio rods appear in seven groupings: five curved, near-straight, or sigmoid singles and two touching pairs.",
+      "proposedCaption": "Selected type-species-anchored Desulfovibrio curved, near-straight, and restrained sigmoid rod forms, shown as nine bodies in seven groupings. This reconstruction is representative, non-diagnostic, and not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of nine selected Desulfovibrio rod bodies arranged as five singles and two touching pairs on a pale cool field."
+    },
+    {
+      "pageId": "desulfovibrionales",
+      "assetType": "microbial-community",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-014/desulfovibrionales-draft.png",
+      "generationRecord": "exec-ff5f18fa-dba2-4428-b24d-bf7b24b0e2ca.png",
+      "sha256": "3f95260fd37496a36a3c368a01f80845987abc35d6824f693ad91620ffadc711",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:213115",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=213115&mode=Info",
+        "https://lpsn.dsmz.de/order/desulfovibrionales",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8069399/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7464432/"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Desulfovibrionales as current order NCBITaxon:213115, with Desulfovibrio as type genus. Authoritative descriptions support selected straight, curved, sigmoid, and short ellipsoidal rod forms across referenced descendants. This is an explicitly selected order-level diversity plate, not a morphology for the entire order and not a diagnostic treatment.",
+      "visualReview": "Exactly nine rod bodies appear in six separated groupings: three isolated singles and three touching two-body pairs. The prompt requested ten bodies in the same number of groupings, with two singles and four pairs. The plate shows gently curved, sigmoid, near-straight, and short rounded forms. Every cell has only its own ordinary boundary. No tight corkscrew, exaggerated spiral, appendage, spore, capsule, halo, shared outer envelope, sheath, biofilm, sulfur crystal, gas bubble, label, text, scale bar, host material, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Ten cellular bodies in six groupings: two isolated singles and four touching two-body pairs, with selected curved, sigmoid, near-straight, and short straight-to-ellipsoidal forms.",
+        "observedSubjectDescription": "Nine rod bodies in six groupings: three isolated singles and three touching two-body pairs, with selected curved, sigmoid, near-straight, and short rounded forms.",
+        "observedVisibleBodyCount": 9,
+        "observedSpatialGroupingCount": 6,
+        "observedSingleCount": 3,
+        "observedPairCount": 3,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Nine selected Desulfovibrionales rod bodies appear in six groupings: three singles and three touching pairs spanning curved, sigmoid, near-straight, and short rounded forms.",
+      "proposedCaption": "Selected Desulfovibrionales descendant diversity, shown as nine curved, sigmoid, near-straight, or short rounded rod bodies in six groupings. This order-level reconstruction is representative, non-exhaustive, non-diagnostic, and not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific diversity reconstruction of nine selected Desulfovibrionales rod bodies arranged as three singles and three touching pairs on a pale cool field."
+    },
+    {
+      "pageId": "dialister",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-014/dialister-draft.png",
+      "generationRecord": "exec-44e03f01-fb48-4ff4-ac2a-9c3d3183a04e.png",
+      "sha256": "781687df0251db8f98192901dc31c2db39bc36df7ae026bcc56f6d2c707d8135",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:39948",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=39948&mode=Info",
+        "https://lpsn.dsmz.de/genus/dialister",
+        "https://doi.org/10.1099/00207713-44-2-187",
+        "https://bacdive.dsmz.de/strain/17121",
+        "https://doi.org/10.1128/JCM.38.8.3043-3047.2000"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Dialister as current genus NCBITaxon:39948, with D. pneumosintes as type species. Type-strain and primary characterization support non-motile rod-shaped cells. This plate is type-species-anchored, representative, non-exhaustive, and non-diagnostic.",
+      "visualReview": "Exactly nine short rod bodies appear in seven separated groupings: five isolated singles and two touching two-body pairs. This is one more single body and one more grouping than the prompt requested. Bodies are mostly straight with rounded ends and restrained length variation. No full coccus, grape cluster, long chain, branch, filament, appendage, spore, capsule, halo, shared envelope, biofilm, label, text, scale bar, host material, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Eight small short rod-to-coccobacillary bodies in six groupings: four isolated singles and two touching two-body pairs.",
+        "observedSubjectDescription": "Nine short rod bodies in seven groupings: five isolated singles and two touching two-body pairs.",
+        "observedVisibleBodyCount": 9,
+        "observedSpatialGroupingCount": 7,
+        "observedSingleCount": 5,
+        "observedPairCount": 2,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Nine selected Dialister short rod bodies appear in seven groupings: five isolated singles and two touching pairs.",
+      "proposedCaption": "Selected type-species-anchored Dialister short rod forms, shown as nine bodies in seven single or paired groupings. This reconstruction is representative, non-diagnostic, and not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of nine selected Dialister short rod bodies arranged as five singles and two touching pairs on a pale cool field."
+    },
+    {
+      "pageId": "dialister-histaminiformans",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-014/dialister-histaminiformans-draft.png",
+      "generationRecord": "exec-b0248ce5-1358-4728-b2de-e094b0f3abec.png",
+      "sha256": "ab6e503f8b3402db9b74fa8bc3afd820233f7a044c113529b74c78e4ebc5f82e",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:209880",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=209880&mode=Info",
+        "https://lpsn.dsmz.de/species/dialister-histaminiformans",
+        "https://pubmed.ncbi.nlm.nih.gov/12583709/",
+        "https://doi.org/10.1099/ijsem.0.006937"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Dialister histaminiformans as current species NCBITaxon:209880; Allisonella histaminiformans is its homotypic synonym and basionym, not the media key. The original description reports ovoid morphology. This plate is conservative, representative, and non-diagnostic, without a phenotype or process claim.",
+      "visualReview": "Exactly nine ovoid bodies appear in seven separated groupings: five isolated singles and two touching two-body pairs. This is one more single body and one more grouping than the prompt requested. All bodies have restrained size variation and crisp individual boundaries. No long rod, grape cluster, long chain, branch, filament, appendage, spore, capsule, halo, shared envelope, biofilm, histamine graphic, label, text, scale bar, host material, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Eight ovoid-to-very-short-coccobacillary bodies in six groupings: four isolated singles and two touching two-body pairs.",
+        "observedSubjectDescription": "Nine ovoid bodies in seven groupings: five isolated singles and two touching two-body pairs.",
+        "observedVisibleBodyCount": 9,
+        "observedSpatialGroupingCount": 7,
+        "observedSingleCount": 5,
+        "observedPairCount": 2,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Nine selected Dialister histaminiformans ovoid bodies appear in seven groupings: five isolated singles and two touching pairs.",
+      "proposedCaption": "Representative Dialister histaminiformans ovoid forms, shown as nine bodies in seven single or paired groupings. This current-name reconstruction is non-diagnostic, makes no phenotype claim, and is not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of nine selected Dialister histaminiformans ovoid bodies arranged as five singles and two touching pairs on a pale cool field."
+    },
+    {
+      "pageId": "dorea",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "approved-after-output-audit",
+      "draft": "work/media-drafts/microorganisms-batch-014/dorea-draft.png",
+      "generationRecord": "exec-de79647b-2924-477b-a7e7-33a1f04e6028.png",
+      "sha256": "0a003a76e51ff6c568d3780072e72bf41936f73f217ed6d6084c66b773ff7a7c",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "controlledIdentifier": "NCBITaxon:189330",
+      "scientificReferences": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=189330&mode=Info",
+        "https://lpsn.dsmz.de/genus/dorea",
+        "https://doi.org/10.1099/00207713-52-2-423",
+        "https://bacdive.dsmz.de/strain/6354"
+      ],
+      "scientificFinding": "NCBI Taxonomy and LPSN recognize Dorea as current genus NCBITaxon:189330, with D. formicigenerans as type species. The original genus paper supports non-spore-forming rods. This plate is type-species-anchored, representative, non-exhaustive, and non-diagnostic.",
+      "visualReview": "Exactly nine rod bodies appear in six separated spatial groupings: three isolated singles, one touching two-body pair, and two loose two-rod arrangements. The body and grouping totals match the prompt, but only one rather than all three pairs touches. Bodies are straight-to-gently curved with rounded ends and restrained length variation. No coccus, branch, filament, appendage, spore, capsule, halo, shared envelope, biofilm, label, text, scale bar, host material, scenery, clipping, or watermark is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome control original-resolution visual review",
+        "reviewedOn": "2026-09-01",
+        "promptCountTrusted": false,
+        "promptRequestedSubjectDescription": "Nine rod bodies in six groupings: three isolated singles and three touching two-body pairs.",
+        "observedSubjectDescription": "Nine rod bodies in six spatial groupings: three isolated singles, one touching two-body pair, and two loose two-rod arrangements.",
+        "observedVisibleBodyCount": 9,
+        "observedSpatialGroupingCount": 6,
+        "observedSingleCount": 3,
+        "observedTouchingPairCount": 1,
+        "observedLooseTwoBodyArrangementCount": 2,
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Nine selected Dorea rod bodies appear in six groupings: three singles, one touching pair, and two loose two-rod arrangements.",
+      "proposedCaption": "Selected type-species-anchored Dorea rod forms, shown as nine bodies in three single, one touching-pair, and two loose two-rod groupings. This reconstruction is representative, non-diagnostic, and not a micrograph.",
+      "proposedDescription": "WikiBiome static scientific reconstruction of nine selected Dorea rod bodies arranged as three singles, one touching pair, and two loose two-rod arrangements on a pale cool field."
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "batchId": "host-defenses-097",
+  "category": "host-defenses",
+  "status": "reviewed",
+  "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
+  "authorizedParent": "b95cb9551ba06fc667adc973cc74c7c2aec7aa2c",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/host-defenses-097.md",
+  "reviewRecord": "docs/operations/media-reviews/host-defenses-097.md",
+  "publicationMetadataPlan": {
+    "reviewOnly": true,
+    "creator": "OpenAI built-in image generation",
+    "credit": "WikiBiome / Microbiome Medicine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "digitalSourceType": "trainedAlgorithmicMedia",
+    "mediaDescription": "Scientific algorithmic teaching reconstruction, not a photograph, micrograph, scan, assay result, or diagnostic image",
+    "sourceUse": "Controlled scientific records supplied identity and conservative representation boundaries only; no source image or design was copied."
+  },
+  "controlReviewRequired": false,
+  "initialAuditCommit": "e06ea9e",
+  "promptFreezeCommit": "be19d4388307e20548eab227f4ada8c872993a88",
+  "controlAcceptedReviewManifestSha256": "7463d28d17f7eb784afb6e01aa8f638e2eea1f456cf96d13c73217c0d3fd39c8",
+  "controlAcceptedPromptEvidenceSha256": "b45f15726ccb9d94d6460e810e9b861ac8581218a66a3a3ec43dc612d371765b",
+  "controlFinalReview": {
+    "status": "accepted-one-exact-hash-five-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "25a17d241558b458f2bade4a88793ae60254b6e8",
+    "reviewer": "WikiBiome Control Tower native-resolution exact-hash review",
+    "approvedPageIds": ["cysteine"],
+    "acceptedSourceSha256": ["724066cf4801eb95e6735c074564651645f85bd0cb3c9b8fa45618982ab064ba"],
+    "nonPublishablePageIds": ["antimicrobial-metals", "autoimmunity", "biofilm", "calprotectin", "dietary-iron-gut-ecology"]
+  },
+  "controlSocialCropReview": "accepted-centered-cover-derivative; native 1200 by 630 inspection preserves all seven heavy-atom centers and every connector without clipping or label leakage",
+  "promotionDerivatives": {
+    "cysteine": {
+      "masterSha256": "1bfd7665dbd44bc204797c3dd2aa7db3653890cfae61e10b529ab0ebc0eba2d1",
+      "articleSha256": "4e924f12b4d5df13cbbea2fc58effb2c489d3c4c59598e4b0fbb9e2b643b0e34",
+      "socialSha256": "15831a9a4726e4ea64a459570af5269c2b6867f8f60d37126d3e68d7f4c1f776"
+    }
+  },
+  "reviewStandard": "Only exact L-cysteine is cleared for one immutable heavy-atom connectivity call. Antimicrobial metals, autoimmunity, biofilm, calprotectin, and dietary iron-gut ecology fail material, process, organism, molecular-state, specimen, or network-scope gates and receive no prompt marker or generation call.",
+  "routeDecisionCount": 6,
+  "candidateCount": 1,
+  "scientificHoldCount": 5,
+  "generationCallCount": 1,
+  "reviewableGenerationCount": 1,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "promotionRule": "Only a literal single-model L-cysteine output matching the frozen seven-heavy-atom count, connectivity boundary, pale field, and crop-safe requirements may proceed to exact-hash review. The other five routes remain non-public scientific holds.",
+  "routeDecisions": [
+    {
+      "pageId": "antimicrobial-metals",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "multi-element-material-and-mechanism-class;PubChem-elements:Cu-29,Ag-47,Zn-30,Ga-31",
+      "reason": "The route combines four elements, multiple ionic and material states, nanoparticles, surfaces, host phagolysosomes, and several mechanisms without choosing one composition, oxidation state, dose, organism, specimen, or assay.",
+      "requiredResolution": "Split by exact element and chemical/material form, composition, oxidation state, particle or surface specification, dose, exposure route, target organism and strain, specimen, assay, endpoint, and evidence tier."
+    },
+    {
+      "pageId": "autoimmunity",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D015551;system-level-autoimmune-process",
+      "reason": "The route spans multiple diseases, tissues, autoantigens, antibodies, immune-cell states, barriers, microbes, metals, and causal hypotheses rather than one bounded physical subject.",
+      "requiredResolution": "Choose an exact disease and stage, organ or tissue, autoantigen, immune effector and state, specimen, assay, population or model, endpoint, and evidence tier."
+    },
+    {
+      "pageId": "biofilm",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "MeSH:D018441;multi-organism-variable-EPS-community",
+      "reason": "MeSH spans several microbial kingdoms and variable extracellular matrices, while the route further combines devices, gut ecology, single- and mixed-kingdom communities, mineralization, and multiple metals.",
+      "requiredResolution": "Choose exact organism or defined community, strain, growth surface or tissue, matrix composition, developmental stage, spatial scale, specimen preparation, imaging modality, metal state, and claim boundary."
+    },
+    {
+      "pageId": "calprotectin",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "S100A8/S100A9;RCSB-PDB:1XK4-state-specific-not-universal",
+      "reason": "The route mixes heterodimer language, calcium-dependent heterotetramerization, several metal-bound states, neutrophil biology, fecal biomarker measurement, and multiple diseases. The available 1XK4 structure is one mutated calcium-bound human heterotetramer, not a universal state or assay signal.",
+      "requiredResolution": "Select exact species, S100A8/A9 sequences, mutation state, oligomer, calcium and transition-metal occupancy, structure accession, compartment, specimen or assay, units, and claim scope."
+    },
+    {
+      "pageId": "dietary-iron-gut-ecology",
+      "decision": "scientific-media-hold",
+      "generationStatus": "withheld-no-call",
+      "generationCallCount": 0,
+      "controlledIdentifier": "multi-form-diet-host-microbial-ecology-network",
+      "reason": "The route combines heme and non-heme iron, foods and supplements, absorption and luminal gradients, host transport, siderophores, many taxa, and context-dependent ecological outcomes.",
+      "requiredResolution": "Define exact iron form and dose, food or formulation, compartment, time point, host population or model, microbial community, specimen and assay, measured gradient, outcome, and evidence tier."
+    }
+  ],
+  "assets": [
+    {
+      "pageId": "cysteine",
+      "displayName": "L-Cysteine",
+      "assetType": "host-defense",
+      "revision": 1,
+      "decision": "accepted-for-separate-exact-hash-review",
+      "generationStatus": "complete-single-call",
+      "draft": "work/media-drafts/host-defenses-batch-097/cysteine-draft.png",
+      "generationRecord": "exec-20e9e518-44d6-41bb-9b4e-df5a91fa6465.png",
+      "rootReviewDisposition": "accepted",
+      "controlledIdentifier": "PubChem:5862;ChEBI:17561;MeSH:D003545;InChIKey:XUJNEKJLAYXESH-REOHCLBHSA-N",
+      "promptSha256": "91fd766aa47bcc8f4088dbe065379cccd5028b66326c8c0fb41d7350c237683b",
+      "sha256": "724066cf4801eb95e6735c074564651645f85bd0cb3c9b8fa45618982ab064ba",
+      "masterSha256": "1bfd7665dbd44bc204797c3dd2aa7db3653890cfae61e10b529ab0ebc0eba2d1",
+      "articleSha256": "4e924f12b4d5df13cbbea2fc58effb2c489d3c4c59598e4b0fbb9e2b643b0e34",
+      "socialSha256": "15831a9a4726e4ea64a459570af5269c2b6867f8f60d37126d3e68d7f4c1f776",
+      "fileSizeBytes": 1332549,
+      "dimensions": {"width": 1536, "height": 1024},
+      "scientificReferences": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5862",
+        "https://www.ebi.ac.uk/chebi/CHEBI:17561",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D003545"
+      ],
+      "proposedSocialResizeFit": "cover",
+      "visualReview": "One complete seven-center model: three graphite carbon centers, one blue nitrogen center, two rose oxygen centers, and one warm-gold sulfur center with the reviewed L-cysteine heavy-atom connectivity.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome Control Tower native-resolution scientific and visual audit",
+        "reviewedOn": "2026-09-07",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "One isolated connected model with exactly seven visible heavy-atom centers: three graphite, one blue, two rose, and one warm-gold sphere.",
+        "observedVisibleBodyCount": 7,
+        "observedSpatialGroupingCount": 1,
+        "observedCarbonCenterCount": 3,
+        "observedNitrogenCenterCount": 1,
+        "observedOxygenCenterCount": 2,
+        "observedSulfurCenterCount": 1,
+        "observedConnectivity": "central alpha-C joined to N, beta-C, and carboxyl-C; beta-C joined to S; carboxyl-C joined to both O centers",
+        "outerBackgroundBandWidthPx": 32,
+        "outerBackgroundDarkPixelCountBelowLuma128": 0,
+        "outerBackgroundMinRgb": [238, 244, 250],
+        "foregroundBoundsAtLumaBelow220": {"minX": 389, "minY": 164, "maxX": 1201, "maxY": 876},
+        "sourceEdgeContact": false,
+        "containRequired": false,
+        "cropNote": "The complete model remains inside the mathematical centered 1200 by 630 cover source window, approximately y=109 through y=915; centered cover is safe.",
+        "prohibitedContentReview": "No hydrogen, text, label, atom symbol, charge symbol, arrow, legend, chart, organ, cell, microorganism, food, pill, glassware, detached fragment, duplicate model, metal ion, decorative particle, border, vignette, clipping, signature, or watermark is visible.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Single heavy-atom connectivity model of L-cysteine with three carbon, one nitrogen, two oxygen, and one sulfur center.",
+      "proposedCaption": "Heavy-atom connectivity orientation for L-cysteine. Hydrogens, visually proven stereochemistry, protonation state, measured conformation, metal binding, metabolic fate, concentration, and disease claims are intentionally omitted; this is an educational reconstruction.",
+      "proposedDescription": "WikiBiome chemical-identity teaching reconstruction of one L-cysteine heavy-atom model on a pale cool field.",
+      "proposedProvenance": "Generated once from the immutable Batch 097 prompt after PubChem, ChEBI, and MeSH identity and connectivity review; review-only trained-algorithmic reconstruction."
+    }
+  ]
+}
